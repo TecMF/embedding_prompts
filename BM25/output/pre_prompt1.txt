@@ -1,0 +1,281 @@
+BS ISO/IEC 27035:2011
+
+<!-- missing-text -->
+
+BSI Standards Publication
+
+Information technology - Security techniques Information security incident management
+
+<!-- missing-text -->
+
+National foreword
+
+This British Standard is the UK implementation of ISO/IEC 27035:2011. It supersedes PD ISO/IEC TR18044:2004 which is withdrawn.In  the  field  of  information technology, ISO and IEC have established a joint technical committee, ISO/IEC JTC 1.
+
+International Standards are drafted in accordance with the rules given in the ISO/IEC Directives, Part 2. The  main  task  of  the  joint  technical  committee  is  to  prepare  International  Standards.Draft  International Standards adopted by the joint technical committee are circulated to national bodies for voting.This first edition of ISO/IEC 27035 cancels and replaces ISO/IEC TR 18044:2004, which has been technically revised.Introduction
+
+In  general,  information  security  policies  or  controls  alone  will  not  guarantee  total  protection  of  information, information systems, services or networks.After controls have been implemented, residual vulnerabilities are likely to remain that can make information security ineffective and thus information security incidents possible.Smaller organizations can use a basic set of documents, processes and routines described  in  this  International  Standard,  depending  on  their  size  and  type  of  business  in  relation  to  the information security risk situation.It also provides guidance for external organizations providing information security incident management services. 2 Normative references
+
+The  following  referenced  documents  are  indispensable  for  the  application  of  this  document.not  all information security events are classified as information security incidents.A threat acts in unwanted ways to exploit the vulnerabilities (weaknesses) of information systems, services or networks, which is the occurrence of information security events and potentially causes unwanted incidents to information assets exposed by the vulnerabilities.Figure 1 shows this relationship of objects in an information security incident chain.c) The adverse effects of information security incidents on the organization and its business operations are minimized by appropriate controls as part of the incident response, possibly in conjunction with relevant elements from a crisis management plan or plans.d) Reported information security vulnerabilities are assessed and dealt with appropriately.e) Lessons are learnt quickly from information security incidents, vulnerabilities and associated management.This is to increase the chances of preventing future information security incidents from occurring, improve the implementation and use of information security controls, and improve the overall information security incident management scheme.i) Providing input to information security policy and related documentation reviews
+
+Data provided by an information security incident management scheme could provide valuable input to reviews  of  the  effectiveness  and  subsequent  improvement  of  information  security  policies  (and  other related information security documents).This applies to policies and other documents applicable both for organization-wide and for individual systems, services and networks. 4.4 Adaptability
+
+The  guidance  provided  by  this  International  Standard  is  extensive  and  if  adopted  in  full,  could  require significant  resources  to  operate  and  manage.f) Activity  to  establish,  implement  and  operate  technical  and  other  support  (including  organizational) mechanisms for supporting the information security incident management scheme (and thus the work of the ISIRT), and in order to prevent information security incident occurrences or reduce the likelihood of occurrences  of  information  security  incidents  (see  Clause 5.6).Such  mechanisms  could  include  the following:
+
+ 1) Internal  information  security  audit  mechanisms  to  assess  the  security  level  and  track  vulnerable systems,
+
+ 2) Vulnerability management (including security updates and security patching of vulnerable systems). 3) Technology watch to detect new kinds of threats and attacks. 4) Intrusion Detection Systems (for more details, see ISO/IEC 18043). 5) Network security devices, protections means and monitoring tools (for more details, see ISO/IEC 27033).f) Post information security incident resolution activities, including learning from and improving the process, following information security incidents.g) An overview of information security vulnerability reporting and handling.h) Details of where the scheme documentation, including procedures, is held. 4) A definition of the scope of the ISIRT activities.Normally, the scope of an organization's ISIRT covers all of the organization's information systems, services and networks.In other cases, an organization may, for whatever reason, require the scope to be less than that, in which case it should be clearly documented what is in, and what is out of, scope.c) The relevant sections should outline scheme processes, and related infrastructure.d) The  relevant  sections  should  outline  requirements  for  detecting,  reporting,  assessing  and  managing information security events, incidents and vulnerabilities.e) The  relevant  sections  should  clearly  indicate  those  personnel  responsible  for  authorizing  and/or undertaking certain critical actions (e.g.ii) Collecting the information on information security events.iii) Detecting and reporting on information security vulnerabilities.iv) Fully  recording  all  information  gathered  in  the  information  security  incident  management database.viii)  Communicating the existence of the information security incident or any relevant details thereof to other internal and external people or organizations.ix) Dealing with information security vulnerabilities.x) Once the incident has been successfully dealt with, formally closing it and recorded this in the information security incident management database. 5) Lessons learnt
+
+ i) Conducting further information security forensic analysis, as required.ii) Identifying the lessons learnt from information security incidents and vulnerabilities.iii) Reviewing, identifying and making improvements to information security control implementation (new and/or updated controls), as well as information security incident management policy, as result of the lessons learnt.v) Reviewing how effective the processes, procedures, the reporting formats and/or the organizational structure were in responding to assessing and recovering from each information security  incident  and  dealing  with  information  security  vulnerabilities,  and  on  the  basis  of  the lessons  learnt identifying and  making  improvements  to  the  information  security  incident management scheme and its documentation.vi) Updating the information security event/incident/vulnerability database.vii) Communicating and sharing the results of review within a trusted community (if the organization so wishes.It should  reflect  experience  from  external  (for  example  government  and  commercial  ISIRTs  or  similar,  and suppliers) as well as from internal sources.There should be operating procedures for dealing with types of information security events and incidents that are already known, as well as vulnerabilities.There should also be operating procedures to be followed when an  identified  information  security  event,  incident  or  vulnerability  is  not  of  any  known  type.It is fundamental that the ISIRT is trusted by everybody, both internally and externally.Adoption of anonymity with regard to reporting information security vulnerabilities, events and incidents may be helpful to build trust.An organization should ensure that its information security incident management scheme addresses situations where it is important to ensure the anonymity of the person or party that reports potential information security incidents or vulnerabilities under specific circumstances.An attacked information system, service or network may not function correctly.Thus as far as possible, no technical means (software and hardware) necessary for responding to an information security incident should rely in their operations on the organization's 'mainstream' systems, services and/or networks, proportionate to the  assessed  risks.All  technical  means  should  be  carefully  selected,  correctly  implemented  and  regularly tested  (including  testing  of  the  backups  made).The organization should ensure that the appropriate personnel deal with reported information security vulnerabilities in a  similar manner  to  how  non-information  security  faults  are  handled,  possibly  with assessment  and  resolution  using  technical  personnel  (who  may  or  may  not  be  members  of  the  ISIRT).Information on vulnerabilities and their resolutions should be entered into the information security event/incident/vulnerability  database  managed  by  the  ISIRT.Annex D  shows  an  example  template  for  the information security vulnerability reporting form .For the Detection and reporting phase, an organization should ensure that the key activities are the following:
+
+ a) Activity  to  detect  and  report  the  occurrence  of  an  information  security  event  or  the  existence  of  an information security vulnerability, whether by one of the organization's personnel/customers or automatically, aided by the following:
+
+  1) alerts from security monitoring systems such as IDS/IDP, antivirus program, honeypots (generic term for a decoy system used to deceive, distract, divert and to encourage the attacker to spend time on information that appears to be very valuable, but actually is fabricated and would not be of interest to a legitimate user [ISO/IEC 18043:2006]) / tarpits (systems that are intentionally exposed and designed to  delay  attacks),  log  monitoring  systems,  security  information  management  systems,  correlation engines and others,
+
+ 2) alerts  from  network  monitoring  systems  such  as  firewalls,  network  flow  analysis,  web  filtering  and others,
+
+ 3) analysis of log information from devices, services, hosts, and various systems,
+
+ 4) escalations of anomalous events detected by ICT,
+
+ 5) escalations of anomalous events detected by help desks,
+
+ 6) user reports, and
+
+ 7) external notifications coming from third parties such as other ISIRTs, information security services, ISPs, telecommunication service providers, outsourcing companies or national ISIRTs.NOTE A future International Standard (ISO/IEC 27037) will provide more detailed information on the identification, collection, acquisition and preservation of digital evidence.e) Activity to ensure that the change control regime is maintained covering information security event and vulnerability  tracking  and  event  and  vulnerability  report  updates,  and  thus  that  the  information  security event/incident/vulnerability database is kept up-to-date.f) Activity to escalate, on an as required basis throughout the phase, for further review and/or decisions.g) Activity to register in an Incident Tracking System.All  information  collected  pertaining  to  an  information  security  event  or  vulnerability  should  be  stored  in  the information  security  event/incident/vulnerability  database  managed  by  the  ISIRT.The  information  reported during  each  activity  should  be  as  complete  as  possible  at  the  time,  to  ensure  that  there  is  a  good  base available for the assessments and decisions to be made, and of course the actions taken.In  such  cases  a  reporting  form  should  be  completed  and  forwarded  to  local management,  to  the  PoC  and  to  the  ISIRT  for  recording  purposes,  i.e.into  the  information  security event/incident/vulnerability  database.In  such  circumstance,  the  person  reporting  closure  of  an  information security event may be able to complete some of the information required for the information security incident reporting  form  -  if  this  is  the  case  then  the  information  security  incident  reporting  form  should  also  be completed and forwarded.Assessments should include the use of the agreed information security event/incident classification scale (including determining the impacts of events based on the affected assets/services) and should decide whether  events  should  be  classified  as  information  security  incidents  (see  Annex  C  for  example guidelines).Whilst determining the impacts of information security events (and thus possible incidents) in terms of the effects of breaches of confidentiality, integrity and availability, organizations should ensure that the following are identified:
+
+ 1) impact domain (physical or logical),
+
+ 2) assets,  infrastructures,  information,  processes,  services  and  applications  that  are  affected,  or  are going to be affected, and
+
+ 3) possible effects on organization core services.b) Activity for the ISIRT to conduct the assessment to confirm the results of the PoC's assessment whether the  event  is  an  information  security  incident  or  not,  if  applicable.f) Activity  to  ensure  that  the  change  control  regime  is  maintained  covering  information  security  incident tracking  and  incident  report  updates,  and  thus  that  the  information  security  event/incident/vulnerability database is kept up-to-date.All information collected pertaining to an information security event, incident or vulnerability should be stored in  the  information  security  event/incident/vulnerability  database  managed  by  the  ISIRT.The  information reported during each activity should be as complete as possible at the time, to ensure that there is a good base available for the assessments and decisions to be made, and of course the actions taken.(see Clause 8.2.4).b) The  following  aspects  for  deliberate  human  technical  attack  on  an  information  system,  service  and/or network, for example:
+
+ 1) how deeply  the  system,  service  and/or  network  has  been  infiltrated,  and  what  level  of  control  the attacker has,
+
+ 2) what data has been accessed by the attacker, possibly copied, altered or destroyed,
+
+ 3) what software has been copied, altered or destroyed by the attacker,
+
+ c) the direct and indirect effects (for example, is physical access open because of a fire, is an information system vulnerable because of some software or communications line malfunction, or because of human error), and
+
+ d) how the information security incident has been dealt with so far and by whom.When reviewing the potential or actual adverse effects of an information security incident on the business of an organization, from some information and/or services shown in Clause 7.2, it is necessary to confirm which of a number of consequences is relevant.It may be necessary to shut the information system, service and/or network down, or  isolate  the  relevant  part  and  shut  it  down  (with  the  prior  agreement  of  the  relevant  IT  and/or  business management), while controls are implemented.This may take longer if the vulnerability is fundamental to the information system, service and/or network design, or if it is a critical vulnerability.Another  response  activity  may  be  to  activate  surveillance  techniques  (for  example,  honeypots  -  see ISO/IEC 18043).a) A full information security forensics duplication of the affected system or a low level backup of logs and important files should be undertaken depending on the nature of the information security incident.b) Logs from neighbouring systems, services and networks, for example including from routers and firewalls, should be collected and reviewed.c) All information collected should be stored securely on read only media.Any IT  configuration  related  problems  highlighted  by  the  information  security  incident  should  be  dealt  with thereafter.Other  measures  to  decrease  the  possibility  of  re-occurrence  or  similar  occurrence  of  an  IT information security incident may include changing system passwords and disabling unused services.Another area of response activity may involve monitoring the IT system, service and/or network.Following the assessment of an information security incident, it may be appropriate to have additional monitoring controls in place to assist in detecting unusual and suspicious events that would be symptomatic of further information security incidents.Such monitoring may also reveal a greater depth to the information security incident, and identify other IT systems that were compromised.It may well be necessary for activation of specific responses documented in the relevant crisis management plan.For the lessons learnt phase, an organization should ensure that the key activities are the following:
+
+ a) Activity to conduct further information security forensics analysis, as required.b) Activity to identify the lessons learnt from information security incidents and vulnerabilities.c) Activity  to  review, identify and make improvements to information security control implementation (new and/or  updated  controls),  as  well  as  information  security  incident  management  policy,  as  result  of  the lessons learnt, whether from one information security incident or many (or indeed from reported security vulnerabilities). 9.3 Identifying the lessons learnt
+
+Once an information security  incident  has  been  closed,  it  is  important  that  the  organization  should  quickly identify and learn from the lessons from the handing of an information security incident and ensure that the conclusions are acted upon.Further, there may be lessons to be learnt from the assessment and resolution of reported information security vulnerabilities.The lessons could be in terms of the following:
+
+ a) New or changed requirements for information security controls.Vulnerability  assessment/security  testing  of  an  information  system,  service  and/or  network  following  an information security incident, should not be confined to only the information system, service and/or network, affected by the information security incident.It should be expanded to include any related information systems, services  and/or  networks.A  complete  vulnerability  assessment  is  used  to  highlight  the  existence  of  the vulnerabilities exploited during the information security incident on other information systems, services and/or networks and to ensure that no new vulnerabilities are introduced.It is important to stress that vulnerability assessments should be conducted on a regular basis, and that the reassessment  of  vulnerabilities  after  an  information  security  incident  has  occurred  should  be  part  of  this continuous assessment process, and not as a replacement.These could be technical (including physical) controls, and may include the need for rapid material updates for, and delivery of, security awareness briefings (for users as well as other personnel), and rapid revision  and  issue  of  security  guidelines  and/or  standards.Further,  an  organization's  information  systems, services and/or networks should be subject to regular vulnerability assessments to aid in the identification of vulnerabilities and provide a process of continual system/service/network hardening.In addition, whilst reviews of information security related procedures and documentation may be conducted in the immediate aftermath of an information security incident or a resolved vulnerability, it is more likely that this is  required  as  a  later  response.c) Were any procedures or tools identified that would have been of assistance in the response process?d) Were there any procedures that would have aided in recovering information systems following an incident identified?e) Was the communication of the incident to all relevant parties effective throughout the detection, reporting and response process?All employees, contractors and third party users should be made aware of the procedures for reporting the different types of events and vulnerabilities that may have an impact on the security of organizational assets.They should be required to report any information security events and vulnerabilities as quickly as possible to the designated PoC.A.13.1.1 Reporting information security events
+
+Control: Information security events should be reported through appropriate management channels as quickly as possible.A.13.1.2 Reporting security vulnerabilities
+
+Control: All employees, contractors and third party users of information systems and services should be required to  note  and  report  any  observed  or  suspected  security vulnerabilities in systems or services.A.13.2 Management of information security incidents and improvements
+
+Objective: To ensure a consistent and effective approach is applied to the management of information security incidents.Responsibilities and procedures should be in place to handle information security events and vulnerabilities effectively once they have been reported.A process of continual improvement should be applied to the response to, monitoring, evaluating, and overall management of information security incidents.), 6 (Detection and Reporting), Annexes C (Example Approaches to the Categorization and Classification of Information Security Events and Incidents) and Annex D (Example Information Security Event, Incident and Vulnerability Reports and Forms) - the content could help to report information security events and vulnerabilities
+
+Annex D.2.1 (Example items of the record for information security event) and Annex D.4.1 (Example from for information security event report) for the example of report form.Annex D.2.3 (Example items of the record for information security vulnerability) and Annex D.4.3 (Example form for information security vulnerability report) for the example of report form. 7 (Assessment and Decision), 8 (Responses),and 9 (Lessons Learnt) and Annex B (Example of Information Security Incidents and Their Causes), Annex C (Example Approaches to the Categorization and Classification of Information Security Events and Incidents) and Annex E (Legal and Regulatory Aspects).Some  technical DoS incidents are intentionally launched in order to crash a system or service, or take down a network, while others are merely the by-products of other malicious activity.For instance, some of the more common stealth scanning and identification techniques can cause older or misconfigured systems or services to crash when scanned.It should be noted that many deliberate technical DoS incidents are often executed anonymously (i.e.Malicious code attacks could be divided into five categories: viruses, worms, Trojan horses, mobile code and blended.Whilst a few years ago viruses were created to target any vulnerable infected system, today malicious codes are used to perform targeted attacks.This is sometimes performed modifying an existing malicious code, creating a variant that often is not recognized by malicious code detection technologies.e-mail, FTP, web, etc.)and the software version of those services,
+
+  scanning  for  one  or  more  known  vulnerable  services  across  a  network  address  range  (horizontal scanning).In some cases, technical information gathering extends into unauthorized access if, for example, as part of searching for vulnerabilities the attacker also attempts to gain unauthorized access.This commonly occurs with automated hacking tools that not only search for vulnerabilities but also automatically attempt to exploit the vulnerable systems, services and/or networks that are found.Information gathering incidents caused by non-technical means, resulting in:
+
+  direct or indirect disclosure or modification information,
+
+  theft of intellectual property stored electronically,
+
+  breaches of accountability, e.g.in account logging,
+
+  misuse of information systems (e.g.contrary to law or organization policy),
+
+could be caused, for example, by:
+
+  breaches of physical security arrangements resulting in unauthorized access to information, and theft of data storage equipment that contains important data, for example encryption keys,
+
+  poorly and/or misconfigured operating systems due to uncontrolled system changes, or malfunctions of software or hardware, resulting in internal or external personnel gaining access to information for which they have no authority.C.3.1 Example approach 1
+
+C.3.1.1 Classification factors
+
+C.3.1.1.1 Introduction
+
+This approach classifies information security incidents by considering the following three factors:
+
+  information system importance,
+
+  business loss,
+
+  social impact.C.3.1.1.2 Information System Importance
+
+The  importance  of  the  information  systems  affected  by  information  security  incidents  is  determined  by considering  the  importance  of  the  organization  business  operations  supported  by  the  information  systems.Importance could be expressed in relation to national security, social order, economic development and public interest, and the dependency of the business on the information systems.C.3.1.2.2 Very serious (Class IV)
+
+Very serious incidents are those that
+
+ a) act on especially important information systems, and
+
+ b) result in especially serious business loss, or
+
+ c) lead to especially important social impact.C.3.1.2.3 Serious (Class III)
+
+Serious incidents are those that
+
+ a) act on especially important information systems or important information systems, and
+
+ b) result in serious business loss, or
+
+ c) lead to important social impact.C.3.1.2.4 Less Serious (Class II)
+
+Less serious incidents are those that
+
+ a) act on important information systems or ordinary information systems, and
+
+ b) result in considerable business loss, or
+
+ c) lead to considerable social impact.C.3.1.2.5 Small (Class I)
+
+Small incidents are those that
+
+ a) act on ordinary important information systems and
+
+ b) result in minor business loss or no business loss, and
+
+ c) lead to minor social impact or no social impact
+
+ d) no action required and no consequences.If  you  are  an  ISIRT  member  reviewing  information  security  event  and  incident  forms  forwarded  by  a  PoC member, then the incident form should be then updated as the investigation progresses and related updates made to the information security event/incident/vulnerability database.The purpose of the information security vulnerability report form is to provide information about a perceived vulnerability, and to act as the repository of information on the resolution of the reported vulnerability.Please observe the following guidelines when completing the forms:
+
+  The form is recommended to be completed and submitted electronically 2 .SIGN-OFFS
+
+ORIGINATOR
+
+REVIEWER
+
+REVIEWER
+
+Digital Signature
+
+Digital Signature
+
+Digital Signature
+
+Name
+
+Name
+
+Name
+
+Role
+
+Role
+
+Role
+
+Date
+
+Date
+
+Date
+
+© ISO/IEC 2011 - All rights reserved
+
+BS ISO/IEC 27035:2011 ISO/IEC 27035:2011(E)
+
+D.4.3  Example form for information security vulnerability report
+
+Information Security Vulnerability Report
+
+ 1. Date Vulnerability identified
+
+Page 1 of 1
+
+ 2. Vulnerability Number 6
+
+3. REPORTING PERSON DETAILS
+
+ 3.1 Name
+
+3.2 Address
+
+ 3.3 Organization
+
+3.4 Department
+
+ 3.5 Telephone
+
+3.6 E-mail
+
+4. INFORMATION SECURITY VULNERABILITY DESCRIPTION
+
+4.1 Date and Time the Vulnerability Reported
+
+ 4.2 Description in Narrative Terms of the Perceived Information Security Vulnerability:
+
+  How Vulnerability Noticed
+
+  Characteristics of Vulnerability - Physical, Technical, etc. If Technical, what IT/Networking Components/Assets Concerned
+
+  Components/Assets that might be Affected if Vulnerability were to be Exploited
+
+  Potential Adverse Business Impacts if Vulnerability were to be Exploited
+
+5. INFORMATION SECURITY VULNERABILITY RESOLUTION
+
+ 5.1 Has Vulnerability been Confirmed?appropriate)
+
+ (tick as
+
+YES
+
+NO
+
+ 5.2 Date and Time of Vulnerability Confirmation
+
+ 5.3 Name of Person Authorising
+
+5.4 Address
+
+ 5.5 Organization
+
+ 5.6 Telephone
+
+5.7 E-mail
+
+ 5.8 Has Vulnerability been Resolved?(tick as appropriate)
+
+YES
+
+NO
+
+ 5.9 Description in Narrative Terms of how Information Security Vulnerability has been Resolved, with Date and Name of Person Authorising Resolution
+
+Annex E
+
+(informative)
+
+Legal and regulatory aspects
+
+The following legal and regulatory aspects of information security incident management should be addressed in the information security incident management policy and associated scheme:
+
+  Adequate Data Protection and Privacy of Personal Information is Provided.Users of British Standards should make sure that they possess the latest amendments or editions.It is the constant aim of BSI to improve the quality of our products and services.We would be grateful if anyone finding an inaccuracy or ambiguity while using   this British Standard would inform the Secretary of the technical committee responsible, the identity of which can be found on the inside front cover.Tel: +44 (0)20 8996 7669 Fax: +44 (0)20 8996 7001 Email: plus@bsigroup.com
+
+Buying standards
+
+You may buy PDF and hard copy versions of standards directly using a credit card from the BSI Shop on the website www.bsigroup.com/shop.In addition all orders for BSI, international and foreign standards publications can be addressed to BSI Customer Services.Tel: +44 (0)20 8996 9001 Fax: +44 (0)20 8996 7001 Email: orders@bsigroup.com
+
+In response to orders for international standards, it is BSI policy to supply the BSI implementation of those that have been published as British Standards, unless otherwise requested.BSI Group Headquarters
+
+389 Chiswick High Road London W4 4AL UK
+
+Tel +44 (0)20 8996 9001 Fax +44 (0)20 8996 7001 www.bsigroup.com/standards
+
+Information on standards
+
+BSI provides a wide range of information on national, European and international standards through its Knowledge Centre.Tel: +44 (0)20 8996 7004  Fax: +44 (0)20 8996 7005 Email: knowledgecentre@bsigroup.com
+
+Various BSI electronic information services are also available which give details on all its products and services.Tel: +44 (0)20 8996 7111  Fax: +44 (0)20 8996 7048 Email: info@bsigroup.com
+
+BSI Subscribing Members are kept up to date with standards developments and receive substantial discounts on the purchase price of standards.For details of these and other benefits contact Membership Administration.Tel: +44 (0)20 8996 7002  Fax: +44 (0)20 8996 7001 Email: membership@bsigroup.com
+
+Information regarding online access to British Standards via British Standards Online can be found at www.bsigroup.com/BSOL www.bsi-
+
+Further information about BSI is available on the BSI website at group.com/standards
+
+Copyright
+
+Copyright subsists in all BSI publications.BSI also holds the copyright, in the UK, of the publications of the international standardization bodies.Except as permitted under the Copyright, Designs and Patents Act 1988 no extract may be reproduced, stored in a retrieval system or transmitted in any form or by any means - electronic, photocopying, recording or otherwise without prior written permission from BSI.This does not preclude the free use, in the course of implementing the standard of necessary details such as symbols, and size, type or grade designations.If these details are to be used for any other purpose than implementation then the prior written permission of BSI must be obtained.Details and advice can be obtained from the Copyright &amp; Licensing Manager.Tel: +44 (0)20 8996 7070 Email: copyright@bsigroup.com
+
+<!-- missing-text -->
