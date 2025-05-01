@@ -119,19 +119,20 @@ class ProcessaTexto:
         return lst_res
 
     @classmethod
-    def separaFrases(cls, texto: str) -> List[str]:
+    def separaFrases(cls, texto: str, lang: str) -> List[str]:
         """
         Quebra o texto em uma lista de frases. Frases grandes (mais de 900 caracteres) são quebradas.
 
         Args:
             texto (str): string com o texto na íntegra a ser quebrado.
+            lang (str): string com a língua a ser utilizada para tokenização do nltk.
         Returns:
             List[str]: lista com as frases tratadas.
         """
         try:
-            frases_nltk = nltk.sent_tokenize(texto, language="english")
+            frases_nltk = nltk.sent_tokenize(texto, language=lang)
         except Exception:
             nltk.download("punkt_tab")
-            frases_nltk = nltk.sent_tokenize(texto, language="english")
+            frases_nltk = nltk.sent_tokenize(texto, language=lang)
 
         return cls.__divide_frases_grandes(frases_nltk, nmax=900)

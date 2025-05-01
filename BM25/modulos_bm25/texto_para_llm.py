@@ -3,7 +3,7 @@ from typing import List, Tuple
 from docling.document_converter import DocumentConverter
 
 from BM25.modulos_bm25.processa_texto import ProcessaTexto
-from embedding_prompts.BM25.modulos_bm25.processa_bm25 import ProcessaBM25
+from BM25.modulos_bm25.processa_bm25 import ProcessaBM25
 
 
 class PreparaTextoLLM:
@@ -19,13 +19,14 @@ class PreparaTextoLLM:
 
         self.__regex_dict = {}
 
-    def separarTextoArquivo(self, caminho: str, page_limit: int = None) -> List[str]:
+    def separarTextoArquivo(self, caminho: str, page_limit: int = None, lang: str = "english") -> List[str]:
         """
         Método que extrai o texto de um arquivo em pdf e separa em frases.
 
         Args:
             caminho (str): o caminho do arquivo a ser analisado
             page_limit (int): limite de páginas a serem analisadas para a conversão.
+            lang (str): string com a linguagem a ser utilizada para tokenização.
 
         Returns:
             List[str]: uma lista com as frases (strings) do texto.
@@ -36,7 +37,7 @@ class PreparaTextoLLM:
 
         doc_text = converted.document.export_to_text()
 
-        self.__lista_frases = ProcessaTexto.separaFrases(doc_text)
+        self.__lista_frases = ProcessaTexto.separaFrases(doc_text, lang)
         return self.__lista_frases
 
     def regexFrases(
