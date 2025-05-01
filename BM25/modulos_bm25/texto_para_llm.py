@@ -3,7 +3,7 @@ from typing import List, Tuple
 from docling.document_converter import DocumentConverter
 
 from BM25.modulos_bm25.processa_texto import ProcessaTexto
-from BM25.modulos_bm25.reg_query_bm25 import ProcessaBM25
+from embedding_prompts.BM25.modulos_bm25.processa_bm25 import ProcessaBM25
 
 
 class PreparaTextoLLM:
@@ -150,7 +150,9 @@ class PreparaTextoLLM:
             query (List[str]): lista com as queries de BM25.
             topn_query (int | List[int]): quantidade de frases a serem consideradas - ou lista de quantidades,
             a depender da quantidade de queries envolvidas.
-            topn_frases (int): quantidade máxima de frases a serem consideradas.
+            topn_frases (int): quantidade máxima de frases a serem consideradas. Um hard limit, usado apenas
+            em casos extremos. Por default, -1.
+            n_vizinhos (int): quantidade de frases vizinhas (antes e depois) das frases selecionadas.
 
         Returns:
             str: string com o texto combinado das frases mais relevantes.
