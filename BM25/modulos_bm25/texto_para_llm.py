@@ -1,6 +1,10 @@
 import re
 from typing import List, Tuple
 from docling.document_converter import DocumentConverter
+from docling.datamodel.pipeline_options import PdfPipelineOptions
+from docling.document_converter import DocumentConverter, PdfFormatOption, InputFormat
+from docling.backend.docling_parse_v2_backend import DoclingParseV2DocumentBackend
+import pymupdf
 
 from BM25.modulos_bm25.processa_texto import ProcessaTexto
 from BM25.modulos_bm25.processa_bm25 import ProcessaBM25
@@ -19,7 +23,7 @@ class PreparaTextoLLM:
 
         self.__regex_dict = {}
 
-    def separarTextoArquivo(self, caminho: str, page_limit: int = None, lang: str = "english") -> List[str]:
+    def separarTextoArquivo(self, caminho: str, page_limit: int = None, lang: str = "english", use_docling: bool = False) -> List[str]:
         """
         Método que extrai o texto de um arquivo em pdf e separa em frases.
 
@@ -27,15 +31,33 @@ class PreparaTextoLLM:
             caminho (str): o caminho do arquivo a ser analisado
             page_limit (int): limite de páginas a serem analisadas para a conversão.
             lang (str): string com a linguagem a ser utilizada para tokenização.
+            use_docling (bool): indica se devemos usar Docling ou PyMuPdf. O recomendado é usar
+            PyMuPdf pois é muito mais rápido.
 
         Returns:
             List[str]: uma lista com as frases (strings) do texto.
         """
-        # Converte o PDF para texto
-        converte_pdf = DocumentConverter()
-        converted = converte_pdf.convert(caminho)
+        doc_text = ""
 
-        doc_text = converted.document.export_to_text()
+        if use_docling is True:
+            pipeline_options = PdfPipelineOptions()
+            pipeline_options.do_ocr = False
+            pipeline_options.do_table_structure = False
+
+            # Converte o PDF para texto
+            converte_pdf = DocumentConverter(
+            format_options={
+                InputFormat.PDF:
+                    PdfFormatOption(pipeline_options=pipeline_options, backend=DoclingParseV2DocumentBackend)
+                }
+            )
+            converted = converte_pdf.convert(caminho)
+            doc_text = converted.document.export_to_text()
+        # Usando PyMuPdf
+        else:
+            doc = pymupdf.Document(caminho)
+            for page in doc:
+                doc_text += page.get_text()
 
         self.__lista_frases = ProcessaTexto.separaFrases(doc_text, lang)
         return self.__lista_frases

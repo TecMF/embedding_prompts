@@ -1,15 +1,20 @@
 # embedding_prompts
-Repositório para implementação de Embedding (a priori, usando BM25) para geração de RAG de prompts de geração de ontologias.
+Repositório para implementação de Information Retrieval (a priori, usando BM25) para geração de RAG de prompts de geração de ontologias.
 
 ## Como executar
 
-Basta rodar `py -m BM25.main` do repositório raiz para testar.
+Instale o poetry:
 
-É necessário ter Python 3.12, além dos pacotes:
+`pip install poetry`
 
-docling 2.28.4
-nltk 3.9.1
-numpy 2.2.4
-rank_bm25 0.2.2
+Daí, execute os seguintes comandos: `poetry lock` e `poetry install`. Isso deve instalar todas as dependências necessárias. Ajuste o que precisar no arquivo `pyproject.toml`, na seção `[tool.poetry.dependencies]`.
 
-Recomendo instalação via pip.
+### Para rodar normalmente
+
+Basta rodar `poetry run py -m BM25.main` do repositório raiz para testar.
+
+### Para utilizar o notebook disponibilizado
+
+Execute `poetry run pip install jupyter`, daí `poetry add notebook --group dev`, para permitir que o poetry rode os notebooks no environment gerado.
+
+Por fim, basta `poetry run jupyter notebook`.

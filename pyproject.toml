@@ -1,0 +1,22 @@
+[project]
+name = "BM25"
+version = "0.1.0"
+description = ""
+author = [{name = "Bernardo Alkmim", email = "balkmim@inf.puc-rio.br"}]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.*"
+docling = "^2.32.0"
+pymupdf = "^1.25.5"
+nltk = "^3.9.1"
+numpy = "^1.0.0"
+rank_bm25 = "^0.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

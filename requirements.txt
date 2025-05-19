@@ -1,4 +1,0 @@
-docling==2.28.4
-nltk==3.9.1
-numpy==2.2.4
-rank_bm25==0.2.2

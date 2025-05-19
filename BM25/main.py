@@ -3,11 +3,12 @@ from pathlib import Path
 from BM25.modulos_bm25.texto_para_llm import PreparaTextoLLM
 
 if __name__ == "__main__":
+
     # Obtendo o texto como lista de strings
     # Conversão de pdf via Docling
     input_pdf = Path(r"BM25/exemplos") / r"NBRISO-IEC 27035.pdf"
     prepara_texto = PreparaTextoLLM()
-    lista_frases = prepara_texto.separarTextoArquivo(input_pdf)
+    lista_frases = prepara_texto.separarTextoArquivo(input_pdf, lang="english")
 
     prepara_texto.preparaFrasesBM25(lista_frases)
 
