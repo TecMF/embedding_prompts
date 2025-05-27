@@ -1,0 +1,76 @@
+ Adam Pennington  
+Principal Cybersecurity Engineer  
+ATT&CK Blog Editor in Chief  
+MITRE 
+attack.mitre.org 
+medium.com/mitre-attack 
+twitter.com/MITREattack 
+linkedin.com/showcase/mitre-att&ck 
+| 1 | 
+1 Threat Intelligence 
+Katie Nickels 
+Based on feedback from ATT&CK users, both at the first ATT&CKcon and from other avenues,  
+we’ve learned a lot. 2 Detection and Analytics 
+John Wunder 
+Hopefully you had a chance to read in Chapter 1 on getting started using ATT&CK for threat  
+intelligence, which walked through understanding what adversaries are doing to attack you and  
+how to use that knowledge to prioritize what to defend. Once you’ve got data in your SIEM you’re ready to try some analytics. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? | 14 | 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+OUTPUT FROM RUNNING THE SQUIBLYDOO ATTACK TO LAUNCH CALC.EXE  
+Once you’ve run the attack, look inside your SIEM to see what log data was generated. ANALYTIC DEVELOPMENT WORKFLOW 
+| 15 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+LEVEL 3 
+Feel confident that you’re cranking out quality analytics to detect attacks from Atomic  
+Red Team? They can then find and execute an attack that  
+will evade that analytic. At that point, you’ll need 
+to update your analytic to look for different artifacts and behaviors that won’t rely on 
+the exact naming. In the end, you want to be developing a more  
+and more comprehensive set of detections so that you can detect more and more of the  
+things that adversaries do to attack us—and ATT&CK gives you the scorecard to do so. | 18 | 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+RESOURCES 
+Square CAR: MITRE’s repository of analytics 
+Square EQL: Endgame’s open-source repository of analytics 
+Square Sigma: A tool-independent format for analytics, along with a repository of analytics in 
+that format from Florian Roth and Thomas Patzke 
+Square ThreatHunter Playbook: A repository of strategies to look for ATT&CK techniques in log 
+data (i.e. Adversary emulators construct a scenario to test certain aspects of an adversary’s tactics, 
+techniques, and procedures (TTPs). The red team then follows the scenario while operating on a 
+target network to test how defenses might fare against the emulated adversary. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. You can use one of the pre-
+built scenarios or define a more specific scenario by choosing the procedures (called  
+abilities in CALDERA) that map to certain ATT&CK techniques you want to test. | 25 | 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Adversary Emulation and Red Teaming | Blake Strom, Tim Schulz, and Katie Nickels 
+Bonus Level 2.5 Content: After using ATT&CK to plan engagements and report results,  
+try using the  APT3 Emulation Plan or the ATT&CK Evaluations Round 1 scenario based on  
+that plan to conduct an engagement emulating APT3 to show a baseline test against a  
+particular adversary group. Square Leveraging Microsoft EMET’s Attack Surface Reduction rules can make it harder to 
+use RunDLL32. He advocates for security 
+through verification at all points at which an adversary could be detected or stopped 
+because defenders should not wait for a real intrusion to see if their methods work. | 41 | 
+|  Solving Problems for a Safer World

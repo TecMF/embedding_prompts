@@ -1,0 +1,120 @@
+ Common collection methods include 
+capturing screenshots and keyboard input. TA0011: Command and Control 
+  Description: The adversary is trying to communicate with compromised systems to control 
+them. Command and Control consists of techniques that adversaries may use to communicate with 
+systems under their control within a victim network. Adversaries commonly attempt to mimic 
+normal, expected traffic to avoid detection. TA0005: Defense Evasion 
+  Description: The adversary is trying to avoid being detected. Once they’ve collected data, adversaries often package it to avoid detection while removing it. Methods for doing that include built-in functionality of 
+malware or by using utilities present on the system. With this technique, the user's web browser is typically targeted 
+for exploitation, but adversaries may also use compromised websites for non-exploitation 
+behavior such as acquiring [Application Access 
+Token](https://attack.mitre.org/techniques/T1550/001). When contact is lost with the primary 
+command and control server malware may employ dynamic resolution as a means to 
+reestablishing command and control. The security software will likely be targeted directly for exploitation. There are examples of 
+antivirus software being targeted by persistent threat groups to avoid detection. An adversary may need to determine if the remote system is in a vulnerable state, which may 
+be done through [Network Service Discovery](https://attack.mitre.org/techniques/T1046) or 
+other Discovery methods looking for common, vulnerable software that may be deployed in the 
+network, the lack of certain patches that may indicate vulnerabilities,  or security software that 
+may be used to detect or contain remote exploitation. (Citation: WithSecure Lazarus-NoPineapple Threat Intel 
+Report 2023)(Citation: Cadet Blizzard emerges as novel threat actor) In cloud environments, 
+adversaries may leverage utilities such as the Azure VM Agent’s `CollectGuestLogs.exe` to 
+collect security logs from cloud hosted infrastructure. to gain access to credentials that can be used to access systems, 
+services, and network resources. Payloads may be compressed, archived, or encrypted in order to avoid detection. The search order differs depending on the method that is 
+used to execute the program. These programs control flow of 
+execution before the operating system takes control. ** 
+ 
+Adversaries may use more than one remote access tool with varying command and control 
+protocols or credentialed access to remote services so they can maintain access if an access 
+mechanism is detected or mitigated. Malicious embedded macros are an alternative means of 
+execution than software exploitation through [Exploitation for Client 
+Execution](https://attack.mitre.org/techniques/T1203), where adversaries will rely on macros 
+being allowed or that the user will accept to activate them. The method adversaries use will 
+depend on the specific mechanism they seek to subvert. (Citation: split man page)(Citation: GTFO split) 
+  Associated Tactics: TA0005 
+ 
+T1082: System Information Discovery 
+  Description: An adversary may attempt to get detailed information about the operating system 
+and hardware, including version, patches, hotfixes, service packs, and architecture. The observation of the signal packets to trigger the communication can be conducted through 
+different methods. HVAC, elevators, physical security). With a botnet at their disposal, 
+adversaries may perform follow-on activity such as large-scale 
+[Phishing](https://attack.mitre.org/techniques/T1566) or Distributed Denial of Service 
+(DDoS). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CDNs allow an organization to host content from a distributed, 
+load balanced array of servers. CDNs may also allow organizations to customize content 
+delivery based on the requestor’s geographical region. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. The 
+Windows Control Panel process binary (control.exe) handles execution of Control Panel items, 
+which are utilities that allow users to view and adjust computer settings. If an adversary has sufficient permissions, they can disable or 
+modify logging to avoid detection of their activities. Adversaries may also disable updates to prevent the latest security patches from 
+reaching tools on victim systems. [Exploit 
+Public-Facing Application](https://attack.mitre.org/techniques/T1190), [Exploitation for Client 
+Execution](https://attack.mitre.org/techniques/T1203), [Exploitation for Privilege 
+Escalation](https://attack.mitre.org/techniques/T1068), [Exploitation for Defense 
+Evasion](https://attack.mitre.org/techniques/T1211), [Exploitation for Credential 
+Access](https://attack.mitre.org/techniques/T1212), [Exploitation of Remote 
+Services](https://attack.mitre.org/techniques/T1210), and [Application or System 
+Exploitation](https://attack.mitre.org/techniques/T1499/004)). The Windows security subsystem is a set of components that manage 
+and enforce the security policy for a computer or domain. The Local Security Authority (LSA) is 
+the main component responsible for local security policy and user authentication. Clicking on a link may also 
+lead to other execution techniques such as exploitation of a browser or application vulnerability 
+via [Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203). Since mshta.exe executes outside of the Internet Explorer's security context, it 
+also bypasses browser security settings. This method is dependent upon the [Network Boundary 
+Bridging](https://attack.mitre.org/techniques/T1599) method allowing the adversaries to cross 
+the protected network boundary of the Internet perimeter and into the organization’s Wide-Area 
+Network (WAN). This method typically requires 
+administrative level access to the device. The observation of the signal packets to trigger the communication can be conducted through 
+different methods. Adversaries may also 
+access externally facing Exchange services, Office 365, or Google Workspace to access email 
+using credentials or access tokens. Threat actors can use 
+online resources and lookup tools to harvest information from these services. Shortcuts can also be abused to establish persistence by implementing other methods. Software packing is a method of compressing or encrypting an 
+executable. Security reporting messages are important for 
+monitoring the normal operation of a system and identifying important events that can signal a 
+security incident. However, certain shims can 
+be used to [Bypass User Account Control](https://attack.mitre.org/techniques/T1548/002) (UAC 
+and RedirectEXE), inject DLLs into processes (InjectDLL), disable Data Execution Prevention 
+(DisableNX) and Structure Exception Handling (DisableSEH), and intercept memory addresses 
+(GetProcAddress). Associated Tactics: TA0040 
+ 
+T1560.003: Archive via Custom Method 
+  Description: An adversary may compress or encrypt data that is collected prior to exfiltration 
+using a custom method. (Citation: 
+Davidson Windows) 
+ 
+Many methods have been discovered to bypass UAC. With a sufficient level of access, such accounts may be used to establish secondary 
+credentialed access that does not require persistent remote access tools to be deployed on the 
+system. Conditional access policies are additional verifications used 
+by identity providers and identity and access management systems to determine whether a user 
+should be granted access to a resource. Threat actors 
+can use online resources and lookup tools to harvest information about certificates. When contact is lost with the primary 
+command and control server malware may employ a DGA as a means to reestablishing 
+command and control. [Exploit 
+Public-Facing Application](https://attack.mitre.org/techniques/T1190), [Exploitation for Client 
+Execution](https://attack.mitre.org/techniques/T1203), [Exploitation for Privilege 
+Escalation](https://attack.mitre.org/techniques/T1068), [Exploitation for Defense 
+Evasion](https://attack.mitre.org/techniques/T1211), [Exploitation for Credential 
+Access](https://attack.mitre.org/techniques/T1212), [Exploitation of Remote 
+Services](https://attack.mitre.org/techniques/T1210), and [Application or System 
+Exploitation](https://attack.mitre.org/techniques/T1499/004)). (Citation: Elastic Process Injection July 2017) More 
+sophisticated malware samples may also potentially bypass protection mechanisms such as 
+data execution prevention (DEP) by triggering a combination of windows procedures and other 
+system functions that will rewrite the malicious payload inside an executable portion of the 
+target process. SIDs are used by Windows security in both security descriptors and access 
+tokens. Access to Registry keys is controlled through 
+access control lists and user permissions. Associated Tactics: TA0004, TA0005 
+ 
+T1597.001: Threat Intel Vendors 
+  Description: Adversaries may search private data from threat intelligence vendors for 
+information that can be used during targeting. Threat intelligence vendors may offer paid feeds 
+or portals that offer more data than what is publicly reported. Associated Tactics: TA0002

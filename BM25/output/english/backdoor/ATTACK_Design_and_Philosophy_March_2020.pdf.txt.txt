@@ -1,0 +1,62 @@
+ ATT&CK focuses on how external adversaries compromise and operate within 
+computer information networks. It originated out of a project to document and categorize post-
+compromise adversary tactics, techniques and procedures (TTPs) against Microsoft Windows 
+systems to improve detection of malicious behavior. The goal was to improve post-
+compromise detection of threats penetrating enterprise networks through telemetry sensing and 
+behavioral analytics [4]. ATT&CK can be used as a tool to create adversary emulation scenarios [5] to test and verify 
+defenses against common adversary techniques. ATT&CK can be used as a tool to construct and test behavioral analytics to detect adversarial 
+behavior within an environment. This tactic is often used in conjunction with initial access as the means of 
+executing code once access is obtained, and lateral movement to expand access to remote 
+systems on a network. Defense Bypassed* 
+Tag 
+If the (sub-)technique can be used to bypass or 
+evade a particular defensive tool, methodology, or 
+process. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. 3.4.3 Sub-Technique Details 
+The addition of sub-techniques to ATT&CK in 2020 marked a significant shift to how behavior 
+is described within the knowledge base. The change was driven by the need to fix some of the 
+technique abstraction level issues that occurred as ATT&CK grew over the years. Software is broken out into two high-level 
+categories: tools and malware. Type* 
+Tag 
+Type of software: malware or tool. Distribution unlimited 19-01075-28. 
+security from a defender’s perspective with a top-down view, such as the CIA2 model, focus on 
+vulnerability scoring, such as CVSS [6], or primarily account for risk calculations, such as 
+DREAD [7]. Defenders in this context refer to threat hunters, malware analysts, and incident 
+responders. Similarly, malware databases also exist but typically lack context around how the malware is 
+used and by whom. Behavior-based techniques are the focus as opposed to 
+exploits and malware because they are numerous but are difficult to reason about them with a 
+holistic defensive program other than regular vulnerability scans, rapid patching, and IOCs. Goals such as initial access, discovery, 
+and credential access are commonly used to gain and expand access within an environment with 
+an ultimate objective of stealing information through collection and exfiltration. One example of the former is 
+Credential Dumping [10] for Credential Access where dumping credentials is one method of 
+gaining access to new credentials—and credentials can be dumped in several different ways. How many different ways can it be performed with existing 
+adversary malware and other tools? • Many adversary groups use this technique, which is a component of tools, scripts, and 
+malware. The resulting code execution can be used for a 
+number of purposes, including adding or modifying information, gaining access to a system, 
+causing the server to download and execute other code which may result in persistence, 
+credential access, privilege escalation, collection, and exfiltration. • Fundamentally, SQLi is exploiting a vulnerability in web application software due to 
+poor code design and is not a benign behavior that an adversary could use for some 
+purpose. • SQLi is a predominant vulnerability that occurs frequently across many different types of 
+web applications, regardless of language or platform they are written in. Depending on 
+the tool and how it is used, it may create an enormous amount of traffic against an 
+internally accessible web server. • Adversaries have been known to use SQLi as a means of gaining access to externally 
+available web servers. Conclusions: 
+• The context in which SQLi fits within an adversary’s tactical goals puts it within attempts 
+to gain access to a system through an existing software vulnerability. An example is for 
+initial access in a network compromise by compromising an externally facing application. • SQLi is a variation of an exploitation technique against a specific software technology 
+and is an appropriate abstraction within how an adversary performs initial compromise. Even though 
+ATT&CK focuses on how adversaries compromise and operate within computer information 
+networks and related technologies, the methodology behind how it was built can be applied to 
+other areas. Adoption of ATT&CK is widespread across multiple disciplines, including intrusion detection, 
+threat hunting, security engineering, threat intelligence, red teaming, and risk management. [11] FIRST, "Common Vulnerability Scoring System v3.0: Specification Document," 2018. [Accessed 16 March 2020].

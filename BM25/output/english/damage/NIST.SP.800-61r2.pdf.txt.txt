@@ -1,0 +1,90 @@
+ ......................................................25 
+3.2.2 
+Signs of an Incident ......................................................................................26 
+3.2.3 
+Sources of Precursors and Indicators ...........................................................27 
+3.2.4 
+Incident Analysis ..........................................................................................28 
+3.2.5 
+Incident Documentation ................................................................................30 
+3.2.6 
+Incident Prioritization ....................................................................................32 
+3.2.7 
+Incident Notification ........... An incident response capability is therefore necessary for rapidly detecting incidents, 
+minimizing loss and destruction, mitigating the weaknesses that were exploited, and restoring IT services.  Loss or Theft of Equipment: The loss or theft of a computing device or media used by the 
+organization, such as a laptop or smartphone. Incidents should be prioritized based on the relevant factors, 
+such as the functional impact of the incident (e.g., current and likely future negative impact to business 
+functions), the information impact of the incident (e.g., effect on the confidentiality, integrity, and 
+availability of the organization’s information), and the recoverability from the incident (e.g., the time and 
+types of resources that must be spent on recovering from the incident). 2.1 
+Events and Incidents 
+An event is any observable occurrence in a system or network. Incident response helps personnel to minimize 
+loss or theft of information and disruption of services caused by incidents. Otherwise, sensitive information 
+regarding incidents may be provided to unauthorized parties, potentially leading to additional disruption 
+and financial loss. The incident handlers analyze the 
+incident data, determine the impact of the incident, and act appropriately to limit the damage and restore 
+normal services. Real-time availability is the best for incident response because the longer 
+an incident lasts, the more potential there is for damage and loss. Larger teams often assign an incident lead as the primary POC for handling a 
+specific incident; the incident lead is held accountable for the incident’s handling. The incident response plan should also indicate how often incident handlers 
+should be trained and the requirements for incident handlers. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+26 
+ Loss or Theft of Equipment: The loss or theft of a computing device or media used by the 
+organization, such as a laptop, smartphone, or authentication token. Logs can be used for 
+analysis by correlating event information. Depending on the event information, an alert can be 
+generated to indicate an incident. Given the occurrence of indicators, however, it is 
+reasonable to suspect that an incident might be occurring and to act accordingly. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+32 
+3.2.6 Incident Prioritization 
+Prioritizing the handling of the incident is perhaps the most critical decision point in the incident handling 
+process. An organization can best quantify the effect of its own incidents because of its situational awareness. Functional Impact Categories 
+Category 
+Definition 
+None 
+No effect to the organization’s ability to provide all services to all users 
+Low 
+Minimal effect; the organization can still provide all critical services to all users but has lost 
+efficiency  
+Medium 
+Organization has lost the ability to provide a critical service to a subset of system users 
+High 
+Organization is no longer able to provide some critical services to any users 
+ 
+Table 3-3 provides examples of possible information impact categories that describe the extent of 
+information compromise that occurred during the incident. Another potential issue regarding containment is that some attacks may cause additional damage when 
+they are contained. Handlers should not 
+assume that just because a host has been disconnected from the network, further damage to the host has 
+been prevented. A detailed log should be kept for all evidence, including the following: 
+ Identifying information (e.g., the location, serial number, model number, hostname, media access 
+control (MAC) addresses, and IP addresses of a computer) 
+ Name, title, and phone number of each individual who collected or handled the evidence during the 
+investigation 
+ Time and date (including time zone) of each occurrence of evidence handling 
+ Locations where the evidence was stored.  Perform event correlation. For example, a small organization that identifies a 
+particularly complex instance of malware on its network may not have the in-house resources to fully 
+analyze the malware and determine its effect on the system. 4.3.2 Technical Information 
+There are many different types of technical indicators signifying the occurrence of an incident within an 
+organization. 2 
+Incident Handler Data Elements 
+ Current Status of the Incident Response 
+ Summary of the Incident 
+ Incident Handling Actions 
+– Log of actions taken by all handlers 
+– Contact information for all involved parties 
+– List of evidence gathered 
+ Incident Handler Comments 
+ Cause of the Incident (e.g. , misconfigured application, unpatched host) 
+ Cost of the Incident 
+ Business Impact of the Incident49 
+ 
+ 
+ 
+                                                      
+49  
+The business impact of the incident could either be a description of the incident’s effect (e.g., accounting department unable 
+to perform tasks for two days) or an impact category based on the cost (e.g., a “major” incident has a cost of over $100,000). Event: Any observable occurrence in a network or system. Threat: The potential source of an adverse event. What is an incident? Incident handling is the process of detecting and analyzing incidents and limiting the incident’s 
+effect. The team receives information on possible incidents, investigates them, and takes action to ensure 
+that the damage caused by the incidents is minimized. Generally, the highest priority is handling incidents that are likely to cause 
+the most damage to the organization or to other organizations.

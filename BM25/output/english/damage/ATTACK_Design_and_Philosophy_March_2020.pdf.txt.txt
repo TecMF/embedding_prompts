@@ -1,0 +1,24 @@
+ Is it important that all relevant instances of a technique 
+being seen get tagged with an ATT&CK mapping even if it may not have been performed due to 
+a real incident? There should be 
+enough information and references to point toward 
+useful defensive methodologies. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. For detection, 
+oftentimes defensive analysts are presented with alerts with little to no context about the event 
+that caused the alert. Defenders in this context refer to threat hunters, malware analysts, and incident 
+responders. The 
+mid-level model is also a useful construct to tie in threat intelligence and incident data to show 
+who is doing what as well as the prevalence of use for particular techniques. Analysts should also use caution and not assume 
+a technique was used if it is not explicitly stated or could not have happened in any other way 
+during the reported incident. [Accessed 16 March 2020].

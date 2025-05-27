@@ -1,0 +1,1681 @@
+EB20-MF-10.107
+Manual de Fundamentos
+INTELIGÊNCIA MILITAR TERRESTRE
+2a Edição
+     2015
+MINISTÉRIO DA DEFESA
+EXÉRCITO BRASILEIRO
+ESTADO-MAIOR DO EXÉRCITO
+MINISTÉRIO DA DEFESA 
+EXÉRCITO BRASILEIRO 
+ESTADO-MAIOR DO EXÉRCITO 
+Manual de Fundamentos 
+INTELIGÊNCIA MILITAR TERRESTRE 
+2ª Edição 
+2015 
+EB20-MF-10.107
+ 
+ 
+ 
+Capítulo 1PORTARIA Nº 031-EME, DE 23 DE FEVEREIRO DE 2015. 
+Aprova o Manual de Fundamentos                
+EB20-MF-10.107 
+Inteligência 
+Militar 
+Terrestre, 2ª Edição, 2015. 
+O CHEFE DO ESTADO-MAIOR DO EXÉRCITO, no uso da 
+atribuição que lhe confere o inciso VIII do art. 5º do Regulamento do Estado-
+Maior do Exército (R-173), aprovado pela Portaria do Comandante do Exército 
+nº 514, de 29 de junho de 2010, e de acordo com o que estabelece o art. 43 
+das Instruções Gerais para as Publicações Padronizadas do Exército (EB10-
+IG-01.002), aprovadas pela Portaria nº 770, de 7 de dezembro de 2011, 
+resolve: 
+ 
+Art. 1º Aprovar o Manual de Fundamentos EB20-MF-10.107 
+INTELIGÊNCIA MILITAR TERRESTRE, 2ª Edição, 2015, que com esta baixa. 
+     
+Art. 2º Determinar que esta Portaria entre em vigor na data de sua 
+publicação. 
+ 
+Art. 3º Revogar a Portaria nº 02-EME, de 8 de janeiro de 2015. 
+ 
+ 
+ 
+ 
+ 
+Gen Ex ADHEMAR DA COSTA MACHADO FILHO 
+Chefe do Estado-Maior do Exército 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (Publicado no Boletim do Exército nº 9 de 27 de fevereiro de 2015) 
+ 
+FOLHA REGISTRO DE MODIFICAÇÕES (FRM) 
+NÚMERO 
+ DE ORDEM 
+ATO DE 
+APROVAÇÃO 
+PÁGINAS 
+AFETADAS 
+DATA 
+ 
+ 
+ 
+ 
+ÍNDICE DE ASSUNTOS 
+PREFÁCIO 
+CAPÍTULO I - INTRODUÇÃO 
+1.1 Finalidade ................................................................................................................ 1-1 
+1.2 Considerações iniciais ............................................................................................. 1-1 
+1.3 Estrutura Conceitual ................................................................................................ 1-1 
+CAPÍTULO II - O CONHECIMENTO DE INTELIGÊNCIA 
+2.1 Considerações gerais .............................................................................................. 2-1 
+2.2 Conhecimento de Inteligência .................................................................................. 2-1 
+CAPÍTULO III – DISCIPLINAS DE INTELIGÊNCIA 
+3.1 Considerações gerais .............................................................................................. 3-1 
+3.2 Inteligência de Fontes Humanas (HUMINT) ............................................................ 3-1 
+3.3 Inteligência de Imagens (IMINT) .............................................................................. 3-2 
+3.4 Inteligência Geográfica (GEOINT) ........................................................................... 3-2 
+3.5 Inteligência por Assinatura de Alvos (MASINT) ....................................................... 3-3 
+3.6 Inteligência de Fontes Abertas (OSINT) .................................................................. 3-3 
+3.7 Inteligência de Sinais (SIGINT) ................................................................................ 3-4 
+3.8 Inteligência Cibernética (CYBINT) ........................................................................... 3-4 
+3.9 Inteligência Técnica (TECHINT) .............................................................................. 3-4 
+3.10 Inteligência Sanitária (MEDINT) ............................................................................. 3-5 
+CAPÍTULO IV - INTELIGÊNCIA MILITAR 
+4.1 Considerações gerais .............................................................................................. 4-1 
+4.2 Conceitos e Objetivos da Inteligência Militar ........................................................... 4-1 
+4.3 Princípios Básicos da Inteligência Militar ................................................................. 4-1 
+4.4 Emprego da Inteligência Militar ................................................................................ 4-2 
+4.5 Níveis da Inteligência Militar .................................................................................... 4-3 
+4.6 A Função de Combate Inteligência .......................................................................... 4-5 
+CAPÍTULO V - RAMOS DA INTELIGÊNCIA MILITAR 
+5.1 Considerações gerais .............................................................................................. 5-1 
+5.2 Ramo Inteligência .................................................................................................... 5-1 
+5.3 Ramo Contrainteligência .......................................................................................... 5-2 
+CAPÍTULO VI - O CICLO DE INTELIGÊNCIA MILITAR 
+6.1 Considerações gerais .............................................................................................. 6-1 
+6.2 Fase de Orientação ................................................................................................. 6-2 
+6.3 Fase de Obtenção ................................................................................................... 6-2 
+6.4 Fase de Produção .................................................................................................... 6-4 
+6.5 Fase de Difusão ....................................................................................................... 6-5 
+CAPÍTULO VII - O SISTEMA DE INTELIGÊNCIA DO EXÉRCITO 
+7.1 Considerações gerais .............................................................................................. 7-1 
+7.2 Concepção do SIEx ................................................................................................. 7-1 
+7.3 Estruturação do SIEx ............................................................................................... 7-2 
+GLOSSÁRIO 
+PREFÁCIO 
+Os conflitos atuais tendem a ser limitados, não declarados, convencionais ou não, e de 
+duração imprevisível. As ameaças são fluidas, difusas e também imprevisíveis. Tudo isso 
+exige que o preparo da Força Terrestre (F Ter) seja baseado em capacidades, 
+significando isto dispor de forças militares capazes de atuar nas diversas operações, 
+dotadas de flexibilidade, versatilidade e mobilidade.  
+O combate ao terrorismo, a proteção da sociedade contra as armas de destruição em 
+massa, a participação em missões de manutenção e/ou imposição da paz sob a égide 
+de organismos internacionais, e o controle de contingentes populacionais ou de 
+recursos escassos (energia, água ou alimentos) demandam capacidades à F Ter que 
+permitam respostas imediatas e pontuais, com o mínimo de efeitos colaterais. 
+No cenário complexo da atualidade, um componente fundamental a ser considerado pela 
+análise de inteligência é a presença da população civil em áreas que podem sofrer 
+atuação de forças hostis. As operações militares podem estar se desenvolvendo 
+prevalentemente em áreas humanizadas, e a preservação de vidas humanas, imersas ou 
+não em conflitos ou catástrofes, caracteriza os perfis preditivo e preventivo da Inteligência. 
+Diante desse quadro, a incorporação de novos conceitos doutrinários pelas Forças 
+Armadas e, em particular, pela F Ter, traz reflexos diretos para as atividades e tarefas 
+relacionadas à Inteligência.  
+Assim, toda publicação doutrinária e particularmente a inteligência necessita de uma 
+permanente atualização, em virtude das mudanças na natureza dos conflitos e da 
+necessidade de se adaptar aos procedimentos dos meios disponíveis em cada momento. 
+EB20-MF-10.107 
+1-1 
+ 
+1.1 FINALIDADE 
+1.2 CONSIDERAÇÕES INICIAIS 
+1.3 ESTRUTURA CONCEITUAL 
+CAPÍTULO I 
+INTRODUÇÃO 
+ 
+1.1 FINALIDADE 
+1.1.1 Este manual tem por finalidade orientar o 
+exercício da Atividade de Inteligência Militar (AIM) 
+e a atuação dos órgãos integrantes do Sistema de 
+Inteligência do Exército (SIEx). 
+1.1.2 Apresentar os fundamentos doutrinários da 
+Inteligência Militar (IM), bem como a abrangência das disciplinas de inteligência 
+atualmente empregada em áreas de interesse da Força Terrestre (F Ter), influenciando 
+nas operações militares. 
+ 
+1.2 CONSIDERAÇÕES INICIAIS 
+1.2.1 A necessidade de atuar no Amplo Espectro dos conflitos demanda que os 
+decisores da F Ter, em todos os níveis, possam compreender como agem as forças 
+presentes, o terreno onde provavelmente irão conduzir as operações e os efeitos que as 
+condições meteorológicas e outros fatores exercerão sobre elas. Esses aspectos, a serem 
+analisados de forma permanente e disponibilizados com oportunidade, constituem o farol 
+da Inteligência Militar Terrestre. 
+1.2.2 O trabalho da Inteligência Militar em operações é vital para o planejamento e 
+execução dos planos de campanha, principalmente na sua vertente preditiva, permitindo 
+que os comandantes possam ter constante consciência situacional. 
+1.2.3 A Inteligência Militar, em qualquer nível de atuação, possui como denominador 
+comum a permanente identificação das ameaças, minimizando incertezas e buscando 
+oportunidades para o sucesso das operações. 
+1.2.4 Esses desafios exigem que o profissional de Inteligência utilize todas as 
+ferramentas disponíveis para moldar os fatores de decisão. Ao amador, no sentido mais 
+puro do vernáculo, transferem-se lições iniciais de um longo aprendizado. O profissional e 
+o amador atuam planejando e implementando a progressão no espaço e no tempo com a 
+salvaguarda inerente à proteção de cada passo. 
+ 
+1.3 ESTRUTURA CONCEITUAL 
+1.3.1 Este manual estabelece uma série de conceitos basilares para a padronização e o 
+entendimento dos fundamentos da Inteligência Militar Terrestre. O capítulo II, “O 
+Conhecimento de Inteligência”, apresenta uma abordagem orientada para o entendimento 
+da hierarquia cognitiva da consciência situacional. Esclarece o modo como o dado se 
+transforma em conhecimento de inteligência, essencial para que os comandantes e seus 
+estados-maiores possam realizar seus planejamentos operacionais. 
+1.3.2 O capítulo destinado à apresentação das disciplinas de inteligência explicita, de 
+forma simples, as áreas de estudo e aplicação da inteligência hoje em vigor no mundo, 
+quer no meio civil, quer em ambientes militares. Neste capítulo serão utilizadas as siglas 
+EB20-MF-10.107 
+1-2 
+de emprego universal que designam as formas de aplicação do conceito de inteligência 
+aplicada. 
+1.3.3 Sobre a Inteligência Militar, foi descrita a busca permanente pela redução do grau 
+de incerteza existente nos diversos ambientes operacionais. Para isso, é fundamental a 
+análise e integração dos dados obtidos pelos diversos sensores. A identificação das 
+ameaças e oportunidades é o primeiro dos resultados que a IM deve fornecer aos 
+comandantes. Aqui, a Função de Combate Inteligência é apresentada e são definidos os 
+seus diversos níveis. 
+1.3.4 No capítulo V - Ramos da Inteligência Militar -, apresenta-se a distinção entre 
+Inteligência e Contrainteligência e destaca-se a sua permanente conexão, uma vez que 
+as atividades e tarefas de cada uma devem ser colaborativas entre si. Além disso, não 
+existe, na prática, uma definição clara do limite de abrangência de cada ramo. 
+1.3.5 O Ciclo de Inteligência apresenta a sequência de trabalho concebida com a 
+finalidade de dar maior credibilidade aos conhecimentos produzidos. Para facilitar o 
+entendimento do ciclo, foi incluída a fase de obtenção. É a fase crítica na qual os 
+sensores obtêm os dados que serão processados, analisados e, por fim, difundidos aos 
+comandantes e seus estados-maiores, conforme as orientações estabelecidas. 
+1.3.6 O funcionamento do Sistema de Inteligência do Exército (SIEx) é baseado nas 
+ações de obtenção, análise e suporte. A sua estrutura capilar permite que todos os 
+escalões do Exército Brasileiro (EB) disponham de meios adequados para produzirem os 
+conhecimentos necessários ao planejamento e condução das operações. 
+1.3.7 Por fim, o manual inclui um glossário de termos e definições utilizados pela 
+Inteligência Militar, para facilitar e dissipar a possibilidade de equívocos de interpretação. 
+Considerou-se que muitos dos termos empregados pela Inteligência são abstratos por 
+natureza e, por isso, haveria a possibilidade de serem interpretados de várias formas, 
+caso não houvesse essa padronização de significado. 
+ 
+ 
+EB20-MF-10.107 
+2-1 
+ 
+2.1 CONSIDERAÇÕES GERAIS 
+2.2 CONHECIMENTO DE INTELIGÊNCIA 
+ 
+ 
+CAPÍTULO II 
+O CONHECIMENTO DE INTELIGÊNCIA 
+ 
+ 
+2.1 CONSIDERAÇÕES GERAIS 
+2.1.1 
+O 
+correto 
+entendimento 
+dos 
+dados 
+processados é essencial para o planejamento e 
+execução das operações militares, desde o nível 
+tático até o estratégico. As informações são o 
+resultado do processamento, manipulação e 
+organização dos dados. 
+2.1.2 As informações relevantes são analisadas e transformadas em conhecimento. Esse 
+conhecimento é fundamental para que os comandantes e seus estados- maiores possam 
+ter um melhor entendimento da situação, contribuindo para a obtenção da necessária 
+consciência situacional. 
+Fig 2-1 Hierarquia cognitiva da consciência situacional 
+ 
+2.2 CONHECIMENTO DE INTELIGÊNCIA 
+2.2.1 Para a Inteligência Militar, conhecimento é o dado que foi processado, analisado e 
+julgado relevante. Ele deve contribuir para o entendimento do terreno, do dispositivo e das 
+intenções do inimigo (forças oponentes, hostis ou adversárias), das condições 
+meteorológicas e das considerações civis. 
+2.2.2 Os integrantes dos estados-maiores, em operações militares, realizam os seus 
+respectivos Exames de Situação baseados nos conhecimentos de Inteligência disponíveis 
+sobre as forças oponentes ou adversárias, o terreno, as condições meteorológicas e as 
+considerações civis (população). 
+EB20-MF-10.107 
+2-2 
+2.2.3 A abrangência da Inteligência militar em operações militares inclui os conceitos de 
+ambiente operacional (Amb Op), Espaço de Batalha e consciência situacional. 
+2.2.4 O Amb Op pode ser caracterizado por um conjunto de fatores que interagem entre 
+si, de forma específica em cada situação, a partir de três dimensões: a física, a humana e 
+a informacional. 
+2.2.5 Para a Inteligência Militar, interessam as condições, circunstâncias e influências que 
+podem afetar o desempenho das atividades e tarefas necessárias ao cumprimento da 
+missão recebida. A compreensão do Amb Op é fundamental para o planejamento e a 
+condução das operações. 
+2.2.6 Tradicionalmente, o foco da análise do Amb Op era concentrado na dimensão física, 
+considerando a preponderância dos fatores terreno e condições meteorológicas sobre as 
+operações. As variações no caráter e na natureza do conflito, resultantes das mudanças 
+tecnológicas e sociais, impõem uma visão que também considere as influências das 
+dimensões humana e informacional sobre as operações militares e vice-versa. 
+2.2.7 O Espaço de Batalha é a dimensão física e virtual onde ocorrem e repercutem os 
+combates, abrangendo as expressões política, econômica, militar, científico- tecnológica e 
+psicossocial do poder, que interagem entre si e entre os beligerantes. Compreende todas 
+as dimensões, tangíveis e intangíveis, nas quais o comandante deve aplicar o Poder de 
+Combate. O Campo de Batalha está incluído no Espaço de Batalha. 
+2.2.8 O domínio da situação de um Amb Op e no Espaço de Batalha só pode ser obtido a 
+partir da consciência situacional, um estado mental alcançado pelo decisor que aproxima 
+a situação percebida da situação real. 
+2.2.9 A consciência situacional é obtida mediante análise e julgamento dos 
+conhecimentos e informações relevantes, com vistas a determinar as relações entre os 
+fatores operativos e de decisão. Este estado é atingido por intermédio da disponibilidade 
+de conhecimentos e da habilidade no trato das informações que, associadas à 
+experiência profissional, às crenças e valores de um indivíduo, o colocam em vantagem 
+operacional em relação ao seu oponente. 
+2.2.10 O Estudo de Situação de Inteligência é parte fundamental em qualquer processo 
+decisório. Quando em operações militares, a sua condução é caracterizada pela 
+execução metodológica de tarefas relativas à integração do Terreno – Condições 
+Meteorológicas – Inimigo – Considerações Civis, também conhecida pela sigla PITCIC. 
+2.2.11 O PITCIC é um processo cíclico de caráter gráfico que permite, mediante análise 
+integrada, a visualização das possibilidades do inimigo e de seus possíveis objetivos, em 
+apoio ao Exame de Situação, particularmente durante a montagem das linhas de ação     
+(L Aç). 
+2.2.12 O Estudo de Situação de Inteligência obtém conclusões sobre as possibilidades e 
+vulnerabilidades do inimigo, estimando as suas prováveis L Aç; sobre o terreno, 
+identificando de que forma poderá afetar as ações das forças amigas e inimigas 
+(adversárias ou oponentes); sobre as condições meteorológicas, concluindo como podem 
+afetar as operações; e sobre as considerações civis. 
+ 
+ 
+ 
+ 
+EB20-MF-10.107 
+2-3 
+Fig 2-2 O ciclo de inteligência e a consciência situacional 
+EB20-MF-10.107 
+3-1 
+3.1 CONSIDERAÇÕES GERAIS 
+3.2 INTELIGÊNCIA DE FONTES HUMANAS 
+3.3 INTELIGÊNCIA DE IMAGENS 
+3.4 INTELIGÊNCIA GEOGRÁFICA 
+3.5 INTELIGÊNCIA POR ASSINATURA DE 
+ALVOS 
+3.6 INTELIGÊNCIA DE FONTES ABERTAS 
+3.7 INTELIGÊNCIA DE SINAIS 
+3.8 INTELIGÊNCIA CIBERNÉTICA 
+3.9 INTELIGÊNCIA TÉCNICA 
+3.10 INTELIGÊNCIA SANITÁRIA 
+ 
+ 
+CAPÍTULO III 
+DISCIPLINAS DE INTELIGÊNCIA 
+ 
+ 
+3.1 CONSIDERAÇÕES GERAIS 
+3.1.1 As disciplinas de Inteligência 
+compreendem os meios, sistemas e 
+procedimentos 
+utilizados 
+para 
+observar, 
+explorar, 
+armazenar 
+e 
+difundir 
+informação 
+referente 
+à 
+situação, ameaças e outros fatores do 
+entorno 
+operativo. 
+As 
+disciplinas 
+clássicas de Inteligência classificam-se 
+de acordo com a natureza da fonte ou 
+do órgão de obtenção que a explora. 
+ 
+ 
+ 
+ 
+3.2 INTELIGÊNCIA DE FONTES HUMANAS 
+3.2.1 A Inteligência de Fontes Humanas (Human Intelligence - HUMINT) é a Inteligência 
+que provêm de dados e informações obtidas por fontes humanas. 
+3.2.2 Fonte HUMINT é a pessoa de quem se obtém a informação para posterior produção 
+de conhecimento de Inteligência. Essas fontes podem ser amigas, neutras ou hostis, 
+podendo ser prisioneiro de guerra, refugiado, deslocado, população local, forças próprias 
+ou amigas e membros de instituições governamentais ou organizações de qualquer tipo. 
+De igual maneira, a fonte pode ter a informação de primeira ou segunda mão, geralmente 
+obtida de forma visual ou oral. 
+3.2.3 Operador HUMINT é a pessoa que está especialmente adestrada para obter 
+informações de fontes humanas com a finalidade de responder às necessidades de 
+Inteligência. Somente os operadores HUMINT são autorizados a realizar atividades 
+HUMINT propriamente ditas. 
+3.2.4 Independentemente do expresso no parágrafo anterior, é muito importante ressaltar 
+que todo integrante da Força Terrestre é um sensor que pode e deve levantar dados e 
+informações e que, para tanto, contribui com o esforço de produção de conhecimento 
+HUMINT. É muito conveniente que a tropa, ou pelo menos algumas de suas frações, 
+tenha instrução de técnicas HUMINT básicas com a finalidade de agilizar a obtenção da 
+informação. 
+3.2.5 A Companhia de Sensores de Fontes Humanas do Batalhão de Inteligência Militar 
+(BIM), no nível tático, é a estrutura responsável por coordenar e gerenciar as atividades 
+EB20-MF-10.107 
+3-2 
+HUMINT com a finalidade de maximizar a utilização dos meios dessa disciplina de 
+Inteligência. 
+ 
+“Em geral, os homens julgam mais pelos olhos do que pela inteligência, pois todos 
+podem ver, mas poucos podem compreender o que veem”. 
+Nicolau Maquiavel (1469-1527) 
+ 
+3.3 INTELIGÊNCIA DE IMAGENS 
+3.3.1 A Inteligência de imagem (Imagery Intelligence - IMINT) é proveniente da análise de 
+imagens fixas e de vídeo, obtidas por meio de fotografia, radar e sensor electro-óptico de 
+tipo térmico, infravermelho ou de amplo espectro, que podem estar em terra ou situados 
+em plataformas navais, aéreas ou espaciais. Esta disciplina é uma componente 
+fundamental da Inteligência Geográfica (GEOINT). 
+3.3.2 Assim como a observação humana direta, a IMINT é a única disciplina de 
+Inteligência que permite a visualização da área de operações em tempo real ou quase 
+real. Quando não existem cartas militares e mapas, as imagens proporcionadas pela 
+IMINT podem ser utilizadas em sua substituição. De igual forma, essas imagens podem 
+ser utilizadas para a atualização de cartas militares e mapas existentes, para a realização 
+do PITCIC e como apoio ao planejamento operativo. 
+3.3.3 Existem diversos tipos de meios de obtenção de imagens: satélitais (militares e 
+comerciais) e plataformas aéreas (asa fixa, rotatória, ARP etc.) ou terrestres. 
+3.3.4 Os meios de reconhecimento de caráter operacional proporcionam cobertura de 
+imagens de média e alta resolução de todo o teatro de operações. A principal missão 
+desses meios é a de proporcionar o apoio necessário ao nível operacional para o 
+desenvolvimento de campanhas e operações principais. 
+3.3.5 Os meios táticos devem ser capazes de proporcionar imagens de toda a área de 
+operações, dando resposta às necessidades de Inteligência do comandante. Esses meios 
+devem ser orgânicos e, portanto, de disponibilidade e uso exclusivo do comandante tático. 
+ 
+3.4 INTELIGÊNCIA GEOGRÁFICA 
+3.4.1 A Inteligência Geográfica (Geospatial Intelligence - GEOINT) é a Inteligência 
+proveniente da exploração e análise de imagens e informações geográficas com a 
+finalidade de definir, avaliar e representar de forma georreferenciada tanto as 
+características físicas como as atividades que ocorrem na superfície terrestre. Desta 
+forma, GEOINT é uma integração de imagens, IMINT e informações geográficas. 
+3.4.2 O conceito “imagem” engloba toda fotografia (analógica ou digital) de qualquer 
+elemento da terra, natural ou artificial, adquirida mediante satélites, plataformas aéreas de 
+asa fixa ou móvel e outros meios similares que refletem a realidade física existente. 
+3.4.3 Se essas imagens ou fotografias previamente georreferenciadas são analisadas e 
+interpretadas, de forma a se obter informações técnicas, geográficas ou Inteligência, 
+convertem-se em IMINT. 
+EB20-MF-10.107 
+3-3 
+ 
+3.4.4 O terceiro componente de GEOINT é a informação geográfica. Esta se define como 
+a informação que identifica a localização geográfica e as características dos elementos ou 
+objetos, sejam naturais ou artificiais, da Terra. 
+3.4.5 A informação geográfica é composta por dados estatísticos e geodésicos e por 
+informações procedentes de diversas fontes como a topografia, cartografia, aeronáutica, 
+hidrográfica e que pode encontrar-se e ser apresentada em diferentes suportes (papel ou 
+digital) e formatos (mapas, cartas, fichas digitais etc.). 
+3.4.6 A GEOINT tem como área de atuação todas as dimensões do espaço de batalha. 
+Por isso, esta disciplina de Inteligência é eminentemente de caráter conjunto, ainda que 
+as necessidades finais de cada uma das Forças Armadas sejam muito diferentes. 
+ 
+3.5 INTELIGÊNCIA POR ASSINATURA DE ALVOS 
+3.5.1 A Inteligência por Assinatura de Alvos (Measurement and Signature Intelligence - 
+MASINT) é a Inteligência proveniente da análise científica e técnica de dados obtidos de 
+fontes emissoras com o propósito de identificar as características específicas associadas 
+a essas fontes, facilitando sua posterior identificação. 
+3.5.2 A MASINT proporciona Inteligência ao Comando em todo o espectro de conflito, 
+podendo sobrepujar a maioria das técnicas de camuflagem, ocultação e dissimulação 
+utilizadas na atualidade para evitar o acionamento dos meios de busca do sistema IRVA. 
+3.5.3 Mediante uma análise e difusão em tempo quase real, a MASINT pode proporcionar 
+ao comandante uma visão da situação que não pode ser medida por outras disciplinas. 
+Assim, os meios MASINT têm capacidades únicas para detectar lançamento de mísseis, 
+detectar e seguir plataformas aéreas, embarcações e veículos em geral, colaborar com a 
+avaliação dos efeitos do combate e na detecção e monitoramento de chuva radioativa 
+provocada por armamento nuclear. 
+3.5.4 Os sistemas MASINT mais comuns na atualidade são os utilizados por elementos 
+de vigilância e reconhecimento terrestre e por reconhecimentos QBN. 
+3.5.5 A MASINT é derivada da coleta e comparação de um vasto leque de emissões com 
+uma base de dados científicos e técnicos catalogados para identificar o equipamento ou a 
+fonte das emissões. Os dados obtidos pela MASINT são dirigidos, principalmente, para o 
+sistema de Inteligência do nível estratégico. 
+ 
+3.6 INTELIGÊNCIA DE FONTES ABERTAS 
+3.6.1 A Inteligência de Fontes Abertas (Open Source Intelligence - OSINT) é a Inteligência 
+baseada em informações coletadas de fontes de caráter público, tais como os meios de 
+comunicação (rádio, televisão e jornais), propaganda de estado, periódicos técnicos, 
+internet, manuais técnicos e livros. 
+3.6.2 Os produtos OSINT reduzem as demandas às outras disciplinas de Inteligência, de 
+maneira que essas se dediquem somente a obter dados que não possam ser adquiridos 
+pelas fontes abertas. 
+3.6.3 Os órgãos de Inteligência devem conhecer a fundo as fontes abertas disponíveis: 
+quais são elas, sua confiabilidade e validade, como acessá-las etc. 
+3.6.4 A comunidade de Inteligência sempre usou fontes abertas na produção de 
+conhecimento. A legislação sobre o acesso à informação produzida por órgãos públicos, 
+EB20-MF-10.107 
+3-4 
+ao redor do mundo, possibilita a obtenção de dados e informações sensíveis de Estados, 
+organizações e instituições, o que é facilitado pela internet. A OSINT é a fonte básica de 
+Inteligência. 
+ 
+3.7 INTELIGÊNCIA DE SINAIS 
+3.7.1 A Inteligência de Sinais (Signals Intelligence - SIGINT) é toda Inteligência derivada 
+do espectro eletromagnéticos. Subdivide-se em: 
+a) Inteligência de Comunicações (COMINT) – é a Inteligência derivada de comunicações 
+eletromagnéticas e sistemas de comunicações; inteligência obtida de dados adquiridos 
+pela interceptação de comunicações e dados de forças adversas; e 
+b) Inteligência Eletrônica (ELINT) – é a Inteligência decorrente de transmissões 
+eletromagnéticas de não-comunicações, tais como as produzidas por radares, por 
+sistemas de orientação de mísseis, lasers, dispositivos infravermelhos ou qualquer outro 
+equipamento que produza emissões no espectro eletromagnético. Ao comparar 
+informações sobre os parâmetros da emissão que foi interceptada com assinaturas de 
+equipamentos armazenados em uma base de dados, pode ser obtido conhecimento 
+valioso sobre o equipamento e seu operador. 
+3.7.2 Uma tarefa fundamental dos operadores SIGINT é buscar conhecer como as forças 
+adversas utilizam o espectro eletromagnético no ambiente operacional, devendo criar e 
+manter, desde o período de normalidade, uma ampla base de dados. 
+3.7.3 A SIGINT e a Guerra Eletrônica (GE) estão fortemente inter-relacionadas, já que as 
+atividades 
+de 
+busca, 
+interceptação, 
+identificação 
+e 
+localização 
+de 
+emissões 
+eletromagnéticas são comuns a ambas. Utilizam, ainda, equipamentos e técnicas 
+similares. Entretanto, a finalidade dessas atividades e o uso do dado obtido são distintos. 
+ 
+3.8 INTELIGÊNCIA CIBERNÉTICA 
+3.8.1 A Inteligência Cibernética (Cyber Intelligence - CYBINT) é a Inteligência elaborada a 
+partir de dados, protegidos ou não, obtidos no espaço cibernético. Este, por sua vez, é 
+caracterizado como o espaço virtual composto por dispositivos computacionais 
+conectados em rede, onde informações digitais trafegam, são processadas ou 
+armazenadas. 
+ 
+3.9 INTELIGÊNCIA TÉCNICA 
+3.9.1 A Inteligência Técnica (Technical Intelligence - TECHINT) é a Inteligência obtida da 
+análise de equipamentos tecnológicos e de material com possibilidade de utilização 
+militar. 
+3.9.2 A TECHINT tem o propósito de evitar a surpresa tecnológica e avaliar novas 
+capacidades técnicas e científicas, de maneira que se possa desenvolver contramedidas 
+adequadas que neutralizem as vantagens que essas capacidades proporcionam a quem 
+as utilize. 
+3.9.3 A TECHINT utiliza metodologia científica em sua análise, proporcionando um 
+conhecimento em detalhes de aspectos fundamentais do ambiente operacional. Os 
+analistas TECHINT empregam processos biométricos e forenses para a produção de 
+EB20-MF-10.107 
+3-5 
+ 
+conhecimento sobre a ameaça e suas possíveis formas de atuação, de acordo com as 
+capacidades tecnológicos de que dispõe. 
+ 
+3.10 INTELIGÊNCIA SANITÁRIA 
+3.10.1 A Inteligência Sanitária (Medical Intelligence - MEDINT) é o resultado da análise de 
+dados e informações sanitárias, bio-científicas e epidemiológicas relacionadas com a 
+saúde humana e animal. 
+3.10.2 Este tipo de Inteligência é, em essência, de caráter técnico e requer 
+assessoramento de especialistas sanitários durante as fases de orientação e produção do 
+Ciclo de Inteligência. 
+3.10.3 A MEDINT contribui com a determinação das capacidades sanitárias do Comando 
+correspondente e com o planejamento das medidas sanitárias preventivas necessárias, 
+tanto na fase de preparação da Força Terrestre, como durante seu desdobramento na 
+área de operações. 
+ 
+ 
+EB20-MF-10.107 
+4-1 
+ 
+4.1 CONSIDERAÇÕES GERAIS 
+4.2 CONCEITOS E OBJETIVOS 
+DA INTELIGÊNCIA MILITAR 
+4.3 PRINCÍPIOS 
+BÁSICOS 
+DA 
+INTELIGÊNCIA MILITAR 
+4.4 EMPREGO DA INTELIGÊNCIA 
+MILITAR 
+4.5 NÍVEIS 
+DA 
+INTELIGÊNCIA 
+MILITAR 
+4.6 A FUNÇÃO DE COMBATE 
+INTELIGÊNCIA 
+ 
+ 
+CAPÍTULO IV 
+INTELIGÊNCIA MILITAR 
+ 
+ 
+4.1 CONSIDERAÇÕES GERAIS 
+4.1.1 A Atividade de Inteligência possui uma 
+estrutura peculiar, com processos, meios e 
+métodos que constituem as partes de um corpo 
+único. Torna-se importante o entendimento de 
+conceitos, objetivos e princípios da atividade de 
+inteligência, a fim de melhor realizar o seu 
+emprego. 
+4.1.2 Os conhecimentos de Inteligência são 
+produzidos e difundidos em diferentes níveis de 
+utilização - Estratégico, Operacional e Tático. 
+Embora inter-relacionados, possuem distintos 
+focos, finalidades e alcances temporais. 
+ 
+4.2 CONCEITOS E OBJETIVOS DA INTELIGÊNCIA MILITAR 
+4.2.1 A IM é o conjunto de atividades e tarefas técnico-militares exercidas em caráter 
+permanente, com os objetivos de produzir conhecimentos de interesse dos comandantes 
+e seus estados-maiores, em todos os níveis, bem como proteger conhecimentos 
+sensíveis, instalações e pessoal do EB contra ações da Inteligência oponente. 
+4.2.2 Os conhecimentos sobre o inimigo, terreno, condições meteorológicas, 
+considerações civis e também sobre outros aspectos do Amb Op e do Espaço de Batalha 
+são essenciais para os comandantes e seus estados-maiores. 
+4.2.3 Para tal, todo e qualquer integrante do EB, no exercício de suas funções, é ativo 
+participante do Ciclo de Inteligência (sequência ordenada de atividades por meio dos 
+quais dados são obtidos e conhecimentos são produzidos e colocados à disposição dos 
+usuários de forma racional), como verdadeiros sensores, repassando dados aos 
+elementos especializados para a produção de conhecimentos de Inteligência para os 
+decisores. 
+ 
+4.3 PRINCÍPIOS BÁSICOS DA INTELIGÊNCIA MILITAR 
+4.3.1 Segurança – Em todas as fases de sua produção, o conhecimento deve ser 
+protegido de forma que o seu acesso seja limitado apenas às pessoas credenciadas para 
+tal. 
+4.3.2 Objetividade – Para que seja útil, o conhecimento deve ter sua produção orientada 
+por objetivos claramente definidos. A atenção a esses objetivos, por sua vez, minimiza 
+custos e riscos associados às atividades e tarefas relacionadas à Inteligência. 
+EB20-MF-10.107 
+4-2 
+4.3.3 Controle – A produção do conhecimento de Inteligência deve obedecer a um 
+planejamento que permita adequado controle de cada uma das fases. 
+4.3.4 Flexibilidade – É a capacidade de ajustar rapidamente o emprego de meios e o 
+esforço de busca às constantes evoluções da situação no Espaço de Batalha. 
+4.3.5 Clareza – Os conhecimentos produzidos devem ser expressos de forma a 
+permitirem imediata e completa compreensão por parte dos usuários. 
+4.3.6 Amplitude – Os conhecimentos produzidos devem ser tão completos e abrangentes 
+quanto possível. 
+4.3.7 Imparcialidade – A produção do conhecimento deve estar isenta de ideias 
+preconcebidas, subjetivismos e outras influências que possam gerar distorções. 
+4.3.8 Oportunidade – O conhecimento de Inteligência deve ser produzido em prazo que 
+assegure sua utilização completa e adequada, contribuindo diretamente para potencializar 
+a capacidade do comandante de observar, orientar-se, decidir e agir. Sem dispor de 
+conhecimento oportuno, as ações e decisões dos comandantes serão baseadas em 
+dados incompletos e em uma orientação inadequada, gerando condições para que a 
+iniciativa e a eficácia nas operações sejam cedidas ao oponente. 
+4.3.9 Integração – A produção do conhecimento de Inteligência deve valer-se de dados 
+oriundos de todas as fontes, favorecendo a geração de produtos precisos e completos. 
+4.3.10 Precisão – Deve-se procurar atingir o maior grau de exatidão na obtenção dos 
+dados e na produção dos conhecimentos. A Inteligência precisa é um poderoso 
+multiplicador do poder de combate. 
+4.3.11 Continuidade – A necessidade de conhecimento é permanente. As atividades e 
+tarefas relacionadas à Inteligência são executadas constante e ininterruptamente, sempre 
+adequando-se a cada situação particular. 
+4.3.12 Relevância – O conhecimento produzido deve ser capaz de responder às 
+necessidades dos decisores. 
+4.3.13 Predição – A Inteligência deve informar o comandante acerca do que as ameaças 
+e oportunidades podem provocar. A Inteligência deve procurar antecipar-se às intenções 
+dos comandantes em todos os escalões. 
+ 
+4.4 EMPREGO DA INTELIGÊNCIA MILITAR 
+4.4.1 A Inteligência Militar é empregada basicamente para produzir conhecimento de 
+interesse para o planejamento e o emprego da F Ter em todo o espectro dos conflitos, 
+particularmente em atendimento às situações definidas pela Estratégia Militar de Defesa, 
+em operações ofensivas e defensivas. 
+4.4.2 Assim, no contexto das Operações no Amplo Espectro, a Inteligência Militar atua 
+também em Operações de Pacificação e em Operações de Apoio a Órgãos 
+Governamentais, incluindo as ações de garantia da lei e da ordem e as ações 
+subsidiárias. 
+4.4.2.1 Nestes casos, assessora os comandantes e os estados-maiores quanto às 
+situações e condicionantes que envolvem o emprego nesse tipo de operação. 
+EB20-MF-10.107 
+4-3 
+ 
+4.4.2.2 Atua conforme os termos impostos pelos vários instrumentos legais – leis 
+complementares, 
+decretos, 
+portarias 
+interministeriais, 
+diretrizes 
+governamentais, 
+convênios e outros – que tratam da matéria. 
+4.4.3 Em qualquer situação de emprego, a Inteligência Militar é pautada pelos princípios 
+de preservação da soberania nacional, de defesa do Estado Democrático de Direito e de 
+respeito à dignidade da pessoa humana. 
+4.4.4 A IM Cumpre e preserva os direitos e garantias individuais e demais dispositivos da 
+Constituição Federal e da legislação ordinária, bem como os tratados, convenções, 
+acordos e ajustes internacionais dos quais a República Federativa do Brasil faça parte ou 
+seja signatária. 
+ 
+4.5 NÍVEIS DA INTELIGÊNCIA MILITAR 
+4.5.1 O EB emprega seus meios de Inteligência Militar para atender às necessidades de 
+conhecimento dos comandantes e seus estados-maiores nos níveis estratégico, 
+operacional e tático. 
+4.5.2 Quando do emprego em operações, os comandantes devem contar com uma 
+combinação precisa e adequada de conhecimentos produzidos pela Inteligência Militar, 
+independentemente do escalão em que foram originados (ou processados). 
+4.5.2.1 No nível estratégico, a Inteligência Militar proporciona conhecimentos sobre o 
+oponente em suas expressões do poder, prioritariamente. Nesse nível de atuação, a 
+Inteligência formula as avaliações estratégicas, os planos e as políticas referentes à 
+Segurança e Defesa Nacionais. 
+4.5.2.2 Nos níveis operacional e tático, os esforços da Inteligência Militar estão voltados 
+para os objetivos essenciais da campanha e trabalham para apontar as vulnerabilidades 
+do inimigo que permitam desencadear ações decisivas. 
+4.5.3 Os avanços tecnológicos e as Necessidades de Inteligência (NI) do Espaço de 
+Batalha contribuem para encurtar as distâncias entre os produtos e os meios dos níveis 
+estratégico, operacional e tático. 
+4.5.4 A INTELIGÊNCIA NO NÍVEL ESTRATÉGICO 
+4.5.4.1 Os meios de obtenção que apoiam a Inteligência no nível estratégico podem, 
+também, obter dados que atendam às NI dos níveis operacional e tático. Da mesma 
+forma, estes dois últimos níveis podem cumprir missões do nível estratégico, em 
+determinadas situações. 
+4.5.4.2 O nível Estratégico tem como foco a produção e a salvaguarda de conhecimentos 
+requeridos para a formulação de avaliações estratégicas que consubstanciarão as 
+políticas e os planos militares no mais alto nível, orientados para os Objetivos Nacionais. 
+4.5.4.3 O levantamento permanente de informações sobre as capacidades dos países de 
+interesse, e a sua posterior análise, constituem atribuições prioritárias, embora também 
+seja responsável pelo acompanhamento de áreas de tensão interna que possam 
+comprometer as instituições nacionais, a lei e a ordem. 
+4.5.4.4 No nível Estratégico, a Inteligência Militar é indispensável para o estabelecimento 
+de diretrizes e planos militares nacionais e, em alguns casos, para apoiar a participação 
+de forças brasileiras em coalizões internacionais. O trabalho da Inteligência pode ser 
+conjunto e, em algumas situações, multinacional. 
+EB20-MF-10.107 
+4-4 
+4.5.4.5 Para o desenvolvimento das atividades e tarefas, neste nível, é importante 
+considerar a margem de tempo necessária para que os dados sejam obtidos e, após a 
+análise e integração, interpretados para levantar potenciais ameaças e oportunidades. 
+Assim, a Inteligência, no nível estratégico, é basicamente preditiva. 
+4.5.4.6 No nível estratégico, a Inteligência deve auxiliar os decisores e a equipe de 
+planejadores nos seguintes aspectos: 
+a) definição dos objetivos estratégicos para atender aos objetivos do nível político; 
+b) identificação e definição das ameaças e dos riscos; 
+c) dimensionamento das Forças Componentes para o esforço para operações militares; 
+d) estabelecimento dos critérios, da organização, das missões e do desdobramento das 
+Forças Armadas; 
+e) elaboração de procedimentos de emprego das Forças Componentes; 
+f) delimitação do Teatro ou Área de Operações; 
+g) definição da Logística necessária às operações; e 
+h) percepção da opinião pública. 
+4.5.5 A INTELIGÊNCIA NO NÍVEL OPERACIONAL 
+4.5.5.1 O nível operacional tem por finalidade a produção e a salvaguarda de 
+conhecimentos requeridos para planejar, conduzir e sustentar operações militares, a fim 
+de que sejam alcançados objetivos estratégicos dentro da área de responsabilidade de 
+um Comando Operacional ativado. 
+4.5.5.2 Possui o caráter de continuidade no tempo e é utilizado em situação de paz e de 
+conflito, seja na elaboração e aplicação de planos operacionais, seja na condução de 
+operações militares. Abrange todos os fatores que condicionam o emprego conjunto de 
+meios terrestres, navais e aéreos. 
+4.5.5.3 No nível operacional, a Inteligência deve: 
+a) colaborar na concepção, no planejamento e na condução das campanhas e das 
+principais operações militares; e 
+b) obter conhecimento acerca do Amb Op e das forças hostis presentes, ou que nele 
+possam atuar. Seus produtos têm natureza estimativa, possibilitando emitir um juízo sobre 
+a importância, intensidade e magnitude de uma ameaça real ou potencial, baseando-se 
+no processamento, na análise e na integração dos dados. 
+4.5.6 A INTELIGÊNCIA NO NÍVEL TÁTICO 
+4.5.6.1 No nível tático, a inteligência contribui para a consciência situacional do 
+comandante operativo, pois permite o conhecimento do ambiente operacional e das 
+ameaças presentes. 
+4.5.6.2 A inteligência produz e salvaguarda conhecimentos limitados, de curto alcance no 
+tempo e dirigidos às necessidades imediatas do comandante tático para o planejamento 
+ou para a condução de operações militares. 
+4.5.6.3 Neste nível, cresce de importância o princípio da oportunidade, uma vez que as 
+condições do ambiente operacional e do espaço de batalha se alteram muito 
+rapidamente, obrigando o comandante a reavaliar a situação militar frequentemente. 
+EB20-MF-10.107 
+4-5 
+4.5.6.4 O Ciclo de Inteligência deve ser dinâmico e a fase da orientação deve ser 
+permanentemente atualizada. O nível tático é aquele onde a Função de Combate 
+Inteligência tem aplicação plena no âmbito do SIEx. 
+4.5.7 No nível tático, a Inteligência deve: 
+a) gerar conhecimentos e produtos capazes de apoiar diretamente o processo decisório 
+dos comandantes táticos, no planejamento e na condução de operações militares; 
+b) obter um detalhado conhecimento das unidades dos oponentes, das características 
+técnicas de seus materiais, de seus métodos de atuação e doutrina de emprego, da 
+personalidade de seus chefes político-militares; e 
+c) levantar as condições meteorológicas, as características do terreno e as considerações 
+civis que possam impactar na condução das operações militares. 
+4.5.8 No nível tático, a Inteligência é executada de modo descritivo. Nesse nível cresce de 
+importância o princípio da oportunidade, uma vez que as condições do Amb Op e do 
+Espaço de Batalha se alteram muito rapidamente, obrigando os comandantes a 
+reavaliarem a situação e reverem suas decisões com maior frequência. 
+ 
+4.6 A FUNÇÃO DE COMBATE INTELIGÊNCIA 
+4.6.1 A Inteligência é uma das seis Funções de Combate. Sua abrangência alcança as 
+demais Funções de Combate, que são diretamente afetadas ou estão relacionadas com 
+os produtos da Inteligência. Em particular as Funções de Comando e Controle e Proteção 
+englobam atividades e tarefas próprias do Sistema de Inteligência do Exército (SIEx). 
+4.6.2 A Função de Combate Inteligência é o conjunto de atividades, tarefas e sistemas 
+inter-relacionados e empregados para assegurar a compreensão sobre o ambiente 
+operacional, as ameaças (atuais e potenciais), os oponentes, o terreno e as 
+Considerações Civis. Com base nas diretrizes do comandante, normalmente expressas 
+em NI, executa as tarefas associadas às operações de Inteligência, Reconhecimento, 
+Vigilância e Aquisição de Alvos (IRVA). 
+4.6.3 Essas atividades e tarefas subsidiam o planejamento e a condução de operações 
+militares, além de identificar e contribuir para a neutralização das ameaças. As atividades 
+e tarefas desempenhadas pela Função de Combate Inteligência são fundamentais para o 
+planejamento e para o emprego eficaz da tropa, bem como para a sua segurança. 
+4.6.4 As tarefas da Inteligência são esforços organizados para a orientação, obtenção, 
+análise, produção e a difusão de informações claras, precisas, completas e oportunas 
+sobre a área de operações (terreno, considerações civis), o inimigo, ameaças ou forças 
+oponentes e as condições meteorológicas. Essas tarefas são interativas e, 
+frequentemente, ocorrem simultaneamente. 
+4.6.5 Para fornecer uma visão precisa do Espaço de Batalha, as atividades da Função de 
+Combate Inteligência recebem direção centralizada e são executadas de forma 
+simultânea em todos os níveis de comando. Seus produtos devem ser difundidos com 
+oportunidade pela cadeia de comando e pelo canal técnico de Inteligência. Os 
+comandantes, em todos os escalões, dirigem as atividades de Inteligência. Esses 
+conhecimentos irão apoiar a condução das ações de cada uma dessas funções. 
+EB20-MF-10.107 
+5-1 
+ 
+5.1 CONSIDERAÇÕES GERAIS 
+5.2 RAMO INTELIGÊNCIA 
+5.3 RAMO CONTRAINTELIGÊNCIA 
+ 
+ 
+CAPÍTULO V 
+RAMOS DA INTELIGÊNCIA MILITAR 
+ 
+ 
+5.1 CONSIDERAÇÕES GERAIS 
+5.1.1 A Inteligência Militar desdobra-se em dois 
+ramos: Inteligência e Contrainteligência (C Intlg). 
+5.1.2 Os ramos estão inter-relacionados, de 
+modo indissolúvel e sinérgico. Na verdade, os 
+limites de abrangência entre os dois são tênues, 
+uma vez que as tarefas atinentes a ambos são 
+interdependentes. 
+Fig 3.1 Os Ramos da Inteligência Militar 
+ 
+5.2 RAMO INTELIGÊNCIA 
+5.2.1 O ramo Inteligência desenvolve seus trabalhos orientado pelas necessidades de 
+conhecimentos definidas pelos seus usuários, de forma permanente, com vistas a reduzir 
+o grau de incerteza que cerca o processo decisório da F Ter, em qualquer situação e em 
+qualquer escalão. 
+5.2.2 Os trabalhos de produção de conhecimentos realizados pelo ramo Inteligência são 
+desenvolvidos seguindo o denominado Ciclo de Produção do Conhecimento. 
+5.2.3 O ramo Inteligência tem como objetivos: 
+a) acompanhar e estudar as Expressões do Poder e aspectos relacionados à geografia do 
+território nacional; 
+EB20-MF-10.107 
+5-2 
+b) acompanhar e estudar as expressões do Poder Nacional e aspectos da geografia de 
+países estrangeiros, bem como os diversos organismos supranacionais; e 
+c) ser um eficaz instrumento de apoio à decisão em qualquer nível, pela produção de 
+conhecimentos oportunos e relevantes. 
+ 
+5.3 RAMO CONTRAINTELIGÊNCIA 
+5.3.1 A Contrainteligência (C Intlg) é o ramo voltado para a prevenção, detecção, 
+obstrução e neutralização da atuação da Inteligência adversa e das ações de qualquer 
+natureza que possam se constituir em ameaças à salvaguarda de dados, informações, 
+conhecimentos e seus suportes, tais como documentos, áreas, instalações, pessoal, 
+materiais e meios de tecnologia da informação. 
+5.3.2 Por sua natureza, as atividades e tarefas ligadas à C Intlg estão afetas à Função de 
+Combate Proteção. Elas permitem identificar, prevenir e mitigar ameaças às forças e aos 
+meios vitais para as operações, de modo a preservar o poder de combate e a liberdade 
+de ação. Permitem, também, preservar estruturas e sistemas críticos do país e preservar 
+populações civis. Entre as ameaças, incluem-se os efeitos dos desastres naturais. 
+5.3.3 As atividades e tarefas afeitas a esse ramo são desenvolvidas de forma constante e 
+ininterrupta, buscando-se a antecipação às potenciais ações hostis contra a Força, dentro 
+de uma concepção preventiva e proativa. 
+5.3.4 Sua concepção considera essencialmente que cada um dos integrantes do EB tem 
+responsabilidades para com as atividades e tarefas de proteção da Força. Envolve 
+comportamentos, atitudes preventivas, proatividade e adoção consciente de medidas 
+efetivas. 
+5.3.5 O foco da contrainteligência está na operação de Inteligência adversa, na 
+sabotagem, no terrorismo, na propaganda nociva e em outras ações contra o país e 
+contra o EB. 
+5.3.6 Tais ameaças podem se valer da negligência de pessoas responsáveis pela 
+salvaguarda de informações e de ações ocasionais promovidas por terceiros, de forma 
+violenta ou não, que gerem prejuízos para a salvaguarda do pessoal, de dados, de 
+informações, de conhecimentos, do material, de áreas ou de instalações. 
+5.3.7 São objetivos do ramo contrainteligência: 
+a) impedir que ações hostis de qualquer natureza comprometam dados, informações, 
+conhecimentos e sistemas a eles relacionados; levem à perda de armamento, 
+equipamento, e materiais de emprego militar; provoquem danos à integridade física de 
+pessoal militar ou população civil nacional ou amiga; inviabilizem a utilização de áreas, 
+instalações e meios de transporte; e atentem contra qualquer segmento do Exército, de 
+forma direta ou indireta; 
+b) impedir a realização de atividades de espionagem, sabotagem, propaganda hostil, 
+terrorismo ou desinformação; e 
+c) induzir o centro de decisão do adversário a posicionar-se de forma equivocada. 
+ 
+EB20-MF-10.107 
+6-1 
+6.1 CONSIDERAÇÕES GERAIS 
+6.2 FASE DE ORIENTAÇÃO 
+6.3 FASE DE OBTENÇÃO 
+6.4 FASE DE PRODUÇÃO 
+6.5 FASE DE DIFUSÃO 
+ 
+ 
+CAPÍTULO VI 
+O CICLO DA INTELIGÊNCIA MILITAR 
+ 
+ 
+6.1 CONSIDERAÇÕES GERAIS 
+6.1.1 O Ciclo de Inteligência é definido como uma 
+sequência ordenada de atividades, segundo a qual 
+dados 
+são 
+obtidos 
+e 
+conhecimentos 
+são 
+produzidos e colocados à disposição dos usuários 
+de forma racional. Este faseamento é cíclico, 
+compreendendo a orientação, a obtenção, a 
+produção, a difusão para o comandante e seu 
+estado-maior e para outros decisores. 
+6.1.2 A credibilidade dos conhecimentos produzidos depende diretamente da constante 
+reavaliação dos procedimentos executados durante o Ciclo de Inteligência. As atividades 
+e tarefas de Inteligência são reorientadas sempre que preciso. 
+6.1.3 Para que o produto da Inteligência Militar seja efetivo, é necessário que haja uma 
+constante realimentação no ciclo de modo que ele se mantenha atualizado e capaz de 
+responder às necessidades do usuário. 
+Fig 6-1 O Ciclo de Inteligência Militar 
+EB20-MF-10.107 
+6-2 
+6.1.4 A figura 6-1 apresenta um esquema com as diversas fases do ciclo de Inteligência: 
+orientação, obtenção, produção e difusão. Ainda que sejam distintas, as fases podem 
+ocorrer de modo simultâneo e coincidente com o desenvolvimento do processo. 
+6.1.5 A execução do Ciclo de Inteligência permite: 
+a) garantir que todos os aspectos tenham sido considerados; 
+b) produzir conhecimentos a partir de bases científicas, assegurando credibilidade ao 
+produto; e 
+c) uniformizar procedimentos no âmbito do SIEx. 
+ 
+6.2 FASE DE ORIENTAÇÃO 
+6.2.1 Na fase de orientação, são definidas as ameaças e estabelecidas as diretrizes para 
+o planejamento e a execução das atividades e tarefas relacionadas à Inteligência. A 
+orientação é de responsabilidade dos comandantes, que definem e priorizam as NI em 
+função da missão. Para tal, eles são assessorados pelos chefes das Seções de 
+Inteligência de seus Estados-Maiores. 
+ 
+6.3 FASE DE OBTENÇÃO 
+6.3.1 Nesta fase, são obtidos dados, informações e conhecimentos que servirão de 
+matéria prima para a etapa da produção, por meio do planejamento e emprego de meios 
+especializados ou não (pessoal e material). 
+6.3.2 Contribuem para a obtenção, em tempo de paz ou de conflito, todas as ações 
+conduzidas por tropas especializadas e não especializadas. 
+6.3.3 Os meios de obtenção estão distribuídos pelos vários elementos de emprego da      
+F Ter e são executados em tarefas inerentes às operações militares, tais como: 
+a) vigilância e reconhecimento (terrestre, naval e aéreo); 
+b) patrulhas de qualquer tipo; 
+c) ações de combate; 
+d) entrevistas do pessoal que participa, diretamente ou indiretamente, do esforço de 
+combate; 
+e) exame e análise de documentos e materiais; 
+f) interpretação de imagens fotográficas e satelitais; 
+g) exploração do espectro eletromagnético e do ambiente cibernético; 
+h) observação e escuta (sensores); e 
+i) busca de alvos (especialmente por radares e sonares). 
+6.3.4 Fonte é tudo aquilo que contém, produz ou apreende um dado. As fontes podem ser 
+pessoas, grupos, organizações, documentos, fotos, vídeos, instalações, equipamentos e 
+qualquer outro elemento do qual se possa extrair dados de interesse para a Inteligência 
+Militar. 
+6.3.5 O surgimento de diversas atividades, cujas ações desenvolvem-se em ambientes 
+onde não há uma predominância do fator humano, trouxe para a Inteligência Militar novos 
+EB20-MF-10.107 
+6-3 
+ 
+domínios de emprego. Esse é o caso do espectro eletromagnético, do campo das 
+imagens e do ambiente cibernético, que se constituem em fontes tecnológicas sobre as 
+quais são empregados recursos humanos, materiais e técnicas específicas para a 
+obtenção de dados. 
+6.3.6 O Ciclo de Inteligência não se altera com esse incremento e tampouco será 
+necessário qualificar novos tipos de analistas para lidar com ele. Entretanto é evidente 
+que os analistas devem estar preparados – se possível especializados – para processar 
+os dados oriundos de fontes tecnológicas e orientar os técnicos que irão processar tais 
+dados. A Inteligência, portanto, continua a ser uma disciplina única, apesar da ampliação 
+de seu campo de atuação. 
+6.3.7 Considera-se que as fontes de dados podem ser abertas ou protegidas. 
+6.3.7.1 São abertas quando seus dados se encontram amplamente disponíveis, sem 
+restrições significativas e são obtidos por intermédio da coleta. 
+6.3.7.2 As fontes protegidas são aquelas cujos dados não estão disponíveis a qualquer 
+pessoa, normalmente necessitando de técnicas apropriadas para que se tenha acesso a 
+eles. 
+6.3.7.3 O fato de um dado não estar protegido não significa que ele esteja disponível. 
+6.3.8 Conceitos de Inteligência, Reconhecimento, Vigilância e Aquisição de Alvos. 
+6.3.8.1 A evolução tecnológica dos meios, aliada à necessidade de processamento 
+instantâneo de grande volume de dados, obtidos em extensas áreas de interesse, e 
+oriundos de múltiplas fontes, deu origem a um conceito que reúne as capacidades da 
+Inteligência, de reconhecimento, de vigilância e de aquisição de alvos (IRVA). 
+6.3.8.2 Em operações, no campo de batalha, os dados são coletados por observadores 
+desdobrados no terreno e por uma variedade de sensores. O Reconhecimento, a 
+Vigilância e a Aquisição de Alvos são os métodos para a obtenção desses dados. 
+6.3.8.3 Os dados são transmitidos para as equipes de Inteligência para processamento, 
+análise, produção e difusão de conhecimentos. Simultaneamente, são transmitidos aos 
+comandantes e seus estados-maiores para julgamento e formulação dos planos 
+operacionais ou táticos. 
+6.3.8.4 No contexto das ações de IRVA, a Inteligência trata da gestão das NI, do 
+acionamento e exploração dos seus diversos sensores (fontes tecnológicas, bancos de 
+dados, operações de Inteligência, reconhecimento e vigilância) e colaboradores (de outras 
+agências e órgãos com objetivos convergentes); da obtenção dos dados; e da elaboração 
+e difusão dos conhecimentos, tarefas fundamentais do sistema. 
+6.3.8.5 O reconhecimento é a missão empreendida para se obter informações sobre as 
+atividades, instalações ou meios de forças oponentes, atuais ou potenciais, mediante a 
+observação visual e o emprego de outros métodos ou para confirmar dados relativos à 
+meteorologia, à hidrografia ou a características geográficas de uma área definida. É uma 
+atividade limitada no tempo e no espaço. 
+6.3.8.6 A vigilância é a observação sistemática do Amb Op, tendo por objetivo áreas, 
+pessoas, instalações, materiais e equipamento, utilizando o auxílio de meios eletrônicos, 
+cibernéticos, fotográficos, óticos ou acústicos, entre outros. 
+6.3.8.7 A aquisição de alvos trata da detecção, localização e identificação de um objetivo 
+com o detalhamento e a precisão suficientes para permitir o emprego eficaz de armas. A 
+busca de alvos vai além de possibilitar o apoio de fogo, apoiando o emprego de outros 
+EB20-MF-10.107 
+6-4 
+vetores, inclusive os não cinéticos, como a guerra eletrônica e as operações de apoio à 
+informação. 
+6.3.8.8 O conceito de IRVA remete ao processo de integração das atividades e tarefas de 
+reconhecimento, vigilância e aquisição de alvos com a Inteligência Militar, com o fim de 
+melhorar o entendimento da situação pelos comandantes em todos os níveis (consciência 
+situacional) e, consequentemente, os seus processos decisórios. 
+6.3.8.9 A inclusão da Inteligência nesse conceito é fundamental, pois reconhece a 
+importância de integrar e obter um quadro mais completo a partir dos dados obtidos por 
+todos os sensores, transformando-os em conhecimento útil. 
+6.3.8.10 Em todos os escalões, a célula funcional (ou seção) de Inteligência coordena o 
+esforço para prover os comandantes com conhecimentos que os ajudem a compreender o 
+inimigo, o terreno, as condições meteorológicas e as considerações civis. 
+6.3.8.11 Essas células (seções) solicitam, recebem e analisam informações de todas as 
+fontes disponíveis, a fim de produzir e distribuir produtos de Inteligência. Realizam as 
+tarefas relacionadas com o PITCIC e coordenam com o Chefe da Seção de Operações a 
+execução das tarefas de reconhecimento e vigilância. 
+6.3.8.12 Nos escalões G Cmdo e superiores, podem ser ativadas células integradoras (de 
+planos, de operações correntes e de operações futuras), cujo papel é realizar a 
+coordenação e a sincronização do emprego de meios e Funções de Combate com base 
+em horizontes temporais de planejamento. 
+6.3.9 Operações de Inteligência (Op Intlg) 
+6.3.9.1 As Op Intlg são ações especializadas voltadas para a busca de dados protegidos, 
+no contexto da obtenção de dados e integradas ao conceito IRVA. 
+6.3.9.2 As Op Intlg destinam-se a obter conhecimentos específicos sobre uma 
+determinada área geográfica ou de atividades humanas, mediante um planejamento 
+detalhado. Elas podem contribuir para a neutralização das tentativas perpetradas pelas 
+forças oponentes de busca. 
+ 
+6.4 FASE DE PRODUÇÃO 
+6.4.1 Na fase de produção, os dados, informações e conhecimentos obtidos são 
+convertidos em novos conhecimentos de Inteligência, para responder às NI dos usuários. 
+6.4.2 Esta fase abrange um conjunto de ações que, embora se iniciem de maneira 
+sequencial, podem ser concomitantes. 
+6.4.3 A produção compreende três etapas: análise e síntese (incluindo a integração), 
+interpretação e formalização. No nível tático, as limitações e exigências impostas pelo 
+combate podem sugerir que a distinção entre essas etapas seja reduzida, buscando 
+atender ao princípio da oportunidade. 
+6.4.4 Na fase de produção do conhecimento, o Ciclo de Inteligência é continuamente 
+executado. A cada nova necessidade, novas ordens são expedidas às seções de 
+Inteligência dos elementos de emprego e dos integrantes do SIEx. Dessa forma, ciclos 
+com objetivos mais específicos e restritos podem ser iniciados nas seguintes situações: 
+a) em atendimento a um Plano de Inteligência ou Plano de Operações do Escalão 
+Superior; 
+EB20-MF-10.107 
+6-5 
+b) em atendimento a um pedido ou ordem específica; e 
+c) por iniciativa própria das Organizações Militares (OM) de Inteligência, para atender ou 
+complementar as situações anteriores. 
+ 
+6.5 FASE DE DIFUSÃO 
+6.5.1 Na fase de difusão, são divulgados os conhecimentos resultantes para o 
+comandante, órgão, ou escalão que o solicitou e, ainda, mediante ordem, para quem tal 
+conhecimento possa interessar ou ser útil. 
+6.5.2 A difusão dos conhecimentos de Inteligência Militar é feita por intermédio de vários 
+tipos de canais de transmissão, com a finalidade de propiciar um amplo fluxo de 
+informações, observando o princípio da oportunidade e a necessidade de conhecer. 
+ 
+ 
+EB20-MF-10.107 
+7-1 
+ 
+7.1 CONSIDERAÇÕES GERAIS 
+7.2 CONCEPÇÃO DO SIEX 
+7.3 ESTRUTURAÇÃO DO SIEX 
+ 
+ 
+CAPÍTULO VII 
+O SISTEMA DE INTELIGÊNCIA DO EXÉRCITO 
+ 
+ 
+7.1 CONSIDERAÇÕES GERAIS 
+7.1.1 O SIEx compreende os órgãos e as pessoas 
+do 
+EB 
+que, 
+sob 
+a 
+responsabilidade 
+dos 
+comandantes, 
+chefes 
+ou 
+diretores, 
+estão 
+envolvidos na execução das atividades e tarefas 
+de Inteligência ou que estão ligados à sua 
+regulamentação e normatização. 
+7.1.2 O Sistema produz, continuamente, os conhecimentos necessários para que o EB 
+permaneça preparado e em condições de ser empregado contra quaisquer ameaças à 
+soberania ou à integridade do país, atuando em Operações no Amplo Espectro em 
+atendimento às situações de emprego previstas na Constituição e na Estratégia Militar de 
+Defesa. 
+Fig 7-1 O Ambiente de Emprego da Inteligência 
+7.2 CONCEPÇÃO DO SIEX 
+7.2.1 A concepção do SIEx é baseada em três funções gerais, que são desenvolvidas por 
+todos os componentes da estrutura do sistema: a obtenção, a análise e o suporte. 
+7.2.2 Os meios de obtenção atuam no Amb Op e no Espaço de Batalha, como sensores 
+de dados sobre as ameaças e oportunidades existentes. 
+EB20-MF-10.107 
+7-2 
+7.2.3 Os meios de análise produzem os conhecimentos que irão subsidiar os 
+comandantes e seus estados-maiores, nos diversos níveis. 
+7.2.4 Os meios de suporte permitem a ligação dos meios de obtenção com os de análise, 
+empregando a tecnologia de informação e comunicações (TIC). Também fornecem 
+insumos tecnológicos para a otimização das ações de ambos, seja por ferramentas de 
+análise, seja por sistemas de gestão de banco de dados. 
+7.2.5 Outra tarefa importante dos meios de suporte é realizar a interação com os usuários 
+que utilizam os conhecimentos produzidos nas estruturas de Inteligência. 
+Fig 7-2 Concepção do SIEx 
+7.3 ESTRUTURAÇÃO DO SIEX 
+7.3.1 O SIEx estrutura-se em todos os escalões do EB para produzir os conhecimentos 
+necessários a cada um dos níveis decisórios. 
+7.3.2 Os meios de análise materializam-se na Seção de Inteligência (2ª Seção) de cada 
+OM apoiada em sua Central de Inteligência Militar (CIM). A 2ª Seção de OM também é 
+designada como Agência de Inteligência (AI) no âmbito do SIEx. 
+7.3.3 Os meios de obtenção podem ser especializados ou não especializados. Os 
+especializados, existentes nas OM de Inteligência de cada escalão (no âmbito do SIEx, 
+são também designados como Órgãos de Inteligência – OI), empregam técnicas 
+operacionais específicas para a busca de dados. Os não especializados, orgânicos das 
+OM subordinadas de cada comando, realizam ações de reconhecimento e vigilância. 
+7.3.4 No esforço de obtenção de dados, também são considerados os meios da Marinha, 
+da Força Aérea, das forças auxiliares e outras agência de estado, além de organizações 
+civis colocados à disposição de cada escalão para as ações de Inteligência. 
+7.3.5 O Centro de Inteligência do Exército (CIE) é o órgão central do SIEx, 
+proporcionando uma estrutura de suporte para o fluxo de conhecimento e para o 
+gerenciamento do Sistema. 
+7.3.6 O Comando de Operações Terrestres (COTer) e o CIE mantêm rotinas de trabalho 
+na Atividade de Inteligência para a permanente avaliação de riscos e, principalmente, 
+para suprir as necessidades de conhecimento, visando ao emprego da tropa. 
+EB20-MF-10.107 
+7-3 
+7.3.7 No curso de operações militares, o Comando da Força Terrestre Componente (FTC) 
+– ou da Força Operativa1 – centraliza as coordenações de Inteligência e o CIE realiza as 
+ações de aprofundamento, podendo reforçar os elementos de emprego com meios e 
+conhecimentos necessários. 
+ 
+Fig 7-3 Estrutura do SIEx 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 A Doutrina Conjunta prevê que, conforme a necessidade, pode ser estabelecido um Comando 
+Operacional Singular. Neste caso, a Força Operativa (FOp) – equivalente a uma FTC, em uma operação 
+singular – é o maior escalão no nível tático, responsável por conjugar o planejamento com a condução das 
+operações. 
+EB20-MF-10.107 
+GLOSSÁRIO 
+PARTE I – ABREVIATURAS E SIGLAS  
+A
+Abreviaturas/Siglas 
+Significado 
+AI 
+Agência de Inteligência 
+AID 
+Atividade de Inteligência de Defesa 
+AIM 
+Atividade de Inteligência Militar 
+ARP 
+Aeronave remotamente Pilotada 
+C
+Abreviaturas/Siglas 
+Significado 
+C Op 
+Comando Operacional 
+CI 
+Contrainteligência 
+CIM 
+Central de Inteligência Militar 
+COMINT 
+Inteligência de Comunicações 
+CYBINT 
+Inteligência Cibernética (Cyber Intelligence) 
+D
+Abreviaturas/Siglas
+Significado
+DS 
+Documento Sigiloso 
+E
+Abreviaturas/Siglas 
+Significado 
+EC 
+Encarregado do Caso 
+ELINT 
+Inteligência Eletrônica 
+ELO 
+Elemento Operacional 
+ 
+ 
+G
+Abreviaturas/Siglas 
+Significado 
+GEOINT 
+Inteligência Geográfica (Geospatial Intelligence) 
+H
+Abreviaturas/Siglas 
+Significado 
+HUMINT 
+Inteligência de Fontes Humanas (Human Intelligence) 
+I
+Abreviaturas/Siglas 
+Significado 
+IMINT 
+Inteligência de Imagens (Imagery Intelligence) 
+IRVA 
+Inteligência, Reconhecimento, Vigilância e Aquisição de Alvos
+EB20-MF-10.107 
+M
+Abreviaturas/Siglas 
+Significado 
+MASINT 
+Inteligência por Assinatura de Alvos (Measurement and 
+Signature Intelligence) 
+MEDINT 
+Inteligência Sanitária (Medical Intelligence) 
+MPC 
+Método para a Produção do Conhecimento 
+N
+
+Abreviaturas/Siglas
+Significado
+NI 
+Necessidades de Inteligência 
+O
+
+Abreviaturas/Siglas
+Significado
+OB 
+Ordem de Busca 
+OI 
+Órgão de Inteligência  
+OSINT 
+Inteligência de Fontes Abertas (Open Source Intelligence) 
+ 
+ 
+P
+Abreviaturas/Siglas 
+Significado 
+PEECFA 
+Planejamento Estratégico de Emprego Conjunto das Forças 
+Armadas 
+PI 
+Pedido de Inteligência 
+PITCIC 
+Processo de Integração do Terreno, Condições Climáticas e 
+Meteorológicas, Inimigo e Considerações Civis 
+R
+Abreviaturas/Siglas
+Significado
+RIPI 
+Região de Interesse para a Inteligência 
+S
+Abreviaturas/Siglas
+Significado
+SIGINT 
+Inteligência de Sinais (Signals Intelligence) 
+SINDE 
+Sistema de Inteligência de Defesa 
+SIOP 
+Sistema de Inteligência Operacional 
+SISBIN 
+Sistema Brasileiro de Inteligência 
+T
+Abreviaturas/Siglas 
+Significado 
+TAD 
+Técnica de Avaliação de Dados 
+TECHINT 
+Inteligência Técnica (Technical Intelligence) 
+TI 
+Tecnologia da Informação 
+TIC 
+Tecnologia de Informação e Comunicações 
+EB20-MF-10.107 
+Capítulo 1 
+Capítulo 2PARTE II – TERMOS E DEFINIÇÕES 
+Capítulo 3 
+Acesso - Sob a ótica da Inteligência Militar, é a possibilidade ou oportunidade de uma 
+pessoa 
+obter 
+informação 
+(conhecimento 
+ou 
+dado) 
+classificada. 
+Deriva, 
+necessariamente, de uma autorização oficial emanada de autoridade competente ou da 
+superação de medidas de salvaguarda. O termo denota a possibilidade, a oportunidade 
+e a condição para que uma pessoa obtenha ou consulte conhecimentos, dados ou 
+materiais que devam estar protegidos. 
+Ameaça - Uma ameaça pode ser concreta (identificável) ou potencial. Pode ser 
+definida como a conjunção de atores, estatais ou não, entidades ou forças com 
+intenção e capacidade de realizar ação hostil contra o país e seus interesses 
+nacionais, com possibilidades de causar danos à sociedade e ao patrimônio. Ameaças 
+ao país e a seus interesses nacionais também podem ocorrer na forma de eventos 
+não intencionais, por causas naturais. 
+Área Sigilosa - É a área onde dados, informações ou conhecimentos sigilosos 
+contidos em documentos, materiais, meios de comunicações e sistemas de 
+informação são tratados, manuseados, transmitidos ou guardados, uma vez que 
+requerem medidas especiais de proteção e permissão de acesso. 
+Autenticidade - É a certificação de que a informação possui integridade e sua 
+origem é comprovada. 
+Canal Técnico de Inteligência - É a ligação direta entre uma AI e outra não 
+imediatamente superior ou subordinada na Cadeia de Comando, com o objetivo de 
+atender ao princípio da oportunidade. 
+Classificação - É a atribuição de grau de sigilo a dado, informação ou 
+conhecimento, documento, material, área ou instalação, pela autoridade competente. 
+Compartimentação - É a restrição do acesso com base na necessidade de conhecer, 
+à semelhança de grau de sigilo. 
+Comprometimento - É a perda de segurança resultante de acesso não autorizado a 
+dados, informações e conhecimentos que devam ser protegidos. Abrange, também, a 
+inutilização, mesmo parcial, de conhecimentos ou dados, por meio de adulteração, 
+sabotagem, destruição ou extravio, que possam proporcionar prejuízo aos interesses do 
+EB. 
+Conhecimento - É o produto do Ciclo de Inteligência Militar, como resultado do 
+processamento de dados, informações ou conhecimentos anteriores, utilizando-se de 
+metodologia específica, visando à avaliação ou ao estabelecimento de conclusões sobre 
+fatos ou situações. 
+Credenciamento - É a autorização oficial concedida por autoridade competente que 
+habilita determinada pessoa a ter acesso a dados, informações ou conhecimento, bem 
+como às áreas e instalações, nos diferentes graus de sigilo. 
+Dado - É toda e qualquer representação de fato ou situação por meio de documento, 
+fotografia, gravação, relato, sensores eletrônicos de vigilância, carta topográfica ou 
+digital e outros meios, não submetida à metodologia para a produção do 
+conhecimento. 
+EB20-MF-10.107 
+Desclassificação - É o cancelamento da classificação sigilosa de dados, informações ou 
+conhecimentos pela autoridade competente ou pelo transcurso de prazo, tornando-os 
+ostensivos. 
+Documento Sigiloso (DS) - É aquele que requer medidas adicionais de controle, 
+podendo receber classificação e ou ser de acesso restrito. 
+Grau de Sigilo - É a gradação atribuída a dado, informação ou conhecimento, área ou 
+instalação, considerados sigilosos em decorrência de sua natureza, conteúdo, 
+utilidade, amplitude, atualidade, confiabilidade, sigilo ou processos utilizados para a sua 
+obtenção. 
+Informação - É a matéria prima para a produção dos conhecimentos de Inteligência. 
+Toda a informação necessita, a partir de sua obtenção, de tratamento analítico para que 
+seja aproveitada no processo decisório militar. 
+Linguagem da Atividade de Inteligência Militar - A Inteligência exige a utilização de 
+terminologia própria e especializada, que garanta a correta transmissão e entendimento 
+dos conhecimentos produzidos. 
+Necessidade de Conhecer - É a condição inerente ao efetivo exercício de cargo, 
+função, emprego ou atividade, indispensável para que uma pessoa possuidora de 
+credencial de segurança tenha acesso a dados, informações ou conhecimentos 
+sigilosos. Dessa maneira, a necessidade de conhecer constitui fator restritivo do 
+acesso, independentemente do grau hierárquico ou do nível da função exercida. 
+Necessidades de Inteligência (NI) - São os conhecimentos específicos estabelecidos 
+pelo comandante em função da missão a ser cumprida. As NI do comandante são 
+satisfeitas pelos conhecimentos que ele precisa ter à sua disposição, relativos ao 
+terreno, inimigo, condições climáticas e meteorológicas, e considerações civis, a fim 
+de poder cumprir sua missão com êxito. Normalmente a reunião de dados e 
+conhecimentos não é suficiente para satisfazer de imediato todas as NI. Por isso, os 
+recursos empregados na atividade de obtenção são orientados para NI de prioridades 
+mais elevadas. 
+Pedido de Inteligência (PI) - É o termo técnico utilizado por uma AI com o objetivo de 
+solicitar a outra AI dados e conhecimentos necessários ao esclarecimento de fato ou 
+situação existente em sua área de responsabilidade. 
+Plano de Obtenção (P Obtç) – É o estudo conduzido por uma Seção de Inteligência, 
+no qual são registradas as NI e seus desdobramentos, cujos informes deverão ser 
+obtidos para subsidiar a produção de conhecimentos necessários a apoiar o processo 
+decisório dos comandantes. As NI e os seus desdobramentos deverão ser solicitados às 
+OM capazes de obtê-las. 
+Processo 
+de 
+Integração 
+Terreno, 
+Condições 
+Meteorológicas, 
+Inimigo 
+e 
+Considerações Civis (PITCIC) - É a atividade cíclica, de apoio ao processo decisório 
+que permite realizar uma análise integrada, por intermédio de representações gráficas 
+do terreno, das possibilidades do inimigo – e de seus possíveis objetivos, das condições 
+meteorológicas e das Considerações Civis. 
+Prospecção Tecnológica de Interesse para a Inteligência Militar - A prospecção 
+tecnológica de interesse para as ações militares é a forma sistemática de mapear 
+desenvolvimentos científicos e tecnológicos futuros que tenham a capacidade de 
+influenciar a Indústria de Defesa. 
+EB20-MF-10.107 
+Reclassificação - É a alteração do grau de sigilo atribuído a dado, conhecimento, 
+material, área ou instalação. 
+Região de Interesse para a Inteligência (RIPI) - É um ponto ou área ao longo de um 
+corredor de mobilidade, onde a ocorrência ou não de uma atividade inimiga 
+confirmará ou negará uma linha de ação do oponente. 
+Técnica de Avaliação de Dados (TAD) - É a técnica que possibilita a avaliação do 
+dado por meio do julgamento da fonte e do julgamento de seu conteúdo. O julgamento 
+da fonte tem a finalidade de estabelecer o grau de sua idoneidade e o julgamento do 
+conteúdo representa o grau de veracidade do dado. 
+Vazamento - É a divulgação não autorizada de dados, informações ou conhecimentos 
+de Inteligência. 
+ 
+ 
+ 
+ 
+ÍNDICE REMISSIVO 
+ 
+CONCEITOS E OBJETIVOS DA INTELIGÊNCIA MILITAR, 4-1 
+CONCEPÇÃO DO SIEX, 7-1 
+CONHECIMENTO DE INTELIGÊNCIA, 2-1 
+CONSIDERAÇÕES GERAIS 
+Ciclo da inteligência militar, O 6-1 
+Conhecimento de inteligência, O 2-1 
+Disciplinas de inteligência, 3-1 
+Inteligência militar, 4-1 
+Ramos da inteligência militar, 5-1 
+Sistema de inteligência do Exército, O 7-1 
+CONSIDERAÇÕES INICIAIS, 1-1 
+EMPREGO DA INTELIGÊNCIA MILITAR, 4-2 
+ESTRUTURA CONCEITUAL, 1-1 
+ESTRUTURAÇÃO DO SIEX, 7-2 
+FASE DE 
+Difusão, 6-5 
+Obtenção, 6-2 
+Orientação, 6-2 
+Produção, 6-4 
+FINALIDADE, 1-1 
+FUNÇÃO DE COMBATE INTELIGÊNCIA, A 4-5 
+INTELIGÊNCIA 
+Assinatura de Alvos (MASINT), Por 3-3 
+Cibernética (CYBINT), 3-4 
+Fontes Abertas (OSINT), De 3-3 
+Fontes Humanas (HUMINT), De 3-1 
+Geográfica (GEOINT), 3-2 
+Imagens (IMINT), De 3-2 
+Sanitária (MEDINT), 3-5 
+Sinais (SIGINT), De 3-4 
+Técnica (TECHINT), 3-4 
+NÍVEIS DA INTELIGÊNCIA MILITAR, 4-3 
+PRINCÍPIOS BÁSICOS DA INTELIGÊNCIA MILITAR, 4-1 
+RAMO 
+Contrainteligência, 5-2 
+Inteligência, 5-1 
+ 
+EB20-MF-10.107 
+REFERÊNCIAS 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS - ABNT. NBR 6021 – 
+Publicação científica impressa. Documentação. Rio de Janeiro, 2003. 
+BRASIL. Presidência da República. Manual de Redação da Presidência da 
+República / Gilmar Ferreira Mendes e Nestor José Forster Júnior. –      
+2. ed. rev. e atual. – Brasília, 2002. 
+_______. Política Nacional de Defesa. Brasília, 2012. 
+_______. Estratégia Nacional de Defesa. Brasília, 2012. 
+_______. Livro Branco de Defesa Nacional. Brasília, 2012. 
+CHILE. Ejército de Chile. Inteligencia – DD-10001.  Santiago, 2009.  
+ESPANHA. Ejército de Tierra Español. Inteligencia – PD3-308. Madrid, 2013. 
+FRANÇA. Armée de Terre. Doctrine Du Management de L’Information en 
+Opération – FT-01.  Paris, 2013. 
+MINISTÉRIO DA DEFESA (Brasil). Doutrina de Inteligência de Defesa –      
+MD52-N-01. Brasília, 1ª Edição/2005.  
+      _______. Doutrina de Inteligência Operacional para Operações Combinadas – 
+MD32-M-01. Brasília, 1ª Edição/2006.   
+_______. Doutrina de Operações Conjuntas (Volumes 1,2 e 3) – MD30-M-01. 
+Brasília, 1ª Edição/2011. 
+_______. Glossário das Forças Armadas – MD35-G-01. Brasília, 4ª Edição/2007.  
+_______. 
+Manual 
+de 
+Abreviaturas, 
+Siglas, 
+Símbolos 
+e 
+Convenções 
+Cartográficas das Forças Armadas – MD33-M-02. Brasília, 3ª Edição/2008. 
+MINISTÉRIO DA DEFESA. EXÉRCITO BRASILEIRO. Comando do Exército. 
+Instruções Gerais para as Publicações Padronizadas do Exército – 
+EB10-IG-01.002. Brasília, 1ª Edição/2011. 
+_______.  Estado-Maior do Exército. Bases para a Transformação da  Doutrina  
+Militar Terrestre. Brasília, 2013 
+_______. Glossário de Termos e Expressões para uso no Exército – C 20-1. 
+Brasília, 4ª Edição/2009. 
+EB20-MF-10.107 
+_______. Manual de Campanha Abreviaturas, Símbolos e Convenções 
+Cartográficas – C 21-30. Brasília, 4ª Edição/2002. 
+           _______. 
+Manual 
+de 
+Campanha 
+Força 
+Terrestre 
+Componente 
+–                 
+EB20-MC-10.202. Brasília, 1ª Edição, 2014. 
+           _______. Manual de Campanha Geoinformação – EB20-MC-10.209. Brasília,     
+1ª Edição, 2014. 
+           _______. Manual de Campanha Operações de Informação – EB20-MC-10.213.
+Brasília, 1ª Edição, 2014. 
+           _______. Manual de Campanha Vetores Aéreos da Força Terrestre –                  
+EB20-MC-10.214. Brasília, 1ª Edição, 2014. 
+           _______. Manual de Campanha Contra Inteligência – C 30-3. Brasília, 2ª Edição, 
+2009. 
+_______. Manual de Fundamentos Doutrina Militar Terrestre – EB20-MF-10.102.
+Brasília, 1ª Edição/2014.             
+_______. Manual de Fundamentos Operações – EB20-MF-10.103. Brasília,              
+4ª Edição/2014 
+_______. Instruções Provisórias A Atividade de Inteligência Miliar, 2ª Parte, A 
+Inteligência nas Operações Militares – IP 30-1. Brasília, 1ª Edição, 1999. 
+           _______. Instruções Provisórias Produção do Conhecimento de Inteligência –
+IP 30-2. Brasília, 1ª Edição, 1997. 
+           _______. Instruções Provisórias Operações de Inteligência – IP 30-4. Brasília, 
+1ª Edição, 1996. 
+_______. Manual de Fundamentos Doutrina Militar Terrestre – EB20-MF-10.102.
+Brasília, 1ª Edição/2014.             
+_______. Manual de Fundamentos Operações – EB20-MF-10.103. Brasília,              
+4ª Edição/2014 
+EB20-MF-10.107
+LISTA DE DISTRIBUIÇÃO 
+1. ÓRGÃOS INTERNOS
+EXEMPLARES
+a. Alta Administração
+Comando do Exército:
+- Gabinete ......................................................................................
+04 
+- CIE...............................................................................................
+08 
+- CCOMSEx e SGEx e CCIEx .......................................................
+02 
+EME:
+- Gabinete ......................................................................................
+02 
+- 1ª SCh, 4ª SCh, 5ª SCh, 6ª SCh, 7ª SCh e EPEx  ........................
+- 2ª SCh .........................................................................................
+02 
+08 
+- C Dout Ex (inclusive exemplar mestre) ........................................
+12 
+COTER:
+- Comando .....................................................................................
+06 
+- 1ª SCh, 2ª SCh , 3ª SCh  e 4ª SCh ..............................................
+03 
+COLOG:
+- Comando .....................................................................................
+02 
+- D Abst, D Mat, DFPC, DM Av Ex e Ba Ap Log Ex .......................
+01 
+DGP:
+- Chefia ..........................................................................................
+02 
+- DSM, DCEM, DA Prom, DCIPAS e D Sau ...................................
+01 
+DECEx:
+- Chefia ..........................................................................................
+06 
+- DESMil, DETMil, DEPA, DPHCEx e CCFEx ................................
+03 
+DEC:
+- Chefia ..........................................................................................
+02 
+- DOC, DOM, DPIMA e DPE ..........................................................
+01 
+DCT:
+- Chefia ..........................................................................................
+04 
+- DSG, DF, CAEx, CDS, CITEx, CTEx, CCOMGEx e CD Ciber ....
+02 
+SEF: 
+- Chefia ..........................................................................................
+02 
+- D Cont, DGO e CPEx ..................................................................
+01 
+b. Grandes Comandos e Grandes Unidades 
+ 
+Comando Militar de Área ..................................................................
+06 
+EB20-MF-10.107
+Região Militar....................................................................................
+03 
+Divisão de Exército ...........................................................................
+04 
+Brigada .............................................................................................
+04 
+Artilharia Divisionária ........................................................................
+04 
+Grupamento de Engenharia .............................................................
+04 
+C Av Ex e C Op Esp .........................................................................
+04 
+c. Unidades
+Infantaria ...........................................................................................
+02 
+Cavalaria ...........................................................................................
+02 
+Artilharia ...........................................................................................
+02 
+Engenharia .......................................................................................
+02 
+Comunicações ..................................................................................
+02 
+BPE..................................................................................................
+02 
+BGP .................................................................................................
+02 
+B Log ...............................................................................................
+02 
+B Av Ex ............................................................................................
+02 
+BMA .................................................................................................
+02 
+B Mnt Sup Av Ex ..............................................................................
+02 
+BF Esp, BAC ....................................................................................
+02 
+BDOMPSA .......................................................................................
+02 
+B Av T ..............................................................................................
+01 
+B Adm Ap 1ª/2ª/3ª RM ......................................................................
+01 
+B Adm Bda Op Esp ..........................................................................
+01 
+B Sup, D Sup ...................................................................................
+02 
+P R Mnt ............................................................................................
+02 
+GLMF ...............................................................................................
+02 
+BF Paz HAITI ...................................................................................
+02 
+d. Subunidades/Frações (autônomas ou semi-autônomas) 
+ 
+Infantaria/Fronteira ............................................................................
+01 
+Cavalaria ...........................................................................................
+01 
+Artilharia ...........................................................................................
+01 
+Engenharia .......................................................................................
+01 
+Comunicações ..................................................................................
+01 
+Material Bélico ..................................................................................
+01 
+DQBN ...............................................................................................
+01 
+Cia Trnp ............................................................................................
+01 
+Cia Prec ...........................................................................................
+01 
+3ª Cia F Esp .....................................................................................
+01 
+Dst Op Psc .......................................................................................
+01 
+EB20-MF-10.107
+Dst Ap Op Esp .................................................................................
+01 
+Dst Sau Pqdt ....................................................................................
+01 
+Cia E F Paz MINUSTAH ...................................................................
+01 
+e. Estabelecimento de Ensino
+ECEME ............................................................................................
+10 
+EsAO ...............................................................................................
+10 
+AMAN ...............................................................................................
+10 
+EsSA ................................................................................................
+05 
+IME ..................................................................................................
+02 
+EsACosAAe e EASA, EsCom, EsSLog, EsFCEx, EsSEx, EsEFEx, 
+EsIE, EsIMEx, EsPCEx,  EsEqEx, CEP/FDC, CIGS, CIAvEx, CIGE,       
+CI Op Esp, CI Pqdt GPB, CI Bld, CAAdEx e CCOPAB ............................
+02 
+CPOR ...............................................................................................
+02 
+NPOR ..............................................................................................
+01 
+f. Outras Organizações
+Arquivo Histórico do Exército ............................................................
+01 
+Arsenais de Guerra RJ / RS / SP .....................................................
+01 
+Bibliex ..............................................................................................
+01 
+CECMA ............................................................................................
+01 
+EGGCF ............................................................................................
+01 
+Hospitais Gerais, Militares de Área e de Campanha ........................
+01 
+2. ÓRGÃOS EXTERNOS
+COMDABRA .........................................................................................
+01 
+EAO (FAB) ...........................................................................................
+01 
+ECEMAR ..............................................................................................
+01 
+EGN .....................................................................................................
+01 
+EMA .....................................................................................................
+01 
+EMAER ................................................................................................
+01 
+ESG .....................................................................................................
+01 
+Ministério de Defesa (EMCFA) .............................................................
+02 
+ESTADO-MAIOR DO EXÉRCITO 
+CENTRO DE DOUTRINA DO EXÉRCITO 
+Brasília, DF, 15 de janeiro de 2015 
+www.exercito.gov.br

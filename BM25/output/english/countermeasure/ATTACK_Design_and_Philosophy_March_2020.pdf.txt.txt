@@ -1,0 +1,81 @@
+ ATT&CK can be used as a tool to create red team plans and organize operations to avoid certain 
+defensive measures that may be in place within a network. The 
+identified gaps are useful as a way to prioritize investments for improvement of a security 
+program. Similar security products can also be compared against a common adversary behavior 
+model to determine coverage prior to purchasing. Cyber Threat Intelligence Enrichment – Cyber threat intelligence covers knowledge of cyber 
+threats and threat actor groups that impact cybersecurity. When it comes to 
+information security, the threats we face, new technologies, and the adaptability of goal-based 
+adversaries, we cannot consider filling out a checklist as “done”. To date MITRE has defined three technology 
+domains – Enterprise (representing traditional enterprise networks and cloud technologies), 
+Mobile (for mobile communication devices), and ICS (for industrial control systems). This tactic is often used in conjunction with initial access as the means of 
+executing code once access is obtained, and lateral movement to expand access to remote 
+systems on a network. There should be 
+enough information and references to point toward 
+useful defensive methodologies. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. This section is intended to 
+inform those responsible for mitigating against 
+adversaries (such as network defenders or 
+policymakers) to allow them to take an action such 
+as changing a policy or deploying a tool. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Each sub-technique will 
+only have a relationship to a single parent technique and no other to avoid complicated and 
+difficult to maintain relationships across the model. This is 
+especially the case with techniques that apply to network communications in the Command and 
+Control tactic since network use is often operating system and platform agnostic. Groups are defined as 
+named intrusion sets, threat groups, actor groups, or campaigns that typically represent targeted, 
+persistent threat activity. 3.7 Mitigations 
+Mitigations in ATT&CK represent security concepts and classes of technologies that can be used 
+to prevent a technique or sub-technique from being successfully executed. There are 41 
+mitigations in ATT&CK for Enterprise as of March 2020 and include mitigations such as 
+Application Isolation and Sandboxing, Data Backup, Execution Prevention, and Network 
+Segmentation. By contrast, many security models describe desired 
+ 
+21 
+©2020 The MITRE Corporation. It conveys the relationships and dependencies between 
+adversarial actions and information in a way that’s agnostic of any particular defensive tool or 
+method of collecting data. Threat intelligence analysts typically track incidents, threat groups, and how their TTPs evolve 
+over time. The high-level concepts like 
+Control, Execute, and Maintain are further broken down into more descriptive categories where 
+individual actions on a system can be defined and categorized. Goals such as initial access, discovery, 
+and credential access are commonly used to gain and expand access within an environment with 
+an ultimate objective of stealing information through collection and exfiltration. One example of the former is 
+Credential Dumping [10] for Credential Access where dumping credentials is one method of 
+gaining access to new credentials—and credentials can be dumped in several different ways. Distribution unlimited 19-01075-28. 
+describes a general platform agnostic behavior, such as much of the Command and Control 
+tactic. ATT&CK remains strongly tied to threat intelligence sources on 
+persistent threat groups. There are also fewer persistent threat incidents reported against Linux and 
+Mac systems than there are against Windows, causing available threat data to be substantially 
+less available. o Does the new behavior have a different detection method or set of methods than 
+the existing technique? § Are there similar data sources or methods for creating analytics that are 
+similar or different than existing techniques? o Does the new behavior have a different mitigation method or set of methods than 
+the existing technique? § Is the implementation or deployment methods of the mitigation 
+fundamentally different than existing techniques that can be inhibited by a 
+similar mitigation? Common sources include security vendor blogs, but other 
+sources such as personal blogs or Twitter may be used provided the information is deemed to be 
+reliable. In the same example, if Command and Control traffic is over 
+HTTP, unless explicitly stated or known, an analyst should not assume the traffic is over port 80 
+because adversaries may use non-standard ports, as in the example. • Other related methods use different functionality provided by Windows to load and 
+execute code, such as application shims. SQLi is a method of injecting code through an improperly secured web interface that is 
+interpreted and executed by a database process. The resulting code execution can be used for a 
+number of purposes, including adding or modifying information, gaining access to a system, 
+causing the server to download and execute other code which may result in persistence, 
+credential access, privilege escalation, collection, and exfiltration. • There are many methods on how SQLi may reach a database through various malformed 
+data inputs and parameters. • Adversaries have been known to use SQLi as a means of gaining access to externally 
+available web servers. An example is for 
+initial access in a network compromise by compromising an externally facing application. • SQLi is a variation of an exploitation technique against a specific software technology 
+and is an appropriate abstraction within how an adversary performs initial compromise. Building automation control 
+systems could be one example. Adoption of ATT&CK is widespread across multiple disciplines, including intrusion detection, 
+threat hunting, security engineering, threat intelligence, red teaming, and risk management. [Accessed 16 March 2020].

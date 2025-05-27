@@ -1,0 +1,55 @@
+ For example, the malware in the above 
+report “establishes a SOCKS5 connection.” The act of establishing a connection is a 
+behavior the adversary took. Bonus Level 0 Content: Need access to a good enterprise dataset for testing? For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? Test that confidence and improve your defenses by doing some purple  
+teaming! You’ll again give this to your red team, and they’ll execute an evasion that, for example, 
+adds an additional access so that your GrantedAccess bitmask no longer detects it. LEVEL 1 
+Small teams and those mainly focused on defense can get a lot of benefit out of 
+adversary emulation even if they don’t have access to a red team, so don’t worry! It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. | 29 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Assessments and Engineering | Andy Applebaum 
+LEVEL 1 
+If you’re working with a small team that doesn’t have access to lots of resources and 
+you’re thinking of doing a full assessment, don’t. A good resource for getting started with event logs is Malware 
+Archaeology’s Windows ATT&CK Logging Cheat Sheet, which maps Windows events to the 
+techniques you could detect with them. | 32 | 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Assessments and Engineering | Andy Applebaum 
+LEVEL 2 
+Once you’re familiar with this process—and have access to a bit more resources—you’ll 
+ideally want to expand your analysis to span a reasonably large subset of the ATT&CK 
+Matrix. To do 
+this, we recommend iterating through each tool—creating a separate heatmap for each— 
+and asking the following questions: 
+Square Where does the tool run? Depending on where a tool is running—e.g., at the perimeter 
+or on each endpoint—it may do better or worse with specific tactics. Square How does the tool detect? Square What data sources does the tool monitor? As an example, you might not be able to install Sysmon on each  
+of your endpoints, but your existing software might be able to forward relevant logs that  
+you might not otherwise have access to. Example: If you previously found a tool that has a lot of ATT&CK-related capabilities, but  
+personnel are only using it to monitor the Windows Registry, then you should modify that  
+tool’s heatmap to better reflect how it’s being used. As you talk to your colleagues, look at the tool heatmaps you had previously created. | 41 | 
+|  Solving Problems for a Safer World

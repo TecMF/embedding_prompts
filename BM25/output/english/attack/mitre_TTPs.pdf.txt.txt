@@ -1,0 +1,89 @@
+Data extracted from: https://raw.githubusercontent.com/mitre-attack/attack-stix-
+data/master/enterprise-attack/enterprise-attack.json 
+ 
+Obs. Adversaries commonly attempt to mimic 
+normal, expected traffic to avoid detection. TA0040: Impact 
+  Description: The adversary is trying to manipulate, interrupt, or destroy your systems and data. Adversaries may attempt to discover information about the services enabled throughout the 
+environment. Associated Tactics: TA0006 
+ 
+T1485: Data Destruction 
+  Description: Adversaries may destroy data and files on specific systems or in large numbers 
+on a network to interrupt availability to systems, services, and network resources. In cloud environments, adversaries may leverage access to delete cloud storage objects, 
+machine images, database instances, and other infrastructure crucial to operations to damage 
+an organization or their customers. This kind of targeted campaign is often referred to a 
+strategic web compromise or watering hole attack. Associated Tactics: TA0011 
+ 
+T1499: Endpoint Denial of Service 
+  Description: Adversaries may perform Endpoint Denial of Service (DoS) attacks to degrade or 
+block the availability of services to users. Guardrails ensure that a payload only executes against an intended target and 
+reduces collateral damage from an adversary’s campaign. (Citation: Bugcrowd Replay Attack)(Citation: Comparitech Replay 
+Attack)(Citation: Microsoft Midnight Blizzard Replay Attack) 
+ 
+Such exploitation has been demonstrated in cloud environments as well. to gain access to credentials that can be used to access systems, 
+services, and network resources. Associated Tactics: TA0005 
+ 
+T1498: Network Denial of Service 
+  Description: Adversaries may perform Network Denial of Service (DoS) attacks to degrade or 
+block the availability of targeted resources to users. Adversaries may send victims emails containing malicious attachments or links, typically to 
+execute malicious code on victim systems. ** 
+ 
+Adversaries may use more than one remote access tool with varying command and control 
+protocols or credentialed access to remote services so they can maintain access if an access 
+mechanism is detected or mitigated. Stopping critical services or processes can inhibit or stop 
+response to an incident or aid in the adversary's overall objectives to cause damage to the 
+environment. Adversaries may attempt to subvert these trust mechanisms. Associated Tactics: TA0002 
+ 
+T1529: System Shutdown/Reboot 
+  Description: Adversaries may shutdown/reboot systems to interrupt access to, or aid in the 
+destruction of, those systems. are present until after the malicious payload is 
+fetched. Users may be subjected to social engineering to get them to execute malicious code by, for 
+example, opening a malicious document file or link. With a botnet at their disposal, 
+adversaries may perform follow-on activity such as large-scale 
+[Phishing](https://attack.mitre.org/techniques/T1566) or Distributed Denial of Service 
+(DDoS). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. Adversaries may further interrupt efforts to track their infrastructure by using varied registration 
+information and purchasing domains with different domain registrars. Custom certificates may be used in an attempt to intercept 
+HTTPS traffic. (Citation: 
+Linux Signal Man)  These interrupt signals may also be used by defensive tools and/or analysts 
+to pause or terminate specified running processes. Installation of a root certificate on a compromised system would give an adversary a way to 
+degrade the security of that system. Purchased ads may attempt to impersonate or spoof well-known 
+brands. Adversaries may also 
+access externally facing Exchange services, Office 365, or Google Workspace to access email 
+using credentials or access tokens. (Citation: Unit 42 Leaked Environment Variables 2024) 
+ 
+In addition to incurring potential financial costs or availability disruptions, this technique may 
+cause reputational damage if a victim’s bandwidth is used for illegal activities. With a sufficient level of access, such accounts may be used to establish secondary 
+credentialed access that does not require persistent remote access tools to be deployed on the 
+system. Adversaries may attempt to 
+remove such artifacts. Conditional access policies are additional verifications used 
+by identity providers and identity and access management systems to determine whether a user 
+should be granted access to a resource. This DoS attack may also reduce the availability and 
+functionality of the targeted system(s) and network. This kind of targeted 
+campaign is referred to a strategic web compromise or watering hole attack. After the process is 
+hijacked and malicious code is executed, the <code>KernelCallbackTable</code> may also be 
+restored to its original state by the rest of the malicious payload. Adversaries can use scripts or manually run the commands <code>launchctl load 
+-w "%s/Library/LaunchAgents/%s"</code> or <code>/bin/launchctl load</code> to execute 
+[Launch Agent](https://attack.mitre.org/techniques/T1543/001)s or [Launch 
+Daemon](https://attack.mitre.org/techniques/T1543/004)s.(Citation: Sofacy Komplex 
+Trojan)(Citation: 20 macOS Common Tools and Techniques) 
+ 
+  Associated Tactics: TA0002 
+ 
+T1485.001: Lifecycle-Triggered Deletion 
+  Description: Adversaries may modify the lifecycle policies of a cloud storage bucket to destroy 
+all objects stored within. An adversary accomplishes a reflection attack by 
+sending packets to reflectors with the spoofed address of the victim. Access to Registry keys is controlled through 
+access control lists and user permissions. In this case, the malicious emails contain links. Associated Tactics: TA0003 
+ 
+T1546.005: Trap 
+  Description: Adversaries may establish persistence by executing malicious content triggered 
+by an interrupt signal. The <code>trap</code> command allows programs and shells to specify 
+commands that will be executed upon receiving interrupt signals. Malicious software can include payloads, 
+droppers, post-compromise tools, backdoors, and a variety of other malicious content. Associated Tactics: TA0002

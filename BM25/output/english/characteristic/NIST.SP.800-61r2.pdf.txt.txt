@@ -1,0 +1,61 @@
+ 21  
+A digital forensic workstation is specially designed to assist incident handlers in acquiring and analyzing data. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+23 
+Incident Analysis Resources: 
+ Port lists, including commonly used ports and Trojan horse ports 
+ Documentation for OSs, applications, protocols, and intrusion detection and antivirus products 
+ Network diagrams and lists of critical assets, such as database servers 
+ Current baselines of expected network, system, and application activity 
+ Cryptographic hashes of critical files22 to speed incident analysis, verification, and eradication 
+Incident Mitigation Software: 
+ Access to images of clean OS and application installations for restoration and recovery purposes 
+Many incident response teams create a jump kit, which is a portable case that contains materials that may 
+be needed during an investigation. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. An example is 
+fraud detection services that will notify an organization if its IP addresses, domain names, etc. Profiling is measuring the characteristics of expected activity so that 
+changes to it can be more easily identified. However, some incidents may not have smooth recovery 
+paths and may need to be queued for a more strategic-level response—for example, an incident that 
+results in an attacker exfiltrating and publicly posting gigabytes of sensitive data has no easy recovery 
+path since the data is already exposed; in this case the team may transfer part of the responsibility for 
+handling the data exfiltration incident to a more strategic-level team that develops strategy for preventing 
+future breaches and creates an outreach plan for alerting those individuals or organizations whose data 
+was exfiltrated. A study of incident characteristics may indicate systemic security weaknesses and threats, as well 
+as changes in incident trends. Profiling measures the characteristics of expected activity levels so 
+that changes in patterns can be more easily identified. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+48 
+ 
+4.2 
+Information Sharing Techniques 
+Information sharing is a key element of enabling coordination across organizations. When selecting existing data exchange models, organizations may prefer to select 
+multiple models that model different aspects of the incident response domain and then leverage these 
+models in a modular fashion, communicating only the information needed at a specific decision point in 
+the life cycle. Appendix E provides a non-exhaustive list of existing standards defining data exchange 
+models that are applicable to the incident response domain. These transport mechanisms include, at a 
+minimum, the transport protocol for exchanging the information, the architectural model for 
+communicating with an information resource, and the applicable ports and domain names for accessing an 
+information resource in a particular organization. For example, a group of partner organizations may 
+decide to exchange incident information using a Representational State Transfer (REST) architecture to 
+exchange IODEF/Real-Time Inter-Network Defense (RID) data over Hypertext Transfer Protocol Secure 
+(HTTPS) on port 4590 of a specific domain name within each organization’s DMZ. External indicators, such as the general characteristics of attacks and the identity of 
+attacking hosts, are usually safe to share with others. Information 
+sharing is a key element of enabling coordination across organizations. For example, external indicators, such as the general characteristics of attacks 
+and the identity of attacking hosts, are usually safe to share with others, but there may be both 
+security and liability reasons why an organization would not want to reveal the details of an exploited 
+vulnerability. (Section 2.4.2) 
+A.2 Scenarios 
+Scenario 1: Domain Name System (DNS) Server Denial of Service (DoS) 
+On a Saturday afternoon, external users start having problems accessing the organization’s public 
+websites. Profiling: Measuring the characteristics of expected activity so that changes to it can be more easily 
+identified. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

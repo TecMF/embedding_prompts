@@ -1,0 +1,80 @@
+ The UK participation in its preparation was entrusted to Technical
+Committee IST/33, IT - Security techniques. c) 
+Strengthening the information security incident prevention focus 
+Using a structured approach to information security incident management helps to create a better focus 
+on incident prevention within an organization, including identification methods of new threats and 
+vulnerabilities. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. Particular attention should be paid to the creation 
+of the simulated scenarios, which should be based on real new information security threats. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). e-mail) are themselves visible targets for attack. This includes when it is thought possible that the system 
+is under attack and unauthorized people could read reporting electronic forms. Evidence can be protected with cryptography, locks 
+and records of access. With regard to information security incidents that are caused by something other than deliberate attack, the 
+source should be identified. e-mail or web), 
+including when it is thought possible that the system is under attack, the report to the relevant people should 
+be done by telephone or text messaging. To ensure that the liaisons are organized quickly and are effective, it is necessary to establish a secure 
+method of communication in advance that does not wholly rely on the system, service and/or network that 
+may be affected by the information security incident. file, print, communications and e-mail), as well as remote access facilities. g) 
+Activity to access the contents of protected or encrypted files (unless prevented by law). i) 
+Activity to analyze file access, modification and creation times. The method(s) to be followed should be documented in the ISIRT procedures. b) 
+Are there any procedures or methods that would have aided in the detection of the incident? the source of the attack is ‘faked’), since they typically do not rely on the attacker receiving any information 
+back from the network or system being attacked. In some cases, technical information gathering extends into unauthorized access if, for example, as part of 
+searching for vulnerabilities the attacker also attempts to gain unauthorized access. e-mail), including when it is thought 
+possible that the system is under attack and report electronic forms could be read by unauthorized people, 
+then alternative means of reporting should be used. This may include: 
+- 
+those individuals with access to the personal data should, so far as is practical, not personally know 
+the person(s) being investigated, 
+- 
+non-disclosure agreements should be signed by those individuals with access to the personal data 
+prior to them being allowed access to it, 
+- 
+information should only be used for the express purpose for which it has been obtained, i.e.  
+Legal Aspects Associated with Monitoring Techniques are Addressed. The implications of using 
+monitoring techniques need to be addressed in the context of the relevant national legislation. The legality 
+of different techniques will vary from country to country.  Information technology — Security techniques — Code of practice for information 
+security management 
+[6] 
+ISO/IEC 27003, Information technology — Security techniques — Information security management 
+system implementation guidance 
+[7] 
+ISO/IEC 27004, Information technology — Security techniques — Information security management — 
+Measurement 
+[8] 
+ISO/IEC 27005, Information technology — Security techniques — Information security risk 
+management 
+[9] 
+ISO/IEC 27031, Information technology — Security techniques — Guidelines for information and 
+communication technology readiness for business continuity 
+[10] 
+ISO/IEC 27033-1,  Information technology — Security techniques — Network security — Part 1: 
+Overview and concepts 
+[11] 
+ISO/IEC 27033-2, Information technology — Security techniques — Network security — Part 2: 
+Guidelines for the design and implementation of network security7 
+[12] 
+ISO/IEC 27033-3, Information technology — Security techniques — Network security — Part 3: 
+Reference networking scenarios — Threats, design techniques and control issues 
+[13] 
+Internet Engineering Task Force (IETF) Site Security 
+Handbook, http://www.ietf.org/rfc/rfc2196. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+77
+ 
+[19] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Incident Management 
+Capability Metrics Version 0.1 (2007), http://www.cert.org/archive/pdf/07tr008.pdf 
+[20] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Incident Management 
+Mission Diagnostic Method Version 1.0, http://www.cert.org/archive/pdf/08tr007.pdf 
+[21] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Defining Incident 
+Management Processes for CSIRTs: A Work in Progress, http://www.cert.org/archive/pdf/04tr015. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

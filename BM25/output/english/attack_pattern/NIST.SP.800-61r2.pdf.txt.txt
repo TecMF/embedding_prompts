@@ -1,0 +1,74 @@
+ The attack vectors are: 
+ External/Removable Media: An attack executed from removable media (e.g., flash drive, CD) or a 
+peripheral device.  Improper Usage: Any incident resulting from violation of an organization’s acceptable usage 
+policies by an authorized user, excluding the above categories.  Other: An attack that does not fit into any of the other categories. 2.1 
+Events and Incidents 
+An event is any observable occurrence in a system or network. A computer security incident is a violation or imminent threat of violation1 of computer security policies, 
+acceptable use policies, or standard security practices. Another benefit of incident 
+response is the ability to use information gained during incident handling to better prepare for handling 
+                                                      
+1  
+An “imminent threat of violation” refers to a situation in which the organization has a factual basis for believing that a 
+specific incident is about to occur. In addition, agencies have an 
+Office of Inspector General (OIG) for investigation of violation of the law within each agency. However, technical staff members within the 
+organization usually have much better knowledge of the organization’s environment than an 
+outsourcer would, which can be beneficial in identifying false positives associated with organization-
+specific behavior and the criticality of targets. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis.  Other: An attack that does not fit into any of the other categories. Logs can be used for 
+analysis by correlating event information. Depending on the event information, an alert can be 
+generated to indicate an incident. Incident response team members should study networks, systems, 
+and applications to understand what their normal behavior is so that abnormal behavior can be 
+recognized more easily. No incident handler will have a comprehensive knowledge of all behavior 
+throughout the environment, but handlers should know which experts could fill in the gaps. A network IDPS may detect that an attack was launched 
+against a particular host, but it may not know if the attack was successful. Performing an Internet search using the 
+apparent source IP address of an attack may lead to more information on the attack—for example, a 
+mailing list message regarding a similar attack. For example, if an 
+attacker is able to use knowledge gathered in one attack to perform a more severe attack later, 
+evidence from the first attack may be key to explaining how the second attack was accomplished. Team members who 
+understand normal behavior should be able to recognize abnormal behavior more easily.  Perform event correlation. For example, if an organization 
+identifies some behavior on its network that seems suspicious and sends information about the event to a 
+set of trusted partners, someone else in that network may have already seen similar behavior and be able 
+to respond with additional details about the suspicious activity, including signatures, other indicators to 
+look for, or suggested remediation actions. Event: Any observable occurrence in a network or system. Incident: A violation or imminent threat of violation of computer security policies, acceptable use 
+policies, or standard security practices. Signature: A recognizable, distinguishing pattern associated with an attack, such as a binary string in a 
+virus or a particular set of keystrokes used to gain unauthorized access to a system. Threat: The potential source of an adverse event. html#800-128  
+ 
+ 
+ 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+64 
+Data Exchange Specifications Applicable to Incident Handling 
+Title 
+Description 
+Additional Information 
+AI 
+Asset Identification  
+http://csrc.nist.gov/publications/ PubsNISTIRs.html#NIST-
+IR-7693  
+ARF  
+Asset Results Format  
+http://csrc.nist.gov/publications/ PubsNISTIRs.html#NIST-
+IR-7694  
+CAPEC  
+Common Attack Pattern Enumeration 
+and Classification  
+http://capec.mitre.org/  
+CCE  
+Common Configuration Enumeration  
+http://cce.mitre. In general, an incident is a violation of computer security policies, acceptable use policies, or 
+standard computer security practices. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

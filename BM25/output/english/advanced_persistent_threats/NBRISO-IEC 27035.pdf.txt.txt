@@ -1,0 +1,168 @@
+ .................................................................................................. 1 
+4 
+Overview ................................................................................................................................................. 2 
+4.1 
+Basic concepts ...................................................................................................................................... 2 
+4.2 
+Objectives ................................................. Further, it is inevitable that new instances of previously unidentified threats will occur. Information security 
+vulnerability 
+Information 
+asset 
+Exploits
+Exposes 
+Causes 
+Unwanted 
+action 
+Information 
+security incident 
+Implications on 
+information security 
+Classified as
+Information 
+security event 
+Occurrence of
+Threat 
+Figure 1 — The relationship of objects in an information security incident chain 
+4.2 Objectives 
+As a key part of an organization's overall information security strategy, the organization should put controls 
+and procedures in place to enable a structured well-planned approach to the management of information 
+security incidents. The objectives of a structured well-planned approach are more refined and should ensure the following: 
+a) 
+Information security events are detected and dealt with efficiently, in particular in identifying whether they 
+need to be categorized and classified as information security incidents or not. g) 
+Improving updates to information security risk assessment and management results 
+The use of a structured approach to information security incident management will facilitate the 
+- better collection of data for assisting in the identification and determination of the characteristics of the 
+various threat types and associated vulnerabilities, and 
+- provision of data on frequencies of occurrence of the identified threat types. The data collected to identify the occurrence frequency of the 
+various threat types will greatly aid the quality of the threat assessment. 4.5 Phases 
+To achieve the objectives outlined in Clause 4.2, information security incident management consists of the 
+following five distinct phases: 
+ 
+Plan and prepare, 
+ 
+Detection and reporting, 
+ 
+Assessment and decision, 
+ 
+Responses, and 
+ 
+Lessons learnt. 3) Technology watch to detect new kinds of threats and attacks. Particular attention 
+should be given to the creation of tests that focus on the evolving vulnerability, threat and risk scenarios 
+(see Clause 5.8). In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. Particular attention should be paid to the creation 
+of the simulated scenarios, which should be based on real new information security threats. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). The overall objectives in responding to information security incidents are the following: 
+a) 
+to confine the potential adverse impacts (of information security incidents), and 
+b) 
+to improve information security. b) Undertake regular reviews of the effectiveness 
+of the ISMS (including meeting ISMS policy 
+and objectives, and review of security controls) 
+taking into account results of security audits, 
+incidents, effectiveness measurements, 
+suggestions and feedback from all interested 
+parties. The following approach categorizes information security incidents by 
+considering threats as categorization factors. (For threats, ISO/IEC 27005:2008, Annex C Example of typical 
+threats is referred to.) Social engineering is to gather information from a human 
+being in a non-technical way, for example, lies, tricks, 
+bribes, or threats. 8.1 Actual 
+(incident has occurred) 
+ 
+8.2 Suspected 
+(incident thought to have occurred but not 
+confirmed) 
+ 
+(One of) 
+8.3 Natural disaster 
+ 
+(indicate threat types involved) 
+ 
+Earthquake 
+ 
+Volcano 
+ 
+Flood 
+ 
+Violent wind 
+ 
+Lightning 
+ 
+Tsunami 
+ 
+Collapse 
+ 
+Other 
+ 
+ 
+Specify: 
+(One of) 
+8.4 Social unrest 
+ 
+(indicate threat types involved) 
+ 
+Bedin 
+    Terrorist assault 
+    War 
+    Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 10 Technical attack 
+ 
+(indicate threat types involved) 
+ 
+Network scanning 
+        Exploitation of vulnerability 
+        Exploitation of backdoor 
+ 
+Login attempts, Interference 
+        Denial of Service (DoS) 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.11 Breach of rule 
+ 
+(indicate threat types involved) 
+ 
+Unauthorized use of resources 
+        Breach of copyright 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 12 Compromise of functions 
+ 
+(indicate threat types involved) 
+ 
+Abuse of rights 
+        Forging of rights, Denial of actions 
+        Mis-operations 
+ 
+Breach of personnel availability 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.13 Compromise of information 
+ 
+(indicate threat types involved) 
+ 
+Interception 
+        Spying, Eavesdropping 
+        Disclosure 
+ 
+Masquerade, Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

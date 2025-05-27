@@ -1,0 +1,63 @@
+ ............................... 8 
+3.4 
+Techniques and Sub-Techniques ...................................................................................... 9 
+3.4.1 
+Procedures .................................................................................................................. 9 
+3.4.2 
+Technique and Sub-Technique Object Structure ........................................................ 9 
+3.4.3 
+Sub-Technique Details ............................................................................................. ATT&CK Technique and Sub-Technique Model ........................................................... 10 
+Table 3. Introduction 
+MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, 
+reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known 
+to target. At a high-level, ATT&CK is a behavioral model that consists of the following 
+core components: 
+• Tactics, denoting short-term, tactical adversary goals during an attack; 
+• Techniques, describing the means by which adversaries achieve tactical goals; 
+• Sub-techniques, describing more specific means by which adversaries achieve tactical 
+goals at a lower level than techniques; and 
+• Documented adversary usage of techniques, their procedures, and other metadata. ATT&CK is not an exhaustive enumeration of attack vectors against software. Techniques and sub-techniques can apply to multiple platforms. This tactic is often used in conjunction with initial access as the means of 
+executing code once access is obtained, and lateral movement to expand access to remote 
+systems on a network. 3.4 Techniques and Sub-Techniques 
+Techniques represent “how” an adversary achieves a tactical objective by performing an action. The two important aspects to note about procedures in ATT&CK are that it is how an adversary 
+uses techniques and sub-techniques and that a procedure can span multiple techniques and sub-
+techniques. Format: (technique) T####; (sub-
+technique) T####.###. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Sub-techniques do not have a one-to-many relationship to techniques. Not all techniques will have sub-techniques. It conveys the relationships and dependencies between 
+adversarial actions and information in a way that’s agnostic of any particular defensive tool or 
+method of collecting data. Goals such as initial access, discovery, 
+and credential access are commonly used to gain and expand access within an environment with 
+an ultimate objective of stealing information through collection and exfiltration. One example of the former is 
+Credential Dumping [10] for Credential Access where dumping credentials is one method of 
+gaining access to new credentials—and credentials can be dumped in several different ways. • Actions- How a technique or sub-technique is performed. • Requirements- The components that are needed to use a technique or sub-technique, or 
+are affected by use of a technique. o Does the new behavior have a different detection method or set of methods than 
+the existing technique? § Are there similar data sources or methods for creating analytics that are 
+similar or different than existing techniques? o Does the new behavior have a different mitigation method or set of methods than 
+the existing technique? § Is the implementation or deployment methods of the mitigation 
+fundamentally different than existing techniques that can be inhibited by a 
+similar mitigation? • Are there different adversary groups that use this technique or sub-technique? When documenting techniques and sub-techniques used, multiple techniques may 
+simultaneously apply to the same behavior. • Other related methods use different functionality provided by Windows to load and 
+execute code, such as application shims. SQLi is a method of injecting code through an improperly secured web interface that is 
+interpreted and executed by a database process. The resulting code execution can be used for a 
+number of purposes, including adding or modifying information, gaining access to a system, 
+causing the server to download and execute other code which may result in persistence, 
+credential access, privilege escalation, collection, and exfiltration. • There are many methods on how SQLi may reach a database through various malformed 
+data inputs and parameters. • Adversaries have been known to use SQLi as a means of gaining access to externally 
+available web servers. An example is for 
+initial access in a network compromise by compromising an externally facing application. Available: https://medium.com/mitre-attack/2020-attack-roadmap-4820d30b38ba. [2]  The MITRE Corporation, "Common Attack Pattern Enumeration and Classification," 21 
+February 2018. Available: https://medium.com/mitre-attack/how-to-be-a-savvy-attack-consumer-
+63e45b8e94c9. [Accessed 16 March 2020].

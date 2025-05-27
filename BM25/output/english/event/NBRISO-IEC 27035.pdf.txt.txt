@@ -1,0 +1,164 @@
+ This can potentially have both direct and indirect adverse impacts on an organization's business operations. The occurrence of an information security event does not necessarily mean that an attempt has been 
+successful or that there are any implications on confidentiality, integrity and/or availability, i.e. b) 
+Reducing adverse business impacts 
+A structured approach to information security incident management can assist in reducing the level of 
+potential adverse business impacts associated with information security incidents. The data collected to identify the occurrence frequency of the 
+various threat types will greatly aid the quality of the threat assessment. In any 
+event, the decision should be based on the actual or projected adverse impacts on the organization's 
+business operations. 2) The information security event/incident/vulnerability forms: 
+i) 
+completed by the person reporting an information security event (i.e. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Reduction
+of
+false alarm
+Report of
+information
+security
+incident
+Alarm
+of
+abnormality
+or anomaly
+ Incident categolization and
+severity classification
+ 
+Figure 3 — Information security event and incident flow diagram 
+NOTE 
+False alarm is an indication of an unwanted event, but is found not to be real or of any consequence. The information security incident reporting form should contain narrative, and 
+as far as possible should confirm and describe the following: 
+a) 
+what the information security incident is, 
+b) 
+how it was caused and by what or whom, 
+BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+29
+ 
+c) 
+what it affects or could affect, 
+d) 
+the impact or potential impact of the information security incident on the business of the organization, 
+e) 
+an indication as to whether the information security incident is deemed significant or not (using the 
+organization's pre-determined classification scale), and 
+f) 
+how it has been dealt with so far. controls to be adopted to prevent re-occurrence or similar 
+occurrences). An information security incident should be correlated to any other event/incident reported to the ISIRT. This 
+important activity is to verify if the incident is connected to any other event/incident or it is simply the effect of 
+another incident, i.e. The aim is to confirm the following as soon as possible: 
+a) 
+What the information security incident is, how it was caused and by what or whom, what it affects or could 
+affect, the impact or potential impact of the information security incident on the business of the 
+organization, an indication as to whether the information security incident is deemed significant or not 
+(using the organization's pre-determined severity scale). The update may cover further information on the following: 
+a) 
+what the information security incident is, 
+b) 
+how it was caused and by what or whom, 
+c) 
+what it affects or could affect, 
+d) 
+the impact or potential impact of the information security incident on the business of the organization, 
+e) 
+changes to the indication as to whether the information security incident is deemed significant or not 
+(using the organization's pre-determined severity scale), and 
+f) 
+how it has been dealt with so far. further controls to be adopted to prevent re-occurrence or 
+similar 
+occurrences). Some responses are directed at preventing information security incident re-occurrence or similar occurrence. Other measures to decrease the possibility of re-occurrence or similar occurrence of an IT 
+information security incident may include changing system passwords and disabling unused services. Important social impact would mean adverse effects spanning most areas of one or more cities, 
+threatening national security, causing social panic, bringing significant adverse consequences on economic 
+development, and/or damaging public interest. Considerable social impact would mean adverse effects spanning partial areas of one or more cities, with 
+limited threatening of national security, with some disturbance to social order, bringing some adverse 
+consequences on economic development, and/or influencing public interest. Further, repudiation of commitments could have adverse business 
+consequences. D.2 Example items in records 
+D.2.1 Example items of the record for information security event 
+This includes basic information of the information security event, such as when, what, how and why the event 
+occurred, as well as the contact information of the reporting person.  telephone and e-mail 
+Incident description 
+ 
+What occurred 
+ 
+How occurred 
+ 
+Why Occurred 
+ 
+Initial views on components/assets affected 
+ 
+Adverse business impacts 
+ 
+Any vulnerability identified 
+Incident details 
+ 
+Date and time the incident occurred 
+ 
+Date and time the incident was discovered 
+ 
+Date and time the incident was reported 
+Incident category 
+Components/assets affected 
+Adverse business impact/effect of incident 
+Total recovery cost from incident 
+Incident resolution 
+Person(s)/perpetrator( Whether the 
+information 
+security 
+event 
+is 
+classified 
+as 
+an 
+incident 
+or 
+not, 
+the 
+information 
+security 
+event/incident/vulnerability database should be updated. Date of Event 
+ 
+ 
+Page 1 of 1 
+2. Event Number3 
+ 
+3. INFORMATION SECURITY EVENT DETAILS 
+6.1 Date and Time the Event Occurred 
+ 
+6.2 Date and Time the Event was Discovered 
+ 
+6.3 Date and Time the Event was Reported 
+ 
+6.4 Is the Response to this Event Closed? Incident Number4 
+ 
+3. INFORMATION SECURITY INCIDENT DETAILS 
+7.1 Date and Time the Incident Occurred 
+ 
+7.2 Date and Time the Incident was Discovered 
+ 
+7.3 Date and Time the Incident was Reported 
+ 
+7.4 Identity/Contact Details of Reporting Person 
+ 
+7.5 Is the Incident Over? INCIDENT RESOLUTION 
+12.1 Incident Investigation Commenced Date 
+ 
+12.2 Incident Investigator(s) Names(s) 
+ 
+12.3 Incident End Date 
+ 
+12.4 Impact End Date 
+ 
+12.5 Incident Investigation Completion Date 
+ 
+12.6 Reference and Location of Investigation Report 
+ 
+13. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

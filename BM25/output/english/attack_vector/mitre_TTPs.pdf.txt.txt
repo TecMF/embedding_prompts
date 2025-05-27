@@ -1,0 +1,98 @@
+Data extracted from: https://raw.githubusercontent.com/mitre-attack/attack-stix-
+data/master/enterprise-attack/enterprise-attack.json 
+ 
+Obs. Common collection methods include 
+capturing screenshots and keyboard input. Other tactics’ techniques are cross-
+listed here when those techniques include the added benefit of subverting defenses. Methods for doing that include built-in functionality of 
+malware or by using utilities present on the system. This kind of targeted campaign is often referred to a 
+strategic web compromise or watering hole attack. (Citation: Bugcrowd Replay Attack)(Citation: Comparitech Replay 
+Attack)(Citation: Microsoft Midnight Blizzard Replay Attack) 
+ 
+Such exploitation has been demonstrated in cloud environments as well. Associated Tactics: TA0007 
+ 
+T1200: Hardware Additions 
+  Description: Adversaries may introduce computer accessories, networking hardware, or other 
+computing devices into a system or network that can be used as a vector to gain access. to gain access to credentials that can be used to access systems, 
+services, and network resources. The search order differs depending on the method that is 
+used to execute the program. Associated Tactics: TA0007 
+ 
+T1108: Redundant Access 
+  Description: **This technique has been deprecated. ** 
+ 
+Adversaries may use more than one remote access tool with varying command and control 
+protocols or credentialed access to remote services so they can maintain access if an access 
+mechanism is detected or mitigated. Information 
+from these sources may reveal opportunities for other forms of reconnaissance (ex: [Phishing 
+for Information](https://attack.mitre.org/techniques/T1598) or [Search Open Technical 
+Databases](https://attack.mitre.org/techniques/T1596)), establishing operational resources (ex: 
+[Establish Accounts](https://attack.mitre.org/techniques/T1585) or [Compromise 
+Accounts](https://attack.mitre.org/techniques/T1586)), and/or initial access (ex: [Trusted 
+Relationship](https://attack.mitre.org/techniques/T1199) or 
+[Phishing](https://attack.mitre.org/techniques/T1566)). **This technique has been deprecated and 
+should no longer be used. The file executed with this 
+technique does not need to be marked executable beforehand. The method adversaries use will 
+depend on the specific mechanism they seek to subvert. The observation of the signal packets to trigger the communication can be conducted through 
+different methods. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. CDNs may also allow organizations to customize content 
+delivery based on the requestor’s geographical region. [Exploit 
+Public-Facing Application](https://attack.mitre.org/techniques/T1190), [Exploitation for Client 
+Execution](https://attack.mitre.org/techniques/T1203), [Exploitation for Privilege 
+Escalation](https://attack.mitre.org/techniques/T1068), [Exploitation for Defense 
+Evasion](https://attack.mitre.org/techniques/T1211), [Exploitation for Credential 
+Access](https://attack.mitre.org/techniques/T1212), [Exploitation of Remote 
+Services](https://attack.mitre.org/techniques/T1210), and [Application or System 
+Exploitation](https://attack.mitre.org/techniques/T1499/004)). (Citation: LaunchDaemon Hijacking)(Citation: 
+sentinelone macos persist Jun 2019) 
+  Parent Technique: T1543 
+  Associated Tactics: TA0003, TA0004 
+ 
+T1053.004: Launchd 
+  Description: This technique is deprecated due to the inaccurate usage. This infection vector may therefore remain hidden from 
+the ad network as well as any visitor not reaching the malicious sites with a valid identifier from 
+clicking on the advertisement. This method is dependent upon the [Network Boundary 
+Bridging](https://attack.mitre.org/techniques/T1599) method allowing the adversaries to cross 
+the protected network boundary of the Internet perimeter and into the organization’s Wide-Area 
+Network (WAN). This method typically requires 
+administrative level access to the device. When the technique is performed on the running operating system in memory and not on the 
+stored copy, this technique will not survive across reboots. The observation of the signal packets to trigger the communication can be conducted through 
+different methods. Adversaries may also 
+access externally facing Exchange services, Office 365, or Google Workspace to access email 
+using credentials or access tokens. Shortcuts can also be abused to establish persistence by implementing other methods. Software packing is a method of compressing or encrypting an 
+executable. Associated Tactics: TA0040 
+ 
+T1560.003: Archive via Custom Method 
+  Description: An adversary may compress or encrypt data that is collected prior to exfiltration 
+using a custom method. (Citation: 
+Davidson Windows) 
+ 
+Many methods have been discovered to bypass UAC. With a sufficient level of access, such accounts may be used to establish secondary 
+credentialed access that does not require persistent remote access tools to be deployed on the 
+system. Conditional access policies are additional verifications used 
+by identity providers and identity and access management systems to determine whether a user 
+should be granted access to a resource. This DoS attack may also reduce the availability and 
+functionality of the targeted system(s) and network. This kind of targeted 
+campaign is referred to a strategic web compromise or watering hole attack. Many other techniques, such as [Software 
+Packing](https://attack.mitre.org/techniques/T1027/002), 
+[Steganography](https://attack.mitre.org/techniques/T1027/003), and [Embedded 
+Payloads](https://attack.mitre.org/techniques/T1027/009), share this same broad objective. [Exploit 
+Public-Facing Application](https://attack.mitre.org/techniques/T1190), [Exploitation for Client 
+Execution](https://attack.mitre.org/techniques/T1203), [Exploitation for Privilege 
+Escalation](https://attack.mitre.org/techniques/T1068), [Exploitation for Defense 
+Evasion](https://attack.mitre.org/techniques/T1211), [Exploitation for Credential 
+Access](https://attack.mitre.org/techniques/T1212), [Exploitation of Remote 
+Services](https://attack.mitre.org/techniques/T1210), and [Application or System 
+Exploitation](https://attack.mitre.org/techniques/T1499/004)). An adversary accomplishes a reflection attack by 
+sending packets to reflectors with the spoofed address of the victim. Another variation of this technique is to utilize temporary storage attached to the compute 
+instance. Example execution techniques that rely on 
+authenticated sessions over SMB/RPC are [Scheduled 
+Task/Job](https://attack.mitre.org/techniques/T1053), [Service 
+Execution](https://attack.mitre.org/techniques/T1569/002), and [Windows Management 
+Instrumentation](https://attack.mitre.org/techniques/T1047). Access to Registry keys is controlled through 
+access control lists and user permissions. Associated Tactics: TA0002

@@ -1,0 +1,46 @@
+ Introduction 
+MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, 
+reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known 
+to target. ATT&CK focuses on how external adversaries compromise and operate within 
+computer information networks. It originated out of a project to document and categorize post-
+compromise adversary tactics, techniques and procedures (TTPs) against Microsoft Windows 
+systems to improve detection of malicious behavior. At a high-level, ATT&CK is a behavioral model that consists of the following 
+core components: 
+• Tactics, denoting short-term, tactical adversary goals during an attack; 
+• Techniques, describing the means by which adversaries achieve tactical goals; 
+• Sub-techniques, describing more specific means by which adversaries achieve tactical 
+goals at a lower level than techniques; and 
+• Documented adversary usage of techniques, their procedures, and other metadata. ATT&CK is not an exhaustive enumeration of attack vectors against software. The goal was to improve post-
+compromise detection of threats penetrating enterprise networks through telemetry sensing and 
+behavioral analytics [4]. ATT&CK was used by both the adversary emulation team (for scenario 
+development) and the defender team (for analytic progress measurement), which made it a 
+driving force within the FMX research. If ipconfig.exe is frequently and legitimately used then notifying an 
+analyst with an alert on each instance as potential intrusion behavior would be excessive. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Groups are defined as 
+named intrusion sets, threat groups, actor groups, or campaigns that typically represent targeted, 
+persistent threat activity. The perspective shift changes the question from what did happen based on a list of available 
+resources to what could happen with a framework for aligning a defensive strategy to the 
+adversary’s playbook. An example is for 
+initial access in a network compromise by compromising an externally facing application. • SQLi is a variation of an exploitation technique against a specific software technology 
+and is an appropriate abstraction within how an adversary performs initial compromise. Even though 
+ATT&CK focuses on how adversaries compromise and operate within computer information 
+networks and related technologies, the methodology behind how it was built can be applied to 
+other areas. Adoption of ATT&CK is widespread across multiple disciplines, including intrusion detection, 
+threat hunting, security engineering, threat intelligence, red teaming, and risk management. Available: https://medium.com/mitre-attack/2020-attack-roadmap-4820d30b38ba. [2]  The MITRE Corporation, "Common Attack Pattern Enumeration and Classification," 21 
+February 2018. [6]  C. Betz, S. Caltagirone and A. Pendergast, "The Diamond Model of Intrusion Analysis," 
+2013. Available: https://medium.com/mitre-attack/how-to-be-a-savvy-attack-consumer-
+63e45b8e94c9. [Accessed 16 March 2020].

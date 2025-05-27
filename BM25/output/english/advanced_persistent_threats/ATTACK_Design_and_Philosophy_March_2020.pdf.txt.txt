@@ -1,0 +1,86 @@
+ ........................................................... 26 
+4.3.1.4 
+Adversary Use .................................................................................................. 26 
+4.3.1.5 
+Technique Distinction ...................................................................................... 27 
+4.3.2 
+Creating New Techniques ........................................................................................ 27 
+4.3.3 
+Enhancing Existing Techniques ............................................................................... 28 
+4.3.4 
+Named Adversary Groups Using Techniques ..................................................... MITRE began researching data sources and 
+analytic processes within FMX for detecting advanced persistent threats (APTs) more quickly 
+under an “assume breach” mentality. The goal was to improve post-
+compromise detection of threats penetrating enterprise networks through telemetry sensing and 
+behavioral analytics [4]. ATT&CK can be used as a tool to create adversary emulation scenarios [5] to test and verify 
+defenses against common adversary techniques. Distribution unlimited 19-01075-28. 
+threats against the network. Similar to the defensive gap assessment, a SOC 
+Maturity assessment focuses on the processes a SOC uses to detect, understand, and respond to 
+changing threats to their network over time. Cyber Threat Intelligence Enrichment – Cyber threat intelligence covers knowledge of cyber 
+threats and threat actor groups that impact cybersecurity. It includes information about malware, 
+tools, TTPs, tradecraft, behavior, and other indicators that are associated to threats. When it comes to 
+information security, the threats we face, new technologies, and the adaptability of goal-based 
+adversaries, we cannot consider filling out a checklist as “done”. The ATT&CK Model 
+The basis of ATT&CK is the set of techniques and sub-techniques that represent actions that 
+adversaries can perform to accomplish objectives. Those objectives are represented by the tactic 
+categories the techniques and sub-techniques fall under. 3.2 Technology Domains 
+ATT&CK is organized in a series of “technology domains” - the ecosystem an adversary 
+operates within that provides a set of constraints the adversary must circumvent or take 
+advantage of to accomplish a set of objectives. It is the adversary’s 
+tactical objective: the reason for performing an action. Additional tactic categories may be defined as needed to more accurately describe adversary 
+objectives. There may be many ways, or techniques, to achieve tactical objectives, so there are multiple 
+techniques in each tactic category. *Only 
+applies to techniques and not sub-techniques  
+Tactic* 
+Tag 
+The tactic objectives that the (sub-)technique can be 
+used to accomplish. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Groups are defined as 
+named intrusion sets, threat groups, actor groups, or campaigns that typically represent targeted, 
+persistent threat activity. ATT&CK primarily focuses on APT groups though it may also include 
+other advanced groups such as financially motivated actors. ATT&CK Model Relationships 
+An example as applied to a specific persistent threat group where APT28 uses Mimikatz for 
+credential dumping against Windows LSASS process memory: 
+ 
+ 
+18 
+©2020 The MITRE Corporation. 4.1.1 Adversary’s Perspective 
+ATT&CK takes on the perspective of an adversary in its terminology and descriptions for tactics 
+and techniques described in the model. 4.1.2 Empirical Use 
+The activity described by ATT&CK is largely drawn from publicly reported incidents on 
+suspected advanced persistent threat group behavior, which provides a grounding for the 
+knowledge base so that it accurately portrays activity happening or likely to happen in the wild. Threat intelligence analysts typically track incidents, threat groups, and how their TTPs evolve 
+over time. 4.2 Tactics 
+Since tactics represent the tactical goals of an adversary, these remain relatively static over time 
+because adversary goals are unlikely to change. In the original ATT&CK for Enterprise, Windows the Collection tactic did not exist; instead it 
+was included as part of Exfiltration. This representation fit sufficiently at the time because it was 
+largely seen as one action—an adversary exfiltrates information but did not accurately represent 
+the distinct motives and actions necessary for successful exfiltration. Goals such as initial access, discovery, 
+and credential access are commonly used to gain and expand access within an environment with 
+an ultimate objective of stealing information through collection and exfiltration. With the rise of 
+targeted ransomware, disk wiper incidents, manipulation of financial transactions, and large scale 
+distributed denial of service attacks, it was important for ATT&CK to maintain parity with the 
+behavior that adversaries are using even if their goals are not focused on exfiltration of data. ATT&CK remains strongly tied to threat intelligence sources on 
+persistent threat groups. There are also fewer persistent threat incidents reported against Linux and 
+Mac systems than there are against Windows, causing available threat data to be substantially 
+less available. General in-the-wild sources of data that are not necessarily tied to persistent threat 
+group use may be used in lieu when the techniques align well with how persistent threats 
+typically behave. • Are there different adversary groups that use this technique or sub-technique? The resulting code execution can be used for a 
+number of purposes, including adding or modifying information, gaining access to a system, 
+causing the server to download and execute other code which may result in persistence, 
+credential access, privilege escalation, collection, and exfiltration. Adoption of ATT&CK is widespread across multiple disciplines, including intrusion detection, 
+threat hunting, security engineering, threat intelligence, red teaming, and risk management. [Accessed 16 March 2020].

@@ -1,0 +1,59 @@
+ A computer security incident is a violation or imminent threat of violation1 of computer security policies, 
+acceptable use policies, or standard security practices. However, most policies 
+include the same key elements: 
+ Statement of management commitment 
+ Purpose and objectives of the policy 
+                                                      
+3  
+http://www.whitehouse.gov/omb/circulars/a130/a130trans4.html 
+4  
+http://csrc.nist.gov/drivers/documents/FISMA-final.pdf  
+5  
+http://csrc.nist.gov/publications/PubsFIPS.html  
+6  
+http://www.whitehouse.gov/omb/memoranda/fy2007/m07-16. Software vendors may also provide information on known threats (e.g., new attacks) to help 
+organizations understand the current threat environment. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Exercises involving simulated incidents can also be very useful for preparing staff for incident handling; 
+see NIST SP 800-84 for more information on exercises23 and Appendix A for sample exercise scenarios. Periodic risk assessments of systems and applications should determine what 
+risks are posed by combinations of threats and vulnerabilities.25 This should include understanding the 
+applicable threats, including organization-specific threats. Routers and 
+other networking devices can provide network flow information, which can be used to find 
+anomalous network activity caused by malware, data exfiltration, and other malicious acts. Incident handlers should consider how this information exfiltration will impact the 
+organization’s overall mission. An incident that results in the exfiltration of sensitive information may 
+also affect other organizations if any of the data pertained to a partner organization. Combining the functional impact to the organization’s systems and the impact to the organization’s 
+information determines the business impact of the incident—for example, a distributed denial of service 
+attack against a public web server may temporarily reduce the functionality for users attempting to access 
+the server, whereas unauthorized root-level access to a public web server may result in the exfiltration of 
+personally identifiable information (PII), which could have a long-lasting impact on the organization’s 
+reputation. However, some incidents may not have smooth recovery 
+paths and may need to be queued for a more strategic-level response—for example, an incident that 
+results in an attacker exfiltrating and publicly posting gigabytes of sensitive data has no easy recovery 
+path since the data is already exposed; in this case the team may transfer part of the responsibility for 
+handling the data exfiltration incident to a more strategic-level team that develops strategy for preventing 
+future breaches and creates an outreach plan for alerting those individuals or organizations whose data 
+was exfiltrated. Each incident response team should evolve to reflect new threats, improved technology, and 
+lessons learned. A study of incident characteristics may indicate systemic security weaknesses and threats, as well 
+as changes in incident trends. Absolute numbers are not informative—understanding how 
+they represent threats to the business processes of the organization is what matters. Organizations should 
+decide what incident data to collect based on reporting requirements and on the expected return on 
+investment from the data (e.g., identifying a new threat and mitigating the related vulnerabilities before 
+they can be exploited.) The most important aspect of 
+incident response coordination is information sharing, where different organizations share threat, attack, 
+and vulnerability information with each other so that each organization’s knowledge benefits the other. Scenario 5: Unknown Exfiltration 
+On a Sunday night, one of the organization’s network intrusion detection sensors alerts on anomalous 
+outbound network activity involving large file transfers. Based on an investigation, the physical security team believes that the threats should be taken seriously 
+and notifies the appropriate internal teams, including the incident response team, of the threats. What should the incident response team do differently, if anything, in response to the notification 
+of the threats? Incident: A violation or imminent threat of violation of computer security policies, acceptable use 
+policies, or standard security practices. Threat: The potential source of an adverse event. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

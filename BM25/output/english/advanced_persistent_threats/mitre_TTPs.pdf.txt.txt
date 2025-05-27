@@ -1,0 +1,124 @@
+ TA0010: Exfiltration 
+  Description: The adversary is trying to steal data. Exfiltration consists of techniques that adversaries may use to steal data from your network. Adversaries can often enter and explore a network with unprivileged 
+access but require elevated permissions to follow through on their objectives. (Citation: ESET Gamaredon June 
+2020)  
+ 
+When automated exfiltration is used, other exfiltration techniques likely apply as well to transfer 
+the information out of the network, such as [Exfiltration Over C2 
+Channel](https://attack.mitre.org/techniques/T1041) and [Exfiltration Over Alternative 
+Protocol](https://attack.mitre.org/techniques/T1048). Since these binaries may be routinely executed by applications 
+or the user, the adversary can leverage this for persistent access to the host. For example, an adversary may modify the entry point of a binary 
+to point to malicious code patched in by the adversary before resuming normal execution 
+flow. Instead of buying, leasing, or renting infrastructure an 
+adversary may compromise infrastructure and use it during other phases of the adversary 
+lifecycle. The type of modification and the impact it will have depends on the target application and 
+process as well as the goals and objectives of the adversary. (Citation: US-CERT-TA18-106A)(Citation: US-CERT TA17-156A SNMP 
+Abuse 2017) 
+  Associated Tactics: TA0009 
+ 
+T1213: Data from Information Repositories 
+  Description: Adversaries may leverage information repositories to mine valuable information. that are accessible from the current 
+system prior to Exfiltration. connected to the compromised system prior to 
+Exfiltration. Endpoint DoS can be performed by exhausting the 
+system resources those services are hosted on or exploiting the system to cause a persistent 
+crash condition. There are examples of 
+antivirus software being targeted by persistent threat groups to avoid detection. An adversary can send an attachment to a user 
+through spearphishing that contains a resource link to an external server controlled by the 
+adversary (i.e. (Citation: US-CERT APT Energy Oct 2017) 
+* A modified .LNK or .SCF file with the icon filename pointing to an external reference such as 
+<code>\\[remote address]\pic.png</code> that will force the system to load the resource when 
+the icon is rendered to repeatedly gather credentials. (Citation: US-CERT APT Energy Oct 
+2017) 
+  Associated Tactics: TA0006 
+ 
+T1606: Forge Web Credentials 
+  Description: Adversaries may forge credential materials that can be used to gain access to 
+web applications or Internet services. Various artifacts may be created by an 
+adversary or something that can be attributed to an adversary’s actions. (Citation: WithSecure Lazarus-NoPineapple Threat Intel 
+Report 2023)(Citation: Cadet Blizzard emerges as novel threat actor) In cloud environments, 
+adversaries may leverage utilities such as the Azure VM Agent’s `CollectGuestLogs.exe` to 
+collect security logs from cloud hosted infrastructure. When scheduled exfiltration is used, other exfiltration techniques likely apply as well to transfer 
+the information out of the network, such as [Exfiltration Over C2 
+Channel](https://attack.mitre.org/techniques/T1041) or [Exfiltration Over Alternative 
+Protocol](https://attack.mitre.org/techniques/T1048). [Event Triggered 
+Execution](https://attack.mitre.org/techniques/T1546)), potentially enabling persistent execution 
+over time. Stopping critical services or processes can inhibit or stop 
+response to an incident or aid in the adversary's overall objectives to cause damage to the 
+environment. An adversary could utilize regions which do not support advanced detection services in order to 
+avoid detection of their activity. An example of adversary use of unused AWS regions is to mine cryptocurrency through 
+[Resource Hijacking](https://attack.mitre.org/techniques/T1496), which can cost organizations 
+substantial amounts of money over time depending on the processing power used. A botnet is a network of compromised systems that can be instructed 
+to perform coordinated tasks. With a botnet at their disposal, 
+adversaries may perform follow-on activity such as large-scale 
+[Phishing](https://attack.mitre.org/techniques/T1566) or Distributed Denial of Service 
+(DDoS). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. Security audit policy 
+settings can be changed by running secpol.msc, then navigating to <code>Security 
+Settings\Local Policies\Audit Policy</code> for basic audit policy settings or <code>Security 
+Settings\Advanced Audit Policy Configuration</code> for advanced audit policy 
+settings. (Citation: AWS Update Trail)(Citation: Pacu 
+Detection Disruption Module) In Office 365, an adversary may disable logging on mail collection 
+activities for specific users by using the `Set-MailboxAuditBypassAssociation` cmdlet, by 
+disabling M365 Advanced Auditing for the user, or by downgrading the user’s license from an 
+Enterprise E5 to an Enterprise E3 license. There are several examples of different 
+types of threats leveraging mshta.exe during initial compromise and for execution of code 
+(Citation: Cylance Dust Storm) (Citation: Red Canary HTA Abuse Part Deux) (Citation: FireEye 
+Attacks Leveraging HTA) (Citation: Airbus Security Kovter Analysis) (Citation: FireEye FIN7 
+April 2017)  
+ 
+Mshta.exe is a utility that executes Microsoft HTML Applications (HTA) files. Adversaries can use netsh.exe helper DLLs to trigger execution of arbitrary code in a persistent 
+manner. Threat actors can use 
+online resources and lookup tools to harvest information from these services. The type of 
+modification and the impact it will have depends on the target transmission mechanism as well 
+as the goals and objectives of the adversary. An adversary who has raw access to the boot 
+drive may overwrite this area, diverting execution during startup from the normal boot loader to 
+adversary code. Associated Tactics: TA0003, TA0005, TA0006 
+ 
+T1213.001: Confluence 
+  Description:  
+Adversaries may leverage Confluence repositories to mine valuable information. Associated Tactics: TA0002, TA0003, TA0004 
+ 
+T1213.004: Customer Relationship Management Software 
+  Description: Adversaries may leverage Customer Relationship Management (CRM) software 
+to mine valuable information. Once adversaries gain access to a victim organization, they may mine CRM software for 
+customer data. Threat actors 
+can use online resources and lookup tools to harvest information about certificates. (Citation: FireEye Cyber Threats to Media 
+Industries)(Citation: Kevin Mandia Statement to US Senate Committee on Intelligence)(Citation: 
+Anonymous Hackers Deface Russian Govt Site) [External 
+Defacement](https://attack.mitre.org/techniques/T1491/002) may be used as a catalyst to trigger 
+events, or as a response to actions taken by an organization or government. (Citation: 
+Trend Micro APT Attack Tools) Adversaries use these types of proxies to manage command 
+and control communications, to provide resiliency in the face of connection loss, or to ride over 
+existing trusted communications paths to avoid suspicion. (Citation: Lazarus APT January 
+2022)(Citation: FinFisher exposed ) The <code>KernelCallbackTable</code> can be found in 
+the Process Environment Block (PEB) and is initialized to an array of graphic functions available 
+to a GUI process once <code>user32.dll</code> is loaded. (Citation: Lazarus APT January 2022) 
+ 
+The tampered function is typically invoked using a Windows message. (Citation: Lazarus APT January 
+2022) Use of the <code>KernelCallbackTable</code> to hijack execution flow may evade 
+detection from security products since the execution can be masked under a legitimate process. For example, if an adversary has a username and password but 
+the user is not logged onto the system the adversary can then create a logon session for the 
+user using the `LogonUser` function. The type of 
+modification and the impact it will have depends on the target application and process as well as 
+the goals and objectives of the adversary. (Citation: malware_hides_service) 
+  Associated Tactics: TA0003, TA0004, TA0005 
+ 
+T1213.002: Sharepoint 
+  Description: Adversaries may leverage the SharePoint repository as a source to mine valuable 
+information. The type of modification and the impact it will have depends on the 
+type of data as well as the goals and objectives of the adversary. Adversaries may modify and/or replace the Terminal Services DLL to enable persistent access 
+to victimized hosts. Associated Tactics: TA0004, TA0005 
+ 
+T1597.001: Threat Intel Vendors 
+  Description: Adversaries may search private data from threat intelligence vendors for 
+information that can be used during targeting. Threat intelligence vendors may offer paid feeds 
+or portals that offer more data than what is publicly reported. Associated Tactics: TA0002

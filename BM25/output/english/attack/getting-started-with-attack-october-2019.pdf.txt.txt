@@ -1,0 +1,82 @@
+ Adam Pennington  
+Principal Cybersecurity Engineer  
+ATT&CK Blog Editor in Chief  
+MITRE 
+attack.mitre.org 
+medium.com/mitre-attack 
+twitter.com/MITREattack 
+linkedin.com/showcase/mitre-att&ck 
+| 1 | 
+1 Threat Intelligence 
+Katie Nickels 
+Based on feedback from ATT&CK users, both at the first ATT&CKcon and from other avenues,  
+we’ve learned a lot. 2 Detection and Analytics 
+John Wunder 
+Hopefully you had a chance to read in Chapter 1 on getting started using ATT&CK for threat  
+intelligence, which walked through understanding what adversaries are doing to attack you and  
+how to use that knowledge to prioritize what to defend. Bonus Level 0 Content: Need access to a good enterprise dataset for testing? | 12 | 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+If you’ve installed Sigma and you’re in its directory you can run this command to get (as  
+an example) the ELK/WinLogBeats query: 
+sigmac --target es-qs -c tools/config/winlogbeat.yml rules/windows/process_ 
+creation/win_susp_wmi_execution.yml 
+RESULTS FROM RUNNING WMI ANALYTIC AGAINST BRAWL DATA  
+Your job now is to look through each result and figure out whether it’s malicious. If  
+you used the BRAWL dataset, it’s all pretty malicious: it tries to run and.exe, and upon  
+further exploring the related events, and.exe had just been moved to that host over SMB  
+and added to the autorun registry keys for persistence. Your goal shouldn’t be to get to zero false positives; it should  
+be to reduce them as much as possible while still ensuring that you’ll catch the malicious  
+behavior. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? | 14 | 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+OUTPUT FROM RUNNING THE SQUIBLYDOO ATTACK TO LAUNCH CALC.EXE  
+Once you’ve run the attack, look inside your SIEM to see what log data was generated. At this stage, you’re looking for things that make this malicious event look distinctive. A general pattern to follow is to write the search to detect malicious behavior, revise it to  
+filter out false positives, make sure it still detects the malicious behavior, and then repeat  
+to reduce other sorts of false positives. In the real world, adversaries don’t just carry out cookie cutter attacks copy/pasted  
+from some book. They can then find and execute an attack that  
+will evade that analytic. You’ll again give this to your red team, and they’ll execute an evasion that, for example, 
+adds an additional access so that your GrantedAccess bitmask no longer detects it. In the end, you want to be developing a more  
+and more comprehensive set of detections so that you can detect more and more of the  
+things that adversaries do to attack us—and ATT&CK gives you the scorecard to do so. LEVEL 1 
+Small teams and those mainly focused on defense can get a lot of benefit out of 
+adversary emulation even if they don’t have access to a red team, so don’t worry! It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. | 29 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Assessments and Engineering | Andy Applebaum 
+LEVEL 1 
+If you’re working with a small team that doesn’t have access to lots of resources and 
+you’re thinking of doing a full assessment, don’t. | 32 | 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Assessments and Engineering | Andy Applebaum 
+LEVEL 2 
+Once you’re familiar with this process—and have access to a bit more resources—you’ll 
+ideally want to expand your analysis to span a reasonably large subset of the ATT&CK 
+Matrix. As an example, you might not be able to install Sysmon on each  
+of your endpoints, but your existing software might be able to forward relevant logs that  
+you might not otherwise have access to. Square Leveraging Microsoft EMET’s Attack Surface Reduction rules can make it harder to 
+use RunDLL32. | 41 | 
+|  Solving Problems for a Safer World

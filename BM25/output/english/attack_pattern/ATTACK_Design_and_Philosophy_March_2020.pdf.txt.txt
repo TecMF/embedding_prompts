@@ -1,0 +1,30 @@
+ Introduction 
+MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, 
+reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known 
+to target. At a high-level, ATT&CK is a behavioral model that consists of the following 
+core components: 
+• Tactics, denoting short-term, tactical adversary goals during an attack; 
+• Techniques, describing the means by which adversaries achieve tactical goals; 
+• Sub-techniques, describing more specific means by which adversaries achieve tactical 
+goals at a lower level than techniques; and 
+• Documented adversary usage of techniques, their procedures, and other metadata. ATT&CK is not an exhaustive enumeration of attack vectors against software. ATT&CK for ICS was published in 2020 to document behavior 
+against industrial controls systems. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Some 
+techniques were very broad and some were narrow, only describing a very specific behavior. For detection, 
+oftentimes defensive analysts are presented with alerts with little to no context about the event 
+that caused the alert. When this occurs, it is important to focus on the distinguishing attribute of the 
+behavior or what makes it different than the others. • Unreported – There is no public or non-public source of intel saying a behavior is in use. o How is the new behavior performed? o Does the new behavior have a different mitigation method or set of methods than 
+the existing technique? Available: https://medium.com/mitre-attack/2020-attack-roadmap-4820d30b38ba. [2]  The MITRE Corporation, "Common Attack Pattern Enumeration and Classification," 21 
+February 2018. Available: https://medium.com/mitre-attack/how-to-be-a-savvy-attack-consumer-
+63e45b8e94c9. [Accessed 16 March 2020].

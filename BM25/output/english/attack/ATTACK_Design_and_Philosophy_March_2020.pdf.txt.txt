@@ -1,0 +1,47 @@
+ Introduction 
+MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, 
+reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known 
+to target. At a high-level, ATT&CK is a behavioral model that consists of the following 
+core components: 
+• Tactics, denoting short-term, tactical adversary goals during an attack; 
+• Techniques, describing the means by which adversaries achieve tactical goals; 
+• Sub-techniques, describing more specific means by which adversaries achieve tactical 
+goals at a lower level than techniques; and 
+• Documented adversary usage of techniques, their procedures, and other metadata. ATT&CK is not an exhaustive enumeration of attack vectors against software. Behavioral Analytics Development – By going beyond traditional indicators of compromise 
+(IoCs) or signatures of malicious activity, behavioral detection analytics can be used to identify 
+potentially malicious activity within a system or network that may not rely on prior knowledge 
+of adversary tools and indicators. It is independent of 
+technology and models an adversary’s behavior as they attempt to gain access to an organization 
+or entity through the technology they leverage, spanning multiple domains. This tactic is often used in conjunction with initial access as the means of 
+executing code once access is obtained, and lateral movement to expand access to remote 
+systems on a network. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. The change was driven by the need to fix some of the 
+technique abstraction level issues that occurred as ATT&CK grew over the years. • Malware - Commercial, custom closed source, or open source software intended to be 
+used for malicious purposes by adversaries. They also do not take into account how legitimate software can be used for 
+malicious purposes. Exploits and malicious software are useful to an adversary toolkit, but to fully understand their 
+utility, it’s necessary to understand the context in which they can be used to achieve a goal. Goals such as initial access, discovery, 
+and credential access are commonly used to gain and expand access within an environment with 
+an ultimate objective of stealing information through collection and exfiltration. One example of the former is 
+Credential Dumping [10] for Credential Access where dumping credentials is one method of 
+gaining access to new credentials—and credentials can be dumped in several different ways. • It applies to Windows and Linux systems and represents benign functionality used by 
+legitimate software that can be used by adversaries for malicious purposes. Conclusions: 
+• The core feature of this technique is loading malicious code within an existing live 
+process. The resulting code execution can be used for a 
+number of purposes, including adding or modifying information, gaining access to a system, 
+causing the server to download and execute other code which may result in persistence, 
+credential access, privilege escalation, collection, and exfiltration. • Adversaries have been known to use SQLi as a means of gaining access to externally 
+available web servers. An example is for 
+initial access in a network compromise by compromising an externally facing application. Available: https://medium.com/mitre-attack/2020-attack-roadmap-4820d30b38ba. [2]  The MITRE Corporation, "Common Attack Pattern Enumeration and Classification," 21 
+February 2018. Available: https://medium.com/mitre-attack/how-to-be-a-savvy-attack-consumer-
+63e45b8e94c9. [Accessed 16 March 2020].

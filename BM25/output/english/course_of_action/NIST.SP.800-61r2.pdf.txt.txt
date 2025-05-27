@@ -1,0 +1,96 @@
+ ................................................... 9 
+2.4 
+Incident Response Team Structure ......................................................................... 13 
+2.4.1 
+Team Models ...............................................................................................13 
+2.4.2 
+Team Model Selection..................................................................................14 
+2.4. Understanding threats 
+and identifying modern attacks in their early stages is key to preventing subsequent compromises, and 
+proactively sharing information among organizations regarding the signs of these attacks is an 
+increasingly effective way to identify them. This model is effective for small organizations and for organizations with minimal 
+geographic diversity in terms of computing resources. This model can be thought of as a CSIRT for CSIRTs. Incident handling requires specialized knowledge and experience in several 
+technical areas; the breadth and depth of knowledge required varies based on the severity of the 
+organization’s risks. It is important to 
+document the appropriate actions for these decision points. In a 
+fully outsourced model, this person oversees and evaluates the outsourcer’s work. Information security staff members may be needed during certain stages of 
+incident handling (prevention, containment, eradication, and recovery)—for example, to alter network 
+security controls (e.g., firewall rulesets). 2.5 
+Incident Response Team Services 
+The main focus of an incident response team is performing incident response, but it is fairly rare for a 
+team to perform incident response only. The incident response policy is the foundation of the incident 
+response program.  Develop an incident response plan based on the incident response policy. The procedures should cover all the phases of the incident response 
+process.  Consider the relevant factors when selecting an incident response team model. Organizations 
+should carefully weigh the advantages and disadvantages of each possible team structure model and 
+staffing model in the context of the organization’s needs and available resources. Handling an Incident 
+The incident response process has several phases. This section describes the major phases of the incident response process—preparation, 
+detection and analysis, containment, eradication and recovery, and post-incident activity—in detail. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+23 
+Incident Analysis Resources: 
+ Port lists, including commonly used ports and Trojan horse ports 
+ Documentation for OSs, applications, protocols, and intrusion detection and antivirus products 
+ Network diagrams and lists of critical assets, such as database servers 
+ Current baselines of expected network, system, and application activity 
+ Cryptographic hashes of critical files22 to speed incident analysis, verification, and eradication 
+Incident Mitigation Software: 
+ Access to images of clean OS and application installations for restoration and recovery purposes 
+Many incident response teams create a jump kit, which is a portable case that contains materials that may 
+be needed during an investigation. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. Because the 
+purpose of having a jump kit is to facilitate faster responses, the team should avoid borrowing items from 
+the jump kit. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Exercises involving simulated incidents can also be very useful for preparing staff for incident handling; 
+see NIST SP 800-84 for more information on exercises23 and Appendix A for sample exercise scenarios. Each risk should be prioritized, and the 
+risks can be mitigated, transferred, or accepted until a reasonable overall level of risk is reached. Creating and implementing a log retention policy that 
+specifies how long log data should be maintained may be extremely helpful in analysis because older 
+log entries may show reconnaissance activity or previous instances of similar attacks. An incident with a high functional impact and low effort to recover from is an ideal 
+candidate for immediate action from the team. The escalation process should state how long 
+a person should wait for a response and what to do if no response occurs. Most incidents 
+require containment, so that is an important consideration early in the course of handling each incident. Organizations should define acceptable risks in dealing with incidents and 
+develop strategies accordingly. During eradication, it is important to identify all affected 
+hosts within the organization so that they can be remediated. For large-scale incidents, recovery may take months; the intent of the early phases should be to increase 
+the overall security with relatively quick (days to weeks) high value changes to prevent future incidents. The later phases should focus on longer-term changes (e.g., infrastructure changes) and ongoing work to 
+keep the enterprise as secure as possible.  Were any steps or actions taken that might have inhibited the recovery?  What corrective actions can prevent similar incidents in the future? Finally, it is also important to document the major points of 
+agreement and action items and to communicate them to parties who could not attend the meeting. If incident data is collected and stored properly, it 
+should provide several measures of the success (or at least the activities) of the incident response team. Audits will identify problems and deficiencies that 
+can then be corrected. Incident Handling Checklist 
+Action 
+Completed 
+Detection and Analysis 
+1. Performing periodic risk assessments and reducing the 
+identified risks to an acceptable level are effective in reducing the number of incidents. The logs can provide information such 
+as which accounts were accessed and what actions were performed. Profiling measures the characteristics of expected activity levels so 
+that changes in patterns can be more easily identified. Creating and implementing a log retention policy that specifies how long log data should be 
+maintained may be extremely helpful in analysis because older log entries may show reconnaissance 
+activity or previous instances of similar attacks. Organizations should define acceptable risks in 
+containing incidents and develop strategies and procedures accordingly. Lessons learned meetings are extremely 
+helpful in improving security measures and the incident handling process itself. 4.1 
+Coordination 
+As discussed in Section 2.3.4, an organization may need to interact with several types of external 
+organizations in the course of conducting incident response activities. Teams and coordinating teams frequently share 
+tactical, technical information as well as information 
+regarding threats, vulnerabilities, and risks to the 
+community served by the coordinating team. The incident response team should also ensure that the 
+necessary measures are taken to protect information shared with the team by other organizations. What measures are in place to attempt to prevent this type of incident from occurring or to limit 
+its impact? Would any precursors 
+cause the organization to take action before the incident occurred? How would the incident response team identify all infected hosts? What additional measures would the team perform for hosts that are not currently connected to 
+the network (e.g., staff members on vacation, offsite employees who connect occasionally)? Analysis of the internal host containing the .RAR files shows signs of a bot installation. How would the team determine what actions had been performed? How would the team identify who had been performing the vulnerability scans? What should the incident response team do differently, if anything, in response to the notification 
+of the threats? Vulnerability: A weakness in a system, application, or network that is subject to exploitation or misuse. What is incident response? The team receives information on possible incidents, investigates them, and takes action to ensure 
+that the damage caused by the incidents is minimized. This effort includes every action that is performed, every piece of evidence, 
+and every conversation with users, system owners, and others regarding the incident. For example, one person can perform actions while the other documents 
+them. Identify and mitigate all vulnerabilities that were exploited. It is critical to identify such 
+vulnerabilities and eliminate or otherwise mitigate them so that the incident does not recur. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

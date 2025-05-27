@@ -1,0 +1,56 @@
+ ..........................................46 
+4.1.2 
+Sharing Agreements and Reporting Requirements ......................................47 
+4.2 
+Information Sharing Techniques .............................................................................. 48 
+4.2.1 
+Ad Hoc ...................................................................................... The attack vectors are: 
+ External/Removable Media: An attack executed from removable media (e.g., flash drive, CD) or a 
+peripheral device.  Attrition: An attack that employs brute force methods to compromise, degrade, or destroy systems, 
+networks, or services.  Other: An attack that does not fit into any of the other categories. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Exercises involving simulated incidents can also be very useful for preparing staff for incident handling; 
+see NIST SP 800-84 for more information on exercises23 and Appendix A for sample exercise scenarios.  Other: An attack that does not fit into any of the other categories. In practice, it is 
+difficult to detect incidents accurately using most profiling techniques; organizations should use 
+profiling as one of several detection and analysis techniques. A network IDPS may detect that an attack was launched 
+against a particular host, but it may not know if the attack was successful. For example, only authorized personnel should 
+have access to the incident database. The team should plan and prepare several communication methods, 
+including out-of-band methods (e.g., in person, paper), and select the methods that are appropriate for a 
+particular incident. It focuses on forensic techniques for PCs, but much of the material is applicable to other 
+systems. Performing an Internet search using the 
+apparent source IP address of an attack may lead to more information on the attack—for example, a 
+mailing list message regarding a similar attack. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+41 
+– Determining if the actual cause of the incident was identified, and identifying the vector of attack, 
+the vulnerabilities exploited, and the characteristics of the targeted or victimized systems, 
+networks, and applications 
+– Determining if the incident is a recurrence of a previous incident 
+– Calculating the estimated monetary damage from the incident (e.g., information and critical 
+business processes negatively affected by the incident) 
+– Measuring the difference between the initial impact assessment and the final impact assessment 
+(see Section 3.2.6) 
+– Identifying which measures, if any, could have prevented the incident. For example, if an 
+attacker is able to use knowledge gathered in one attack to perform a more severe attack later, 
+evidence from the first attack may be key to explaining how the second attack was accomplished. This increase in efficiency for standard incident response techniques is not the only incentive for cross-
+organization coordination and information sharing. This section focuses on techniques for information sharing. Section 4.2.1 looks at ad hoc methods, while 
+Section 4.2.2 examines partially automated methods. Depending on the size of the organization, these ad 
+hoc techniques may be the most cost-effective way of sharing information with partner organizations. Ad hoc information sharing methods are also largely unstandardized in terms of what information is 
+communicated and how that communication occurs. Because of the lack of standardization, they tend to 
+require manual intervention and to be more resource-intensive to process than the alternative, partially 
+automated methods. Scenario 11: Unknown Wireless Access Point 
+On a Monday morning, the organization’s help desk receives calls from three users on the same floor of a 
+building who state that they are having problems with their wireless access. He checks with his teammates and determines that this access point was not deployed by his 
+team, so that it is most likely a rogue access point that was established without permission. What should be the first major step in handling this incident (e.g., physically finding the rogue 
+access point, logically attaching to the access point)? What is the fastest way to locate the access point? What is the most covert way to locate the 
+access point? Most organizations have multiple methods for reporting an incident. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

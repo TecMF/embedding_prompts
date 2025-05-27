@@ -1,0 +1,108 @@
+ Despite these great resources, it felt like most of the material out there either introduced  
+what ATT&CK is or dove deeply into advanced topics around ATT&CK. | 3 | 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Threat Intelligence | Katie Nickels 
+So how do we make this information actionable, which is the whole point of threat  
+intelligence? | 5 | 
+ 
+  
+ 
+GETTING STARTED WITH ATT&CK: Threat Intelligence | Katie Nickels 
+6. LEVEL 3 
+If your CTI team is advanced, you can start to map more information to ATT&CK, and  
+then use that information to prioritize how you defend. If our defenders have already done an assessment of what they can detect (which we’ll  
+cover in future chapters), you can overlay that information onto what you know about  
+your threats. To start,  
+look at the technique description from ATT&CK and the threat intel reports linked in the  
+examples. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? Once you’re this advanced and are building out a corpus of analytics, you’ll 
+want to use ATT&CK (either via the ATT&CK Navigator or using your own tools) to track 
+what you can and can’t cover. Adversary emulators construct a scenario to test certain aspects of an adversary’s tactics, 
+techniques, and procedures (TTPs). Since ATT&CK is a large knowledge base of real-world adversary behaviors, it doesn’t take much  
+imagination to draw a connection between adversary or red team behaviors and ATT&CK. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. with known threats that may target  
+the organization. Having that  
+knowledge helps the red team use different behaviors between tests to better cover  
+what threats are known to do as part of the adversary emulation process. PROCESS FOR CREATING AN ADVERSARY EMULATION PLAN 
+| 26 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Adversary Emulation and Red Teaming | Blake Strom, Tim Schulz, and Katie Nickels 
+1. Gather threat intel—Select an adversary based on the threats to your organization 
+and work with the CTI team to analyze intelligence about what the adversary has 
+done. Consider: 
+Square How did the threat group use this technique? Even if you  
+consider yourself an advanced cybersecurity team, we still encourage you to start at Level 1 and  
+walk through the process to ease into a larger assessment. Additionally, you’ll likely want to use a more advanced coverage scheme to now 
+account for fidelity of detection as well. These describe the procedures, or specific ways, an adversary  
+has used a technique. You can also check out our paper on Finding Cyber  
+Threats with ATT&CK-based Analytics for more guidance on this process. | 36 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Assessments and Engineering | Andy Applebaum 
+LEVEL 3 
+For those with more advanced teams, a great way you can amp up your assessment is to 
+include mitigations. By leveraging 
+ATT&CK to show how your defenses stack up to real threats, you’ll be able to better 
+understand your defensive posture and prioritize your improvements. Katie Nickels is the ATT&CK threat intelligence lead at MITRE, where she 
+focuses on sharing how ATT&CK is useful for moving toward a threat-
+informed defense. She is also a SANS instructor for FOR578: Cyber Threat 
+Intelligence. | 40 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+Blake Strom is the capability area lead for adversary emulation at MITRE 
+and has worked in the areas of network defense, cyber threat intelligence, 
+security research, and adversary emulation. | 41 | 
+|  Solving Problems for a Safer World

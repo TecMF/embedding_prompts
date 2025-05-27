@@ -1,0 +1,79 @@
+ Impact consists of techniques that adversaries use to disrupt availability or compromise integrity 
+by manipulating business and operational processes. These techniques might be used by 
+adversaries to follow through on their end goal or to provide cover for a confidentiality breach. Similarly, adversaries may 
+modify existing services, daemons, or agents to achieve the same effect. Emails may also contain details of ongoing incident response operations, which 
+may allow adversaries to adjust their techniques in order to maintain persistence or evade 
+defenses. After gaining access to a victim system, 
+adversaries may create/modify event triggers to point to malicious content that will be executed 
+whenever the event trigger is invoked. (Citation: FBI-BEC) This creates the potential for multiple victims 
+(i.e., compromised accounts as well as the ultimate monetary loss) in incidents involving 
+financial theft. This may compromise the integrity of security solutions by 
+causing notable events to go unreported. This activity may also impede forensic analysis and 
+incident response, due to lack of sufficient data to determine what occurred. Previously, there were two headers to achieve this same 
+effect: LC_THREAD and LC_UNIXTHREAD  (Citation: Prolific OSX Malware History). In addition to gaining a better understanding of the environment, adversaries may also monitor 
+logs in real time to track incident response procedures. This can either be done live in memory during system runtime for 
+immediate effect, or in storage to implement the change on the next boot of the network device. (Citation: Trend Micro APT Attack Tools) Adversaries use these 
+types of proxies to manage command and control communications, reduce the number of 
+simultaneous outbound network connections, provide resiliency in the face of connection loss, 
+or to ride over existing trusted communications paths between victims to avoid suspicion. This could be done to blend traffic patterns with normal activity or 
+availability. Stopping critical services or processes can inhibit or stop 
+response to an incident or aid in the adversary's overall objectives to cause damage to the 
+environment. The access may be 
+used to laterally move to other systems, gather information, or cause a specific effect, such as 
+wiping the hard drives on all endpoints. (Citation: Cisco Synful 
+Knock Evolution) 
+ 
+Encryption can be used to protect transmitted network traffic to maintain its confidentiality 
+(protect against unauthorized disclosure) and integrity (protect against unauthorized changes). With a botnet at their disposal, 
+adversaries may perform follow-on activity such as large-scale 
+[Phishing](https://attack.mitre.org/techniques/T1566) or Distributed Denial of Service 
+(DDoS). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CDNs allow an organization to host content from a distributed, 
+load balanced array of servers. CDNs may also allow organizations to customize content 
+delivery based on the requestor’s geographical region. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. When 
+calling this API, the user will be prompted to enter their credentials but no checks on the origin 
+or integrity of the program are made. (Citation: Kaspersky Gauss 
+Whitepaper)(Citation: Ebowla: Genetic Malware) These difficulties can slow down the incident 
+response process and help adversaries hide their tactics, techniques, and procedures (TTPs). This could include maliciously redirecting(Citation: 
+Microsoft Lamin Sept 2017) or even disabling host-based sensors, such as Event Tracing for 
+Windows (ETW)(Citation: Microsoft About Event Tracing 2018), by tampering settings that 
+control the collection and flow of event telemetry. This action does not 
+require a system reboot and takes effect immediately. (Citation: Trend 
+Micro APT Attack Tools) Adversaries use internal proxies to manage command and control 
+communications inside a compromised environment, to reduce the number of simultaneous 
+outbound network connections, to provide resiliency in the face of connection loss, or to ride 
+over existing trusted communications paths between infected systems to avoid suspicion. (Citation: Microsoft TxF) To ensure data integrity, TxF enables only one transacted 
+handle to write to a file at a given time. This value causes Windows, at startup, to check 
+the file-system integrity of the hard disks if the system has been shut down abnormally. Security reporting messages are important for 
+monitoring the normal operation of a system and identifying important events that can signal a 
+security incident. When System Integrity Protection 
+(SIP) is disabled, TCC protections are also disabled. which may further cause a DoS condition 
+and deny availability to critical information, applications and/or systems. Associated Tactics: TA0005 
+ 
+T1070.001: Clear Windows Event Logs 
+  Description: Adversaries may clear Windows Event Logs to hide the activity of an intrusion. Windows Event Logs are a record of a computer's alerts and notifications. This DoS attack may also reduce the availability and 
+functionality of the targeted system(s) and network. (Citation: 
+Trend Micro APT Attack Tools) Adversaries use these types of proxies to manage command 
+and control communications, to provide resiliency in the face of connection loss, or to ride over 
+existing trusted communications paths to avoid suspicion. Any potential changes cannot take effect until every registered filter 
+acknowledges validation. Adversaries often target the availability of DNS and web 
+services, however others have been targeted as well. Because the cryptographic renegotiation has a meaningful cost in 
+computation cycles, this can cause an impact to the availability of the service when done in 
+volume. WMI can be used to install event filters, providers, consumers, and bindings that 
+execute code when a defined event occurs. (Citation: Mandiant M-Trends 2015) 
+ 
+Adversaries may use the capabilities of WMI to subscribe to an event and execute arbitrary 
+code when that event occurs, providing persistence on a system. Associated Tactics: TA0002

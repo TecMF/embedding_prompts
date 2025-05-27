@@ -1,0 +1,118 @@
+ .................................................................................................. 1 
+4 
+Overview ................................................................................................................................................. 2 
+4.1 
+Basic concepts ...................................................................................................................................... 2 
+4.2 
+Objectives ................................................. Information security 
+vulnerability 
+Information 
+asset 
+Exploits
+Exposes 
+Causes 
+Unwanted 
+action 
+Information 
+security incident 
+Implications on 
+information security 
+Classified as
+Information 
+security event 
+Occurrence of
+Threat 
+Figure 1 — The relationship of objects in an information security incident chain 
+4.2 Objectives 
+As a key part of an organization's overall information security strategy, the organization should put controls 
+and procedures in place to enable a structured well-planned approach to the management of information 
+security incidents. The objectives of a structured well-planned approach are more refined and should ensure the following: 
+a) 
+Information security events are detected and dealt with efficiently, in particular in identifying whether they 
+need to be categorized and classified as information security incidents or not. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+4 
+© ISO/IEC 2011 – All rights reserved
+ 
+To help achieve this, organizations should ensure that information security incidents are documented in a 
+consistent manner, using appropriate standards for incident categorization and classification, and sharing, so 
+that metrics are created from aggregated data over a period of time. If there are no clear procedures, there is a risk that investigation 
+activities could be conducted in a reactive mode, by responding to incidents as they occur and 
+overlooking what activities are needed. 4.5 Phases 
+To achieve the objectives outlined in Clause 4.2, information security incident management consists of the 
+following five distinct phases: 
+ 
+Plan and prepare, 
+ 
+Detection and reporting, 
+ 
+Assessment and decision, 
+ 
+Responses, and 
+ 
+Lessons learnt. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+10 
+© ISO/IEC 2011 – All rights reserved
+ 
+4) Intrusion Detection Systems (for more details, see ISO/IEC 18043). 4) A definition of the scope of the ISIRT activities. vii) Procedures and guidance on using Intrusion Detection Systems (IDS), ensuring that associated 
+legal and regulatory aspects have been addressed. Further, there should be documented procedures covering not just 
+PoC and ISIRT activities, but those involved in information security forensic analysis and crisis activities – if 
+not covered elsewhere, e.g. The organization's awareness briefings should encompass the following: 
+a) 
+benefits to be derived from the structured approach to information security incident management, both to 
+the organization and to its personnel, 
+b) 
+how the information security incident management scheme works, including its scope and the security 
+event, incident and vulnerability management workflow, 
+c) 
+how to report on information security events, incidents and vulnerabilities, 
+ In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. These phases and their 
+associated activities were introduced in Clause 4.5. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Figure 3 shows all of the operational phases and related activities. Technical information security events could be detected by automatic means, for example, 
+alerts made by audit trail analysis facilities, firewalls, intrusion detection systems, and anti-malicious code 
+(including viruses) tools, in each case stimulated by pre-set parameters. e-mail) are themselves visible targets for attack. If an investigation is likely to be longer than a time period defined in the information security incident 
+management policy, an interim report should be produced within a time period specified by the policy. The overall objectives in responding to information security incidents are the following: 
+a) 
+to confine the potential adverse impacts (of information security incidents), and 
+b) 
+to improve information security. If an investigation is likely to be longer than a time period pre-agreed within the organization, an interim report 
+should be produced. This could be following the assessment activities described above in Clauses 7.2 
+and 7.3, or during those activities if some major issue becomes evident early. b) Undertake regular reviews of the effectiveness 
+of the ISMS (including meeting ISMS policy 
+and objectives, and review of security controls) 
+taking into account results of security audits, 
+incidents, effectiveness measurements, 
+suggestions and feedback from all interested 
+parties. B.2 Information gathering 
+In general terms, the information gathering category of incidents includes those activities associated with 
+identifying potential targets and understanding the services running on those targets. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+76 
+© ISO/IEC 2011 – All rights reserved
+ 
+Bibliography 
+[1] 
+ISO/IEC 18043, Information technology — Security techniques — Selection, deployment and 
+operations of intrusion detection systems 
+[2] 
+ISO/IEC 20000 (all parts), Information technology — Service management 
+[3] 
+ISO/PAS 22399, Societal security — Guidelines for incident preparedness and operational continuity 
+management 
+[4] 
+ISO/IEC 27001, Information technology — Security techniques — Information security management 
+systems — Requirements 
+[5] 
+ISO/IEC 27002, Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

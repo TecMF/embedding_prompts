@@ -1,0 +1,56 @@
+ ATT&CK provides a common 
+taxonomy for both offense and defense, and has become a useful conceptual tool across many 
+cyber security disciplines to convey threat intelligence, perform testing through red teaming or 
+adversary emulation, and improve network and system defenses against intrusions. ................................................................................................ 20 
+4.1 
+Conceptual ...................................................................................................................... 20 
+4.1.1 
+Adversary’s Perspective ........................................................................................... 20 
+4.1.2 
+Empirical Use ........................................................................................................... 21 
+viii 
+©2020 The MITRE Corporation. 1.1 Background and History 
+ATT&CK was created out of a need to systematically categorize adversary behavior as part of 
+conducting structured adversary emulation exercises within MITRE’s FMX research 
+environment. ATT&CK for Mobile 
+was also published in 2017 to focus on behavior in the mobile-specific domain. The structured format of ATT&CK 
+can add value to threat reporting by categorizing behavior beyond standard indicators. Another example is how to address use of Valid Accounts, whether they’re Local, Domain, or 
+Cloud Accounts. Within 
+each technology domain, ATT&CK defines multiple “platforms” - the system an adversary is 
+operating within. Data items marked with * denote the 
+element is required and additional information about specific requirements dependent on tactic 
+category is in the description. There should be 
+enough information and references to point toward 
+useful defensive methodologies. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. 3.4.3 Sub-Technique Details 
+The addition of sub-techniques to ATT&CK in 2020 marked a significant shift to how behavior 
+is described within the knowledge base. It would have resulted in several of the same sub-techniques each for different platforms, such as 
+Local, Domain, and Default Valid Accounts for each of Windows, Mac, Linux, etc. Data items marked 
+with * denote the element is required 
+ 
+Table 3. Data items marked with * 
+denote the element is required. Data items 
+marked with * denote the element is required. This section describes the conceptual components of the 
+methodology used in the creation and maintenance of ATT&CK. The information within ATT&CK has evolved over time, as have the considerations used for 
+what information gets included and how it’s structured. 4.1 Conceptual 
+There are three conceptual ideas that are core to the philosophy behind ATT&CK: 
+• It maintains the adversary’s perspective; 
+• It follows real-world use of activity through empirical use examples; 
+• The level of abstraction is appropriate to bridge offensive action with possible defensive 
+countermeasures. Tactics combine aspects of what the adversary is 
+trying to accomplish with what platform and domain they are operating within. Places where they differ are going to be where adversary goals and 
+platform or domain technologies differ. o Are the differences distinguishing characteristics of that group? [Accessed 16 March 2020].

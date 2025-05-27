@@ -1,0 +1,64 @@
+ Preventive activities 
+based on the results of risk assessments can lower the number of incidents, but not all incidents can be 
+prevented.  Attrition: An attack that employs brute force methods to compromise, degrade, or destroy systems, 
+networks, or services.  Users are tricked into opening a “quarterly report” sent via email that is actually malware; running the 
+tool has infected their computers and established connections with an external host. 2.2 
+Need for Incident Response 
+Attacks frequently compromise personal and business data, and it is critical to respond quickly and 
+effectively when security breaches occur. Training should be provided for SOP users; the SOP documents can be used as an instructional 
+tool. However, residual risk will inevitably persist 
+after controls are implemented. During this phase, activity often 
+cycles back to detection and analysis—for example, to see if additional hosts are infected by malware 
+while eradicating a malware incident. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. The hashes can be downloaded from http://www.nsrl.nist.gov/. 23  
+Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities, 
+http://csrc.nist.gov/publications/PubsSPs.html#800-84  
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+24 
+operating system and application-specific guidelines.24 The following text, however, provides a brief 
+overview of some of the main recommended practices for securing networks, systems, and applications: 
+ Risk Assessments. Each risk should be prioritized, and the 
+risks can be mitigated, transferred, or accepted until a reasonable overall level of risk is reached.  Malware Prevention. Software to detect and stop malware should be deployed throughout the 
+organization. 25  
+Guidelines on risk assessment are available in NIST SP 800-30, Guide for Conducting Risk Assessments, at 
+http://csrc.nist.gov/publications/PubsSPs.html#800-30-Rev1. 30  
+More information on malware prevention is available from NIST SP 800-83, Guide to Malware Incident Prevention and 
+Handling (http://csrc.nist.gov/publications/PubsSPs.html#800-83). Examples of precursors are: 
+ Web server log entries that show the usage of a vulnerability scanner 
+ An announcement of a new exploit that targets a vulnerability of the organization’s mail server 
+ A threat from a group stating that the group will attack the organization. Antivirus and 
+antispam 
+software 
+Antivirus software detects various forms of malware, generates alerts, and prevents the malware 
+from infecting hosts. Note that separate workstations should be used for research to minimize the risk to the 
+organization from conducting these searches. For example, only authorized personnel should 
+have access to the incident database. The delayed containment strategy is dangerous because an 
+attacker could escalate unauthorized access or compromise other systems. This data can be put back into the risk assessment process, ultimately 
+leading to the selection and implementation of additional controls. For example, a small organization that identifies a 
+particularly complex instance of malware on its network may not have the in-house resources to fully 
+analyze the malware and determine its effect on the system. What sources might the team use to determine when the compromise had occurred? If the incident response team determined that the initial compromise had been performed through 
+a wireless network card in the internal host, how would the team further investigate this activity? What data sources might contain information regarding the identity of the vulnerability scanning 
+host? How would the team identify who had been performing the vulnerability scans? How would the handling of this incident differ if the vulnerability scanning were directed at the 
+organization’s most critical hosts? How would the handling of this incident differ if the vulnerability scanning were directed at 
+external hosts? Scenario 8: Telecommuting Compromise 
+On a Saturday night, network intrusion detection software records an inbound connection originating 
+from a watchlist IP address. Scenario 11: Unknown Wireless Access Point 
+On a Monday morning, the organization’s help desk receives calls from three users on the same floor of a 
+building who state that they are having problems with their wireless access. He checks with his teammates and determines that this access point was not deployed by his 
+team, so that it is most likely a rogue access point that was established without permission. What should be the first major step in handling this incident (e.g., physically finding the rogue 
+access point, logically attaching to the access point)? What is the fastest way to locate the access point? What is the most covert way to locate the 
+access point? Vulnerability: A weakness in a system, application, or network that is subject to exploitation or misuse.  Users are tricked into opening a “quarterly report” sent via email that is actually malware; 
+running the tool has infected their computers and established connections with an external 
+host. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

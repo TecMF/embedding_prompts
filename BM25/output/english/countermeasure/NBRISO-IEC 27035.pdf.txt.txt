@@ -1,0 +1,271 @@
+ Therefore, it is essential for any organization serious about information 
+security to have a structured and planned approach to: 
+ 
+detect, report and assess information security incidents; 
+ 
+respond to information security incidents, including the activation of appropriate controls for the prevention 
+and reduction of, and recovery from, impacts (for example in the support of crisis management areas); 
+ 
+report information security vulnerabilities that have not yet been exploited to cause information security 
+events and possibly information security incidents, and assess and deal with them appropriately; 
+ 
+learn from information security incidents and vulnerabilities, institute preventive controls, and make 
+improvements to the overall approach to information security incident management. not all 
+information security events are classified as information security incidents. From a business perspective, the prime objective is to avoid or contain the impact of 
+information security incidents to reduce the direct and indirect costs caused by the incidents. c) 
+Strengthening the information security incident prevention focus 
+Using a structured approach to information security incident management helps to create a better focus 
+on incident prevention within an organization, including identification methods of new threats and 
+vulnerabilities. Analysis of incident related data would enable the identification of patterns and trends, 
+thereby facilitating a more accurate focus on incident prevention and thus identification of appropriate 
+actions to prevent incidents occurring. If there are no clear procedures, there is a risk that investigation 
+activities could be conducted in a reactive mode, by responding to incidents as they occur and 
+overlooking what activities are needed. g) 
+Improving updates to information security risk assessment and management results 
+The use of a structured approach to information security incident management will facilitate the 
+- better collection of data for assisting in the identification and determination of the characteristics of the 
+various threat types and associated vulnerabilities, and 
+- provision of data on frequencies of occurrence of the identified threat types. The data collected to identify the occurrence frequency of the 
+various threat types will greatly aid the quality of the threat assessment. Such mechanisms could include the 
+following: 
+1) Internal information security audit mechanisms to assess the security level and track vulnerable 
+systems, 
+2) Vulnerability management (including security updates and security patching of vulnerable systems). Particular attention 
+should be given to the creation of tests that focus on the evolving vulnerability, threat and risk scenarios 
+(see Clause 5.8). The information security incident management 
+scheme comes into effect whenever an information security event is detected, or an information security 
+vulnerability is reported. Each organization should use the scheme as a guide for: 
+a) 
+responding to information security events, 
+b) 
+determining whether information security events become information security incidents, 
+c) 
+managing information security incidents to a conclusion, 
+d) 
+responding to information security vulnerabilities, 
+e) 
+identifying lessons learnt, and any improvements to the scheme and/or security in general that are 
+required, and 
+f) 
+making identified improvements. 4) Responses 
+i) 
+Review by the ISIRT to determine if the information security incident is under control, and 
+- 
+if the incident is under control, instigate the required response, either immediately (in real-time 
+or in near real-time) or at a later time, 
+- 
+if the incident is not under control or it is going to have a severe impact on the organization's 
+core services, instigate crisis activities through escalation to crisis handling function. In this case the 
+following should be addressed: 
+a) 
+the reporting process for the handling of such exceptions, 
+b) 
+guidance on the timing for getting approval from management in order to avoid any delay of response, 
+and 
+c) 
+pre-authorized delegation of decision making without normal approval process. Finance of the capability should also be segregated to avoid 
+undue influence. of logs), including those showing the progress of an incident, 
+and the resolution process and chain of custody, 
+n) 
+recovery of the information system, service and/or network to normal operation, with the following 
+procedures that are in line with the relevant crisis management: 
+1) backup testing, 
+2) malicious code control, 
+3) original media with system and application software, 
+4) bootable media, and 
+5) clean, reliable and up-to-date system and application patches. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. The training should be 
+supported by specific exercises and testing for PoC and ISIRT members, and information security personnel 
+and specific administrators. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. Particular attention should be paid to the creation 
+of the simulated scenarios, which should be based on real new information security threats. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Information on vulnerabilities and their resolutions should be entered into the information security 
+event/incident/vulnerability database managed by the ISIRT. For the Responses phase, an organization should ensure that the key activities are the following: 
+a) 
+Activity to review by the ISIRT to determine if the information security incident is under control, and 
+activity below: 
+1) Activity to instigate the required response, if it is under control. The overall objectives in responding to information security incidents are the following: 
+a) 
+to confine the potential adverse impacts (of information security incidents), and 
+b) 
+to improve information security. Evidence can be protected with cryptography, locks 
+and records of access. A further consideration is that the prevention of re-occurrence is usually of high priority, and it might well be 
+concluded that the attacker has exposed a vulnerability that should be rectified, and the gains from tracking 
+him/her do not justify the effort in doing so. To ensure that the liaisons are organized quickly and are effective, it is necessary to establish a secure 
+method of communication in advance that does not wholly rely on the system, service and/or network that 
+may be affected by the information security incident. 8.2.2 Assessment of control over information security incidents 
+After the ISIRT member has instigated the immediate responses and relevant information security forensics 
+analysis and communications activities, it needs to be quickly ascertained whether the information security 
+incident is under control. If the information security incident is confirmed as not being under control, then the ISIRT member should 
+institute crisis activities. The restoration of an affected system(s), service(s) and/or network(s) to a secure 
+operational state may be achieved through the application of patches for known vulnerabilities or by disabling 
+an element that was the subject of the compromise. Such activities may include, 
+but are not limited to, the activation of: 
+a) 
+fire suppression facilities and evacuation procedures, 
+b) 
+flood prevention facilities and evacuation procedures, 
+c) 
+bomb handling and related evacuation procedures, 
+d) 
+specialist information system fraud investigators, and 
+e) 
+specialist technical attack investigators. file, print, communications and e-mail), as well as remote access facilities. g) 
+Activity to access the contents of protected or encrypted files (unless prevented by law). i) 
+Activity to analyze file access, modification and creation times. The method(s) to be followed should be documented in the ISIRT procedures. 8.2.7 Escalation 
+In extreme circumstances, matters may have to be escalated to accommodate incidents that are out of control 
+and a potential danger for unacceptable business impact. b) 
+Are there any procedures or methods that would have aided in the detection of the incident? Some examples of technically stimulated unauthorized access incidents include: 
+ 
+attempts to retrieve password files, 
+ 
+buffer overflow attacks to attempt to gain privileged (e.g., system administrator) access to a target, 
+ 
+exploitation of protocol vulnerabilities to hijack or misdirect legitimate network connections, 
+ 
+attempts to elevate privileges to resources or information beyond what a user or administrator already 
+legitimately possesses. In some cases, technical information gathering extends into unauthorized access if, for example, as part of 
+searching for vulnerabilities the attacker also attempts to gain unauthorized access. Network scanning, exploitation of vulnerability, exploitation 
+of backdoor, login attempts, interference, DoS, etc. Exploitation of vulnerability exploits and makes use of 
+information system defects such as configurations, 
+protocols or programs. Exploitation of backdoor makes use of the backdoors or 
+harmful programs left in software and hardware system 
+design processes. 8.1 Actual 
+(incident has occurred) 
+ 
+8.2 Suspected 
+(incident thought to have occurred but not 
+confirmed) 
+ 
+(One of) 
+8.3 Natural disaster 
+ 
+(indicate threat types involved) 
+ 
+Earthquake 
+ 
+Volcano 
+ 
+Flood 
+ 
+Violent wind 
+ 
+Lightning 
+ 
+Tsunami 
+ 
+Collapse 
+ 
+Other 
+ 
+ 
+Specify: 
+(One of) 
+8.4 Social unrest 
+ 
+(indicate threat types involved) 
+ 
+Bedin 
+    Terrorist assault 
+    War 
+    Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 10 Technical attack 
+ 
+(indicate threat types involved) 
+ 
+Network scanning 
+        Exploitation of vulnerability 
+        Exploitation of backdoor 
+ 
+Login attempts, Interference 
+        Denial of Service (DoS) 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.11 Breach of rule 
+ 
+(indicate threat types involved) 
+ 
+Unauthorized use of resources 
+        Breach of copyright 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 12 Compromise of functions 
+ 
+(indicate threat types involved) 
+ 
+Abuse of rights 
+        Forging of rights, Denial of actions 
+        Mis-operations 
+ 
+Breach of personnel availability 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.13 Compromise of information 
+ 
+(indicate threat types involved) 
+ 
+Interception 
+        Spying, Eavesdropping 
+        Disclosure 
+ 
+Masquerade, In those countries where 
+specific legislation exists that covers data confidentiality and integrity, it is often restricted to the control of 
+personal data. This may include: 
+- 
+those individuals with access to the personal data should, so far as is practical, not personally know 
+the person(s) being investigated, 
+- 
+non-disclosure agreements should be signed by those individuals with access to the personal data 
+prior to them being allowed access to it, 
+- 
+information should only be used for the express purpose for which it has been obtained, i.e.  Information technology — Security techniques — Code of practice for information 
+security management 
+[6] 
+ISO/IEC 27003, Information technology — Security techniques — Information security management 
+system implementation guidance 
+[7] 
+ISO/IEC 27004, Information technology — Security techniques — Information security management — 
+Measurement 
+[8] 
+ISO/IEC 27005, Information technology — Security techniques — Information security risk 
+management 
+[9] 
+ISO/IEC 27031, Information technology — Security techniques — Guidelines for information and 
+communication technology readiness for business continuity 
+[10] 
+ISO/IEC 27033-1, BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+77
+ 
+[19] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Incident Management 
+Capability Metrics Version 0.1 (2007), http://www.cert.org/archive/pdf/07tr008.pdf 
+[20] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Incident Management 
+Mission Diagnostic Method Version 1.0, http://www.cert.org/archive/pdf/08tr007.pdf 
+[21] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Defining Incident 
+Management Processes for CSIRTs: A Work in Progress, http://www.cert.org/archive/pdf/04tr015. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

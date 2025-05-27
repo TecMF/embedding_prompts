@@ -1,0 +1,58 @@
+ The attack vectors are: 
+ External/Removable Media: An attack executed from removable media (e.g., flash drive, CD) or a 
+peripheral device.  Attrition: An attack that employs brute force methods to compromise, degrade, or destroy systems, 
+networks, or services.  Other: An attack that does not fit into any of the other categories. The incident handlers analyze the 
+incident data, determine the impact of the incident, and act appropriately to limit the damage and restore 
+normal services. Real-time availability is the best for incident response because the longer 
+an incident lasts, the more potential there is for damage and loss. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+23 
+Incident Analysis Resources: 
+ Port lists, including commonly used ports and Trojan horse ports 
+ Documentation for OSs, applications, protocols, and intrusion detection and antivirus products 
+ Network diagrams and lists of critical assets, such as database servers 
+ Current baselines of expected network, system, and application activity 
+ Cryptographic hashes of critical files22 to speed incident analysis, verification, and eradication 
+Incident Mitigation Software: 
+ Access to images of clean OS and application installations for restoration and recovery purposes 
+Many incident response teams create a jump kit, which is a portable case that contains materials that may 
+be needed during an investigation. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis.  Attrition: An attack that employs brute force methods to compromise, degrade, or destroy systems, 
+networks, or services (e.g., a DDoS intended to impair or deny access to a service or application; a 
+brute force attack against an authentication mechanism, such as passwords, CAPTCHAS, or digital 
+signatures).  Other: An attack that does not fit into any of the other categories. IDPS software often produces false positives—alerts that 
+indicate malicious activity is occurring, when in fact there has been none. A network IDPS may detect that an attack was launched 
+against a particular host, but it may not know if the attack was successful. For example, only authorized personnel should 
+have access to the incident database. For example, a malicious agent may exfiltrate sensitive 
+information. Another potential issue regarding containment is that some attacks may cause additional damage when 
+they are contained. For example, a compromised host may run a malicious process that pings another host 
+periodically. As a result of the failure, the 
+malicious process may overwrite or encrypt all the data on the host’s hard drive. Handlers should not 
+assume that just because a host has been disconnected from the network, further damage to the host has 
+been prevented. Performing an Internet search using the 
+apparent source IP address of an attack may lead to more information on the attack—for example, a 
+mailing list message regarding a similar attack. For example, if an 
+attacker is able to use knowledge gathered in one attack to perform a more severe attack later, 
+evidence from the first attack may be key to explaining how the second attack was accomplished.  Attempt to automate as much of the information sharing process as possible. What measures are in place to attempt to prevent this type of incident from occurring or to limit 
+its impact? Over the next hour, the problem worsens to the point where nearly every access attempt fails. How would the organization attempt to prevent the worm from entering the organization before 
+antivirus signatures were released? How would the organization attempt to prevent the worm from being spread by infected hosts 
+before antivirus signatures were released? Would the organization attempt to patch all vulnerable machines? Scenario 11: Unknown Wireless Access Point 
+On a Monday morning, the organization’s help desk receives calls from three users on the same floor of a 
+building who state that they are having problems with their wireless access. He checks with his teammates and determines that this access point was not deployed by his 
+team, so that it is most likely a rogue access point that was established without permission. What should be the first major step in handling this incident (e.g., physically finding the rogue 
+access point, logically attaching to the access point)? What is the fastest way to locate the access point? What is the most covert way to locate the 
+access point? False Positive: An alert that incorrectly indicates that malicious activity is occurring. Malware: A virus, worm, Trojan horse, or other code-based malicious entity that successfully infects a 
+host. The team receives information on possible incidents, investigates them, and takes action to ensure 
+that the damage caused by the incidents is minimized. Generally, the highest priority is handling incidents that are likely to cause 
+the most damage to the organization or to other organizations. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

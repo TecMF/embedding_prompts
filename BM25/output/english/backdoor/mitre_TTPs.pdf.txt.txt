@@ -1,0 +1,101 @@
+ Authorization has to be granted to specific users in order to perform tasks that can be 
+considered of higher risk. [Ingress Tool 
+Transfer](https://attack.mitre.org/techniques/T1105)), execute, and even clean up after running 
+malicious code (e.g. Associated Tactics: TA0002, TA0008 
+ 
+T1586: Compromise Accounts 
+  Description: Adversaries may compromise accounts with services that can be used during 
+targeting. For 
+example, an adversary may replace or otherwise infect a legitimate application binary (or 
+support files) with a backdoor. (Citation: Google Cloud Mandiant UNC3886 2024) 
+  Associated Tactics: TA0003 
+ 
+T1584: Compromise Infrastructure 
+  Description: Adversaries may compromise third-party infrastructure that can be used during 
+targeting. Prior to targeting, adversaries may compromise the infrastructure of other 
+adversaries. (Citation: Shadowserver Strategic Web Compromise) 
+ 
+Typical drive-by compromise process: 
+ 
+1. This may be achieved by using 
+malware that shares a common algorithm with the infrastructure the adversary uses to receive 
+the malware's communications. Depending on the software and nature of the 
+vulnerability, some may be exploited in the browser or require the user to open a file. (Citation: Rhino Labs Cloud Image 
+Backdoor Technique Sept 2019) 
+ 
+A tool has been developed to facilitate planting backdoors in cloud container images. (Citation: 
+Rhino Labs Cloud Backdoor September 2019) If an adversary has access to a compromised 
+AWS instance, and permissions to list the available container images, they may implant a 
+backdoor such as a [Web Shell](https://attack.mitre.org/techniques/T1505/003). [Lateral Tool Transfer](https://attack.mitre.org/techniques/T1570)). to gain access to credentials that can be used to access systems, 
+services, and network resources. They achieve this by restricting traffic types to enforce organizational policy 
+in an attempt to reduce the risk inherent in such connections. ** 
+ 
+Adversaries may use more than one remote access tool with varying command and control 
+protocols or credentialed access to remote services so they can maintain access if an access 
+mechanism is detected or mitigated. If malware that 
+is compatible with the connected system is on the mobile device, the malware could infect the 
+machine (especially if Autorun features are enabled). Screen capturing functionality may be included as a 
+feature of a remote access tool used in post-compromise operations. Because the alternate 
+authentication must be maintained by the system—either in memory or on disk—it may be at 
+risk of being stolen through [Credential Access](https://attack.mitre.org/tactics/TA0006) 
+techniques. Adversaries can compromise and manipulate devices that perform encryption of network traffic. This poses a greater risk of 
+unauthorized disclosure and may help facilitate data manipulation, Credential Access, or 
+Collection efforts. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. When a user 
+attempts to browse a website that presents a certificate that is not trusted an error message will 
+be displayed to warn the user of the security risk. Adversaries may also 
+access externally facing Exchange services, Office 365, or Google Workspace to access email 
+using credentials or access tokens. Manipulation may be possible over a network connection or between system processes where 
+there is an opportunity deploy a tool that will intercept and change information. An adversary can modify the way these programs are launched 
+to get a command prompt or backdoor without logging in to the system. With a sufficient level of access, such accounts may be used to establish secondary 
+credentialed access that does not require persistent remote access tools to be deployed on the 
+system. (Citation: Unit 
+42 Hildegard Malware)(Citation: Trend Micro Exposed Docker APIs) 
+ 
+Additionally, some cryptocurrency mining malware identify then kill off processes for competing 
+malware to ensure it’s not competing for resources. Conditional access policies are additional verifications used 
+by identity providers and identity and access management systems to determine whether a user 
+should be granted access to a resource. An adversary who can determine that the malware was quarantined 
+because of its file signature may modify the file to explicitly avoid that signature, and then re-use 
+the malware. Associated Tactics: TA0002 
+ 
+T1587.001: Malware 
+  Description: Adversaries may develop malware and malware components that can be used 
+during targeting. In addition to purchasing malware, adversaries may steal and 
+repurpose malware from third-party entities (including other adversaries). Based on this, adversaries may use a file 
+extension to disguise malware, such as naming a PHP backdoor code with a file name of 
+<code>test.gif</code>. (Citation: PAM Backdoor) 
+ 
+Malicious modifications to the PAM system may also be abused to steal credentials. Access to Registry keys is controlled through 
+access control lists and user permissions. This decision may be employed by malware developers and operators to 
+reduce their risk of attracting the attention of specific law enforcement agencies or 
+prosecution/scrutiny from other entities. Adversaries may upload tools to support their operations, such as making a tool available to a 
+victim network to enable [Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105) by 
+placing it on an Internet accessible web server. (Citation: Dragos 
+Heroku Watering Hole)(Citation: Malwarebytes Heroku Skimmers)(Citation: Intezer App Service 
+Phishing) 
+ 
+Adversaries can avoid the need to upload a tool by having compromised victim machines 
+download the tool directly from a third-party hosting location (ex: a non-adversary controlled 
+GitHub repo), including the original hosting site of the tool. Adversaries may compromise VPSs purchased by third-party 
+entities. Adversaries may find vulnerability information by searching open databases or gaining access 
+to closed vulnerability databases. (Citation: National Vulnerability Database) 
+ 
+An adversary may monitor vulnerability disclosures/databases to understand the state of 
+existing, as well as newly discovered, vulnerabilities. There is usually a delay between when a 
+vulnerability is discovered and when it is made public. An adversary may target the systems of 
+those known to conduct vulnerability research (including commercial vendors). Knowledge of a 
+vulnerability may cause an adversary to search for an existing exploit (i.e. Associated Tactics: TA0002

@@ -1,0 +1,85 @@
+ ............................................................................................. 3 
+4.3 
+Benefits of a structured approach ....................................................................................................... 4 
+4.4 
+Adaptability ............................................................................................................................................ 5 
+4.5 
+Phases ..................................................................... This provides valuable information to aid 
+the strategic decision making process when investing in information security controls. 4.3 Benefits of a structured approach 
+An organization using a structured approach to information security incident management will accrue 
+significant benefits, which can be grouped under the followings. g) 
+Improving updates to information security risk assessment and management results 
+The use of a structured approach to information security incident management will facilitate the 
+- better collection of data for assisting in the identification and determination of the characteristics of the 
+various threat types and associated vulnerabilities, and 
+- provision of data on frequencies of occurrence of the identified threat types. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+6 
+© ISO/IEC 2011 – All rights reserved
+ 
+An organization using this International Standard should therefore adopt its guidance in due proportion to the 
+scale and characteristics of their business. Ensuring continued management commitment is vital for the acceptance 
+of a structured approach to information security incident management. One of the benefits of sharing is the 
+aggregation of data into useful metrics to aid strategic business decisions. d) 
+incident information held in, and the outputs from the information security event/incident/vulnerability 
+database, 
+e) 
+controls on confidentiality of sources as relevant, 
+f) 
+scheme service level agreements, 
+g) 
+notification of outcomes – under what circumstances sources are advised, 
+h) 
+any constraints imposed by non-disclosure agreements, 
+i) 
+the authority of the information security incident management organization and its reporting line, and 
+j) 
+who receives reports from the information security incident management scheme, and how the reports 
+are distributed. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. Particular attention should be paid to the creation 
+of the simulated scenarios, which should be based on real new information security threats. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Whilst determining the impacts of information security events (and thus possible incidents) in 
+terms of the effects of breaches of confidentiality, integrity and availability, organizations should ensure 
+that the following are identified: 
+1) impact domain (physical or logical), 
+2) assets, infrastructures, information, processes, services and applications that are affected, or are 
+going to be affected, and 
+3) possible effects on organization core services. The restoration of an affected system(s), service(s) and/or network(s) to a secure 
+operational state may be achieved through the application of patches for known vulnerabilities or by disabling 
+an element that was the subject of the compromise. It should be conducted in a structured 
+manner, and, as relevant, identify what may be used as evidence, whether for internal disciplinary procedures 
+or legal actions. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+49
+ 
+Typical examples of information gathering attacks by technical means include: 
+ 
+dumping Domain Name System (DNS) records for the target's Internet domain (DNS zone transfer), 
+ 
+pinging network addresses to find systems that are ‘alive’, 
+ 
+probing the system to identify (e.g., fingerprint) the host operating system, 
+ 
+scanning the available network ports on a system to identify the related services (e.g. Blended attacks may have combined characteristics of 
+computer viruses, network worms, Trojan horses or 
+botnets and so on. There are others, such as the FIRST / Mitre Common Vulnerability 
+Scoring System (CVSS) and the UK government Structured Warning Information Format (SWIF). INFORMATION SECURITY VULNERABILITY DESCRIPTION 
+4.1 Date and Time the Vulnerability Reported 
+ 
+4.2 Description in Narrative Terms of the Perceived 
+Information Security Vulnerability: 
+ 
+How Vulnerability Noticed 
+ 
+Characteristics of Vulnerability – Physical, Technical, etc. A structured approach 
+to information security incident management therefore needs to take into account the appropriate privacy 
+protection. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

@@ -1,0 +1,141 @@
+ BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+10 
+© ISO/IEC 2011 – All rights reserved
+ 
+4) Intrusion Detection Systems (for more details, see ISO/IEC 18043). vii) Procedures and guidance on using Intrusion Detection Systems (IDS), ensuring that associated 
+legal and regulatory aspects have been addressed. The ISIRT goes through different maturity stages and often adjustments to the organizational model are 
+adopted based on the specific scenario faced by the organization. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. Organizations should ensure that any changes made as a result of post 
+testing reviews are subject to thorough checking, including further testing, before the changed scheme goes 
+live. 6 
+Detection and reporting phase 
+6.1 Overview of key activities 
+The first phase of the operational use of an information security incident management scheme involves the 
+detecting of, collecting information associated with, and reporting on occurrences of information security 
+events and existence of information security vulnerabilities by human or automatic means. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Technical information security events could be detected by automatic means, for example, 
+alerts made by audit trail analysis facilities, firewalls, intrusion detection systems, and anti-malicious code 
+(including viruses) tools, in each case stimulated by pre-set parameters. e-mail) are themselves visible targets for attack. This includes when it is thought possible that the system 
+is under attack and unauthorized people could read reporting electronic forms. in Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks. With regard to information security incidents that are caused by something other than deliberate attack, the 
+source should be identified. An ISIRT member is also responsible for facilitating the return of the affected facility (whether IT or otherwise) 
+to a secure operational state that is not susceptible to a compromise by the same attack, if possible at this 
+stage. e-mail or web), 
+including when it is thought possible that the system is under attack, the report to the relevant people should 
+be done by telephone or text messaging. The restoration of an affected system(s), service(s) and/or network(s) to a secure 
+operational state may be achieved through the application of patches for known vulnerabilities or by disabling 
+an element that was the subject of the compromise. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+47
+ 
+Annex B 
+(informative) 
+ 
+Examples of information security incidents and their causes 
+B.1 Attacks 
+B.1.1 
+Denial of Service 
+Denial of Service (DoS) and Distributed Denial of Service (DDoS) are a broad category of incidents with a 
+common thread. There are two main types of 
+DoS/DDoS incidents caused by technical means: resource elimination and resource starvation. Some typical examples of deliberate technical DoS/DDoS incidents include: 
+ 
+pinging network broadcast addresses in order to fill up network bandwidth with response traffic, 
+ 
+sending data in an unexpected format to a system, service or network in an attempt to crash it, or disrupt 
+its normal operation, 
+ 
+opening up multiple authorized sessions with a particular system, service or network in an attempt to 
+exhaust its resources (i.e., to slow it down, lock it up or crash it). the source of the attack is ‘faked’), since they typically do not rely on the attacker receiving any information 
+back from the network or system being attacked. Compromise 
+of 
+functions 
+incident 
+The loss of information 
+security is caused by 
+deliberately or accidentally 
+compromising the functions 
+of information systems in 
+terms of security. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+57
+ 
+Table C.2 — Examples of incident category and severity class 
+Severity 
+class 
+Incident 
+Category 
+ 
+Small 
+ 
+Less Serious 
+ 
+Serious 
+ 
+Very Serious 
+Technical Attacks 
+Failed Attempts 
+Single ordinary 
+(User compromise) 
+Multiple 
+(User compromise) 
+Single important 
+(Application, root 
+compromise) 
+Mass 
+(Application, C.3.2.3 Commercial and economic interests 
+Commercial and economic information needs to be protected, and is valued by considering its value to 
+competitors or the effect its compromise could have on commercial interests. e-mail), including when it is thought 
+possible that the system is under attack and report electronic forms could be read by unauthorized people, 
+then alternative means of reporting should be used. 12 Compromise of functions 
+ 
+(indicate threat types involved) 
+ 
+Abuse of rights 
+        Forging of rights, Denial of actions 
+        Mis-operations 
+ 
+Breach of personnel availability 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.13 Compromise of information 
+ 
+(indicate threat types involved) 
+ 
+Interception 
+        Spying, Eavesdropping 
+        Disclosure 
+ 
+Masquerade, BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+76 
+© ISO/IEC 2011 – All rights reserved
+ 
+Bibliography 
+[1] 
+ISO/IEC 18043, Information technology — Security techniques — Selection, deployment and 
+operations of intrusion detection systems 
+[2] 
+ISO/IEC 20000 (all parts), Information technology — Service management 
+[3] 
+ISO/PAS 22399, Societal security — Guidelines for incident preparedness and operational continuity 
+management 
+[4] 
+ISO/IEC 27001, Information technology — Security techniques — Information security management 
+systems — Requirements 
+[5] 
+ISO/IEC 27002, Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

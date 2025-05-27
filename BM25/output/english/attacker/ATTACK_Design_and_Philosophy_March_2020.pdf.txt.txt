@@ -1,0 +1,87 @@
+ : 10AOH08A-JC 
+The views, opinions and/or findings 
+contained in this report are those of The 
+MITRE Corporation and should not be 
+construed as an official government position, 
+policy, or decision, unless designated by 
+other documentation. The ATT&CK knowledge base is used as a foundation for the 
+development of specific threat models and methodologies in the private sector, in government, 
+and in the cybersecurity product and service community. ATT&CK Group Model .................................................................................................. 14 
+Table 4. Introduction 
+MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, 
+reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known 
+to target. At a high-level, ATT&CK is a behavioral model that consists of the following 
+core components: 
+• Tactics, denoting short-term, tactical adversary goals during an attack; 
+• Techniques, describing the means by which adversaries achieve tactical goals; 
+• Sub-techniques, describing more specific means by which adversaries achieve tactical 
+goals at a lower level than techniques; and 
+• Documented adversary usage of techniques, their procedures, and other metadata. ATT&CK is not an exhaustive enumeration of attack vectors against software. Adversary emulation focuses on the ability of an organization to verify detection 
+and/or mitigation of the adversarial activity at all applicable points in their lifecycle. Behavioral Analytics Development – By going beyond traditional indicators of compromise 
+(IoCs) or signatures of malicious activity, behavioral detection analytics can be used to identify 
+potentially malicious activity within a system or network that may not rely on prior knowledge 
+of adversary tools and indicators. Defensive Gap Assessment – A defensive gap assessment allows an organization to determine 
+what parts of its enterprise lack defenses and/or visibility. ATT&CK is useful for understanding and documenting adversary group profiles from a 
+behavioral perspective that is agnostic of the tools the group may use. Operationalizing ATT&CK for an organization also encompasses determining what it means for 
+you to have “ATT&CK coverage”. It is independent of 
+technology and models an adversary’s behavior as they attempt to gain access to an organization 
+or entity through the technology they leverage, spanning multiple domains. Contributor 
+Tag 
+List of non-MITRE contributors (individual and/or 
+organization) from first to most recent that 
+contributed information on, about, or supporting the 
+development of a (sub-)technique. There should be 
+enough information and references to point toward 
+useful defensive methodologies. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. ATT&CK Group Model 
+Data Item 
+Type 
+Description 
+Name* 
+Field 
+The name of the adversary group. It may contain dates of activity, suspected 
+attribution details, targeted industries, and notable 
+events that are attributed to the group’s activities. Associated Group 
+Descriptions 
+Field 
+Section that can be used to describe the associated 
+group names with references to the report used to tie 
+the associated group to the primary group name. • Malware - Commercial, custom closed source, or open source software intended to be 
+used for malicious purposes by adversaries. Contributor 
+Tag 
+List of non-MITRE contributors (individual and/or 
+organization) from first to most recent that 
+contributed information on, about, or supporting the 
+development of a software profile. This information is populated 
+from the associated group entry. The information may be used in different ways 
+depending on where the information comes from and the vantage the contributing organization 
+or individual has. They also do not take into account how legitimate software can be used for 
+malicious purposes. The high-level concepts like 
+Control, Execute, and Maintain are further broken down into more descriptive categories where 
+individual actions on a system can be defined and categorized. Exploits and malicious software are useful to an adversary toolkit, but to fully understand their 
+utility, it’s necessary to understand the context in which they can be used to achieve a goal. For example, an attacker modifying the balance of a bank account 
+ 
+25 
+©2020 The MITRE Corporation. These sub-techniques tend to 
+describe how individual components of the platform are abused by adversaries. o Are the differences distinguishing characteristics of that group? We do not accept leaked or classified information from any corporation or 
+government as the basis for threat intelligence within ATT&CK. Some groups in ATT&CK have multiple names associated with related sets of activity due to 
+various organizations tracking the same (or similar) set(s) of activities by different names. There could be several nuances that lead an analyst and organization to categorize 
+adversary activity separately, such as differences in visibility into a group’s suspected activity. • It applies to Windows and Linux systems and represents benign functionality used by 
+legitimate software that can be used by adversaries for malicious purposes. Conclusions: 
+• The core feature of this technique is loading malicious code within an existing live 
+process. • There are several variations of this technique and the core behavior is distinct enough 
+from other related methods of defense evasion and privilege escalation to warrant an 
+individual entry. Available: https://medium.com/mitre-attack/2020-attack-roadmap-4820d30b38ba. [2]  The MITRE Corporation, "Common Attack Pattern Enumeration and Classification," 21 
+February 2018. Available: https://medium.com/mitre-attack/how-to-be-a-savvy-attack-consumer-
+63e45b8e94c9. [Accessed 16 March 2020].

@@ -1,0 +1,66 @@
+ 2) The information security event/incident/vulnerability forms: 
+i) 
+completed by the person reporting an information security event (i.e. The organization's awareness briefings should encompass the following: 
+a) 
+benefits to be derived from the structured approach to information security incident management, both to 
+the organization and to its personnel, 
+b) 
+how the information security incident management scheme works, including its scope and the security 
+event, incident and vulnerability management workflow, 
+c) 
+how to report on information security events, incidents and vulnerabilities, 
+ In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). e-mail) are themselves visible targets for attack. This includes when it is thought possible that the system 
+is under attack and unauthorized people could read reporting electronic forms. With regard to information security incidents that are caused by something other than deliberate attack, the 
+source should be identified. e-mail or web), 
+including when it is thought possible that the system is under attack, the report to the relevant people should 
+be done by telephone or text messaging. Relevant information acquired throughout the course of an information security incident should be channelled 
+into the trend/pattern analysis (similarly to the way reported information security vulnerabilities are handled). the source of the attack is ‘faked’), since they typically do not rely on the attacker receiving any information 
+back from the network or system being attacked. B.1.3 
+Malicious code 
+Malicious code identifies a program or part of a program inserted into another program with the intent to 
+modify its original behaviour, usually to perform malicious activities as information and identify theft, 
+information and resource destruction, Denial of Service, Spam, etc. D.2 Example items in records 
+D.2.1 Example items of the record for information security event 
+This includes basic information of the information security event, such as when, what, how and why the event 
+occurred, as well as the contact information of the reporting person. Whether the 
+information 
+security 
+event 
+is 
+classified 
+as 
+an 
+incident 
+or 
+not, 
+the 
+information 
+security 
+event/incident/vulnerability database should be updated. e-mail), including when it is thought 
+possible that the system is under attack and report electronic forms could be read by unauthorized people, 
+then alternative means of reporting should be used. Date of Event 
+ 
+ 
+Page 1 of 1 
+2. Event Number3 
+ 
+3. INFORMATION SECURITY EVENT DETAILS 
+6.1 Date and Time the Event Occurred 
+ 
+6.2 Date and Time the Event was Discovered 
+ 
+6.3 Date and Time the Event was Reported 
+ 
+6.4 Is the Response to this Event Closed? Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

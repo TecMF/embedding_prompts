@@ -1,0 +1,64 @@
+ Adversaries can often enter and explore a network with unprivileged 
+access but require elevated permissions to follow through on their objectives. The type of modification and the impact it will have depends on the target application and 
+process as well as the goals and objectives of the adversary. Reasons for 
+[Defacement](https://attack.mitre.org/techniques/T1491) include delivering messaging, 
+intimidation, or claiming (possibly false) credit for an intrusion. This kind of targeted campaign is often referred to a 
+strategic web compromise or watering hole attack. Guardrails ensure that a payload only executes against an intended target and 
+reduces collateral damage from an adversary’s campaign. Removal of these indicators may interfere with event collection, reporting, or other processes 
+used to detect intrusion activity. Internal spearphishing is multi-staged 
+campaign where a legitimate account is initially compromised either by controlling the user's 
+device or by compromising the account credentials of the user. Activities may include the acquisition of malware, software (including 
+licenses), exploits, certificates, and information relating to vulnerabilities. Phishing for information is an attempt to trick targets into divulging 
+information, frequently credentials or other actionable information. (Citation: CoinLoader: A 
+Sophisticated Malware Loader Campaign) 
+ 
+Aware that some malware cannot survive system reboots, adversaries may entirely delete files 
+used to invoke system shut down or reboot. Stopping critical services or processes can inhibit or stop 
+response to an incident or aid in the adversary's overall objectives to cause damage to the 
+environment. Cookies are often valid for an extended period of time, even if the web application is not actively 
+used. Additionally, other applications on the targets machine might store 
+sensitive authentication cookies in memory (e.g. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. These credentials may then be abused to perform follow-on activities such as 
+lateral movement or privilege escalation (Citation: Slack Security Risks). Cloud environments allow for 
+collection and analysis of audit and application logs that provide insight into what activities a 
+user does within the environment. If an adversary has sufficient permissions, they can disable or 
+modify logging to avoid detection of their activities. Removal of these files can occur during an 
+intrusion, or as part of a post-intrusion process to minimize the adversary's footprint. Files and folders that start with a period, ‘.’, are by default hidden from being viewed 
+in the Finder application and standard command-line utilities like “ls”. Since 
+internally defacing systems exposes an adversary's presence, it often takes place after other 
+intrusion goals have been accomplished. Use 
+of the RTLO character has been seen in many targeted intrusion attempts and criminal 
+activity. Or, they may need to build extensive infrastructure if they want to test, 
+communicate, and control other aspects of their activities on their own systems. The type of 
+modification and the impact it will have depends on the target transmission mechanism as well 
+as the goals and objectives of the adversary. Cookies are often valid for an extended period of time, 
+even if the web application is not actively used. Adversaries may use also third party utilities, such as 7-Zip, WinRAR, and WinZip, to perform 
+similar activities. Many DGAs are time-based, generating a different domain for each time period (hourly, daily, 
+monthly, etc). This kind of targeted 
+campaign is referred to a strategic web compromise or watering hole attack. Adversaries can use a compromised email account to hijack existing email threads with targets 
+of interest. Encrypting and/or encoding file content aims to conceal 
+malicious artifacts within a file used in an intrusion. Cloud storage buckets often allow users to set lifecycle policies to automate the migration, 
+archival, or deletion of objects after a set period of time. The type of 
+modification and the impact it will have depends on the target application and process as well as 
+the goals and objectives of the adversary. Once a persona has been developed an adversary can use it to create connections to targets of 
+interest. Spearphishing for information is an 
+attempt to trick targets into divulging information, frequently credentials or other actionable 
+information. (Citation: 
+QR-campaign-energy-firm) By using a QR code, the URL may not be exposed in the email and 
+may thus go undetected by most automated email security scans. Spearphishing for information is an attempt to trick targets into 
+divulging information, frequently credentials or other actionable information. The type of modification and the impact it will have depends on the 
+type of data as well as the goals and objectives of the adversary. This is because 
+<code>sudo</code> has the ability to cache credentials for a period of time. Associated Tactics: TA0002

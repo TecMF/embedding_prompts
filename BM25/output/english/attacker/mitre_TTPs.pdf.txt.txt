@@ -1,0 +1,123 @@
+Data extracted from: https://raw.githubusercontent.com/mitre-attack/attack-stix-
+data/master/enterprise-attack/enterprise-attack.json 
+ 
+Obs. Such information may include details of the 
+victim organization, infrastructure, or staff/personnel. Accounts could also be disabled by Group Policy. Often the website used by an adversary is one visited by a specific community, such as 
+government, a particular industry, or region, where the goal is to compromise a specific user or 
+set of users based on a shared interest. This kind of targeted campaign is often referred to a 
+strategic web compromise or watering hole attack. (Citation: Bugcrowd Replay Attack)(Citation: Comparitech Replay 
+Attack)(Citation: Microsoft Midnight Blizzard Replay Attack) 
+ 
+Such exploitation has been demonstrated in cloud environments as well. Group policy objects (GPOs) are containers for group policy settings made up of files stored 
+within a predictable network path `\<DOMAIN>\SYSVOL\<DOMAIN>\Policies\`. (Citation: Obsidian SSPR Abuse 2023) 
+ 
+In some cases, adversaries may continuously repeat login attempts in order to bombard users 
+with MFA push notifications, SMS messages, and phone calls, potentially resulting in the user 
+finally accepting the authentication request in response to “MFA fatigue.”(Citation: Russian 2FA 
+Push Annoyance - Cimpanu)(Citation: MFA Fatigue Attacks - PortSwigger)(Citation: Suspected 
+Russian Activity Targeting Government and Business Entities Around the Globe) 
+  Associated Tactics: TA0006 
+ 
+T1104: Multi-Stage Channels 
+  Description: Adversaries may create multiple stages for command and control that are 
+employed under different conditions or for certain functions. Activities may include the acquisition of malware, software (including 
+licenses), exploits, certificates, and information relating to vulnerabilities. In spearphishing, a specific individual, company, or industry will be 
+targeted by the adversary. Adversaries may send victims emails containing malicious attachments or links, typically to 
+execute malicious code on victim systems. In spearphishing, a specific individual, company, or industry will be 
+targeted by the adversary. are present until after the malicious payload is 
+fetched. Users may be subjected to social engineering to get them to execute malicious code by, for 
+example, opening a malicious document file or link. (Citation: Norton Botnet) Adversaries may purchase a subscription 
+to use an existing botnet from a booter/stresser service. With a botnet at their disposal, 
+adversaries may perform follow-on activity such as large-scale 
+[Phishing](https://attack.mitre.org/techniques/T1566) or Distributed Denial of Service 
+(DDoS). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. Parent Technique: T1584 
+  Associated Tactics: TA0042 
+ 
+T1596.004: CDNs 
+  Description: Adversaries may search content delivery network (CDN) data about victims that 
+can be used during targeting. CDNs allow an organization to host content from a distributed, 
+load balanced array of servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. These credentials may then be abused to perform follow-on activities such as 
+lateral movement or privilege escalation (Citation: Slack Security Risks). Such control can allow for 
+redirection of an organization's traffic, facilitating Collection and Credential Access efforts for the 
+adversary. Cloud environments allow for 
+collection and analysis of audit and application logs that provide insight into what activities a 
+user does within the environment. If an adversary has sufficient permissions, they can disable or 
+modify logging to avoid detection of their activities. Commands such as <code>net group /domain</code> of the 
+[Net](https://attack.mitre.org/software/S0039) utility,  <code>dscacheutil -q group</code> on 
+macOS, and <code>ldapsearch</code> on Linux can list domain-level groups. Parent Technique: T1558 
+  Associated Tactics: TA0006 
+ 
+T1552.006: Group Policy Preferences 
+  Description: Adversaries may attempt to find unsecured credentials in Group Policy 
+Preferences (GPP). For example, on the target host use procdump: 
+ 
+* <code>procdump -ma lsass.exe lsass_dump</code> 
+ 
+Locally, mimikatz can be run using: 
+ 
+* <code>sekurlsa::Minidump lsassdump.dmp</code> 
+* <code>sekurlsa::logonPasswords</code> 
+ 
+Built-in Windows tools such as `comsvcs.dll` can also be used: 
+ 
+* <code>rundll32.exe C:\Windows\System32\comsvcs.dll MiniDump PID  lsass.dmp 
+full</code>(Citation: Volexity Exchange Marauder March 2021)(Citation: Symantec Attacks 
+Against Government Sector) 
+ 
+Similar to [Image File Execution Options 
+Injection](https://attack.mitre.org/techniques/T1546/012), the silent process exit mechanism can 
+be abused to create a memory dump of `lsass.exe` through Windows Error Reporting 
+(`WerFault.exe`). Or, they may need to build extensive infrastructure if they want to test, 
+communicate, and control other aspects of their activities on their own systems. All forms of spearphishing are electronically delivered social engineering targeted at a specific 
+individual, company, or industry. All forms of spearphishing are electronically delivered social engineering targeted at a specific 
+individual, company, or industry. (Citation: Expel AWS Attacker) 
+(Citation: Microsoft O365 Admin Roles)  
+ 
+This account modification may immediately follow [Create 
+Account](https://attack.mitre.org/techniques/T1136) or other malicious account activity. Adversaries may use also third party utilities, such as 7-Zip, WinRAR, and WinZip, to perform 
+similar activities. Once adversaries gain access to a victim organization, they may mine CRM software for 
+customer data. This DoS attack may also reduce the availability and 
+functionality of the targeted system(s) and network. (Citation: ATT ScanBox) 
+ 
+Websites compromised by an adversary and used to stage a drive-by may be ones visited by a 
+specific community, such as government, a particular industry, or region, where the goal is to 
+compromise a specific user or set of users based on a shared interest. This kind of targeted 
+campaign is referred to a strategic web compromise or watering hole attack. Associated Tactics: TA0042 
+ 
+T1491.002: External Defacement 
+  Description: An adversary may deface systems external to an organization in an attempt to 
+deliver messaging, intimidate, or otherwise mislead an organization or users. (Citation: FireEye Cyber Threats to Media 
+Industries)(Citation: Kevin Mandia Statement to US Senate Committee on Intelligence)(Citation: 
+Anonymous Hackers Deface Russian Govt Site) [External 
+Defacement](https://attack.mitre.org/techniques/T1491/002) may be used as a catalyst to trigger 
+events, or as a response to actions taken by an organization or government. Associated Tactics: TA0005 
+ 
+T1484.001: Group Policy Modification 
+  Description: Adversaries may modify Group Policy Objects (GPOs) to subvert the intended 
+discretionary access controls for a domain, usually with the intention of escalating privileges on 
+the domain. After the process is 
+hijacked and malicious code is executed, the <code>KernelCallbackTable</code> may also be 
+restored to its original state by the rest of the malicious payload. Most Linux and Linux-based platforms provide a standard set of permission groups (user, 
+group, and other) and a standard set of permissions (read, write, and execute) that are applied 
+to each group. An adversary accomplishes a reflection attack by 
+sending packets to reflectors with the spoofed address of the victim. All forms of spearphishing are electronically 
+delivered social engineering targeted at a specific individual, company, or industry. All forms of spearphishing are electronically delivered social engineering targeted at a specific 
+individual, company, or industry. In this case, the malicious emails contain links. For 
+example, in AWS environments, an adversary that creates a new identity provider for an AWS 
+Organization will be able to federate into all of the AWS Organization member accounts without 
+creating identities for each of the member accounts. Malicious software can include payloads, 
+droppers, post-compromise tools, backdoors, and a variety of other malicious content. Associated Tactics: TA0002

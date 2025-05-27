@@ -1,0 +1,118 @@
+ The Special Publication 800-series 
+reports on ITL’s research, guidelines, and outreach efforts in information system security, and its 
+collaborative activities with industry, government, and academic organizations. Preventive activities 
+based on the results of risk assessments can lower the number of incidents, but not all incidents can be 
+prevented. The attack vectors are: 
+ External/Removable Media: An attack executed from removable media (e.g., flash drive, CD) or a 
+peripheral device.  Other: An attack that does not fit into any of the other categories. Prioritizing the handling of individual incidents is a critical decision point in the incident response 
+process. Each organization needs a plan that meets its unique requirements, which relates to the 
+organization’s mission, size, structure, and functions.  Organization’s ISP. Groups such as the Forum of Incident Response and Security Teams (FIRST)11, the 
+Government Forum of Incident Response and Security Teams (GFIRST)12, and the Anti-Phishing 
+Working Group (APWG)13 are not incident response teams, but they promote information sharing 
+among incident response teams. The organization has multiple incident response teams, each 
+responsible for a particular logical or physical segment of the organization. An incident response team provides advice to other teams without having 
+authority over those teams—for example, a departmentwide team may assist individual agencies’ 
+teams. An existing group such as the IT help desk can act as a first POC for 
+incident reporting. Also, 
+MSSPs may be able to correlate events among customers so that they can identify new threats more 
+quickly than any individual customer could. Managers are 
+ultimately responsible for ensuring that incident response activities are performed properly. Only one group within the organization 
+should distribute computer security advisories to avoid duplicated effort and conflicting information. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis.  Other: An attack that does not fit into any of the other categories. Examples of precursors are: 
+ Web server log entries that show the usage of a vulnerability scanner 
+ An announcement of a new exploit that targets a vulnerability of the organization’s mail server 
+ A threat from a group stating that the group will attack the organization. IDPS software often produces false positives—alerts that 
+indicate malicious activity is occurring, when in fact there has been none. For example, the 
+organization might be contacted by a party claiming a system at the organization is attacking its 
+systems. The initial analysis should provide enough information for the team to prioritize subsequent activities, 
+such as containment of the incident and deeper analysis of the effects of the incident. A network IDPS may detect that an attack was launched 
+against a particular host, but it may not know if the attack was successful. The IETF Extended Incident 
+Handling (inch) Working Group (http://www.cert.org/ietf/inch/inch.html) created an RFC that expands on TERENA’s 
+work—RFC 5070, Incident Object Description Exchange Format (http://www.ietf.org/rfc/rfc5070.txt). For example, a malicious agent may exfiltrate sensitive 
+information. The exact reporting requirements vary among 
+organizations, but parties that are typically notified include: 
+ CIO 
+ Head of information security 
+ Local information security officer 
+ Other incident response teams within the organization 
+ External incident response teams (if appropriate) 
+ System owner 
+ Human resources (for cases involving employees, such as harassment through email) 
+ Public affairs (for incidents that may generate publicity) 
+ Legal department (for incidents with potential legal ramifications) 
+ US-CERT (required for Federal agencies and systems operated on behalf of the Federal government; 
+see Section 2.3.4.3) 
+ Law enforcement (if appropriate) 
+During incident handling, the team may need to provide status updates to certain parties, even in some 
+cases the entire organization. In certain cases, some organizations redirect the attacker to a sandbox (a form of containment) so that 
+they can monitor the attacker’s activity, usually to gather additional evidence. For example, a compromised host may run a malicious process that pings another host 
+periodically. As a result of the failure, the 
+malicious process may overwrite or encrypt all the data on the host’s hard drive. A detailed log should be kept for all evidence, including the following: 
+ Identifying information (e.g., the location, serial number, model number, hostname, media access 
+control (MAC) addresses, and IP addresses of a computer) 
+ Name, title, and phone number of each individual who collected or handled the evidence during the 
+investigation 
+ Time and date (including time zone) of each occurrence of evidence handling 
+ Locations where the evidence was stored. The following items describe the most commonly performed activities for attacking host identification: 
+ Validating the Attacking Host’s IP Address. Also, the attacker may have received a dynamic 
+address that has already been reassigned to someone else. Performing an Internet search using the 
+apparent source IP address of an attack may lead to more information on the attack—for example, a 
+mailing list message regarding a similar attack.  Monitoring Possible Attacker Communication Channels. Having one or more moderators who are skilled in group 
+facilitation can yield a high payoff. If incident data is collected and stored properly, it 
+should provide several measures of the success (or at least the activities) of the incident response team. If it is possible that the attacker will be prosecuted, evidence may need to be retained 
+until all legal actions have been completed. For example, if an 
+attacker is able to use knowledge gathered in one attack to perform a more severe attack later, 
+evidence from the first attack may be key to explaining how the second attack was accomplished. Note 
+that the actual steps performed may vary based on the type of incident and the nature of individual 
+incidents. Organizations should ensure that they effectively coordinate 
+portions of their incident response activities with appropriate partners. Collaboration with the trusted partner can enable an 
+organization to respond to the incident more quickly and efficiently than an organization operating in 
+isolation. Ad hoc information sharing mechanisms normally rely on an 
+individual employee’s connections with employees in incident response teams of partner organizations. How would the organization attempt to prevent the worm from entering the organization before 
+antivirus signatures were released? The FBI has been investigating activity involving public posting of sensitive government documents, and 
+some of the documents reportedly belong to the organization. False Positive: An alert that incorrectly indicates that malicious activity is occurring. Malware: A virus, worm, Trojan horse, or other code-based malicious entity that successfully infects a 
+host. Precursor: A sign that an attacker may be preparing to cause an incident. 
+Federal Information Processing Standards 
+FIRST  
+Forum of Incident Response and Security Teams 
+FISMA  
+Federal Information Security Management Act 
+GAO  
+General Accountability Office 
+GFIRST 
+Government Forum of Incident Response and Security Teams 
+GRS 
+ 
+General Records Schedule 
+HTTP  
+HyperText Transfer Protocol 
+IANA  
+Internet Assigned  eu/activities/cert  
+Forum of Incident Response and Security Teams (FIRST) 
+http://www.first.org/  
+Government Forum of Incident Response and Security Teams 
+(GFIRST) 
+http://www.us-cert.gov/federal/gfirst.html  
+High Technology Crime Investigation Association (HTCIA) 
+http://www.htcia.org/  
+InfraGard 
+http://www.infragard.net/  
+Internet Storm Center (ISC) 
+http://isc.sans.edu/  
+National Council of ISACs 
+http://www.isaccouncil.org/  
+United States Computer Emergency Response Team (US-CERT) 
+http://www.us-cert. (If the attacker has compromised email 
+services, do not send emails about the incident.) 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

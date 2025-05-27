@@ -1,0 +1,83 @@
+ ATT&CK Model Relationships ..................................................................................... 17 
+Figure 4. ATT&CK Model Relationships Example ...................................................................... 18 
+Figure 5. ATT&CK Technique and Sub-Technique Model ........................................................... 10 
+Table 3. ATT&CK Group Model .................................................................................................. 14 
+Table 4. ATT&CK Software Model .............................................................................................. 15 
+Table 5. ATT&CK Mitigation Model ........................................................................................... 16 
+ 
+ 
+ 
+xi 
+©2020 The MITRE Corporation. Introduction 
+MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, 
+reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known 
+to target. These profiles can also be used by defenders and hunting teams to align and improve 
+defensive measures. ATT&CK can be used as a tool to create red team plans and organize operations to avoid certain 
+defensive measures that may be in place within a network. Behavioral Analytics Development – By going beyond traditional indicators of compromise 
+(IoCs) or signatures of malicious activity, behavioral detection analytics can be used to identify 
+potentially malicious activity within a system or network that may not rely on prior knowledge 
+of adversary tools and indicators. It is a way of leveraging how an adversary interacts with a 
+specific platform to identify and link together suspicious activity that is agnostic or independent 
+of specific tools that may be used. Does the definition of coverage expand beyond visibility 
+to also cover controls and preventative measures to stop techniques from being used? PRE-
+ATT&CK covers documentation of adversarial behavior during requirements gathering, 
+reconnaissance, and weaponization before access to a network is obtained. It is the adversary’s 
+tactical objective: the reason for performing an action. 3.4 Techniques and Sub-Techniques 
+Techniques represent “how” an adversary achieves a tactical objective by performing an action. Techniques may also represent “what” an adversary gains by 
+performing an action. This is a useful distinction for the Discovery tactic as the techniques 
+highlight what type of information an adversary is after with a particular action. Detection* 
+Field 
+High level analytic process, sensors, data, and 
+detection strategies that can be useful to identify a 
+(sub-)technique has been used by an adversary. This 
+section is intended to inform those responsible for 
+detecting adversary behavior (such as network 
+defenders) so they can take an action such as writing 
+an analytic or deploying a sensor. There should be 
+enough information and references to point toward 
+useful defensive methodologies. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. Detection may not always be possible 
+ 
+12 
+©2020 The MITRE Corporation. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. 3.4.3 Sub-Technique Details 
+The addition of sub-techniques to ATT&CK in 2020 marked a significant shift to how behavior 
+is described within the knowledge base. The change was driven by the need to fix some of the 
+technique abstraction level issues that occurred as ATT&CK grew over the years. Even though the purpose behind sub-
+techniques was to provide more detail on how techniques can be used, there remains several 
+techniques that do not have a natural breakout into sub-techniques or do not make sense to 
+generalize into higher level techniques. This is 
+especially the case with techniques that apply to network communications in the Command and 
+Control tactic since network use is often operating system and platform agnostic. The process is as much of an art as it is a 
+science but remains focused on an accurate representation of how adversaries conduct operations 
+in a way that’s easy to categorize the actions they take and relate those actions to sensors, system 
+configurations, and countermeasures that defenders can use to detect and/or stop those actions. Defenders are then able to follow the adversary’s motivation for 
+individual actions and understand how the actions and dependencies relate to specific classes of 
+defenses that may be deployed in an environment. Defenders see adversaries in action and are often in a position to see when new techniques are 
+being used. However, these models are 
+not effective at conveying what individual actions adversaries make, how one action relates to 
+another, how sequences of actions relate to tactical adversary objectives, and how the actions 
+correlate with data sources, defenses, configurations, and other countermeasures used for the 
+security of a platform and domain. • An appropriate level of categorization to relate adversary’s action and specific ways of 
+defending against it. There may be cases where tactics need to be refined for better definition of the actions occurring. Distribution unlimited 19-01075-28. 
+describes a general platform agnostic behavior, such as much of the Command and Control 
+tactic. • Actions- How a technique or sub-technique is performed. This is related to requirements and actions but could differ across techniques 
+that are related. For example, HTTP-based Command and Control 
+traffic over port 8088 would fall under both the Non-Standard Port technique and the Web 
+Protocols sub-technique of Application Layer Protocol. In the same example, if Command and Control traffic is over 
+HTTP, unless explicitly stated or known, an analyst should not assume the traffic is over port 80 
+because adversaries may use non-standard ports, as in the example. • SQLi is a variation of an exploitation technique against a specific software technology 
+and is an appropriate abstraction within how an adversary performs initial compromise. [Accessed 16 March 2020].

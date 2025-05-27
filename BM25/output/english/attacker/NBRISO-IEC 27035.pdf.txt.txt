@@ -1,0 +1,107 @@
+ If there are no clear procedures, there is a risk that investigation 
+activities could be conducted in a reactive mode, by responding to incidents as they occur and 
+overlooking what activities are needed. Furthermore, such 
+awareness helps to reduce a mistake or panic/confusion by an individual in the event of an information 
+security incident. This applies to policies and other documents applicable both for 
+organization-wide and for individual systems, services and networks. 6) Anti-malicious code software. The scheme should include standards that support information sharing, both within the 
+organization and outside (if required by the organization). 4) A definition of the scope of the ISIRT activities. Normally, the scope of an organization's ISIRT covers 
+all of the organization's information systems, services and networks. Guidance should include discussion of the 
+advantages and disadvantages of undertaking attacker surveillance activities. xii) The terms of reference and responsibilities of the ISIRT as a whole, and of individual members. Further, there should be documented procedures covering not just 
+PoC and ISIRT activities, but those involved in information security forensic analysis and crisis activities – if 
+not covered elsewhere, e.g. on the organization's intranet. It 
+should reflect experience from external (for example government and commercial ISIRTs or similar, and 
+suppliers) as well as from internal sources. These procedures should specify who in the organization deals with media inquiries, and 
+how that part of the organization interacts with the ISIRT. Each group of people involved directly with the 
+management of incidents may require different levels of training, depending on the type, frequency and 
+criticality of their interaction with the information security incident management scheme. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. In addition, the awareness and training programs should be complemented by the establishment and 
+operations of ‘hot line’ support from information security incident management personnel, in order to minimize 
+delays in reporting and handling information security events, incidents and vulnerabilities. These phases and their 
+associated activities were introduced in Clause 4.5. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Figure 3 shows all of the operational phases and related activities. e-mail) are themselves visible targets for attack. This includes when it is thought possible that the system 
+is under attack and unauthorized people could read reporting electronic forms. This will allow 
+business critical applications to function correctly, and collect as much information as possible about the 
+attacker, provided that the attacker does not know that he/she is under surveillance. a) 
+While undertaking such a decision, it needs to be considered that the attacker may realize that he/she is 
+being observed and may undertake actions that cause further damage to the affected information system, 
+service and/or network, and related data, and the attacker could destroy the information that may be 
+useful to track him/her. This is especially relevant when the attacker is non-malicious and 
+has caused little or no damage. With regard to information security incidents that are caused by something other than deliberate attack, the 
+source should be identified. It may be necessary 
+to check the integrity of the logs, as a deliberate attacker may have manipulated these logs to cover his/her 
+tracks. e-mail or web), 
+including when it is thought possible that the system is under attack, the report to the relevant people should 
+be done by telephone or text messaging. Each group may need special information that should come through the appropriate channels of the 
+organization. These incidents need to be escalated to activate the 
+business continuity plan if in place by reporting to either senior management, another group within the 
+organization or persons or groups outside of the organization. This could be following the assessment activities described above in Clauses 7.2 
+and 7.3, or during those activities if some major issue becomes evident early. Use should also be made of information security incident and related vulnerability information received from 
+government, commercial ISIRTs and suppliers. The organization should ensure that these are actioned. the source of the attack is ‘faked’), since they typically do not rely on the attacker receiving any information 
+back from the network or system being attacked. B.1.3 
+Malicious code 
+Malicious code identifies a program or part of a program inserted into another program with the intent to 
+modify its original behaviour, usually to perform malicious activities as information and identify theft, 
+information and resource destruction, Denial of Service, Spam, etc. This is sometimes performed modifying an existing malicious code, creating a variant that often is not 
+recognized by malicious code detection technologies. Computer virus, network worm, Trojan horse, botnet, 
+blended attacks, malicious code embedded web page, 
+malicious code hosting site, etc. A botnet is a group of compromised (‘zombie’) computers 
+on networks that are centrally controlled by the author of 
+the botnet who is known as botnet controller or herder. A malicious code embedded web page defaces website by 
+including malicious code that installs malware on a 
+computer system accessing it. A malicious code hosting site decoys a website to host 
+malicious code which is downloaded by targeted users. There are others, such as the FIRST / Mitre Common Vulnerability 
+Scoring System (CVSS) and the UK government Structured Warning Information Format (SWIF). An organization could not bear this level of business loss. 1 Minor distress (concern) to an individual (anger, frustration, disappointment) but no breach of legal or 
+regulatory requirement occurs 
+2 Distress (concern) to an individual (anger, frustration, disappointment) but no breach of legal or regulatory 
+requirement occurs 
+3 A breach in a legal, regulatory or ethical requirement or publicized intention on the protection of information, 
+leading to minor embarrassment to an individual 
+4 A breach in a legal, regulatory or ethical requirement or publicized intention on the protection of information,  
+leading to significant embarrassment to an individual or minor embarrassment to a group of individuals 
+5 A breach in a legal, regulatory or ethical requirement or publicized intention on the protection of information, 
+leading to serious embarrassment to an individual 
+6 A breach in a legal,  regulatory or ethical requirement or publicized intention on the protection of information, 
+leading to serious embarrassment to a group of individuals 
+7 No entry 
+8 No entry 
+9 No entry 
+10 No entry 
+C.3.2.5 Legal and regulatory obligations 
+Data held and processed by an organization may be subject to, or held and processed in order to allow an 
+organization to comply with legal and regulatory obligations. 1 No entry 
+2 Cause local embarrassment within the organization 
+3 Adversely affect relations with shareholders, customers, suppliers, employees, third party users, regulatory 
+bodies, the government, other organizations or the public, resulting in local/regional adverse publicity 
+4 No entry 
+5 Adversely affect relations with shareholders, customers, suppliers, employees, third party users, regulatory 
+bodies, the government, other organizations or the public, resulting in some national adverse publicity 
+6 No entry 
+7 Materially affect relations with shareholders, customers, suppliers, employees, e-mail), including when it is thought 
+possible that the system is under attack and report electronic forms could be read by unauthorized people, 
+then alternative means of reporting should be used. (IF INCIDENT CAUSED BY PEOPLE) PERSON(S)/PERPETRATOR(S) INVOLVED 
+(One of) 
+Person 
+ 
+Legally Established Organization/Institution
+ 
+ 
+Organized Group 
+ 
+Accident
+ 
+ 
+ 
+ 
+No Perpetrator
+e.g. As information security incidents need to be typically attributed to an individual, information 
+of a personal nature may therefore need to be recorded and managed accordingly. Similar 
+requirements exist with regard to government organizations. regarding any case that may involve a 
+serious crime or penetration of a sensitive government system). Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

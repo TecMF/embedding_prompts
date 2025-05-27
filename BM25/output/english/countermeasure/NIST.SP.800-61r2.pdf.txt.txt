@@ -1,0 +1,117 @@
+ The authors would also like to thank security experts Simon Burson, Anton Chuvakin 
+(Gartner), Fred Cohen (Fred Cohen & Associates), Mariano M. del Rio (SIClabs), Jake Evans (Tripwire), 
+Walter Houser (SRA), Panos Kampanakis (Cisco), Kathleen Moriarty (EMC), David Schwalenberg 
+(National Security Agency), and Wes Young (Research and Education Networking Information Sharing 
+and Analysis Center [REN-ISAC]), as well as representatives of the Blue Glacier Management Group, the 
+Centers for Disease Control and Prevention, the Department of Energy, the Department of State, and the 
+Federal Aviation Administration for their particularly valuable comments and suggestions. Thus, 
+incident prevention is an important complement to an incident response capability.  Attrition: An attack that employs brute force methods to compromise, degrade, or destroy systems, 
+networks, or services. 1.3 
+Audience 
+This document has been created for computer security incident response teams (CSIRTs), system and 
+network administrators, security staff, technical support staff, chief information security officers (CISOs), 
+chief information officers (CIOs), computer security program managers, and others who are responsible 
+for preparing for, or responding to, security incidents. A computer security incident is a violation or imminent threat of violation1 of computer security policies, 
+acceptable use policies, or standard security practices. Software vendors may also provide information on known threats (e.g., new attacks) to help 
+organizations understand the current threat environment. Some computer security incidents occur through 
+breaches of physical security or involve coordinated logical and physical attacks. Only one group within the organization 
+should distribute computer security advisories to avoid duplicated effort and conflicting information. Examples include monitoring intrusion detection 
+sensors, distributing security advisories, and educating users on security. Although the incident 
+response team is not typically responsible for incident prevention, it is fundamental to the success of 
+incident response programs. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. Because the 
+purpose of having a jump kit is to facilitate faster responses, the team should avoid borrowing items from 
+the jump kit. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Exercises involving simulated incidents can also be very useful for preparing staff for incident handling; 
+see NIST SP 800-84 for more information on exercises23 and Appendix A for sample exercise scenarios.  Malware Prevention. 30  
+More information on malware prevention is available from NIST SP 800-83, Guide to Malware Incident Prevention and 
+Handling (http://csrc.nist.gov/publications/PubsSPs.html#800-83). 31  
+See NIST SP 800-94, Guide to Intrusion Detection and Prevention Systems, for additional information on IDPS products. For example, only authorized personnel should 
+have access to the incident database. The team should plan and prepare several communication methods, 
+including out-of-band methods (e.g., in person, paper), and select the methods that are appropriate for a 
+particular incident. A detailed log should be kept for all evidence, including the following: 
+ Identifying information (e.g., the location, serial number, model number, hostname, media access 
+control (MAC) addresses, and IP addresses of a computer) 
+ Name, title, and phone number of each individual who collected or handled the evidence during the 
+investigation 
+ Time and date (including time zone) of each occurrence of evidence handling 
+ Locations where the evidence was stored. Recovery may involve 
+such actions as restoring systems from clean backups, rebuilding systems from scratch, replacing 
+compromised files with clean versions, installing patches, changing passwords, and tightening network 
+perimeter security (e.g., firewall rulesets, boundary router access control lists). Organizations should 
+decide what incident data to collect based on reporting requirements and on the expected return on 
+investment from the data (e.g., identifying a new threat and mitigating the related vulnerabilities before 
+they can be exploited.) Intrusion detection and prevention systems, antivirus software, and file integrity checking 
+software are valuable for detecting signs of incidents. The most important aspect of 
+incident response coordination is information sharing, where different organizations share threat, attack, 
+and vulnerability information with each other so that each organization’s knowledge benefits the other. Section 4.2.1 looks at ad hoc methods, while 
+Section 4.2.2 examines partially automated methods. Ad hoc information sharing methods are also largely unstandardized in terms of what information is 
+communicated and how that communication occurs. Because of the lack of standardization, they tend to 
+require manual intervention and to be more resource-intensive to process than the alternative, partially 
+automated methods. 4.2.3 Security Considerations 
+There are several security considerations that incident response teams should consider when planning 
+their information sharing. In many cases, incident response 
+teams should avoid sharing business impact information with outside organizations unless there is a clear 
+value proposition or formal reporting requirements. Scenario 11: Unknown Wireless Access Point 
+On a Monday morning, the organization’s help desk receives calls from three users on the same floor of a 
+building who state that they are having problems with their wireless access. He checks with his teammates and determines that this access point was not deployed by his 
+team, so that it is most likely a rogue access point that was established without permission. What should be the first major step in handling this incident (e.g., physically finding the rogue 
+access point, logically attaching to the access point)? What is the fastest way to locate the access point? What is the most covert way to locate the 
+access point? Incident: A violation or imminent threat of violation of computer security policies, acceptable use 
+policies, or standard security practices. Threat: The potential source of an adverse event. Vulnerability: A weakness in a system, application, or network that is subject to exploitation or misuse. Access Control 
+MOU  
+Memorandum of Understanding 
+MSSP  
+Managed Security Services Provider 
+NAT 
+ 
+Network Address Translation 
+NDA 
+ 
+Non-Disclosure Agreement 
+NIST  
+National Institute of Standards and Technology 
+NSRL  
+National Software Reference Library 
+NTP 
+ 
+Network Time Protocol 
+NVD 
+ 
+National Vulnerability Database 
+OIG 
+ 
+Office of  
+RID 
+ 
+Real-Time Inter-Network Defense 
+SIEM  
+Security Information and Event Management 
+SLA 
+ 
+Service Level Agreement 
+SOP 
+ 
+Standard Operating Procedure 
+SP  
+ 
+Special Publication 
+TCP 
+ 
+Transmission Control Protocol 
+TCP/IP 
+Transmission Control Protocol/Internet Protocol 
+TERENA 
+Trans-European Research and Education Networking Association  Most organizations have multiple methods for reporting an incident. This should include the chief information 
+officer (CIO), the head of information security, and the local security manager. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

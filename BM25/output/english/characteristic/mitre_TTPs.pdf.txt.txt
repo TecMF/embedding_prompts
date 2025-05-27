@@ -1,0 +1,47 @@
+ Domain trusts provide a mechanism for a domain to allow access to resources 
+based on the authentication procedures of another domain. (Citation: Microsoft Trusts) Domain 
+trusts allow the users of the trusted domain to access resources in the trusting domain. This kind of targeted campaign is often referred to a 
+strategic web compromise or watering hole attack. (Citation: Shadowserver Strategic Web Compromise) 
+ 
+Typical drive-by compromise process: 
+ 
+1. Network sniffing may reveal configuration details, such as running services, version numbers, 
+and other network characteristics (e.g. Plist files are 
+structured metadata in key-value pairs formatted in XML based on Apple's Core Foundation 
+DTD. This may take the form of sending a series 
+of packets with certain characteristics before a port will be opened that the adversary can use 
+for command and control. [Port 
+Knocking](https://attack.mitre.org/techniques/T1205/001)), but can involve unusual flags, 
+specific strings, or other unique characteristics. With a botnet at their disposal, 
+adversaries may perform follow-on activity such as large-scale 
+[Phishing](https://attack.mitre.org/techniques/T1566) or Distributed Denial of Service 
+(DDoS). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. Adversaries may search CDN data to gather actionable information. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. domain administrator). For example, if domain-x and domain-y are customers of the same CDN, it is possible to place 
+domain-x in the TLS header and domain-y in the HTTP header. Traffic will appear to be going to 
+domain-x, however the CDN may route it to domain-y. (Citation: Huntress API Hash)(Citation: IRED API Hashing) 
+ 
+To avoid static or other defensive analysis, adversaries may use dynamic API resolution to 
+conceal malware characteristics and functionalities. Cloned 
+certificate chains will carry many of the same metadata characteristics of the source and can be 
+used to sign malicious code that may then bypass signature validation tools (ex: Sysinternals, 
+antivirus, etc.) A resource fork provides applications a 
+structured way to store resources such as thumbnail images, menu definitions, icons, dialog 
+boxes, and code. In the case of self-signing, digital certificates will lack the element of trust associated with 
+the signature of a third-party certificate authority (CA). Domain accounts are those managed by Active Directory Domain Services where access and 
+permissions are configured across systems and services that are part of that domain. This kind of targeted 
+campaign is referred to a strategic web compromise or watering hole attack. (Citation: Microsoft SolarWinds Steps) The 
+default lifetime of a SAML token is one hour, but the validity period can be specified in the 
+<code>NotOnOrAfter</code> value of the <code>conditions ...</code> element in a token. Associated Tactics: TA0002

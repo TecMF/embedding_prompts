@@ -1,0 +1,50 @@
+ Preventive activities 
+based on the results of risk assessments can lower the number of incidents, but not all incidents can be 
+prevented. However, most policies 
+include the same key elements: 
+ Statement of management commitment 
+ Purpose and objectives of the policy 
+                                                      
+3  
+http://www.whitehouse.gov/omb/circulars/a130/a130trans4.html 
+4  
+http://csrc.nist.gov/drivers/documents/FISMA-final.pdf  
+5  
+http://csrc.nist.gov/publications/PubsFIPS.html  
+6  
+http://www.whitehouse.gov/omb/memoranda/fy2007/m07-16. However, technical staff members within the 
+organization usually have much better knowledge of the organization’s environment than an 
+outsourcer would, which can be beneficial in identifying false positives associated with organization-
+specific behavior and the criticality of targets. Managers are 
+ultimately responsible for ensuring that incident response activities are performed properly. The following are examples of other services a team might offer: 
+ Intrusion Detection. The first tier of an incident response team often assumes responsibility for 
+intrusion detection.17 The team generally benefits because it should be poised to analyze incidents 
+more quickly and accurately, based on the knowledge it gains of intrusion detection technologies. Examples include monitoring intrusion detection 
+sensors, distributing security advisories, and educating users on security. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Exercises involving simulated incidents can also be very useful for preparing staff for incident handling; 
+see NIST SP 800-84 for more information on exercises23 and Appendix A for sample exercise scenarios. Examples of precursors are: 
+ Web server log entries that show the usage of a vulnerability scanner 
+ An announcement of a new exploit that targets a vulnerability of the organization’s mail server 
+ A threat from a group stating that the group will attack the organization. 31  
+See NIST SP 800-94, Guide to Intrusion Detection and Prevention Systems, for additional information on IDPS products. Intrusion detection systems may produce false positives—
+incorrect indicators. The initial analysis should provide enough information for the team to prioritize subsequent activities, 
+such as containment of the incident and deeper analysis of the effects of the incident. The following items describe the most commonly performed activities for attacking host identification: 
+ Validating the Attacking Host’s IP Address. Follow-up reports should be kept for a period of time as 
+specified in record retention policies.45 
+3.4.2 Using Collected Incident Data 
+Lessons learned activities should produce a set of objective and subjective data regarding each incident. If incident data is collected and stored properly, it 
+should provide several measures of the success (or at least the activities) of the incident response team. Organizations should ensure that they effectively coordinate 
+portions of their incident response activities with appropriate partners. The intrusion detection analyst determines that the connection is being made 
+to the organization’s VPN server and contacts the incident response team. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

@@ -1,0 +1,74 @@
+ Cyber Threat Intelligence Enrichment – Cyber threat intelligence covers knowledge of cyber 
+threats and threat actor groups that impact cybersecurity. Is it important that all relevant instances of a technique 
+being seen get tagged with an ATT&CK mapping even if it may not have been performed due to 
+a real incident? Impact Type* 
+Tag 
+Denotes if the (sub-)technique can be used for 
+integrity or availability attacks. There should be 
+enough information and references to point toward 
+useful defensive methodologies. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. 3.4.3 Sub-Technique Details 
+The addition of sub-techniques to ATT&CK in 2020 marked a significant shift to how behavior 
+is described within the knowledge base. The change was driven by the need to fix some of the 
+technique abstraction level issues that occurred as ATT&CK grew over the years. If the information is ambiguous such 
+that a sub-technique cannot be identified, then the information will be mapped to the technique. Groups are defined as 
+named intrusion sets, threat groups, actor groups, or campaigns that typically represent targeted, 
+persistent threat activity. The information within ATT&CK has evolved over time, as have the considerations used for 
+what information gets included and how it’s structured. Distribution unlimited 19-01075-28. 
+security from a defender’s perspective with a top-down view, such as the CIA2 model, focus on 
+vulnerability scoring, such as CVSS [6], or primarily account for risk calculations, such as 
+DREAD [7]. 4.1.2.1 
+Sources of Information 
+New information relevant to ATT&CK techniques can come from many different sources. These 
+sources are used to help meet the empirical use criteria: 
+• Threat intelligence reports 
+• Conference presentations 
+• Webinars 
+• Social media 
+• Blogs 
+• Open source code repositories 
+• Malware samples 
+ 
+ 
+2 Confidentiality, Integrity, and Availability 
+ 
+22 
+©2020 The MITRE Corporation. The information may be used in different ways 
+depending on where the information comes from and the vantage the contributing organization 
+or individual has. Threat intelligence analysts typically track incidents, threat groups, and how their TTPs evolve 
+over time. Defenders in this context refer to threat hunters, malware analysts, and incident 
+responders. The 
+mid-level model is also a useful construct to tie in threat intelligence and incident data to show 
+who is doing what as well as the prevalence of use for particular techniques. 4.2.1 Impact 
+The types of tactics in ATT&CK have historically aligned to covering adversaries primarily 
+focused on breaching the confidentiality of information. Rather than include all possible types of behaviors not covered elsewhere in ATT&CK, 
+techniques in the Impact tactic specifically involve only attacks impacting the integrity or 
+availability of information or systems. Along with the other tactics in ATT&CK, this increases 
+the scope of ATT&CK to cover the traditional Confidentiality, Integrity, and Availability, or 
+CIA triad. Attacks on availability reduce or remove the ability to use a system or the information 
+on it by damaging it or otherwise reducing its utility. Attacks on integrity manipulate the accuracy or 
+completeness of information. Distribution unlimited 19-01075-28. 
+stored in a data base, activity which falls under Data Manipulation: Stored Data Manipulation, 
+damages the integrity of the balance information. Each technique and sub-technique in the 
+Impact tactic includes a mandatory “Impact Type” tag with a value of “Availability” or 
+“Integrity” indicating which one the (sub-)technique impacts. ATT&CK remains strongly tied to threat intelligence sources on 
+persistent threat groups. There are also fewer persistent threat incidents reported against Linux and 
+Mac systems than there are against Windows, causing available threat data to be substantially 
+less available. Do other sources corroborate information provided? Analysts should also use caution and not assume 
+a technique was used if it is not explicitly stated or could not have happened in any other way 
+during the reported incident. This is still a very useful source of information. Some security features 
+may mitigate aspects of this technique, such as application whitelisting that includes 
+analysis of loaded modules, or code integrity that prevents processes from a lower 
+integrity level from interfacing with processes running in at a higher integrity level. Adoption of ATT&CK is widespread across multiple disciplines, including intrusion detection, 
+threat hunting, security engineering, threat intelligence, red teaming, and risk management. [Accessed 16 March 2020].

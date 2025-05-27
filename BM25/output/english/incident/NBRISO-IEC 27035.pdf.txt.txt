@@ -1,0 +1,243 @@
+ The occurrence of an information security event does not necessarily mean that an attempt has been 
+successful or that there are any implications on confidentiality, integrity and/or availability, i.e. If there are no clear procedures, there is a risk that investigation 
+activities could be conducted in a reactive mode, by responding to incidents as they occur and 
+overlooking what activities are needed. It should be recognized, however, that there is a chance that the actions 
+necessary to recover from an information security incident might jeopardize the integrity of any such 
+collected evidence. g) 
+Improving updates to information security risk assessment and management results 
+The use of a structured approach to information security incident management will facilitate the 
+- better collection of data for assisting in the identification and determination of the characteristics of the 
+various threat types and associated vulnerabilities, and 
+- provision of data on frequencies of occurrence of the identified threat types. The data collected to identify the occurrence frequency of the 
+various threat types will greatly aid the quality of the threat assessment. It will also be possible to 
+demonstrate the benefits associated with the rapid availability of solution information. This applies to policies and other documents applicable both for 
+organization-wide and for individual systems, services and networks. b) 
+Activity to update information security and risk management policies at a corporate level and specific 
+system, service and network levels. Particular attention 
+should be given to the creation of tests that focus on the evolving vulnerability, threat and risk scenarios 
+(see Clause 5.8). b) 
+An overview of information security event detection, reporting and collection of relevant information, and 
+how this information should be used to determine information security incidents. c) 
+To ensure consistency across the various policies. For guidance on information security risk assessment and management, see ISO/IEC 27005:2008. 5.3.2 Content 
+Each organization should update and maintain its corporate information security and risk management 
+policies, and specific system, service or network information security policies. These policies need to refer to a 
+corporate information security incident management policy and associated scheme explicitly. ii) 
+Collecting the information on information security events. The ISIRT should work to educate users, explain how the ISIRT works, how it protects 
+confidentiality of information collected and how it manages users' event, incident and vulnerability reports. An organization 
+should ensure that the necessary processes are established to anonymize sensitive information and require 
+personnel with access to sensitive information to sign confidentiality agreements.. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). When considering the potential or actual adverse effects of an information security incident on the business of 
+an organization, the following are some examples: 
+a) 
+unauthorized disclosure of information, 
+b) 
+unauthorized modification of information, 
+c) 
+repudiation of information, 
+d) 
+unavailability of information and/or service, 
+e) 
+destruction of information and/or service, and 
+f) 
+reduced performance of service. controls to be adopted to prevent re-occurrence or similar 
+occurrences). An information security incident should be correlated to any other event/incident reported to the ISIRT. This 
+important activity is to verify if the incident is connected to any other event/incident or it is simply the effect of 
+another incident, i.e. It may be necessary 
+to check the integrity of the logs, as a deliberate attacker may have manipulated these logs to cover his/her 
+tracks. further controls to be adopted to prevent re-occurrence or 
+similar 
+occurrences). Some responses are directed at preventing information security incident re-occurrence or similar occurrence. Other measures to decrease the possibility of re-occurrence or similar occurrence of an IT 
+information security incident may include changing system passwords and disabling unused services. m) Activity to perform file integrity checks to detect Trojan horse files and files not originally on the system. If any information pertaining to information 
+security incidents is to be released to the press it should be done in accordance with organization's 
+information dissemination policy. b) 
+New or changed threat and vulnerability information and thus changes to the organization's existing 
+information security risk assessment and management review results. 9.5 Identifying and making improvements to information security risk assessment and 
+management review results 
+Depending on the severity and impact of an information security incident (or the severity and potential impact 
+related to a reported information security vulnerability), an assessment of information security risk assessment 
+and management review results may be necessary to take into account new threats and vulnerabilities. B.1.4 
+Inappropriate usage 
+This kind of incident occurs when a user violates an organization's information system security policies. A malicious 
+program is inserted into 
+information systems to 
+damage the confidentiality, 
+integrity or availability of 
+data, applications or 
+operating systems, and/or 
+affect the normal operation of 
+information systems. Abuse of rights, forging of rights, denial of actions, mis-
+operations, breach of personnel availability, etc. Breach of personnel availability is caused by the lack or 
+absence of human resources. C.3.1.1.2 Information System Importance 
+The importance of the information systems affected by information security incidents is determined by 
+considering the importance of the organization business operations supported by the information systems. This approach classifies information 
+system importance into three broad levels: especially important information system, important information 
+system and ordinary information system.  telephone and e-mail 
+Incident description 
+ 
+What occurred 
+ 
+How occurred 
+ 
+Why Occurred 
+ 
+Initial views on components/assets affected 
+ 
+Adverse business impacts 
+ 
+Any vulnerability identified 
+Incident details 
+ 
+Date and time the incident occurred 
+ 
+Date and time the incident was discovered 
+ 
+Date and time the incident was reported 
+Incident category 
+Components/assets affected 
+Adverse business impact/effect of incident 
+Total recovery cost from incident 
+Incident resolution 
+Person(s)/perpetrator( Incident Number4 
+ 
+3. INFORMATION SECURITY INCIDENT DETAILS 
+7.1 Date and Time the Incident Occurred 
+ 
+7.2 Date and Time the Incident was Discovered 
+ 
+7.3 Date and Time the Incident was Reported 
+ 
+7.4 Identity/Contact Details of Reporting Person 
+ 
+7.5 Is the Incident Over? 8.1 Actual 
+(incident has occurred) 
+ 
+8.2 Suspected 
+(incident thought to have occurred but not 
+confirmed) 
+ 
+(One of) 
+8.3 Natural disaster 
+ 
+(indicate threat types involved) 
+ 
+Earthquake 
+ 
+Volcano 
+ 
+Flood 
+ 
+Violent wind 
+ 
+Lightning 
+ 
+Tsunami 
+ 
+Collapse 
+ 
+Other 
+ 
+ 
+Specify: 
+(One of) 
+8.4 Social unrest 
+ 
+(indicate threat types involved) 
+ 
+Bedin 
+    Terrorist assault 
+    War 
+    Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 10 Technical attack 
+ 
+(indicate threat types involved) 
+ 
+Network scanning 
+        Exploitation of vulnerability 
+        Exploitation of backdoor 
+ 
+Login attempts, Interference 
+        Denial of Service (DoS) 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.11 Breach of rule 
+ 
+(indicate threat types involved) 
+ 
+Unauthorized use of resources 
+        Breach of copyright 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 12 Compromise of functions 
+ 
+(indicate threat types involved) 
+ 
+Abuse of rights 
+        Forging of rights, Denial of actions 
+        Mis-operations 
+ 
+Breach of personnel availability 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.13 Compromise of information 
+ 
+(indicate threat types involved) 
+ 
+Interception 
+        Spying, Eavesdropping 
+        Disclosure 
+ 
+Masquerade, VALUE 
+GUIDELINE(S) 
+COST 
+10.1 Breach of Confidentiality 
+(i.e. unauthorized disclosure) 
+ 
+ 
+ 
+ 
+10.2 Breach of Integrity 
+(i.e. unauthorized modification) 
+ 
+ 
+ 
+ 
+10.3 Breach of Availability 
+(i.e. INCIDENT RESOLUTION 
+12.1 Incident Investigation Commenced Date 
+ 
+12.2 Incident Investigator(s) Names(s) 
+ 
+12.3 Incident End Date 
+ 
+12.4 Impact End Date 
+ 
+12.5 Incident Investigation Completion Date 
+ 
+12.6 Reference and Location of Investigation Report 
+ 
+13. In those countries where 
+specific legislation exists that covers data confidentiality and integrity, it is often restricted to the control of 
+personal data.  
+Legal Issues related to Policies and Procedures are dealt with. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

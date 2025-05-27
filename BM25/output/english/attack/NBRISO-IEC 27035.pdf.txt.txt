@@ -1,0 +1,106 @@
+ The occurrence of an information security event does not necessarily mean that an attempt has been 
+successful or that there are any implications on confidentiality, integrity and/or availability, i.e. Their consequences may include the disclosure, modification, 
+destruction, or unavailability of information in an unauthorized manner, or the damage or theft of 
+organizational assets. 6) Anti-malicious code software. An ISIRT contributes to the reduction in physical and monetary 
+damage, as well as the reduction of the damage to the organization's reputation that is sometimes associated 
+with information security incidents. d) 
+incident information held in, and the outputs from the information security event/incident/vulnerability 
+database, 
+e) 
+controls on confidentiality of sources as relevant, 
+f) 
+scheme service level agreements, 
+g) 
+notification of outcomes – under what circumstances sources are advised, 
+h) 
+any constraints imposed by non-disclosure agreements, 
+i) 
+the authority of the information security incident management organization and its reporting line, and 
+j) 
+who receives reports from the information security incident management scheme, and how the reports 
+are distributed. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. The training should be 
+supported by specific exercises and testing for PoC and ISIRT members, and information security personnel 
+and specific administrators. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). e-mail) are themselves visible targets for attack. This includes when it is thought possible that the system 
+is under attack and unauthorized people could read reporting electronic forms. Beware of Trojans, rootkits and kernel 
+modules that may cause serious damage to the system. Evidence can be protected with cryptography, locks 
+and records of access. a) 
+While undertaking such a decision, it needs to be considered that the attacker may realize that he/she is 
+being observed and may undertake actions that cause further damage to the affected information system, 
+service and/or network, and related data, and the attacker could destroy the information that may be 
+useful to track him/her. This is especially relevant when the attacker is non-malicious and 
+has caused little or no damage. With regard to information security incidents that are caused by something other than deliberate attack, the 
+source should be identified. e-mail or web), 
+including when it is thought possible that the system is under attack, the report to the relevant people should 
+be done by telephone or text messaging. file, print, communications and e-mail), as well as remote access facilities. g) 
+Activity to access the contents of protected or encrypted files (unless prevented by law). i) 
+Activity to analyze file access, modification and creation times. Some typical examples of deliberate technical DoS/DDoS incidents include: 
+ 
+pinging network broadcast addresses in order to fill up network bandwidth with response traffic, 
+ 
+sending data in an unexpected format to a system, service or network in an attempt to crash it, or disrupt 
+its normal operation, 
+ 
+opening up multiple authorized sessions with a particular system, service or network in an attempt to 
+exhaust its resources (i.e., to slow it down, lock it up or crash it). the source of the attack is ‘faked’), since they typically do not rely on the attacker receiving any information 
+back from the network or system being attacked. DoS incidents caused by non-technical means, resulting in loss of information, service and/or facilities, could 
+be caused, for example, by: 
+ 
+breaches of physical security arrangements resulting in theft or wilful damage and destruction of 
+equipment, 
+ 
+accidental damage to hardware (and/or its location) by fire or water damage/flood, 
+ 
+extreme environmental conditions, for example high operating temperatures (e.g. Some examples of technically stimulated unauthorized access incidents include: 
+ 
+attempts to retrieve password files, 
+ 
+buffer overflow attacks to attempt to gain privileged (e.g., system administrator) access to a target, 
+ 
+exploitation of protocol vulnerabilities to hijack or misdirect legitimate network connections, 
+ 
+attempts to elevate privileges to resources or information beyond what a user or administrator already 
+legitimately possesses. B.1.3 
+Malicious code 
+Malicious code identifies a program or part of a program inserted into another program with the intent to 
+modify its original behaviour, usually to perform malicious activities as information and identify theft, 
+information and resource destruction, Denial of Service, Spam, etc. This is sometimes performed modifying an existing malicious code, creating a variant that often is not 
+recognized by malicious code detection technologies. In some cases, technical information gathering extends into unauthorized access if, for example, as part of 
+searching for vulnerabilities the attacker also attempts to gain unauthorized access. This commonly occurs 
+with automated hacking tools that not only search for vulnerabilities but also automatically attempt to exploit 
+the vulnerable systems, services and/or networks that are found. Physical 
+damage 
+incident 
+The loss of information 
+security is caused by 
+deliberately or accidentally 
+physical actions. Computer virus, network worm, Trojan horse, botnet, 
+blended attacks, malicious code embedded web page, 
+malicious code hosting site, etc. Unlike normal 
+programs, it has self-replicating capability, and normally 
+carries a payload that may disrupt computer operations or 
+destroy data. A malicious code embedded web page defaces website by 
+including malicious code that installs malware on a 
+computer system accessing it. A malicious code hosting site decoys a website to host 
+malicious code which is downloaded by targeted users. e-mail), including when it is thought 
+possible that the system is under attack and report electronic forms could be read by unauthorized people, 
+then alternative means of reporting should be used. This may include: 
+- 
+those individuals with access to the personal data should, so far as is practical, not personally know 
+the person(s) being investigated, 
+- 
+non-disclosure agreements should be signed by those individuals with access to the personal data 
+prior to them being allowed access to it, 
+- 
+information should only be used for the express purpose for which it has been obtained, i.e. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

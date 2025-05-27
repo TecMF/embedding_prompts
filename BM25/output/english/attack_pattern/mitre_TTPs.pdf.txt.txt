@@ -1,0 +1,43 @@
+Data extracted from: https://raw.githubusercontent.com/mitre-attack/attack-stix-
+data/master/enterprise-attack/enterprise-attack.json 
+ 
+Obs. This kind of targeted campaign is often referred to a 
+strategic web compromise or watering hole attack. After gaining access to a victim system, 
+adversaries may create/modify event triggers to point to malicious content that will be executed 
+whenever the event trigger is invoked. (Citation: Bugcrowd Replay Attack)(Citation: Comparitech Replay 
+Attack)(Citation: Microsoft Midnight Blizzard Replay Attack) 
+ 
+Such exploitation has been demonstrated in cloud environments as well. IPC is also commonly used to avoid situations such 
+as deadlocks, which occurs when processes are stuck in a cyclic waiting pattern. This is common behavior that can be used across different platforms and the network to 
+evade defenses. A variation on this behavior takes advantage of differences in functionality across cloud regions. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. Many operating systems use signals to deliver messages to 
+control process behavior. This could include maliciously redirecting(Citation: 
+Microsoft Lamin Sept 2017) or even disabling host-based sensors, such as Event Tracing for 
+Windows (ETW)(Citation: Microsoft About Event Tracing 2018), by tampering settings that 
+control the collection and flow of event telemetry. This behavior is the same for logout hooks 
+where a script can be executed upon user logout. Outlook rules allow a user to define automated behavior to manage email 
+messages. Associated Tactics: TA0005 
+ 
+T1070.001: Clear Windows Event Logs 
+  Description: Adversaries may clear Windows Event Logs to hide the activity of an intrusion. Windows Event Logs are a record of a computer's alerts and notifications. This DoS attack may also reduce the availability and 
+functionality of the targeted system(s) and network. This kind of targeted 
+campaign is referred to a strategic web compromise or watering hole attack. An adversary accomplishes a reflection attack by 
+sending packets to reflectors with the spoofed address of the victim. ]com/malicious.sct")"</code>  This 
+behavior has been seen used by malware such as Poweliks. WMI can be used to install event filters, providers, consumers, and bindings that 
+execute code when a defined event occurs. (Citation: Mandiant M-Trends 2015) 
+ 
+Adversaries may use the capabilities of WMI to subscribe to an event and execute arbitrary 
+code when that event occurs, providing persistence on a system. Associated Tactics: TA0002

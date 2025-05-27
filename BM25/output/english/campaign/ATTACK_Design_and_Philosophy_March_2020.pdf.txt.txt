@@ -1,0 +1,37 @@
+ If ipconfig.exe is frequently and legitimately used then notifying an 
+analyst with an alert on each instance as potential intrusion behavior would be excessive. The ATT&CK Model 
+The basis of ATT&CK is the set of techniques and sub-techniques that represent actions that 
+adversaries can perform to accomplish objectives. Those objectives are represented by the tactic 
+categories the techniques and sub-techniques fall under. 3.2 Technology Domains 
+ATT&CK is organized in a series of “technology domains” - the ecosystem an adversary 
+operates within that provides a set of constraints the adversary must circumvent or take 
+advantage of to accomplish a set of objectives. Additional tactic categories may be defined as needed to more accurately describe adversary 
+objectives. There may be many ways, or techniques, to achieve tactical objectives, so there are multiple 
+techniques in each tactic category. *Only 
+applies to techniques and not sub-techniques  
+Tactic* 
+Tag 
+The tactic objectives that the (sub-)technique can be 
+used to accomplish. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Groups are defined as 
+named intrusion sets, threat groups, actor groups, or campaigns that typically represent targeted, 
+persistent threat activity. It may contain dates of activity, suspected 
+attribution details, targeted industries, and notable 
+events that are attributed to the group’s activities. Some groups in ATT&CK have multiple names associated with related sets of activity due to 
+various organizations tracking the same (or similar) set(s) of activities by different names. Adoption of ATT&CK is widespread across multiple disciplines, including intrusion detection, 
+threat hunting, security engineering, threat intelligence, red teaming, and risk management. [6]  C. Betz, S. Caltagirone and A. Pendergast, "The Diamond Model of Intrusion Analysis," 
+2013. [Accessed 16 March 2020].

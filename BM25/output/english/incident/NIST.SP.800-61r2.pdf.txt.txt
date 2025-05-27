@@ -1,0 +1,122 @@
+ ......................................................25 
+3.2.2 
+Signs of an Incident ......................................................................................26 
+3.2.3 
+Sources of Precursors and Indicators ...........................................................27 
+3.2.4 
+Incident Analysis ..........................................................................................28 
+3.2.5 
+Incident Documentation ................................................................................30 
+3.2.6 
+Incident Prioritization ....................................................................................32 
+3.2.7 
+Incident Notification ........... .......... 49 
+4.3.1 
+Business Impact Information ........................................................................49 
+4.3.2 
+Technical Information ...................................................................................50 
+4.4 
+Recommendations .................................................................................................. Preventive activities 
+based on the results of risk assessments can lower the number of incidents, but not all incidents can be 
+prevented.  Improper Usage: Any incident resulting from violation of an organization’s acceptable usage 
+policies by an authorized user, excluding the above categories. Incidents should be prioritized based on the relevant factors, 
+such as the functional impact of the incident (e.g., current and likely future negative impact to business 
+functions), the information impact of the incident (e.g., effect on the confidentiality, integrity, and 
+availability of the organization’s information), and the recoverability from the incident (e.g., the time and 
+types of resources that must be spent on recovering from the incident). 2.1 
+Events and Incidents 
+An event is any observable occurrence in a system or network. A computer security incident is a violation or imminent threat of violation1 of computer security policies, 
+acceptable use policies, or standard security practices. Another benefit of incident 
+response is the ability to use information gained during incident handling to better prepare for handling 
+                                                      
+1  
+An “imminent threat of violation” refers to a situation in which the organization has a factual basis for believing that a 
+specific incident is about to occur.  in part to: 
+– “Provide timely technical assistance to operators of agency information systems … including 
+guidance on detecting and handling information security incidents … 
+– Compile and analyze information about incidents that threaten information security … 
+– Inform operators of agency information systems about current and potential information security 
+threats, and vulnerabilities … .” 
+ Federal Information Processing Standards (FIPS) 200, Minimum Security Requirements for Federal 
+Information and Information Systems5, March 2006, which specifies minimum security requirements 
+for Federal information and information systems, including incident response. In addition, agencies have an 
+Office of Inspector General (OIG) for investigation of violation of the law within each agency. Software vendors may also provide information on known threats (e.g., new attacks) to help 
+organizations understand the current threat environment. One or more team members, depending on the magnitude of the 
+incident and availability of personnel, will then handle the incident. 2.4.2 Team Model Selection 
+When selecting appropriate structure and staffing models for an incident response team, organizations 
+should consider the following factors: 
+ The Need for 24/7 Availability. Real-time availability is the best for incident response because the longer 
+an incident lasts, the more potential there is for damage and loss. Larger teams often assign an incident lead as the primary POC for handling a 
+specific incident; the incident lead is held accountable for the incident’s handling. This should 
+include sending staff to conferences and encouraging or otherwise incentivizing participation in 
+conferences, ensuring the availability of technical references that promote deeper technical 
+understanding, and occasionally bringing in outside experts (e.g., contractors) with deep technical 
+knowledge in needed areas as funding permits.  Information Sharing. The incident response plan should also indicate how often incident handlers 
+should be trained and the requirements for incident handlers.  Establish policies and procedures regarding incident-related information sharing. However, residual risk will inevitably persist 
+after controls are implemented. The jump kit should be ready to go at all times. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. Each risk should be prioritized, and the 
+risks can be mitigated, transferred, or accepted until a reasonable overall level of risk is reached. 25  
+Guidelines on risk assessment are available in NIST SP 800-30, Guide for Conducting Risk Assessments, at 
+http://csrc.nist.gov/publications/PubsSPs.html#800-30-Rev1. File integrity 
+checking 
+software 
+File integrity checking software can detect changes made to important files during incidents. Given the occurrence of indicators, however, it is 
+reasonable to suspect that an incident might be occurring and to act accordingly. Examples of profiling are running file integrity checking 
+software on hosts to derive checksums for critical files and monitoring network bandwidth usage to 
+determine what the average and peak usage levels are on various days and times. Note that separate workstations should be used for research to minimize the risk to the 
+organization from conducting these searches. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+32 
+3.2.6 Incident Prioritization 
+Prioritizing the handling of the incident is perhaps the most critical decision point in the incident handling 
+process. Incidents may affect the confidentiality, integrity, and 
+availability of the organization’s information. In 
+some instances it is not possible to recover from an incident (e.g., if the confidentiality of sensitive 
+information has been compromised) and it would not make sense to spend limited resources on an 
+elongated incident handling cycle, unless that effort was directed at ensuring that a similar incident 
+did not occur in the future. was accessed or exfiltrated 
+Proprietary 
+Breach 
+Unclassified proprietary information, such as protected critical infrastructure information (PCII), 
+was accessed or exfiltrated 
+Integrity 
+Loss 
+Sensitive or proprietary information was changed or deleted 
+ 
+Table 3-4 shows examples of recoverability effort categories that reflect the level of and type of resources 
+required to recover from the incident. A detailed log should be kept for all evidence, including the following: 
+ Identifying information (e.g., the location, serial number, model number, hostname, media access 
+control (MAC) addresses, and IP addresses of a computer) 
+ Name, title, and phone number of each individual who collected or handled the evidence during the 
+investigation 
+ Time and date (including time zone) of each occurrence of evidence handling 
+ Locations where the evidence was stored. This data can be put back into the risk assessment process, ultimately 
+leading to the selection and implementation of additional controls. Organizations should 
+decide what incident data to collect based on reporting requirements and on the expected return on 
+investment from the data (e.g., identifying a new threat and mitigating the related vulnerabilities before 
+they can be exploited.) Intrusion detection and prevention systems, antivirus software, and file integrity checking 
+software are valuable for detecting signs of incidents. The most important aspect of 
+incident response coordination is information sharing, where different organizations share threat, attack, 
+and vulnerability information with each other so that each organization’s knowledge benefits the other. An example is a nondisclosure agreement (NDA) to 
+protect the confidentiality of the organization’s most sensitive information. See Section 4.3 for 
+more information on granular information sharing. 4.3 
+Granular Information Sharing 
+Organizations need to balance the benefits of information sharing with the drawbacks of sharing sensitive 
+information, ideally sharing the necessary information and only the necessary information with the 
+appropriate parties. 4.3.2 Technical Information 
+There are many different types of technical indicators signifying the occurrence of an incident within an 
+organization.  Balance the benefits of information sharing with the drawbacks of sharing sensitive 
+information. If so, which of the organization’s 
+policies does this activity violate? 2 
+Incident Handler Data Elements 
+ Current Status of the Incident Response 
+ Summary of the Incident 
+ Incident Handling Actions 
+– Log of actions taken by all handlers 
+– Contact information for all involved parties 
+– List of evidence gathered 
+ Incident Handler Comments 
+ Cause of the Incident (e.g. Event: Any observable occurrence in a network or system. Incident: A violation or imminent threat of violation of computer security policies, acceptable use 
+policies, or standard security practices. Incident Handling: The mitigation of violations of security policies and recommended practices. Threat: The potential source of an adverse event. What is an incident? In general, an incident is a violation of computer security policies, acceptable use policies, or 
+standard computer security practices.

@@ -1,0 +1,145 @@
+ The occurrence of an information security event does not necessarily mean that an attempt has been 
+successful or that there are any implications on confidentiality, integrity and/or availability, i.e. These impacts can 
+include immediate financial loss and longer-term loss arising from damaged reputation and credibility (for 
+guidance on business impact analysis, see ISO/IEC 27005:2008). The data collected to identify the occurrence frequency of the 
+various threat types will greatly aid the quality of the threat assessment. Their consequences may include the disclosure, modification, 
+destruction, or unavailability of information in an unauthorized manner, or the damage or theft of 
+organizational assets. 2) The information security event/incident/vulnerability forms: 
+i) 
+completed by the person reporting an information security event (i.e. The information security incident management 
+scheme comes into effect whenever an information security event is detected, or an information security 
+vulnerability is reported. An ISIRT contributes to the reduction in physical and monetary 
+damage, as well as the reduction of the damage to the organization's reputation that is sometimes associated 
+with information security incidents. 6 
+Detection and reporting phase 
+6.1 Overview of key activities 
+The first phase of the operational use of an information security incident management scheme involves the 
+detecting of, collecting information associated with, and reporting on occurrences of information security 
+events and existence of information security vulnerabilities by human or automatic means. Example guidelines are given in Annex C. Example categories are the 
+following: 
+a) 
+financial loss/disruption to business operations, 
+b) 
+commercial and economic interests, 
+c) 
+personal information, 
+d) 
+legal and regulatory obligations, 
+e) 
+management and business operations, 
+f) 
+loss of goodwill, 
+g) 
+injury or loss of life, and 
+h) 
+societal disruption. controls to be adopted to prevent re-occurrence or similar 
+occurrences). An information security incident should be correlated to any other event/incident reported to the ISIRT. This 
+important activity is to verify if the incident is connected to any other event/incident or it is simply the effect of 
+another incident, i.e. Beware of Trojans, rootkits and kernel 
+modules that may cause serious damage to the system. This is especially relevant when the attacker is non-malicious and 
+has caused little or no damage. further controls to be adopted to prevent re-occurrence or 
+similar 
+occurrences). Some responses are directed at preventing information security incident re-occurrence or similar occurrence. Other measures to decrease the possibility of re-occurrence or similar occurrence of an IT 
+information security incident may include changing system passwords and disabling unused services. DoS incidents caused by non-technical means, resulting in loss of information, service and/or facilities, could 
+be caused, for example, by: 
+ 
+breaches of physical security arrangements resulting in theft or wilful damage and destruction of 
+equipment, 
+ 
+accidental damage to hardware (and/or its location) by fire or water damage/flood, 
+ 
+extreme environmental conditions, for example high operating temperatures (e.g. Physical 
+damage 
+incident 
+The loss of information 
+security is caused by 
+deliberately or accidentally 
+physical actions. This approach classifies business loss into four broad levels: especially serious business loss, 
+serious business loss, considerable business loss, and minor business loss, as described below. An organization could not bear this level of business loss. An organization could bear this level of business 
+loss. An organization could completely bear this level of business loss. C.3.2.3 Commercial and economic interests 
+Commercial and economic information needs to be protected, and is valued by considering its value to 
+competitors or the effect its compromise could have on commercial interests. D.2 Example items in records 
+D.2.1 Example items of the record for information security event 
+This includes basic information of the information security event, such as when, what, how and why the event 
+occurred, as well as the contact information of the reporting person.  telephone and e-mail 
+Incident description 
+ 
+What occurred 
+ 
+How occurred 
+ 
+Why Occurred 
+ 
+Initial views on components/assets affected 
+ 
+Adverse business impacts 
+ 
+Any vulnerability identified 
+Incident details 
+ 
+Date and time the incident occurred 
+ 
+Date and time the incident was discovered 
+ 
+Date and time the incident was reported 
+Incident category 
+Components/assets affected 
+Adverse business impact/effect of incident 
+Total recovery cost from incident 
+Incident resolution 
+Person(s)/perpetrator( Whether the 
+information 
+security 
+event 
+is 
+classified 
+as 
+an 
+incident 
+or 
+not, 
+the 
+information 
+security 
+event/incident/vulnerability database should be updated. Date of Event 
+ 
+ 
+Page 1 of 1 
+2. Event Number3 
+ 
+3. INFORMATION SECURITY EVENT DETAILS 
+6.1 Date and Time the Event Occurred 
+ 
+6.2 Date and Time the Event was Discovered 
+ 
+6.3 Date and Time the Event was Reported 
+ 
+6.4 Is the Response to this Event Closed? Incident Number4 
+ 
+3. INFORMATION SECURITY INCIDENT DETAILS 
+7.1 Date and Time the Incident Occurred 
+ 
+7.2 Date and Time the Incident was Discovered 
+ 
+7.3 Date and Time the Incident was Reported 
+ 
+7.4 Identity/Contact Details of Reporting Person 
+ 
+7.5 Is the Incident Over? ADVERSE BUSINESS IMPACT/EFFECT OF INCIDENT 
+For each of the following indicate if relevant in the tick box, then against “value” record the level(s) of adverse business impact, covering 
+all parties affected by the incident, on a scale of 1 to 10 using the guidelines for the categories of: Financial Loss/Disruption to Business 
+Operations, Commercial and Economic Interests, Personal Information, Legal and Regulatory Obligations, Management and Business 
+Operations, and Loss of Goodwill. INCIDENT RESOLUTION 
+12.1 Incident Investigation Commenced Date 
+ 
+12.2 Incident Investigator(s) Names(s) 
+ 
+12.3 Incident End Date 
+ 
+12.4 Impact End Date 
+ 
+12.5 Incident Investigation Completion Date 
+ 
+12.6 Reference and Location of Investigation Report 
+ 
+13.

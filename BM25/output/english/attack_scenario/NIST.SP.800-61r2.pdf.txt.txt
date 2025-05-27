@@ -1,0 +1,81 @@
+ The attack vectors are: 
+ External/Removable Media: An attack executed from removable media (e.g., flash drive, CD) or a 
+peripheral device.  Attrition: An attack that employs brute force methods to compromise, degrade, or destroy systems, 
+networks, or services.  Other: An attack that does not fit into any of the other categories. 2.2 
+Need for Incident Response 
+Attacks frequently compromise personal and business data, and it is critical to respond quickly and 
+effectively when security breaches occur. The following are examples of other services a team might offer: 
+ Intrusion Detection. The first tier of an incident response team often assumes responsibility for 
+intrusion detection.17 The team generally benefits because it should be poised to analyze incidents 
+more quickly and accurately, based on the knowledge it gains of intrusion detection technologies. Examples include monitoring intrusion detection 
+sensors, distributing security advisories, and educating users on security. These 
+workstations typically contain a set of removable hard drives that can be used for evidence storage. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis.  Attrition: An attack that employs brute force methods to compromise, degrade, or destroy systems, 
+networks, or services (e.g., a DDoS intended to impair or deny access to a service or application; a 
+brute force attack against an authentication mechanism, such as passwords, CAPTCHAS, or digital 
+signatures).  Other: An attack that does not fit into any of the other categories. 31  
+See NIST SP 800-94, Guide to Intrusion Detection and Prevention Systems, for additional information on IDPS products. Intrusion detection systems may produce false positives—
+incorrect indicators. A network IDPS may detect that an attack was launched 
+against a particular host, but it may not know if the attack was successful. For example, the strategy for containing an 
+email-borne malware infection is quite different from that of a network-based DDoS attack. The delayed containment strategy is dangerous because an 
+attacker could escalate unauthorized access or compromise other systems. Performing an Internet search using the 
+apparent source IP address of an attack may lead to more information on the attack—for example, a 
+mailing list message regarding a similar attack. For example, if an 
+attacker is able to use knowledge gathered in one attack to perform a more severe attack later, 
+evidence from the first attack may be key to explaining how the second attack was accomplished. The following are additional questions for this scenario: 
+1. Scenario 2: Worm and Distributed Denial of Service (DDoS) Agent Infestation 
+On a Tuesday morning, a new worm is released; it spreads itself through removable media, and it can 
+copy itself to open Windows shares. When the worm infects a host, it installs a DDoS agent. The following are additional questions for this scenario: 
+1. How would the handling of this incident change if infected hosts that had received the DDoS 
+agent had been configured to attack another organization’s website the next morning? The following are additional questions for this scenario: 
+1. What sources might the team use to determine when the compromise had occurred? The following are additional questions for this scenario: 
+1. If the incident response team determined that the initial compromise had been performed through 
+a wireless network card in the internal host, how would the team further investigate this activity? The following are additional questions for this scenario: 
+1. Scenario 8: Telecommuting Compromise 
+On a Saturday night, network intrusion detection software records an inbound connection originating 
+from a watchlist IP address. The intrusion detection analyst determines that the connection is being made 
+to the organization’s VPN server and contacts the incident response team. The following are additional questions for this scenario: 
+1. 
+Chief Information Security Officer 
+CSIRC  
+Computer Security Incident Response Capability 
+CSIRT  
+Computer Security Incident Response Team 
+DDoS  
+Distributed Denial of Service 
+DHS 
+ 
+Department of Homeland Security 
+DNS 
+ 
+Domain Name System 
+DoS 
+ 
+Denial of Service 
+FAQ 
+ 
+Frequently Asked Questions 
+FBI 
+ 
+Federal Bureau of Investigation 
+FIPS 
+  For example, if a workstation appears to have 
+been infected by malware, the incident report should include as much of the following data as 
+practical: 
+ The user’s name, user ID, and contact information (e.g., phone number, email address) 
+ The workstation’s location, model number, serial number, hostname, and IP address 
+ The date and time that the incident occurred 
+ A step-by-step explanation of what happened, including what was done to the workstation 
+after the infection was discovered. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)
