@@ -1,0 +1,133 @@
+Computer Security 
+Incident Handling Guide 
+Recommendations of the National Institute 
+of Standards and Technology 
+Paul Cichonski 
+Tom Millar 
+Tim Grance 
+Karen Scarfone  
+Special Publication 800-61 
+Revision 2 
+http://dx.doi.org/10.6028/NIST.SP.800-61r2
+ 
+ 
+NIST Special Publication 800-61 
+Revision 2 
+Computer Security Incident Handling 
+Guide 
+ 
+Recommendations of the National  
+Institute of Standards and Technology 
+ 
+Paul Cichonski 
+Computer Security Division 
+Information Technology Laboratory 
+National Institute of Standards and Technology 
+Gaithersburg,  MD 
+ 
+Tom Millar 
+United States Computer Emergency Readiness Team 
+National Cyber Security Division 
+Department of Homeland Security 
+ 
+Tim Grance 
+Computer Security Division 
+Information Technology Laboratory 
+National Institute of Standards and Technology 
+Gaithersburg, MD 
+ 
+Karen Scarfone 
+Scarfone Cybersecurity 
+ 
+C  O  M  P  U  T  E  R      S  E  C  U  R  I  T  Y 
+August 2012 
+ 
+ 
+ 
+U.S.  Department of Commerce 
+Rebecca Blank, Acting Secretary 
+ 
+National Institute of Standards and Technology 
+Patrick D. Gallagher,  
+   Under Secretary of Commerce for Standards and Technology  
+   and Director 
+http://dx.doi.org/10.6028/NIST.SP.800-61r2
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+ii 
+ 
+Reports on Computer Systems Technology 
+ 
+The Information Technology Laboratory (ITL) at the National Institute of Standards and Technology 
+(NIST) promotes the U.S. economy and public welfare by providing technical leadership for the Nation’s 
+measurement and standards infrastructure. National Institute of Standards and Technology Special Publication 800-61 Revision 2 
+Natl. Such identification is not intended to imply recommendation or 
+endorsement by NIST, nor is it intended to imply that the entities, materials, or equipment are necessarily the 
+best available for the purpose. .......... 49 
+4.3.1 
+Business Impact Information ........................................................................49 
+4.3.2 
+Technical Information ...................................................................................50 
+4.4 
+Recommendations .................................................................................................. ................... 53 
+Appendix B— Incident-Related Data Elements .....................................................................58 
+B.1 Basic Data Elements ............................................................................................... 58 
+B.2 Incident Handler Data Elements ..............................................................................  Loss or Theft of Equipment: The loss or theft of a computing device or media used by the 
+organization, such as a laptop or smartphone.  in part to: 
+– “Provide timely technical assistance to operators of agency information systems … including 
+guidance on detecting and handling information security incidents … 
+– Compile and analyze information about incidents that threaten information security … 
+– Inform operators of agency information systems about current and potential information security 
+threats, and vulnerabilities … .” 
+ Federal Information Processing Standards (FIPS) 200, Minimum Security Requirements for Federal 
+Information and Information Systems5, March 2006, which specifies minimum security requirements 
+for Federal information and information systems, including incident response.  should 
+include the authority of the incident response team to confiscate or disconnect equipment and to 
+monitor suspicious activity, the requirements for reporting certain types of incidents, the requirements 
+and guidelines for external communications and information sharing (e.g., what can be shared with 
+whom, when, and over what channels), and the handoff and escalation points in the incident 
+management process 
+ Prioritization or severity ratings of incidents  
+ Performance measures (as discussed in Section 3.4.2) 
+ Reporting and contact forms. IT technical experts (e.g., system and network administrators) not only have the needed 
+skills to assist but also usually have the best understanding of the technology they manage on a daily 
+basis. This understanding can ensure that the appropriate actions are taken for the affected system, 
+such as whether to disconnect an attacked system. Organizations should ensure that incident response policies and 
+procedures and business continuity processes are in sync.  Information Sharing.  and networking equipment, or the virtualized equivalents, which 
+may be used for many purposes, such as restoring backups and trying out malware 
+ Blank removable media 
+ Portable printer to print copies of log files and other evidence from non-networked systems 
+ Packet sniffers and protocol analyzers to capture and analyze network traffic 
+ Digital forensic software to analyze disk images 
+ Removable media with trusted versions of  The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. 3.1.2 Preventing Incidents 
+Keeping the number of incidents reasonably low is very important to protect the business processes of the 
+organization. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+26 
+ Loss or Theft of Equipment: The loss or theft of a computing device or media used by the 
+organization, such as a laptop, smartphone, or authentication token.  A system administrator sees a filename with unusual characters. The 
+length of time to maintain log data is dependent on several factors, including the organization’s data 
+retention policies and the volume of data.  Filter the Data. Each incident response team should evolve to reflect new threats, improved technology, and 
+lessons learned. Organizations should focus on collecting data that is actionable, rather than collecting data simply 
+because it is available. Absolute numbers are not informative—understanding how 
+they represent threats to the business processes of the organization is what matters.  Data Retention.  Safeguard incident data.  Obtain system snapshots through full forensic disk images, not file system backups. However, due to the informal nature of ad hoc information sharing, it is not possible to guarantee that the 
+information sharing processes will always operate. See Section 4.3 for 
+more information on granular information sharing. 4.3 
+Granular Information Sharing 
+Organizations need to balance the benefits of information sharing with the drawbacks of sharing sensitive 
+information, ideally sharing the necessary information and only the necessary information with the 
+appropriate parties. Organizations should attempt to achieve a 
+balance of automated information sharing overlaid with human-centric processes for managing the 
+information flow.  Balance the benefits of information sharing with the drawbacks of sharing sensitive 
+information. Which personnel would be involved in the containment, eradication, and/or recovery processes? How would the system owners be identified? Event: Any observable occurrence in a network or system. What should someone do who discovers that a system has been attacked? 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

@@ -1,0 +1,106 @@
+ d) 
+Reported information security vulnerabilities are assessed and dealt with appropriately. If there are no clear procedures, there is a risk that investigation 
+activities could be conducted in a reactive mode, by responding to incidents as they occur and 
+overlooking what activities are needed. If unreported information security events are determined to be incidents, it becomes 
+difficult to investigate the incidents and to take control in order to prevent recurrence. 5 
+Plan and prepare phase 
+5.1 Overview of key activities 
+Effective information security incident management requires appropriate planning and preparation.For an 
+efficient and effective information security event, incident and vulnerability management scheme to be put into 
+operational use, an organization should complete a number of preparatory activities after the necessary 
+planning. In some organizations, the scheme may be referred to as an information security incident response 
+plan (see Clause 5.4). 4) A definition of the scope of the ISIRT activities. b) 
+To indicate senior management commitment to the need for proper preparation and response to 
+information security incidents, i.e. d) 
+To ensure planned, systematic and calm responses to information security incidents, thus minimizing the 
+adverse impacts of incidents. iii) Detecting and reporting on information security vulnerabilities. ix) Dealing with information security vulnerabilities. ii) 
+Identifying the lessons learnt from information security incidents and vulnerabilities. 5.4.4 Procedures 
+Before being able to commence operation of the information security incident management scheme, it is 
+important that an organization has documented and checked that the procedures are available. Each 
+procedure should indicate those groups or individuals responsible for its use and management, as appropriate 
+from the PoC and/or the ISIRT. Further, there should be documented procedures covering not just 
+PoC and ISIRT activities, but those involved in information security forensic analysis and crisis activities – if 
+not covered elsewhere, e.g. Thus, an operating procedure could be related to a 
+particular type of incident or product (for example firewalls, databases, operating systems, applications) or to a 
+specific product. Each operating procedure should clearly identify the steps to be undertaken and by whom. d) 
+incident information held in, and the outputs from the information security event/incident/vulnerability 
+database, 
+e) 
+controls on confidentiality of sources as relevant, 
+f) 
+scheme service level agreements, 
+g) 
+notification of outcomes – under what circumstances sources are advised, 
+h) 
+any constraints imposed by non-disclosure agreements, 
+i) 
+the authority of the information security incident management organization and its reporting line, and 
+j) 
+who receives reports from the information security incident management scheme, and how the reports 
+are distributed. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. The training should be 
+supported by specific exercises and testing for PoC and ISIRT members, and information security personnel 
+and specific administrators. Particular attention should be paid to the creation 
+of the simulated scenarios, which should be based on real new information security threats. These phases and their 
+associated activities were introduced in Clause 4.5. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Figure 3 shows all of the operational phases and related activities. In 
+particular, when several information security incidents are being dealt with the same time, priorities have to be 
+set to order the responses to be given to information security incidents. Another area of response activity may involve monitoring the IT system, service and/or network. Such activities may include, 
+but are not limited to, the activation of: 
+a) 
+fire suppression facilities and evacuation procedures, 
+b) 
+flood prevention facilities and evacuation procedures, 
+c) 
+bomb handling and related evacuation procedures, 
+d) 
+specialist information system fraud investigators, and 
+e) 
+specialist technical attack investigators. The method(s) to be followed should be documented in the ISIRT procedures. This could be following the assessment activities described above in Clauses 7.2 
+and 7.3, or during those activities if some major issue becomes evident early. b) 
+Activity to identify the lessons learnt from information security incidents and vulnerabilities. A complete vulnerability assessment is used to highlight the existence of the 
+vulnerabilities exploited during the information security incident on other information systems, services and/or 
+networks and to ensure that no new vulnerabilities are introduced. c) 
+Were any procedures or tools identified that would have been of assistance in the response process? e) 
+Was the communication of the incident to all relevant parties effective throughout the detection, reporting 
+and response process? A.13.2.1 Responsibilities and procedures 
+Control: Management responsibilities and procedures 
+should be established to ensure a quick, effective, and 
+orderly response to information security incidents. 9 (Lessons learnt) and Annex B 
+(Example of Information Security 
+Incidents and Their Causes) and 
+Annex C (Example Approaches to the 
+Categorization and Classification of 
+Information Security Events and 
+Incidents) – the content could help to 
+learn from information security 
+incidents. Such 
+incidents are not attacks in the strict sense of the word, but are often reported as incidents and should be 
+managed by an ISIRT. Other 
+Incidents 
+Not categorized in any of the 
+above incident category.  
+Legal Issues related to Policies and Procedures are dealt with.  
+Prosecutions, or Internal Disciplinary Procedures, can be Successful.  Breach Notification in Incident Handling (2008) 
+[32] 
+SANS Institute, Baselines and Incident Handling (2008) 
+[33] 
+SANS Institute, Documentation is to Incident Response as an Air Tank is to Scuba Diving (2007) 
+[34] 
+SANS Institute, Creating and Managing an Incident Response Team for a Large Company (2007) 
+[35] 
+SANS Institute, An Incident Handling Process for Small and Medium Businesses (2007) 
+[36] 
+SANS Institute, Incident Management 101 Preparation & Initial Response (aka Identification) (2005) 
+[37] 
+SANS Institute, Building an Incident Response Program To Suit Your Business (2003) 
+[38] 
+ISACA, COBIT 4.1 (Section DS5.11), www.isaca. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

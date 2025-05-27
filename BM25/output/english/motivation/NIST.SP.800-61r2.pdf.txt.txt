@@ -1,0 +1,46 @@
+ An incident response capability is therefore necessary for rapidly detecting incidents, 
+minimizing loss and destruction, mitigating the weaknesses that were exploited, and restoring IT services. The attack vectors are: 
+ External/Removable Media: An attack executed from removable media (e.g., flash drive, CD) or a 
+peripheral device.  Loss or Theft of Equipment: The loss or theft of a computing device or media used by the 
+organization, such as a laptop or smartphone.  Other: An attack that does not fit into any of the other categories. Organizations should use the lessons learned process to gain value from incidents. Incident response helps personnel to minimize 
+loss or theft of information and disruption of services caused by incidents. 2.3.2 Plan Elements 
+Organizations should have a formal, focused, and coordinated approach to responding to incidents, 
+including an incident response plan that provides the roadmap for implementing the incident response 
+capability. The plan should lay out the necessary resources and 
+management support. 2.3.3 Procedure Elements 
+Procedures should be based on the incident response policy and plan. Otherwise, sensitive information 
+regarding incidents may be provided to unauthorized parties, potentially leading to additional disruption 
+and financial loss. Real-time availability is the best for incident response because the longer 
+an incident lasts, the more potential there is for damage and loss.  Develop an incident response plan based on the incident response policy. The procedures should be based on the incident response policy and plan. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+26 
+ Loss or Theft of Equipment: The loss or theft of a computing device or media used by the 
+organization, such as a laptop, smartphone, or authentication token.  Other: An attack that does not fit into any of the other categories. One way 
+to gain this knowledge is through reviewing log entries and security alerts. A network IDPS may detect that an attack was launched 
+against a particular host, but it may not know if the attack was successful. In certain cases, some organizations redirect the attacker to a sandbox (a form of containment) so that 
+they can monitor the attacker’s activity, usually to gather additional evidence. Also, the attacker may have received a dynamic 
+address that has already been reassigned to someone else. Performing an Internet search using the 
+apparent source IP address of an attack may lead to more information on the attack—for example, a 
+mailing list message regarding a similar attack.  Monitoring Possible Attacker Communication Channels. If it is possible that the attacker will be prosecuted, evidence may need to be retained 
+until all legal actions have been completed. For example, if an 
+attacker is able to use knowledge gathered in one attack to perform a more severe attack later, 
+evidence from the first attack may be key to explaining how the second attack was accomplished. This 
+knowledge can best be gained by reviewing log entries and security alerts; the handlers should 
+become familiar with the typical data and can investigate the unusual entries to gain more knowledge. While organizations gain value from collecting their own internal indicators, they may gain additional 
+value from analyzing indicators received from partner organizations and sharing internal indicators for 
+external analysis and use.  Plan incident coordination with external parties before incidents occur. How would the handling of this incident differ if the physical security team determined that the 
+person had used social engineering techniques to gain physical access to the building? Precursor: A sign that an attacker may be preparing to cause an incident. Signature: A recognizable, distinguishing pattern associated with an attack, such as a binary string in a 
+virus or a particular set of keystrokes used to gain unauthorized access to a system. (If the attacker has compromised email 
+services, do not send emails about the incident.) 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

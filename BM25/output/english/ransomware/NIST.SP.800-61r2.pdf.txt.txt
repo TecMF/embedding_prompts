@@ -1,0 +1,34 @@
+ During this phase, activity often 
+cycles back to detection and analysis—for example, to see if additional hosts are infected by malware 
+while eradicating a malware incident. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis.  Malware Prevention. Software to detect and stop malware should be deployed throughout the 
+organization. 30  
+More information on malware prevention is available from NIST SP 800-83, Guide to Malware Incident Prevention and 
+Handling (http://csrc.nist.gov/publications/PubsSPs.html#800-83). Antivirus and 
+antispam 
+software 
+Antivirus software detects various forms of malware, generates alerts, and prevents the malware 
+from infecting hosts. By regularly recalculating checksums and comparing 
+them with previous values, changes to files can be detected. For example, only authorized personnel should 
+have access to the incident database. For example, a small organization that identifies a 
+particularly complex instance of malware on its network may not have the in-house resources to fully 
+analyze the malware and determine its effect on the system. The team is unable to see what the .RAR files hold because their contents 
+are encrypted. Analysis of the internal host containing the .RAR files shows signs of a bot installation. How would the team determine what was most likely inside the .RAR files? What factors should be used to prioritize the handling of this incident (e.g., the apparent content 
+of the files that are being shared)? Scenario 11: Unknown Wireless Access Point 
+On a Monday morning, the organization’s help desk receives calls from three users on the same floor of a 
+building who state that they are having problems with their wireless access. He checks with his teammates and determines that this access point was not deployed by his 
+team, so that it is most likely a rogue access point that was established without permission. What should be the first major step in handling this incident (e.g., physically finding the rogue 
+access point, logically attaching to the access point)? What is the fastest way to locate the access point? What is the most covert way to locate the 
+access point? Make copies of log files that contain evidence related to the incident. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

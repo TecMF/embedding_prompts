@@ -1,0 +1,79 @@
+ For each use case, the authors laid out advice on how an organization could get started  
+with ATT&CK based on available resources and overall maturity. You might choose a group from those we’ve mapped on our website based on what  
+organizations they’ve previously targeted. SEARCH FOR “PHARMACEUTICAL” 
+DESCRIPTION OF APT19 GROUP 
+From there, you can bring up that group’s page to look at the techniques they’ve used  
+(based solely on open source reporting we’ve mapped) so you can learn more about  
+them. | 3 | 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Threat Intelligence | Katie Nickels 
+So how do we make this information actionable, which is the whole point of threat  
+intelligence? Let’s share it with our defenders, since this is a group who has targeted  
+our sector and we want to defend against them. Identifying some behaviors they’ve used helps   
+you inform your defenders about how they can try to detect that group. | 5 | 
+ 
+  
+ 
+GETTING STARTED WITH ATT&CK: Threat Intelligence | Katie Nickels 
+6. To start,  
+look at the technique description from ATT&CK and the threat intel reports linked in the  
+examples. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? ANALYTIC DEVELOPMENT WORKFLOW 
+| 15 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+LEVEL 3 
+Feel confident that you’re cranking out quality analytics to detect attacks from Atomic  
+Red Team? At that point, you’ll need 
+to update your analytic to look for different artifacts and behaviors that won’t rely on 
+the exact naming. You can reference back to Chapter 1 on prioritizing by threat actor, use some of  
+the resources published by vendors to prioritize based on prevalence of the technique  
+based on their monitoring, or perhaps best of all, develop analytics for the activity that  
+you know about from your own incidents. | 20 | 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Adversary Emulation and Red Teaming | Blake Strom, Tim Schulz, and Katie Nickels 
+Atomic Red Team can be used to test individual techniques and procedures to verify that 
+behavioral analytics and monitoring capabilities are working as expected. | 21 | 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Adversary Emulation and Red Teaming | Blake Strom, Tim Schulz, and Katie Nickels 
+These singular tests allow for a laser focus on individual ATT&CK techniques, which 
+makes building ATT&CK-based defensive coverage easier to approach because you can 
+start with a single test for a single technique and expand from there. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. Armed with your individual commands, scripts, and tools mapped to  
+ATT&CK, you can now plan your engagement. with known threats that may target  
+the organization. These purple techniques give us a place to start to use a tool we already have and  
+perform techniques that are a priority to our organization. Gather threat intel—Select an adversary based on the threats to your organization 
+and work with the CTI team to analyze intelligence about what the adversary has 
+done. Combine what’s based on what your organization knows in addition to publicly 
+available intel to document the adversary behaviors, what they go after, whether they 
+do smash and grab or low and slow. Consider: 
+Square How did the threat group use this technique? Square Did the group vary which technique was used based on the environment context? Katie Nickels is the ATT&CK threat intelligence lead at MITRE, where she 
+focuses on sharing how ATT&CK is useful for moving toward a threat-
+informed defense. She is also a SANS instructor for FOR578: Cyber Threat 
+Intelligence. ATT&CK is open and available to any person or organization for use at no charge. | 41 | 
+|  Solving Problems for a Safer World

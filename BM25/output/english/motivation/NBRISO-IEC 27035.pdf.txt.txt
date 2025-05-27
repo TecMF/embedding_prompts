@@ -1,0 +1,123 @@
+ ............................................................................... 6 
+4.6 
+Examples of information security incidents ....................................................................................... 7 
+5 
+Plan and prepare phase ........................................................................................................................ 8 
+5.1 
+Overview of key activities ................................................................................. These impacts can 
+include immediate financial loss and longer-term loss arising from damaged reputation and credibility (for 
+guidance on business impact analysis, see ISO/IEC 27005:2008). Guidance should include discussion of the 
+advantages and disadvantages of undertaking attacker surveillance activities. in a business continuity plan or a crisis management plan. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. In addition, the awareness and training programs should be complemented by the establishment and 
+operations of ‘hot line’ support from information security incident management personnel, in order to minimize 
+delays in reporting and handling information security events, incidents and vulnerabilities. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+22 
+© ISO/IEC 2011 – All rights reserved
+ 
+5.8 Scheme testing 
+The organization should schedule regular checking and testing of the information security incident 
+management processes and procedures to highlight potential flaws and problems that may arise during the 
+management of information security events and incidents and vulnerabilities. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). e-mail) are themselves visible targets for attack. This includes when it is thought possible that the system 
+is under attack and unauthorized people could read reporting electronic forms. Example guidelines are given in Annex C. Example categories are the 
+following: 
+a) 
+financial loss/disruption to business operations, 
+b) 
+commercial and economic interests, 
+c) 
+personal information, 
+d) 
+legal and regulatory obligations, 
+e) 
+management and business operations, 
+f) 
+loss of goodwill, 
+g) 
+injury or loss of life, and 
+h) 
+societal disruption. This will allow 
+business critical applications to function correctly, and collect as much information as possible about the 
+attacker, provided that the attacker does not know that he/she is under surveillance. a) 
+While undertaking such a decision, it needs to be considered that the attacker may realize that he/she is 
+being observed and may undertake actions that cause further damage to the affected information system, 
+service and/or network, and related data, and the attacker could destroy the information that may be 
+useful to track him/her. This is especially relevant when the attacker is non-malicious and 
+has caused little or no damage. With regard to information security incidents that are caused by something other than deliberate attack, the 
+source should be identified. It may be necessary 
+to check the integrity of the logs, as a deliberate attacker may have manipulated these logs to cover his/her 
+tracks. e-mail or web), 
+including when it is thought possible that the system is under attack, the report to the relevant people should 
+be done by telephone or text messaging. It may well be necessary for activation of parts of the relevant crisis 
+management plan. The crisis management plan(s) and the controls put in place to support the activation of those plan(s), once 
+tested satisfactorily, form the basis for dealing with most escalated incidents once so designated. 5 (Plan and prepare) – the content could help to 
+implement information security incident management. a) Execute monitoring and reviewing procedures 
+and other controls to: 
+2) promptly identify attempted and successful 
+security breaches and incidents; 
+4) help detect security events and thereby 
+prevent security incidents by the use of 
+indicators. 5 (Plan and prepare) – the content could help to 
+implement information security incident management. the source of the attack is ‘faked’), since they typically do not rely on the attacker receiving any information 
+back from the network or system being attacked. Some examples of technically stimulated unauthorized access incidents include: 
+ 
+attempts to retrieve password files, 
+ 
+buffer overflow attacks to attempt to gain privileged (e.g., system administrator) access to a target, 
+ 
+exploitation of protocol vulnerabilities to hijack or misdirect legitimate network connections, 
+ 
+attempts to elevate privileges to resources or information beyond what a user or administrator already 
+legitimately possesses. In some cases, technical information gathering extends into unauthorized access if, for example, as part of 
+searching for vulnerabilities the attacker also attempts to gain unauthorized access. This approach classifies business loss into four broad levels: especially serious business loss, 
+serious business loss, considerable business loss, and minor business loss, as described below. An organization could not bear this level of business loss. An organization could bear this level of business 
+loss. An organization could completely bear this level of business loss. 1 Be of interest to a competitor but of no commercial value 
+2 Be of interest to a competitor to a value that is y1 or less (turnover) 
+3 Be of value to a competitor to a value that is between y1+1 and y2 (turnover), or cause financial loss, or 
+loss of earning potential, or facilitate improper gain or advantage for individuals or organizations, s) involved (if incident caused by people) 
+Description of perpetrator 
+Actual or perceived motivation 
+Actions taken to resolve incident 
+Actions planned to resolve incident 
+Actions outstanding 
+Conclusion 
+BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+64 
+© ISO/IEC 2011 – All rights reserved
+ 
+Internal individuals/entities notified 
+External individuals/entities notified 
+D.2. e-mail), including when it is thought 
+possible that the system is under attack and report electronic forms could be read by unauthorized people, 
+then alternative means of reporting should be used. ACTUAL OR PERCEIVED MOTIVATION 
+(One of) 
+Criminal/Financial Gain
+ 
+Pastime/Hacking
+ 
+ 
+Political/Terrorism
+ 
+Revenge
+ 
+ 
+ 
+Other
+ 
+ 
+ 
+Specify:
+ 
+16. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

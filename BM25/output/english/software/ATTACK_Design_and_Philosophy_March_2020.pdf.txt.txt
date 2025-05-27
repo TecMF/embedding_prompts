@@ -1,0 +1,94 @@
+  12 
+3.5 
+Groups ............................................................................................................................ 13 
+3.5.1 
+Group Object Structure ............................................................................................. 14 
+3.6 
+Software .......................................................................................................................... 14 
+3.6.1 
+Software Object Structure ........................................................................................ ATT&CK focuses on how external adversaries compromise and operate within 
+computer information networks. The 
+identified gaps are useful as a way to prioritize investments for improvement of a security 
+program. It includes information about malware, 
+tools, TTPs, tradecraft, behavior, and other indicators that are associated to threats. Not all adversary behaviors can or should be 
+used as a basis for alerting or providing data to an analyst. There should be 
+enough information and references to point toward 
+useful defensive methodologies. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. The change was driven by the need to fix some of the 
+technique abstraction level issues that occurred as ATT&CK grew over the years. Data items marked 
+with * denote the element is required 
+ 
+Table 3. Associated Group 
+Descriptions 
+Field 
+Section that can be used to describe the associated 
+group names with references to the report used to tie 
+the associated group to the primary group name. Software 
+Relationship 
+/ Field 
+List of software that the group has been reported to 
+use with a field to describe details on how the 
+software is used. 3.6 Software 
+Adversaries commonly use different types of software during intrusions. Data items marked with * 
+denote the element is required. Associated Software 
+Tag 
+Names that have overlapping reference to a software 
+entry and may refer to the same or similar software 
+in threat intelligence reporting. Associated Software 
+Descriptions 
+Field 
+Section that can be used to describe the associated 
+software names with references to the report used to 
+ 
+16 
+©2020 The MITRE Corporation. Distribution unlimited 19-01075-28. 
+tie the associated software to the primary software 
+name. This information is populated 
+from the associated group entry. Data items 
+marked with * denote the element is required. 3.9.1.3 
+Software 
+Major version changes consist of changes or additions to associated software as well as changes 
+to the software’s description, which should happen infrequently. 3.9.2 Matrix 
+Each matrix that appears on the ATT&CK website is assigned a last modified timestamp that 
+serves as its version number. Behavior-based techniques are the focus as opposed to 
+exploits and malware because they are numerous but are difficult to reason about them with a 
+holistic defensive program other than regular vulnerability scans, rapid patching, and IOCs. Where the data comes from 
+and how it is obtained is equally as important as how an adversary removes the data from an 
+environment and also represents distinct places where those actions can be detected. For example, overwriting the master boot 
+record (MBR) of  a computer, activity which falls under Disk Structure Wipe, renders the system 
+unable to boot and unavailable to users. Distribution unlimited 19-01075-28. 
+stored in a data base, activity which falls under Data Manipulation: Stored Data Manipulation, 
+damages the integrity of the balance information. Similar to how techniques used must be cited, each associated group also must be 
+cited. Some forensic detection of 
+process injection is possible, depending on the variation used, from loaded libraries and 
+other data sources but requires proper timing. • There are several variations of process injection, but most follow a common sequence of 
+an initial adversary controlled process requesting access to a non-malicious process, 
+loading code within it, and forcing that process to execute the new code. • Other related methods use different functionality provided by Windows to load and 
+execute code, such as application shims. • Similar concepts exist in Linux based systems for dynamically loading libraries into 
+processes. Conclusions: 
+• The core feature of this technique is loading malicious code within an existing live 
+process. SQLi is a method of injecting code through an improperly secured web interface that is 
+interpreted and executed by a database process. The resulting code execution can be used for a 
+number of purposes, including adding or modifying information, gaining access to a system, 
+causing the server to download and execute other code which may result in persistence, 
+credential access, privilege escalation, collection, and exfiltration. Database input or web logs can be used to look for common 
+SQLi inputs that result in code execution. Even though 
+ATT&CK focuses on how adversaries compromise and operate within computer information 
+networks and related technologies, the methodology behind how it was built can be applied to 
+other areas. The 
+second is when the model does not relate to adversary use of computer information technology 
+networks, deviating from the core space that ATT&CK is designed to address. [Accessed 16 March 2020].

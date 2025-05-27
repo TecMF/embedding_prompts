@@ -1,0 +1,93 @@
+ TA0005: Defense Evasion 
+  Description: The adversary is trying to avoid being detected. Defense Evasion consists of techniques that adversaries use to avoid detection throughout their 
+compromise. Techniques used for defense evasion include uninstalling/disabling security 
+software or obfuscating/encrypting data and scripts. Common 
+approaches are to take advantage of system weaknesses, misconfigurations, and 
+vulnerabilities. (Citation: Microsoft COM) DCOM is transparent middleware that extends the functionality 
+of Component Object Model (COM) (Citation: Microsoft COM) beyond a local computer using 
+remote procedure call (RPC) technology. Domain trusts provide a mechanism for a domain to allow access to resources 
+based on the authentication procedures of another domain. This can increase the difficulty defenders have in defending against the attack 
+by reducing or eliminating the effectiveness of filtering by the source address on network 
+defense devices. Botnets have been used in some of the most high-profile DDoS attacks, such as the 
+2012 series of incidents that targeted major US banks. Cloud environments may also support various functions and 
+services that monitor and can be invoked in response to specific cloud events. Vulnerabilities can exist in software due to unsecure coding practices that can lead to 
+unanticipated behavior. Adversaries can take advantage of certain vulnerabilities through 
+targeted exploitation for the purpose of arbitrary code execution. For example, 
+adversaries have exploited vulnerabilities in public cloud infrastructure that allowed for 
+unintended authentication token creation and renewal. Vulnerabilities may exist in defensive security software 
+that can be used to disable or circumvent them. (Citation: FBI-BEC) This creates the potential for multiple victims 
+(i.e., compromised accounts as well as the ultimate monetary loss) in incidents involving 
+financial theft. These restrictions can further enable malicious operations as well as the continued propagation 
+of incidents. This activity may also impede forensic analysis and 
+incident response, due to lack of sufficient data to determine what occurred. This can increase the difficulty defenders have in defending against the attack 
+by reducing or eliminating the effectiveness of filtering by the source address on network 
+defense devices. Activities may include the acquisition of malware, software (including 
+licenses), exploits, certificates, and information relating to vulnerabilities. Adversaries may similarly abuse response features included in EDR and other defensive tools 
+that enable remote access. Stopping critical services or processes can inhibit or stop 
+response to an incident or aid in the adversary's overall objectives to cause damage to the 
+environment. (Citation: Microsoft Azure Storage Shared Access Signature) 
+ 
+Incidents have been observed where adversaries have created backups of cloud instances and 
+transferred them to separate accounts. (Citation: Mandiant Defend 
+UNC2452 White Paper) 
+ 
+This may be used in persistent threat incidents as well as BEC (Business Email Compromise) 
+incidents where an adversary can add [Additional Cloud 
+Roles](https://attack.mitre.org/techniques/T1098/003) to the accounts they wish to compromise. Parent Technique: T1573 
+  Associated Tactics: TA0011 
+ 
+T1055.004: Asynchronous Procedure Call 
+  Description: Adversaries may inject malicious code into processes via the asynchronous 
+procedure call (APC) queue in order to evade process-based defenses as well as possibly 
+elevate privileges. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. These credentials may then be abused to perform follow-on activities such as 
+lateral movement or privilege escalation (Citation: Slack Security Risks). Cloud environments allow for 
+collection and analysis of audit and application logs that provide insight into what activities a 
+user does within the environment. If an adversary has sufficient permissions, they can disable or 
+modify logging to avoid detection of their activities. Distributed COM (DCOM) is transparent middleware that extends the functionality of 
+COM beyond a local computer using remote procedure call (RPC) technology. Alternatively, compromised systems may return no output at all in cases where 
+adversaries want to send instructions to systems and do not want a response. To change the operating system in storage, the adversary will typically use the standard 
+procedures available to device operators. (Citation: US-CERT-TA18-106A)(Citation: Cisco Blog 
+Legacy Device Attacks)  
+  Parent Technique: T1602 
+  Associated Tactics: TA0009 
+ 
+T1505.001: SQL Stored Procedures 
+  Description: Adversaries may abuse SQL stored procedures to establish persistent access to 
+systems. Stored procedures can be 
+invoked via SQL statements to the database using the procedure name or via defined events 
+(e.g. Adversaries may craft malicious stored procedures that can provide a persistence mechanism in 
+SQL database servers. With CLR 
+integration enabled, application developers can write stored procedures using any .NET 
+framework language (e.g. Or, they may need to build extensive infrastructure if they want to test, 
+communicate, and control other aspects of their activities on their own systems. Adversaries may use also third party utilities, such as 7-Zip, WinRAR, and WinZip, to perform 
+similar activities. Botnets have been used in some of the most high-profile DDoS 
+flooding attacks, such as the 2012 series of incidents that targeted major US banks. (Citation: Microsoft GetWindowLong function) (Citation: Microsoft SetWindowLong 
+function) 
+ 
+Although small, the EWM is large enough to store a 32-bit pointer and is often used to point to a 
+windows procedure. [Exploitation for Defense Evasion](https://attack.mitre.org/techniques/T1211)), 
+unchecked file types, and external libraries. Adversaries may use this technique in conjunction 
+with administrator-level [Valid Accounts](https://attack.mitre.org/techniques/T1078) to remotely 
+access a networked system over SMB,(Citation: Wikipedia Server Message Block) to interact 
+with systems using remote procedure calls (RPCs),(Citation: TechNet RPC) transfer files, and 
+run transferred binaries through remote Execution. Third-
+party security software such as endpoint detection and response (EDR) tools may not start after 
+booting Windows in safe mode. Associated Tactics: TA0042 
+ 
+T1588.006: Vulnerabilities 
+  Description: Adversaries may acquire information about vulnerabilities that can be used during 
+targeting. Associated Tactics: TA0002

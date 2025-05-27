@@ -1,0 +1,134 @@
+ For planning and transition purposes, Federal agencies may wish to closely follow 
+the development of these new publications by NIST. Because performing incident response effectively is a complex undertaking, establishing a 
+successful incident response capability requires substantial planning and resources. Organizing a Computer Security Incident Response Capability ................................... 6 
+2.1 
+Events and Incidents ................................................................................................. 6 
+2.2 
+Need for Incident Response ...................................................................................... 6 
+2.3 
+Incident Response Policy, Plan, and Procedure Creation ...................... .................... 7 
+2.3.1 
+Policy Elements............................................................................................. 7 
+2.3.2 
+Plan Elements ............................................................................................... 8 
+2.3.3 
+Procedure Elements ...................................................................................... 8 
+2.3.4 
+Sharing Information With Outside Parties ... Preventive activities 
+based on the results of risk assessments can lower the number of incidents, but not all incidents can be 
+prevented.  Appendix E identifies resources that may be useful in planning and performing incident response. Incident response 
+plan, policy, and procedure creation is an important part of establishing a team, so that incident response 
+is performed effectively, efficiently, and consistently, and so that the team is empowered to do what needs 
+to be done. Besides the business reasons to establish an incident response capability, Federal departments and 
+agencies must comply with law, regulations, and policy directing a coordinated, effective defense against 
+information security threats. 2.3 
+Incident Response Policy, Plan, and Procedure Creation 
+This section discusses policies, plans, and procedures related to incident response, with an emphasis on 
+interactions with outside parties. 2.3.3 Procedure Elements 
+Procedures should be based on the incident response policy and plan. Organizations should create a policy that states 
+who is designated to report incidents and how the incidents should be reported. Outsourcers may possess deeper knowledge of intrusion detection, forensics, 
+vulnerabilities, exploits, and other aspects of security than employees of the organization. Managers are 
+ultimately responsible for ensuring that incident response activities are performed properly.  Business Continuity Planning. 2.5 
+Incident Response Team Services 
+The main focus of an incident response team is performing incident response, but it is fairly rare for a 
+team to perform incident response only. The incident response policy is the foundation of the incident 
+response program.  Develop an incident response plan based on the incident response policy.  Develop incident response procedures. The procedures should cover all the phases of the incident response 
+process. The procedures should be based on the incident response policy and plan. This section provides basic advice on preparing to handle incidents and on 
+preventing incidents. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Improving user awareness regarding incidents should reduce the frequency of incidents. Publicly Available Information 
+Information on 
+new 
+vulnerabilities 
+and exploits 
+Keeping up with new vulnerabilities and exploits can prevent some incidents from occurring and 
+assist in detecting and analyzing new attacks. The initial analysis should provide enough information for the team to prioritize subsequent activities, 
+such as containment of the incident and deeper analysis of the effects of the incident. It is important to 
+accurately determine the cause of each incident so that it can be fully contained and the exploited 
+vulnerabilities can be mitigated to prevent similar incidents from occurring. The escalation process should state how long 
+a person should wait for a response and what to do if no response occurs. The following items describe the most commonly performed activities for attacking host identification: 
+ Validating the Attacking Host’s IP Address. Were the documented 
+procedures followed? Post-mortem analysis of the way an incident was handled will often reveal a missing step or an 
+inaccuracy in a procedure, providing impetus for change. If incident data is collected and stored properly, it 
+should provide several measures of the success (or at least the activities) of the incident response team.  Establish strategies and procedures for containing incidents.  Follow established procedures for evidence gathering and handling. Organizations should ensure that they effectively coordinate 
+portions of their incident response activities with appropriate partners. For example, a group of partner organizations may 
+decide to exchange incident information using a Representational State Transfer (REST) architecture to 
+exchange IODEF/Real-Time Inter-Network Defense (RID) data over Hypertext Transfer Protocol Secure 
+(HTTPS) on port 4590 of a specific domain name within each organization’s DMZ. 4.2.3 Security Considerations 
+There are several security considerations that incident response teams should consider when planning 
+their information sharing. This planning helps ensure that all parties know their roles and that 
+effective lines of communication are established. What should the incident response team do differently, if anything, in response to the notification 
+of the threats? 
+RID 
+ 
+Real-Time Inter-Network Defense 
+SIEM  
+Security Information and Event Management 
+SLA 
+ 
+Service Level Agreement 
+SOP 
+ 
+Standard Operating Procedure 
+SP  
+ 
+Special Publication 
+TCP 
+ 
+Transmission Control Protocol 
+TCP/IP 
+Transmission Control Protocol/Internet Protocol 
+TERENA 
+Trans-European Research and Education Networking Association  html#NIST-
+IR-7692  
+OVAL  
+Open Vulnerability Assessment 
+Language  
+http://oval.mitre.org/  
+RFC 4765  Intrusion Detection Message Exchange 
+Format (IDMEF) 
+http://www.ietf.org/rfc/rfc4765.txt  
+RFC 5070  Incident Object Description Exchange 
+Format (IODEF) 
+http://www.ietf.org/rfc/rfc5070.txt  
+RFC 5901  Extensions to the IODEF for Reporting 
+Phishing  
+http://www.ietf.org/rfc/rfc5901.txt  
+RFC 5941  Sharing Transaction Fraud Data  
+http://www.ietf.org/rfc/rfc5941.txt  
+RFC 6545 
+Real-time Inter-network Defense (RID) 
+http://www.ietf.org/rfc/rfc6545. txt  
+RFC 6546 
+Transport of Real-time Inter-network 
+Defense (RID) Messages over 
+HTTP/TLS 
+http://www.ietf.org/rfc/rfc6546.txt  
+SCAP 
+Security Content Automation Protocol 
+http://csrc.nist.gov/publications/PubsSPs.html #SP-800-
+126-Rev.%202  
+XCCDF  
+Extensible Configuration Checklist 
+Description Format  
+http://csrc.nist.gov/publications/ PubsNISTIRs.html#NIST-
+IR-7275-r4  
+ 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+65 
+Appendix F—Frequently Asked Questions 
+Users, system administrators, information security staff members, and others within organizations may 
+have questions about incident response. What is incident response? To whom should incidents be reported? How are incidents reported? Identify and mitigate all vulnerabilities that were exploited. The incident may have occurred by 
+taking advantage of vulnerabilities in operating systems or applications. It is critical to identify such 
+vulnerabilities and eliminate or otherwise mitigate them so that the incident does not recur. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

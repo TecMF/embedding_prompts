@@ -1,0 +1,101 @@
+ Such information may include details of the 
+victim organization, infrastructure, or staff/personnel. (Citation: CarbonBlack Conti July 2020) In some cases, 
+adversaries may encrypt critical system files, disk partitions, and the MBR. (Citation: Amazon S3 Security, 2019)(Citation: Microsoft Azure Storage 
+Security, 2019)(Citation: Google Cloud Storage Best Practices, 2019) There have been 
+numerous incidents where cloud storage has been improperly secured, typically by 
+unintentionally allowing public access to unauthenticated users, overly-broad access by all 
+users, or even access for any anonymous person outside the control of the Identity Access 
+Management system without even needing basic user permissions. Information repositories are tools that allow for storage of information, typically to facilitate 
+collaboration or information sharing between users, and can store a wide variety of data that 
+may aid adversaries in further objectives, such as Credential Access, Lateral Movement, or 
+Defense Evasion, or direct access to the target information. Associated Tactics: TA0010 
+ 
+T1011: Exfiltration Over Other Network Medium 
+  Description: Adversaries may attempt to exfiltrate data over a different network medium than 
+the command and control channel. Associated Tactics: TA0010 
+ 
+T1052: Exfiltration Over Physical Medium 
+  Description: Adversaries may attempt to exfiltrate data via a physical medium, such as a 
+removable drive. In certain circumstances, such as an air-gapped network compromise, 
+exfiltration could occur via a physical medium or device introduced by a user. The physical medium or device could be used as the final exfiltration 
+point or to hop between otherwise disconnected systems. (Citation: Google Cloud Mandiant UNC3886 2024)(Citation: Emotet shutdown) 
+ 
+ 
+  Associated Tactics: TA0005 
+ 
+T1656: Impersonation 
+  Description: Adversaries may impersonate a trusted person or organization in order to 
+persuade and trick a target into performing some action on their behalf. Phishing for information is an attempt to trick targets into divulging 
+information, frequently credentials or other actionable information. Resource hijacking may take a number of different forms. Scripting is useful for speeding up operational tasks and reducing the time 
+required to gain access to critical resources. [Resource 
+Hijacking](https://attack.mitre.org/techniques/T1496)). Stopping critical services or processes can inhibit or stop 
+response to an incident or aid in the adversary's overall objectives to cause damage to the 
+environment. (Citation: Medium 
+Certified Pre Owned) 
+ 
+Abusing certificates for authentication credentials may enable other behaviors such as [Lateral 
+Movement](https://attack.mitre.org/tactics/TA0008). The value stored in the Registry key will be executed after a user 
+logs into the computer. This value will serve as the program that will be 
+executed when a user logs into the computer. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CDNs allow an organization to host content from a distributed, 
+load balanced array of servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. Such control can allow for 
+redirection of an organization's traffic, facilitating Collection and Credential Access efforts for the 
+adversary. (Citation: ICANNDomainNameHijacking) 
+Adversaries may gain access to an email account for the person listed as the owner of the 
+domain. If the signature is valid, and the person examining the certificate trusts the signer, 
+then they know they can use that key to communicate securely with its owner. A service ticket allows for 
+access to a particular resource, whereas a TGT can be used to request service tickets from the 
+Ticket Granting Service (TGS) to access any resource the user has privileges to 
+access. Adversaries can add other programs or processes to this registry value which will automatically 
+launch at boot. Resource forks have been deprecated and replaced with the 
+application bundle structure. (Citation: Resource and Data Forks)(Citation: ELC Extended Attributes) 
+ 
+Adversaries can use resource forks to hide malicious data that may otherwise be stored directly 
+in files. Spearphishing for information is an 
+attempt to trick targets into divulging information, frequently credentials or other actionable 
+information. (Citation: Sucuri BIND9 August 2015) Some 
+systems may automatically restart critical applications and services when crashes occur, but 
+they can likely be re-exploited to cause a persistent denial of service (DoS) condition. which may further cause a DoS condition 
+and deny availability to critical information, applications and/or systems. (Citation: SpectorOps 
+Medium ClickOnce) 
+ 
+Because ClickOnce applications receive only limited permissions, they do not require 
+administrative permissions to install. Once adversaries gain access to a victim organization, they may mine CRM software for 
+customer data. If the signature is valid, and the person examining the 
+certificate trusts the signer, then they know they can use that key to communicate with its 
+owner. If the signature is valid, and the person examining the 
+certificate trusts the signer, then they know they can use that key to communicate with its 
+owner. Adversaries may attempt to render the system unable to boot by overwriting critical data located 
+in structures such as the master boot record (MBR) or partition table. Associated Tactics: TA0042 
+ 
+T1491.002: External Defacement 
+  Description: An adversary may deface systems external to an organization in an attempt to 
+deliver messaging, intimidate, or otherwise mislead an organization or users. A mutex is a locking mechanism used to synchronize access to a 
+resource. This 
+value can be changed using the <code>AccessTokenLifetime</code> in a 
+<code>LifetimeTokenPolicy</code>. The Windows security identifier (SID) is a unique value that identifies a user or 
+group account. Specifically, an adversary may hide a task from 
+`schtasks /query` and the Task Scheduler by deleting the associated Security Descriptor (SD) 
+registry value (where deletion of this value must be completed using SYSTEM 
+permissions). Spearphishing for information is an 
+attempt to trick targets into divulging information, frequently credentials or other actionable 
+information. Spearphishing for information is an 
+attempt to trick targets into divulging information, frequently credentials or other actionable 
+information. Spearphishing for information is an attempt to trick targets into 
+divulging information, frequently credentials or other actionable information. For 
+example, in AWS environments, an adversary that creates a new identity provider for an AWS 
+Organization will be able to federate into all of the AWS Organization member accounts without 
+creating identities for each of the member accounts. Associated Tactics: TA0002

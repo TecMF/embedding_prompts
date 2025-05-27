@@ -1,0 +1,28 @@
+ Here’s a process you could follow to help with this. Your team could  
+follow this same process to create your own “top 20.”  
+| 8 | 
+ 
+  
+ 
+GETTING STARTED WITH ATT&CK: Threat Intelligence | Katie Nickels 
+This process of mapping ATT&CK techniques isn’t perfect and has bias, but this  
+information can still help you start to gain a clearer picture of what adversaries are doing. Don’t underestimate these steps in the process; tuning your data 
+collection is often the hardest part! | 12 | 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+If you’ve installed Sigma and you’re in its directory you can run this command to get (as  
+an example) the ELK/WinLogBeats query: 
+sigmac --target es-qs -c tools/config/winlogbeat.yml rules/windows/process_ 
+creation/win_susp_wmi_execution.yml 
+RESULTS FROM RUNNING WMI ANALYTIC AGAINST BRAWL DATA  
+Your job now is to look through each result and figure out whether it’s malicious. This is a more complicated process that requires  
+understanding how the attacks work and how they get reflected in the data. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? Test that confidence and improve your defenses by doing some purple  
+teaming! It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. Record your coverage for 
+that technique and then pick a new one to start the process again. You can also check out our paper on Finding Cyber  
+Threats with ATT&CK-based Analytics for more guidance on this process. | 41 | 
+|  Solving Problems for a Safer World

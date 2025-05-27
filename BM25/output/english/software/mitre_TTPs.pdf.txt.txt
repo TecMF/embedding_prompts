@@ -1,0 +1,124 @@
+ Frequently, the next goal after collecting data is to either steal (exfiltrate) the data or to use the 
+data to gain more information about the target environment. Compressing the data can help to obfuscate the collected data and minimize the 
+amount of data sent over the network. Data 
+destruction is likely to render stored data irrecoverable by forensic techniques through 
+overwriting files or data on local and remote drives. Windows allows programs to have direct access to logical volumes. Examples include 
+<code>dir</code>, <code>tree</code>, <code>ls</code>, <code>find</code>, and 
+<code>locate</code>. <code>dir</code>, <code>show flash</code>, and/or 
+<code>nvram</code>). Associated Tactics: TA0007 
+ 
+T1200: Hardware Additions 
+  Description: Adversaries may introduce computer accessories, networking hardware, or other 
+computing devices into a system or network that can be used as a vector to gain access. How the operating system locates 
+libraries to be used by a program can also be intercepted. ** 
+ 
+A type-1 hypervisor is a software layer that sits between the guest operating systems and 
+system's hardware. Associated Tactics: TA0011 
+ 
+T1571: Non-Standard Port 
+  Description: Adversaries may communicate using a protocol and port pairing that are typically 
+not associated. An adversary 
+who finds a program vulnerable to search order hijacking (i.e., a program that does not specify 
+the path to an executable) may take advantage of this vulnerability by creating a program 
+named after the improperly specified program and placing it within the initiating program's 
+directory. During the booting process of a computer, firmware and various 
+startup services are loaded before the operating system. These programs control flow of 
+execution before the operating system takes control. Associated Tactics: TA0002, TA0008 
+ 
+T1518: Software Discovery 
+  Description: Adversaries may attempt to get a listing of software and software versions that are 
+installed on a system or in a cloud environment. (Citation: Source Manual) 
+ 
+Adversaries can abuse this functionality to execute programs. This enrollment process defines various settings and 
+permissions associated with the certificate. Examples include [Arp](https://attack.mitre.org/software/S0099), 
+[ipconfig](https://attack.mitre.org/software/S0100)/[ifconfig](https://attack.mitre.org/software/S01
+01), [nbtstat](https://attack.mitre.org/software/S0102), and 
+[route](https://attack.mitre.org/software/S0103). or other system artifacts associated with analysis or 
+virtualization. The device with the 
+associated IP address directly replies with its MAC address. The value stored in the Registry key will be executed after a user 
+logs into the computer. This value will serve as the program that will be 
+executed when a user logs into the computer. Office add-ins can be used to add functionality to Office programs. Due to how 
+the keys are generated, the sender encrypts data with the receiver’s public key and the receiver 
+decrypts the data with their private key. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. Code signing provides a level of authenticity for a program from the developer and a guarantee 
+that the program has not been tampered with. This API does not validate that the program requesting root privileges comes from a 
+reputable source or has been maliciously modified. Information about hardware infrastructure may include a variety of details 
+such as types and versions on specific hosts, as well as the presence of additional components 
+that might be indicative of added defensive protections (ex: card/biometric readers, dedicated 
+encryption hardware, etc.). (Citation: Cybereason OSX 
+Pirrit) Every user has a userID associated with it. (Citation: OSX.Dok Malware) Launch Agents are often installed to 
+perform updates to programs, launch user specified programs at login, or to conduct other 
+developer tasks. Outlook stores data locally in offline data files with an extension of .ost. By default, Word has a Normal.dotm template created that can be modified to 
+include a malicious macro. For example, if the path in a shortcut is <code>C:\program files\myapp.exe</code>, 
+an adversary may create a program at <code>C:\program.exe</code> that will be run instead of 
+the intended program. At this point the process can be 
+unmapped using APIs calls such as <code>ZwUnmapViewOfSection</code> or 
+<code>NtUnmapViewOfSection</code>  before being written to, realigned to the injected code, 
+and resumed via <code>VirtualAllocEx</code>, <code>WriteProcessMemory</code>, 
+<code>SetThreadContext</code>, then <code>ResumeThread</code> respectively. This can be done 
+by either executing a new or modified service. For 
+example, LNK browser extensions may be modified (e.g. Parent Technique: T1592 
+  Associated Tactics: TA0043 
+ 
+T1027.002: Software Packing 
+  Description: Adversaries may perform software packing or virtual machine software protection 
+to conceal their code. (Citation: Systemd Remote Control) 
+ 
+Each <code>.timer</code> file must have a corresponding <code>.service</code> file with the 
+same name, e.g., <code>example.timer</code> and <code>example.service</code>. Most libraries include functionality to encrypt 
+and/or compress data. Note that the libraries are different from the utilities. Windows Event Logs are a record of a computer's alerts and notifications. Code signing provides a level of authenticity for a program from the developer and a guarantee 
+that the program has not been tampered with. Code signing provides a level of authenticity on a program from a developer 
+and a guarantee that the program has not been tampered with. Hardware backdoors may be inserted into various devices, such as servers, workstations, 
+network infrastructure, or peripherals. The Windows Registry stores configuration information that can be used by 
+the system or other programs. (Citation: Bleeping Computer US Cellular Hack 
+2022)(Citation: Bleeping Computer Mint Mobile Hack 2021)(Citation: Bleeping Computer Bank 
+Hack 2020) 
+ 
+CRM software may be hosted on-premises or in the cloud. If this information is not present, the 
+computer will not be able to load an operating system during the boot process, leaving the 
+computer unavailable. Once a link is established, applications can 
+autonomously exchange transactions consisting of strings, warm data links (notifications when a 
+data item changes), hot data links (duplications of changes to a data item), and requests for 
+command execution. Libraries specified in environment 
+variables are loaded first, taking precedence over system libraries with the same function 
+name. (Citation: Man LD.SO)(Citation: TLDP Shared Libraries) 
+Libraries specified by <code>LD_PRELOAD</code> are loaded and mapped into memory by 
+<code>dlopen()</code> and <code>mmap()</code> respectively. Adversaries can set the 
+<code>DYLD_INSERT_LIBRARIES</code> environment variable to point to malicious libraries 
+containing names of legitimate libraries or functions requested by a victim program. Users 
+can override notarization, which will result in a prompt of executing an “unauthorized app” and 
+the security policy will be modified. * Reading raw keystroke data from the hardware buffer. An adversary who finds a program vulnerable to search order 
+hijacking (i.e., a program that does not specify the path to an executable) may take advantage 
+of this vulnerability by creating a program named after the improperly specified program and 
+placing it within the initiating program's directory. Protocols such as <code>MQTT</code>, <code>XMPP</code>, <code>AMQP</code>, and 
+<code>STOMP</code> use a publish/subscribe design, with message distribution managed by 
+a centralized broker. Example commands that can be used to obtain security software information are 
+[netsh](https://attack.mitre.org/software/S0108), <code>reg query</code> with 
+[Reg](https://attack.mitre.org/software/S0075), <code>dir</code> with 
+[cmd](https://attack.mitre.org/software/S0106), and 
+[Tasklist](https://attack.mitre.org/software/S0057), but other indicators of discovery behavior 
+may be more specific to the type of software or security system the adversary is looking for. Adversaries may search for VME artifacts in memory, processes, file system, 
+hardware, and/or the Registry. At this point the process can be suspended then written to, 
+realigned to the injected code, and resumed via <code>SuspendThread </code>, 
+<code>VirtualAllocEx</code>, <code>WriteProcessMemory</code>, 
+<code>SetThreadContext</code>, then <code>ResumeThread</code> respectively. (Citation: Magnet Forensics) 
+ 
+Modifying the `$SI` attribute is the most common method of timestomping because it can be 
+modified at the user level using API calls. Commercial software may be 
+obtained through purchase, stealing licenses (or licensed copies of the software), or cracking 
+trial versions. In addition to freely downloading or purchasing software, adversaries 
+may steal software and/or software licenses from third-party entities (including other 
+adversaries). Associated Tactics: TA0002

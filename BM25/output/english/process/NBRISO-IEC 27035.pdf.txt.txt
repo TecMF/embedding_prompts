@@ -1,0 +1,50 @@
+ If there are no clear procedures, there is a risk that investigation 
+activities could be conducted in a reactive mode, by responding to incidents as they occur and 
+overlooking what activities are needed. If there are bottlenecks in the information security incident management process, these should also be 
+identifiable. 4) A definition of the scope of the ISIRT activities. iv) Reviewing, identifying and if possible, making improvements to the organization's existing 
+information security risk assessment and management review results, as a result of the lessons 
+learnt. Further, there should be documented procedures covering not just 
+PoC and ISIRT activities, but those involved in information security forensic analysis and crisis activities – if 
+not covered elsewhere, e.g. In this case the 
+following should be addressed: 
+a) 
+the reporting process for the handling of such exceptions, 
+b) 
+guidance on the timing for getting approval from management in order to avoid any delay of response, 
+and 
+c) 
+pre-authorized delegation of decision making without normal approval process. 5.7 Awareness and training 
+Information security incident management is a process that involves not only technical means but also people. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. Organizations should ensure that any changes made as a result of post 
+testing reviews are subject to thorough checking, including further testing, before the changed scheme goes 
+live. These phases and their 
+associated activities were introduced in Clause 4.5. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Figure 3 shows all of the operational phases and related activities. This could be following the assessment activities described above in Clauses 7.2 
+and 7.3, or during those activities if some major issue becomes evident early. d) 
+Activity to review, identify and make improvements to the organization's existing information security risk 
+assessment and management review results, as a result of the lessons learnt. c) 
+Were any procedures or tools identified that would have been of assistance in the response process? e) 
+Was the communication of the incident to all relevant parties effective throughout the detection, reporting 
+and response process? Blended attacks may also result from 
+the combined operations of a series of different malicious 
+programs. 1 Result in financial losses/costs of x1 or less 
+2 Result in financial losses/costs of between x1+1 and x2 
+3 Result in financial losses/costs of between x2+1 and x3 
+4 Result in financial losses/costs of between x3+1 and x4 
+5 Result in financial losses/costs of between x4+1 and x5 
+6 Result in financial losses/costs of between x5+1 and x6 
+7 Result in financial losses/costs of between x6+1 and x7 
+8 Result in financial losses/costs of between x7+1 and x8 
+9 Result in financial losses/costs of more than x8 
+10 The organization will go out of business 
+where, xi (i = 1, 2, …, 8) represent the financial losses/costs in eight grades/levels which are determined by 
+the organization in its context. These actions may result in fines and/or prison sentences. Given the potentially time-critical nature of this process, it is 
+not essential to complete all fields in the reporting form at this time. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

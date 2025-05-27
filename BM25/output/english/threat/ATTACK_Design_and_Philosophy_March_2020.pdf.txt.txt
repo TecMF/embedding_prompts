@@ -1,0 +1,81 @@
+ 4.1.2.1 
+Sources of Information ..................................................................................... 21 
+4.1.2.2 
+Community Contributions ................................................................................ 22 
+4.1.2.3 
+Un(der)reported Incidents ................................................................................ 22 
+4.1.3 
+Abstraction ............................................................................................................... 22 
+4.2 
+Tactics ............................................................................................................................. 24 
+4.2.1 
+Impact ..... A complementary model called PRE-
+ATT&CK was published in 2017 to focus on “left of exploit” behavior. These gaps represent blind spots for 
+potential vectors that allow an adversary to gain access to its networks undetected or 
+unmitigated. The 
+identified gaps are useful as a way to prioritize investments for improvement of a security 
+program. Similar security products can also be compared against a common adversary behavior 
+model to determine coverage prior to purchasing. Cyber Threat Intelligence Enrichment – Cyber threat intelligence covers knowledge of cyber 
+threats and threat actor groups that impact cybersecurity. If ipconfig.exe is frequently and legitimately used then notifying an 
+analyst with an alert on each instance as potential intrusion behavior would be excessive. When it comes to 
+information security, the threats we face, new technologies, and the adaptability of goal-based 
+adversaries, we cannot consider filling out a checklist as “done”. It is the adversary’s 
+tactical objective: the reason for performing an action. 3.4 Techniques and Sub-Techniques 
+Techniques represent “how” an adversary achieves a tactical objective by performing an action. Techniques may also represent “what” an adversary gains by 
+performing an action. This is a useful distinction for the Discovery tactic as the techniques 
+highlight what type of information an adversary is after with a particular action. Impact Type* 
+Tag 
+Denotes if the (sub-)technique can be used for 
+integrity or availability attacks. Applies to impact 
+(sub-)techniques only. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Groups are defined as 
+named intrusion sets, threat groups, actor groups, or campaigns that typically represent targeted, 
+persistent threat activity. 3.7 Mitigations 
+Mitigations in ATT&CK represent security concepts and classes of technologies that can be used 
+to prevent a technique or sub-technique from being successfully executed. By contrast, many security models describe desired 
+ 
+21 
+©2020 The MITRE Corporation. ATT&CK’s use of an adversary’s perspective makes it easier to understand actions and potential 
+countermeasures in context than it would from a purely defense perspective. For detection, 
+oftentimes defensive analysts are presented with alerts with little to no context about the event 
+that caused the alert. Threat intelligence analysts typically track incidents, threat groups, and how their TTPs evolve 
+over time. Defenders see adversaries in action and are often in a position to see when new techniques are 
+being used. By contrast, exploit databases and models describe specific instances of exploitable software – 
+which are often available for use with code examples – but are very far removed from the 
+ 
+23 
+©2020 The MITRE Corporation. • An appropriate level of categorization to relate adversary’s action and specific ways of 
+defending against it. In 
+2019, the Impact tactic was added to ATT&CK to address that lack of coverage. Each technique and sub-technique in the 
+Impact tactic includes a mandatory “Impact Type” tag with a value of “Availability” or 
+“Integrity” indicating which one the (sub-)technique impacts. Similar to other tactics in ATT&CK, it’s important to take into account adversary goals when  
+leveraging Impact techniques. Exploit Public-
+Facing Application [12] which depends on vulnerable software) 
+2. ATT&CK remains strongly tied to threat intelligence sources on 
+persistent threat groups. There are also fewer persistent threat incidents reported against Linux and 
+Mac systems than there are against Windows, causing available threat data to be substantially 
+less available. 4.3.2 Creating New Techniques 
+When a potential new behavior is identified, there are several possible approaches to including it 
+in ATT&CK:  
+• Adding an entirely new technique,  
+• Adding a new sub-technique under an existing technique, or 
+• Enhancing or abstracting an existing technique or sub-technique to make it inclusive of 
+the newly-identified or otherwise previously uncategorized behavior. Common sources include security vendor blogs, but other 
+sources such as personal blogs or Twitter may be used provided the information is deemed to be 
+reliable. • Include SQLi in ATT&CK as a technical detail enhancement of Exploit Public-Facing 
+Application for gaining access to exposed web servers or databases. Adoption of ATT&CK is widespread across multiple disciplines, including intrusion detection, 
+threat hunting, security engineering, threat intelligence, red teaming, and risk management. [16] The MITRE Corporation, "Exploit Public-Facing Application," 22 October 2019. [Accessed 16 March 2020].

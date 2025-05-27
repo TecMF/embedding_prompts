@@ -1,0 +1,55 @@
+ Preventive activities 
+based on the results of risk assessments can lower the number of incidents, but not all incidents can be 
+prevented. The attack vectors are: 
+ External/Removable Media: An attack executed from removable media (e.g., flash drive, CD) or a 
+peripheral device.  Other: An attack that does not fit into any of the other categories. A computer security incident is a violation or imminent threat of violation1 of computer security policies, 
+acceptable use policies, or standard security practices. Software vendors may also provide information on known threats (e.g., new attacks) to help 
+organizations understand the current threat environment. However, residual risk will inevitably persist 
+after controls are implemented. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Each risk should be prioritized, and the 
+risks can be mitigated, transferred, or accepted until a reasonable overall level of risk is reached. Malware protection should be deployed at the host level (e.g., server and workstation 
+operating systems), the application server level (e.g., email server, web proxies), and the application 
+client level (e.g., email clients, instant messaging clients).30  
+ User Awareness and Training. 25  
+Guidelines on risk assessment are available in NIST SP 800-30, Guide for Conducting Risk Assessments, at 
+http://csrc.nist.gov/publications/PubsSPs.html#800-30-Rev1.  Other: An attack that does not fit into any of the other categories. Examples of precursors are: 
+ Web server log entries that show the usage of a vulnerability scanner 
+ An announcement of a new exploit that targets a vulnerability of the organization’s mail server 
+ A threat from a group stating that the group will attack the organization. If the file 
+is altered and the checksum is recalculated, an extremely high probability exists that the new 
+checksum will not match the old checksum. Organizations should require a baseline level of 
+logging on all systems and a higher baseline level on critical systems. A network IDPS may detect that an attack was launched 
+against a particular host, but it may not know if the attack was successful. Note that separate workstations should be used for research to minimize the risk to the 
+organization from conducting these searches. If that person does not 
+respond within a certain time, then the incident should be escalated again to a higher level of 
+management. Performing an Internet search using the 
+apparent source IP address of an attack may lead to more information on the attack—for example, a 
+mailing list message regarding a similar attack. This data can be put back into the risk assessment process, ultimately 
+leading to the selection and implementation of additional controls. Organizations should 
+decide what incident data to collect based on reporting requirements and on the expected return on 
+investment from the data (e.g., identifying a new threat and mitigating the related vulnerabilities before 
+they can be exploited.) For example, if an 
+attacker is able to use knowledge gathered in one attack to perform a more severe attack later, 
+evidence from the first attack may be key to explaining how the second attack was accomplished.  Require a baseline level of logging and auditing on all systems, and a higher baseline level on all 
+critical systems. The most important aspect of 
+incident response coordination is information sharing, where different organizations share threat, attack, 
+and vulnerability information with each other so that each organization’s knowledge benefits the other. Such information, at least at a summary level, is often reported to higher-
+level coordinating incident response teams to communicate an estimate of the damage caused by the 
+incident. This high-level information would alert the coordinating team 
+that the member organization requires some level of additional resources to recover from the incident. What data sources might contain information regarding the identity of the vulnerability scanning 
+host? How would the team identify who had been performing the vulnerability scans? How would the handling of this incident differ if the vulnerability scanning were directed at the 
+organization’s most critical hosts? How would the handling of this incident differ if the vulnerability scanning were directed at 
+external hosts? Incident: A violation or imminent threat of violation of computer security policies, acceptable use 
+policies, or standard security practices. Threat: The potential source of an adverse event. Vulnerability: A weakness in a system, application, or network that is subject to exploitation or misuse. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

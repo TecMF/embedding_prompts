@@ -1,0 +1,94 @@
+ Frequently, the next goal after collecting data is to either steal (exfiltrate) the data or to use the 
+data to gain more information about the target environment. Adversaries also leverage and abuse 
+trusted processes to hide and masquerade their malware. Compressing the data can help to obfuscate the collected data and minimize the 
+amount of data sent over the network. (Citation: Microsoft COM) DCOM is transparent middleware that extends the functionality 
+of Component Object Model (COM) (Citation: Microsoft COM) beyond a local computer using 
+remote procedure call (RPC) technology. On Windows and Linux, these system 
+processes are referred to as services. Data 
+destruction is likely to render stored data irrecoverable by forensic techniques through 
+overwriting files or data on local and remote drives. Information repositories are tools that allow for storage of information, typically to facilitate 
+collaboration or information sharing between users, and can store a wide variety of data that 
+may aid adversaries in further objectives, such as Credential Access, Lateral Movement, or 
+Defense Evasion, or direct access to the target information. In some cases, adversaries may deploy a new container to execute processes 
+associated with a particular image or deployment, such as processes that execute or download 
+malware. For example, 
+[Forfiles](https://attack.mitre.org/software/S0193), the Program Compatibility Assistant 
+(pcalua.exe), components of the Windows Subsystem for Linux (WSL), Scriptrunner.exe, as 
+well as other utilities may invoke the execution of programs and commands from a [Command 
+and Scripting Interpreter](https://attack.mitre.org/techniques/T1059), Run window, or via 
+scripts. Third-party entities can include 
+technology companies that specialize in malware and exploits, criminal marketplaces, or from 
+individuals. Phishing for information is an attempt to trick targets into divulging 
+information, frequently credentials or other actionable information. Adversaries may also opt to enumerate processes via 
+`/proc`. On network devices, [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) 
+commands such as `show processes` can be used to display current running 
+processes. Due to how 
+the keys are generated, the sender encrypts data with the receiver’s public key and the receiver 
+decrypts the data with their private key. With a botnet at their disposal, 
+adversaries may perform follow-on activity such as large-scale 
+[Phishing](https://attack.mitre.org/techniques/T1566) or Distributed Denial of Service 
+(DDoS). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CDNs allow an organization to host content from a distributed, 
+load balanced array of servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. COM is a system within 
+Windows to enable interaction between software components through the operating 
+system. When that system component is executed through normal system operation the adversary's 
+code will be executed instead. Linux admins use the Linux Audit system to track security-relevant 
+information on a system. Distributed COM (DCOM) is transparent middleware that extends the functionality of 
+COM beyond a local computer using remote procedure call (RPC) technology. Third-party entities can include technology companies that specialize in 
+exploit development, criminal marketplaces (including exploit kits), or from individuals. (Citation: MalwareTech VFS Nov 2014) 
+ 
+Adversaries may use their own abstracted file system, separate from the standard file system 
+present on the infected system. Installer packages are OS specific and contain the 
+resources an operating system needs to install applications on a system. The Windows security subsystem is a set of components that manage 
+and enforce the security policy for a computer or domain. The LSA 
+includes multiple dynamic link libraries (DLLs) associated with various other security functions, 
+all of which run in the context of the LSA Subsystem Service (LSASS) lsass.exe 
+process. (Citation: Microsoft Security Subsystem) 
+ 
+Adversaries may target LSASS drivers to obtain persistence. Parent Technique: T1547 
+  Associated Tactics: TA0003, TA0004 
+ 
+T1003.001: LSASS Memory 
+  Description: Adversaries may attempt to access credential material stored in the process 
+memory of the Local Security Authority Subsystem Service (LSASS). Outlook stores data locally in offline data files with an extension of .ost. Every New Technology File System (NTFS) formatted partition contains a 
+Master File Table (MFT) that maintains a record for every file/directory on the partition. (Citation: PTRACE man)(Citation: Medium Ptrace JUL 2018)  
+ 
+Ptrace system call injection may not be possible targeting processes that are non-child 
+processes and/or have higher-privileges. Spearphishing for information is an 
+attempt to trick targets into divulging information, frequently credentials or other actionable 
+information. (Citation: Ignacio Udev 
+research 2024)(Citation: Elastic Linux Persistence 2024) 
+ 
+Adversaries may abuse the udev subsystem by adding or modifying rules in udev rule files to 
+execute malicious content. (Citation: Microsoft Local Accounts Feb 2019)(Citation: AWS Root 
+User)(Citation: Threat Matrix for Kubernetes) 
+ 
+Default accounts are not limited to client machines, rather also include accounts that are preset 
+for equipment such as network devices and computer applications whether they are internal, 
+open source, or commercial. Once a link is established, applications can 
+autonomously exchange transactions consisting of strings, warm data links (notifications when a 
+data item changes), hot data links (duplications of changes to a data item), and requests for 
+command execution. Third-party entities can include technology companies that 
+specialize in malware development, criminal marketplaces (including Malware-as-a-Service, or 
+MaaS), or from individuals. Spearphishing for information is an 
+attempt to trick targets into divulging information, frequently credentials or other actionable 
+information. Spearphishing for information is an 
+attempt to trick targets into divulging information, frequently credentials or other actionable 
+information. Spearphishing for information is an attempt to trick targets into 
+divulging information, frequently credentials or other actionable information. (Citation: Malware System Language Check) 
+ 
+There are various sources of data an adversary could use to infer system language, such as 
+system defaults and keyboard layouts. Associated Tactics: TA0002

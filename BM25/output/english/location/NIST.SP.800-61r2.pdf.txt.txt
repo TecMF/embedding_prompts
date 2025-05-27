@@ -1,0 +1,23 @@
+ The incident response team 
+should understand what the potential jurisdictional issues are (e.g., physical location—an organization 
+based in one state has a server located in a second state attacked from a system in a third state, being used 
+remotely by an attacker in a fourth state). The position of technical lead should not be confused with the 
+position of incident lead. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Determining whether a 
+particular event is actually an incident is sometimes a matter of judgment. There may be contracts or other agreements that 
+need to be put into place before discussions occur. There may be 
+contracts or other agreements that need to be put into place before discussions occur. What measures are in place to attempt to prevent this type of incident from occurring or to limit 
+its impact? What additional tools might be needed to detect this particular incident? What additional tools might be needed to respond to this particular incident? What aspects of the handling would have been different if the incident had occurred at a different 
+physical location (onsite versus offsite)? The organization should designate 
+a set of basic elements (e.g., incident reporter’s name, phone number, and location) to be collected when 
+the incident is reported and an additional set of elements to be collected by the incident handlers during 
+their response. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

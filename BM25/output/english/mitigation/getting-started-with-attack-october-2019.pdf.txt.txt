@@ -1,0 +1,48 @@
+ The posts, inspired by Katie Nickels’ Sp4rkcon talk “Putting MITRE  
+ATT&CK into Action with What You Have, Where You Are,” were written by members of  
+the ATT&CK team and focused on what we consider ATT&CK’s four primary use cases. As you do this, you can check out the  
+ATT&CK website for some ideas to get you started with Detection and Mitigation of  
+techniques. LEVEL 2 
+If you have a team of threat analysts who regularly review information about adversaries, 
+a next-level action you can take is to map intelligence to ATT&CK yourself rather than 
+using what others have already mapped. Find the behavior—Think about the adversary’s action in a broader way than just the 
+atomic indicator (like an IP address) they used. Compare your results to other analysts—Of course, you might have a different  
+interpretation of a behavior than another analyst. Your goal shouldn’t be to get to zero false positives; it should  
+be to reduce them as much as possible while still ensuring that you’ll catch the malicious  
+behavior. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? A general pattern to follow is to write the search to detect malicious behavior, revise it to  
+filter out false positives, make sure it still detects the malicious behavior, and then repeat  
+to reduce other sorts of false positives. ANALYTIC DEVELOPMENT WORKFLOW 
+| 15 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+LEVEL 3 
+Feel confident that you’re cranking out quality analytics to detect attacks from Atomic  
+Red Team? Test that confidence and improve your defenses by doing some purple  
+teaming! In the real world, adversaries don’t just carry out cookie cutter attacks copy/pasted  
+from some book. HEATMAP WITH CAR AND CUSTOM-DEVELOPED ANALYTICS  
+And of course, over time, you’ll want to expand the scope of the things that you care  
+about. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. In this fourth section, we’re  
+going to talk about assessments and engineering, showing how you can use ATT&CK to measure  
+your defenses and enable improvement. Our recent restructuring of mitigations allows you to go through each 
+mitigation and see the techniques it’s mapped to. Square A hardened local administrator account can prevent Windows Admin Shares. Consult your detection heatmap as part of this process; if there’s a  
+high-cost mitigation that’ll prevent a technique that you’re doing a good job of detecting,  
+it may not be a good trade-off. Make sure you have some visibility in cases where a mitigation  
+or control may be bypassed so those events are less likely to be missed. Detection and  
+mitigation should both be used as tools for effective coverage. Over time changes in the network and what’s collected may have unintended 
+consequences that reduce the effectiveness of previously tested defenses. | 41 | 
+|  Solving Problems for a Safer World

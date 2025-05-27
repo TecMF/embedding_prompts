@@ -1,0 +1,53 @@
+ The process 
+MITRE used to create ATT&CK, and the philosophy that has developed for curating new 
+content, are critical aspects of the work and are useful for other efforts that strive to create 
+similar adversary models and information repositories. Adversary emulation focuses on the ability of an organization to verify detection 
+and/or mitigation of the adversarial activity at all applicable points in their lifecycle. Defensive Gap Assessment – A defensive gap assessment allows an organization to determine 
+what parts of its enterprise lack defenses and/or visibility. SOC Maturity Assessment – An organization’s Security Operations Center is a critical 
+component of many medium to large enterprise networks that continuously monitor for active 
+ 
+ 
+1 https://car.mitre.org 
+ 
+4 
+©2020 The MITRE Corporation. The structured format of ATT&CK 
+can add value to threat reporting by categorizing behavior beyond standard indicators. Operationalizing ATT&CK for an organization also encompasses determining what it means for 
+you to have “ATT&CK coverage”. It is independent of 
+technology and models an adversary’s behavior as they attempt to gain access to an organization 
+or entity through the technology they leverage, spanning multiple domains. Version* 
+Field 
+Version of the (sub-)technique in the format of 
+MAJOR.MINOR. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Detection recommendations should 
+therefore remain vendor agnostic, recommending 
+the general method and class of tools rather than a 
+specific tool. Detection may not always be possible 
+ 
+12 
+©2020 The MITRE Corporation. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. 3.4.3 Sub-Technique Details 
+The addition of sub-techniques to ATT&CK in 2020 marked a significant shift to how behavior 
+is described within the knowledge base. The change was driven by the need to fix some of the 
+technique abstraction level issues that occurred as ATT&CK grew over the years. If the information is ambiguous such 
+that a sub-technique cannot be identified, then the information will be mapped to the technique. The information within ATT&CK has evolved over time, as have the considerations used for 
+what information gets included and how it’s structured. 4.1.2.1 
+Sources of Information 
+New information relevant to ATT&CK techniques can come from many different sources. The information may be used in different ways 
+depending on where the information comes from and the vantage the contributing organization 
+or individual has. Each technique and sub-technique in the 
+Impact tactic includes a mandatory “Impact Type” tag with a value of “Availability” or 
+“Integrity” indicating which one the (sub-)technique impacts. Do other sources corroborate information provided? There could be several nuances that lead an analyst and organization to categorize 
+adversary activity separately, such as differences in visibility into a group’s suspected activity. This is still a very useful source of information. We hope this document can be a useful resource for efforts seeking to 
+follow the process used to apply the ATT&CK methodology, whether it’s to help us expand and 
+maintain MITRE ATT&CK knowledge bases or to model adversary behavior in new areas that 
+aren’t directly related to the domains covered by ATT&CK. [Accessed 16 March 2020].

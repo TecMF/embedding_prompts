@@ -1,0 +1,97 @@
+ TA0040: Impact 
+  Description: The adversary is trying to manipulate, interrupt, or destroy your systems and data. Techniques used for impact can include 
+destroying or tampering with data. Common 
+approaches are to take advantage of system weaknesses, misconfigurations, and 
+vulnerabilities. In cloud environments, adversaries may leverage access to delete cloud storage objects, 
+machine images, database instances, and other infrastructure crucial to operations to damage 
+an organization or their customers. The type of modification and the impact it will have depends on the target application and 
+process as well as the goals and objectives of the adversary. Debuggers are typically used by defenders to trace and/or analyze the execution of potential 
+malware payloads. Unlike [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190), the focus 
+of this technique is to exploit software on a client endpoint upon visiting a website. After gaining access to a victim system, 
+adversaries may create/modify event triggers to point to malicious content that will be executed 
+whenever the event trigger is invoked. Guardrails ensure that a payload only executes against an intended target and 
+reduces collateral damage from an adversary’s campaign. Vulnerabilities can exist in software due to unsecure coding practices that can lead to 
+unanticipated behavior. Adversaries can take advantage of certain vulnerabilities through 
+targeted exploitation for the purpose of arbitrary code execution. These often do not require 
+an action by the user for the exploit to be executed. These require the user to open the 
+document or file for the exploit to run. For example, 
+adversaries have exploited vulnerabilities in public cloud infrastructure that allowed for 
+unintended authentication token creation and renewal. Vulnerabilities may exist in defensive security software 
+that can be used to disable or circumvent them. There are examples of 
+antivirus software being targeted by persistent threat groups to avoid detection. This can be used to inform the adversary’s follow-on action. (Citation: CrowdStrike-BEC) 
+  
+There is the potential for multiple victims in campaigns involving impersonation. (Citation: WithSecure Lazarus-NoPineapple Threat Intel 
+Report 2023)(Citation: Cadet Blizzard emerges as novel threat actor) In cloud environments, 
+adversaries may leverage utilities such as the Azure VM Agent’s `CollectGuestLogs.exe` to 
+collect security logs from cloud hosted infrastructure. Stopping critical services or processes can inhibit or stop 
+response to an incident or aid in the adversary's overall objectives to cause damage to the 
+environment. Token theft can also occur through social engineering, in which case user action may be 
+required to grant access. HVAC, elevators, physical security). For example, through behaviors such as [Modify System 
+Image](https://attack.mitre.org/techniques/T1601), [Reduce Key 
+Space](https://attack.mitre.org/techniques/T1600/001), and [Disable Crypto 
+Hardware](https://attack.mitre.org/techniques/T1600/002), an adversary can negatively effect 
+and/or eliminate a device’s ability to securely encrypt network traffic. Adversaries can abuse this by looking 
+through the file for potential credentials. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. Adversaries may search CDN data to gather actionable information. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. Third-party entities can include technology companies that specialize in 
+exploit development, criminal marketplaces (including exploit kits), or from individuals. There is usually a delay between when an exploit is discovered and 
+when it is made public. This could include maliciously redirecting(Citation: 
+Microsoft Lamin Sept 2017) or even disabling host-based sensors, such as Event Tracing for 
+Windows (ETW)(Citation: Microsoft About Event Tracing 2018), by tampering settings that 
+control the collection and flow of event telemetry. This action does not 
+require a system reboot and takes effect immediately. The Windows security subsystem is a set of components that manage 
+and enforce the security policy for a computer or domain. The Local Security Authority (LSA) is 
+the main component responsible for local security policy and user authentication. Since mshta.exe executes outside of the Internet Explorer's security context, it 
+also bypasses browser security settings. Adversaries may abuse odbcconf.exe to bypass application control solutions that do not 
+account for its potential abuse. Threat actors can use 
+online resources and lookup tools to harvest information from these services. Security reporting messages are important for 
+monitoring the normal operation of a system and identifying important events that can signal a 
+security incident. The type of 
+modification and the impact it will have depends on the target transmission mechanism as well 
+as the goals and objectives of the adversary. (Citation: Unit 42 Leaked Environment Variables 2024) 
+ 
+In addition to incurring potential financial costs or availability disruptions, this technique may 
+cause reputational damage if a victim’s bandwidth is used for illegal activities. The impact to the user ranges 
+from denying the operation under high enforcement to allowing the user to perform the action if 
+they are in the local administrators group and click through the prompt or allowing them to enter 
+an administrator password to complete the action. Associated Tactics: TA0005 
+ 
+T1070.001: Clear Windows Event Logs 
+  Description: Adversaries may clear Windows Event Logs to hide the activity of an intrusion. Windows Event Logs are a record of a computer's alerts and notifications. Adversaries may 
+consume enough system resources to negatively impact and/or cause affected machines to 
+become unresponsive. Threat actors 
+can use online resources and lookup tools to harvest information about certificates. The rule files are in the plist format and define the name, event type, and action to take. Use of a 
+contractor may be considered an extension of that adversary's exploit development capabilities, 
+provided the adversary plays a role in shaping requirements and maintains an initial degree of 
+exclusivity to the exploit. Filters are implemented as DLLs containing a method to validate potential 
+passwords against password policies. Any potential changes cannot take effect until every registered filter 
+acknowledges validation. The type of 
+modification and the impact it will have depends on the target application and process as well as 
+the goals and objectives of the adversary. SIDs are used by Windows security in both security descriptors and access 
+tokens. The type of modification and the impact it will have depends on the 
+type of data as well as the goals and objectives of the adversary. Associated Tactics: TA0004, TA0005 
+ 
+T1597.001: Threat Intel Vendors 
+  Description: Adversaries may search private data from threat intelligence vendors for 
+information that can be used during targeting. Threat intelligence vendors may offer paid feeds 
+or portals that offer more data than what is publicly reported. Associated Tactics: TA0042 
+ 
+T1588.006: Vulnerabilities 
+  Description: Adversaries may acquire information about vulnerabilities that can be used during 
+targeting. WMI can be used to install event filters, providers, consumers, and bindings that 
+execute code when a defined event occurs. (Citation: Mandiant M-Trends 2015) 
+ 
+Adversaries may use the capabilities of WMI to subscribe to an event and execute arbitrary 
+code when that event occurs, providing persistence on a system. Associated Tactics: TA0002

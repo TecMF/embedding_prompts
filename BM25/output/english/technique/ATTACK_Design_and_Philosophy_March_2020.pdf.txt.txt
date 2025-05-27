@@ -1,0 +1,46 @@
+ ............................... 8 
+3.4 
+Techniques and Sub-Techniques ...................................................................................... 9 
+3.4.1 
+Procedures .................................................................................................................. 9 
+3.4.2 
+Technique and Sub-Technique Object Structure ........................................................ 9 
+3.4.3 
+Sub-Technique Details ............................................................................................. ........................................................... 26 
+4.3.1.4 
+Adversary Use .................................................................................................. 26 
+4.3.1.5 
+Technique Distinction ...................................................................................... 27 
+4.3.2 
+Creating New Techniques ........................................................................................ 27 
+4.3.3 
+Enhancing Existing Techniques ............................................................................... 28 
+4.3.4 
+Named Adversary Groups Using Techniques ..................................................... ATT&CK Technique and Sub-Technique Model ........................................................... 10 
+Table 3. At a high-level, ATT&CK is a behavioral model that consists of the following 
+core components: 
+• Tactics, denoting short-term, tactical adversary goals during an attack; 
+• Techniques, describing the means by which adversaries achieve tactical goals; 
+• Sub-techniques, describing more specific means by which adversaries achieve tactical 
+goals at a lower level than techniques; and 
+• Documented adversary usage of techniques, their procedures, and other metadata. ATT&CK can be used as a tool to create adversary emulation scenarios [5] to test and verify 
+defenses against common adversary techniques. Red teaming focuses on accomplishing the end objective 
+of an operation without being detected to show mission or operational impact of a successful 
+breach. It is the adversary’s 
+tactical objective: the reason for performing an action. 3.4 Techniques and Sub-Techniques 
+Techniques represent “how” an adversary achieves a tactical objective by performing an action. Sub-techniques further break down behaviors described by techniques into more specific 
+descriptions of how behavior is used to achieve an objective. There may be many ways, or techniques, to achieve tactical objectives, so there are multiple 
+techniques in each tactic category. Format: (technique) T####; (sub-
+technique) T####.###. 4.1.1 Adversary’s Perspective 
+ATT&CK takes on the perspective of an adversary in its terminology and descriptions for tactics 
+and techniques described in the model. 4.2 Tactics 
+Since tactics represent the tactical goals of an adversary, these remain relatively static over time 
+because adversary goals are unlikely to change. 4.3.1.5 
+Technique Distinction 
+Several factors are considered when including new information to determine where and how it 
+fits into the model: 
+• Objective- What the technique or sub-technique is accomplishing. • Actions- How a technique or sub-technique is performed. • Requirements- The components that are needed to use a technique or sub-technique, or 
+are affected by use of a technique. § Is it plausible that the behavior can be used for that tactic objective even if 
+data is unavailable due to related techniques? • Are there different adversary groups that use this technique or sub-technique? Conclusions: 
+• The context in which SQLi fits within an adversary’s tactical goals puts it within attempts 
+to gain access to a system through an existing software vulnerability.

@@ -1,0 +1,49 @@
+ Introduction ...................................................................................................................... 4 
+1.1 
+Authority .................................................................................................................... 4 
+1.2 
+Purpose and Scope ................................................................................................... 4 
+1.3 
+Audience ................................................................................................................... 4 
+1.4 
+Document Structure .................................................................................................. 4 
+2. ................................................... 9 
+2.4 
+Incident Response Team Structure ......................................................................... 13 
+2.4.1 
+Team Models ...............................................................................................13 
+2.4.2 
+Team Model Selection..................................................................................14 
+2.4. Each organization needs a plan that meets its unique requirements, which relates to the 
+organization’s mission, size, structure, and functions. The organization’s mission, strategies, and goals for incident response should help in determining the 
+structure of its incident response capability. The incident response program structure should also be 
+discussed within the plan.  Organization’s ISP. The organization has multiple incident response teams, each 
+responsible for a particular logical or physical segment of the organization. However, the teams should be part of a single coordinated entity so that the incident response process 
+is consistent across the organization and information is shared among teams. These 
+workstations typically contain a set of removable hard drives that can be used for evidence storage. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis.  Web: An attack executed from a website or web-based application—for example, a cross-site 
+scripting attack used to steal credentials or a redirect to a site that exploits a browser vulnerability and 
+installs malware. For example, the 
+organization might be contacted by a party claiming a system at the organization is attacking its 
+systems. Although it is 
+possible to build a knowledge base with a complex structure, a simple approach can be effective. Collaboration with the trusted partner can enable an 
+organization to respond to the incident more quickly and efficiently than an organization operating in 
+isolation. Mandatory relationships are usually defined by a regulatory body within the industry or by 
+another entity. How would the organization attempt to prevent the worm from entering the organization before 
+antivirus signatures were released? Malware: A virus, worm, Trojan horse, or other code-based malicious entity that successfully infects a 
+host. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

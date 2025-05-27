@@ -1,0 +1,56 @@
+ Introduction 
+MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, 
+reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known 
+to target. At a high-level, ATT&CK is a behavioral model that consists of the following 
+core components: 
+• Tactics, denoting short-term, tactical adversary goals during an attack; 
+• Techniques, describing the means by which adversaries achieve tactical goals; 
+• Sub-techniques, describing more specific means by which adversaries achieve tactical 
+goals at a lower level than techniques; and 
+• Documented adversary usage of techniques, their procedures, and other metadata. ATT&CK is not an exhaustive enumeration of attack vectors against software. Cyber Threat Intelligence Enrichment – Cyber threat intelligence covers knowledge of cyber 
+threats and threat actor groups that impact cybersecurity. This relatively simple representation 
+strikes a useful balance between sufficient technical detail at the technique level and the context 
+around why actions occur at the tactic level. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. 3.4.3 Sub-Technique Details 
+The addition of sub-techniques to ATT&CK in 2020 marked a significant shift to how behavior 
+is described within the knowledge base. The change was driven by the need to fix some of the 
+technique abstraction level issues that occurred as ATT&CK grew over the years. Groups are defined as 
+named intrusion sets, threat groups, actor groups, or campaigns that typically represent targeted, 
+persistent threat activity. Software is broken out into two high-level 
+categories: tools and malware. Distribution unlimited 19-01075-28. 
+security from a defender’s perspective with a top-down view, such as the CIA2 model, focus on 
+vulnerability scoring, such as CVSS [6], or primarily account for risk calculations, such as 
+DREAD [7]. Threat intelligence analysts typically track incidents, threat groups, and how their TTPs evolve 
+over time. A mid-level model is also useful 
+to put lower level concepts into context. Behavior-based techniques are the focus as opposed to 
+exploits and malware because they are numerous but are difficult to reason about them with a 
+holistic defensive program other than regular vulnerability scans, rapid patching, and IOCs. Figure 4 shows a 
+comparison of the level of abstraction between high, mid, and low level models and threat 
+knowledge databases: 
+ 
+ 
+Figure 5. • An appropriate level of categorization to relate adversary’s action and specific ways of 
+defending against it. Sub-techniques often 
+signify how a technique is used at a lower level of abstraction. ATT&CK remains strongly tied to threat intelligence sources on 
+persistent threat groups. There are also fewer persistent threat incidents reported against Linux and 
+Mac systems than there are against Windows, causing available threat data to be substantially 
+less available. • Fundamentally, SQLi is exploiting a vulnerability in web application software due to 
+poor code design and is not a benign behavior that an adversary could use for some 
+purpose. • SQLi is a predominant vulnerability that occurs frequently across many different types of 
+web applications, regardless of language or platform they are written in. Conclusions: 
+• The context in which SQLi fits within an adversary’s tactical goals puts it within attempts 
+to gain access to a system through an existing software vulnerability. Adoption of ATT&CK is widespread across multiple disciplines, including intrusion detection, 
+threat hunting, security engineering, threat intelligence, red teaming, and risk management. Available: https://medium.com/mitre-attack/2020-attack-roadmap-4820d30b38ba. [2]  The MITRE Corporation, "Common Attack Pattern Enumeration and Classification," 21 
+February 2018. Available: https://medium.com/mitre-attack/how-to-be-a-savvy-attack-consumer-
+63e45b8e94c9. [11] FIRST, "Common Vulnerability Scoring System v3.0: Specification Document," 2018. [Accessed 16 March 2020].

@@ -1,0 +1,13 @@
+ This is an excellent place to focus your resources since you know groups  
+you care about have used those techniques  and you can’t detect them! For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. These purple techniques give us a place to start to use a tool we already have and  
+perform techniques that are a priority to our organization. There may be cases where a technique is implemented in a particular way in the tools  
+the red team uses, but an adversary isn’t known to perform it in that way. Emulate the adversary—With a plan in place, the red team now has the ability to 
+execute and perform an emulation engagement. Additionally, if you find an analytic that covers a particular technique, instead  
+of just marking that the technique is covered, you’ll want to tease out that analytic’s  
+coverage fidelity as well. Graduating to the next level: Once you start implementing some of these changes 
+and improving your coverage, the next step is to introduce adversary emulation, and 
+in particular, atomic testing. | 41 | 
+|  Solving Problems for a Safer World

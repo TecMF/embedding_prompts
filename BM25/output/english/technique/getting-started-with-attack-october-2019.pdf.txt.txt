@@ -1,0 +1,62 @@
+ For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? Adversary emulators construct a scenario to test certain aspects of an adversary’s tactics, 
+techniques, and procedures (TTPs). Since ATT&CK is a large knowledge base of real-world adversary behaviors, it doesn’t take much  
+imagination to draw a connection between adversary or red team behaviors and ATT&CK. But how do you know if you’d really detect that technique? It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. PROCESS FOR CREATING AN ADVERSARY EMULATION PLAN 
+| 26 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Adversary Emulation and Red Teaming | Blake Strom, Tim Schulz, and Katie Nickels 
+1. Gather threat intel—Select an adversary based on the threats to your organization 
+and work with the CTI team to analyze intelligence about what the adversary has 
+done. Instead, start small: select a single technique to focus on, determine your coverage 
+for that technique, and then make the appropriate engineering enhancements to start 
+detecting it. Tip: Not sure which technique to start with? Once you have a technique picked out, you’ll want to figure out what your coverage 
+of that technique is. Oftentimes you’ll need to bring in other 
+information about the technique, which you can get from the technique’s ATT&CK page 
+or an external source. These describe the procedures, or specific ways, an adversary  
+has used a technique. Oftentimes they represent variations of a technique that may or  
+may not be covered by existing analytics and should also be factored into a confidence  
+assessment in how well you cover a technique. | 40 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+Blake Strom is the capability area lead for adversary emulation at MITRE 
+and has worked in the areas of network defense, cyber threat intelligence, 
+security research, and adversary emulation. | 41 | 
+|  Solving Problems for a Safer World

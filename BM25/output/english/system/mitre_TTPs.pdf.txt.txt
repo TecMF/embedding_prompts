@@ -1,0 +1,113 @@
+ Common target sources include 
+various drive types, browsers, audio, video, and email. Adversaries also leverage and abuse 
+trusted processes to hide and masquerade their malware. On Windows and Linux, these system 
+processes are referred to as services. In some cases, adversaries may deploy a new container to execute processes 
+associated with a particular image or deployment, such as processes that execute or download 
+malware. Associated Tactics: TA0007 
+ 
+T1200: Hardware Additions 
+  Description: Adversaries may introduce computer accessories, networking hardware, or other 
+computing devices into a system or network that can be used as a vector to gain access. Hijacking execution flow can be for the purposes of 
+persistence, since this hijacked execution may reoccur over time. ** 
+ 
+A type-1 hypervisor is a software layer that sits between the guest operating systems and 
+system's hardware. In addition to downloading free malware, software, and exploits from the internet, adversaries 
+may purchase these capabilities from third-party entities. Third-party entities can include 
+technology companies that specialize in malware and exploits, criminal marketplaces, or from 
+individuals. Adversaries may also opt to enumerate processes via 
+`/proc`. On network devices, [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) 
+commands such as `show processes` can be used to display current running 
+processes. Configuration management and software deployment applications may be used in an enterprise 
+network or cloud environment for routine administration purposes. Associated Tactics: TA0002, TA0008 
+ 
+T1518: Software Discovery 
+  Description: Adversaries may attempt to get a listing of software and software versions that are 
+installed on a system or in a cloud environment. Examples include [Arp](https://attack.mitre.org/software/S0099), 
+[ipconfig](https://attack.mitre.org/software/S0100)/[ifconfig](https://attack.mitre.org/software/S01
+01), [nbtstat](https://attack.mitre.org/software/S0102), and 
+[route](https://attack.mitre.org/software/S0103). (Citation: Norton Botnet) Adversaries may purchase a subscription 
+to use an existing botnet from a booter/stresser service. With a botnet at their disposal, 
+adversaries may perform follow-on activity such as large-scale 
+[Phishing](https://attack.mitre.org/techniques/T1566) or Distributed Denial of Service 
+(DDoS). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. Parent Technique: T1584 
+  Associated Tactics: TA0042 
+ 
+T1596.004: CDNs 
+  Description: Adversaries may search content delivery network (CDN) data about victims that 
+can be used during targeting. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. COM is a system within 
+Windows to enable interaction between software components through the operating 
+system. When that system component is executed through normal system operation the adversary's 
+code will be executed instead. Linux admins use the Linux Audit system to track security-relevant 
+information on a system. (Citation: EK Clueless Agents) 
+ 
+Values can be derived from target-specific elements and used to generate a decryption key for 
+an encrypted payload. Third-party entities can include technology companies that specialize in 
+exploit development, criminal marketplaces (including exploit kits), or from individuals. Information about hardware infrastructure may include a variety of details 
+such as types and versions on specific hosts, as well as the presence of additional components 
+that might be indicative of added defensive protections (ex: card/biometric readers, dedicated 
+encryption hardware, etc.). (Citation: MalwareTech VFS Nov 2014) 
+ 
+Adversaries may use their own abstracted file system, separate from the standard file system 
+present on the infected system. Installer packages are OS specific and contain the 
+resources an operating system needs to install applications on a system. This 
+Registry key is thought to be used by Microsoft to load DLLs for testing and debugging 
+purposes while developing Office applications. PowerShell is a powerful interactive command-line interface and scripting environment included 
+in the Windows operating system. And `/proc/<PID>/mem`, 
+exposed for debugging purposes, provides access to the process’s virtual address 
+space. (Citation: PTRACE man)(Citation: Medium Ptrace JUL 2018)  
+ 
+Ptrace system call injection may not be possible targeting processes that are non-child 
+processes and/or have higher-privileges. It 
+allows a user to log into an interactive session with a system desktop graphical user interface on 
+a remote system. It allows a user to log into an 
+interactive session with a system desktop graphical user interface on a remote system. Parent Technique: T1592 
+  Associated Tactics: TA0043 
+ 
+T1027.002: Software Packing 
+  Description: Adversaries may perform software packing or virtual machine software protection 
+to conceal their code. When the Terminal.app is opened, the application launches a zsh login shell 
+and a zsh interactive shell. The interactive shell uses the <code>~/.zshrc</code> to configure the user environment. Hardware backdoors may be inserted into various devices, such as servers, workstations, 
+network infrastructure, or peripherals. (Citation: SOCPrime DoubleExtension) 
+ 
+Common file types, such as text files (.txt, .doc, etc.) Some 
+examples of event types include system startup and user authentication. * Reading raw keystroke data from the hardware buffer. In addition to downloading free malware from the internet, adversaries may purchase these 
+capabilities from third-party entities. In addition to purchasing malware, adversaries may steal and 
+repurpose malware from third-party entities (including other adversaries). Various file types have a typical standard format, including how they are encoded and 
+organized. Most cloud providers provide various types of storage including persistent, local, 
+and/or ephemeral, with the ephemeral types often reset upon stop/restart of the VM. Example commands that can be used to obtain security software information are 
+[netsh](https://attack.mitre.org/software/S0108), <code>reg query</code> with 
+[Reg](https://attack.mitre.org/software/S0075), <code>dir</code> with 
+[cmd](https://attack.mitre.org/software/S0106), and 
+[Tasklist](https://attack.mitre.org/software/S0057), but other indicators of discovery behavior 
+may be more specific to the type of software or security system the adversary is looking for. (Citation: TrendMictro Phishing)(Citation: PCMag FakeLogin) The given 
+website may be a clone of a legitimate site (such as an online or corporate login portal) or may 
+closely resemble a legitimate site in appearance and have a URL containing elements from the 
+real site. Adversaries may search for VME artifacts in memory, processes, file system, 
+hardware, and/or the Registry. (Citation: Malware System Language Check) 
+ 
+There are various sources of data an adversary could use to infer system language, such as 
+system defaults and keyboard layouts. Terminal 
+Services allows servers to transmit a full, interactive, graphical user interface to clients via 
+RDP. A tool can be used for 
+malicious purposes by an adversary, but (unlike malware) were not intended to be used for 
+those purposes (ex: [PsExec](https://attack.mitre.org/software/S0029)). Commercial software may be 
+obtained through purchase, stealing licenses (or licensed copies of the software), or cracking 
+trial versions. In addition to freely downloading or purchasing software, adversaries 
+may steal software and/or software licenses from third-party entities (including other 
+adversaries). Tools can be used for malicious purposes by an adversary, but (unlike malware) were not 
+intended to be used for those purposes (ex: [PsExec](https://attack.mitre.org/software/S0029)). Adversaries may compromise VPSs purchased by third-party 
+entities. Adversaries may collect various types of information about Wi-Fi networks from hosts. Associated Tactics: TA0002

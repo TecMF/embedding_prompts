@@ -1,0 +1,35 @@
+ For each use case, the authors laid out advice on how an organization could get started  
+with ATT&CK based on available resources and overall maturity. Understand ATT&CK—Familiarize yourself with the overall structure of ATT&CK: 
+tactics (the adversary’s technical goals), techniques (how those goals are achieved), 
+and procedures (specific implementations of techniques). For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? ANALYTIC DEVELOPMENT WORKFLOW 
+| 15 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+LEVEL 3 
+Feel confident that you’re cranking out quality analytics to detect attacks from Atomic  
+Red Team? Test that confidence and improve your defenses by doing some purple  
+teaming! It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. with known threats that may target  
+the organization. These purple techniques give us a place to start to use a tool we already have and  
+perform techniques that are a priority to our organization. Gather threat intel—Select an adversary based on the threats to your organization 
+and work with the CTI team to analyze intelligence about what the adversary has 
+done. Combine what’s based on what your organization knows in addition to publicly 
+available intel to document the adversary behaviors, what they go after, whether they 
+do smash and grab or low and slow. ATT&CK SITE SEARCH FOR PORT 22 
+Another important aspect to consider are the Group and Software examples listed  
+along with a technique. ATT&CK is open and available to any person or organization for use at no charge. | 41 | 
+|  Solving Problems for a Safer World

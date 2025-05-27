@@ -1,0 +1,95 @@
+ In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+22 
+© ISO/IEC 2011 – All rights reserved
+ 
+5.8 Scheme testing 
+The organization should schedule regular checking and testing of the information security incident 
+management processes and procedures to highlight potential flaws and problems that may arise during the 
+management of information security events and incidents and vulnerabilities. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Evidence can be protected with cryptography, locks 
+and records of access. a) 
+A full information security forensics duplication of the affected system or a low level backup of logs and 
+important files should be undertaken depending on the nature of the information security incident. file, print, communications and e-mail), as well as remote access facilities. c) 
+Activity to identify all relevant files on the subject system, service and/or network, including normal files, 
+password or otherwise protected files, and encrypted files. d) 
+Activity to recover as much as possible discovered deleted files, and other data. g) 
+Activity to access the contents of protected or encrypted files (unless prevented by law). i) 
+Activity to analyze file access, modification and creation times. m) Activity to perform file integrity checks to detect Trojan horse files and files not originally on the system. p) 
+Activity to conclude on the reasons for the information security incident, the actions required and in what 
+timeframe, with evidence including lists of relevant files included in an attachment to the main report. In some cases, technical information gathering extends into unauthorized access if, for example, as part of 
+searching for vulnerabilities the attacker also attempts to gain unauthorized access. Malware 
+incident 
+The loss of information 
+security is caused by 
+malicious programs that are 
+created and disseminated 
+deliberately. A malicious code embedded web page defaces website by 
+including malicious code that installs malware on a 
+computer system accessing it. Denial of actions is when someone's denies what he/she 
+has done.  root 
+compromise) 
+Technical Attacks 
+ 
+Annoyance 
+(Scratch the 
+surface) 
+Disturbance 
+(Throughput 
+impact) 
+Unavailability 
+(Stop in services) 
+Malware 
+Single known 
+(Detected and 
+blocked by 
+antivirus 
+protection) 
+Single unknown 
+Multiple infections 
+Server infections 
+Mass infections 
+ 
+C.3.2 
+Example approach 2 
+C.3.2.1 Introduction 
+This approach presents outline example guidelines for assessing the adverse consequences of information 
+security incidents, with each guideline using a scale of 1 (low) to 10 (high) scale to classify the information 
+security incidents. INFORMATION SECURITY INCIDENT CATEGORY 
+(One of) 
+8.9 Malware 
+ 
+(indicate threat types involved) 
+ 
+Network worm 
+        Trojan horse 
+        Botnet 
+        Blended attacks 
+ 
+Malicious code embedded web page 
+        Malicious code hosting site 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8. This may include: 
+- 
+those individuals with access to the personal data should, so far as is practical, not personally know 
+the person(s) being investigated, 
+- 
+non-disclosure agreements should be signed by those individuals with access to the personal data 
+prior to them being allowed access to it, 
+- 
+information should only be used for the express purpose for which it has been obtained, i.e. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

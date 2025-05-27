@@ -1,0 +1,23 @@
+ But what if you’re  
+just taking your first steps with it? If you have a report about an incident your 
+organization has worked, this can be a great internal source to map to ATT&CK, or you 
+could use an external report like a blog post. Taking the above process, you can  
+map both internal and external information to ATT&CK, including incident response data,  
+reports from OSINT or threat intel subscriptions, real-time alerts, and your organization’s  
+historic information. To help you make your own Navigator layers like I’ve done above,  
+here is a step-by-step guide on the steps you can take to produce the above matrix, as  
+well as a video walkthrough that also provides an overview of Navigator functionality. Don’t underestimate these steps in the process; tuning your data 
+collection is often the hardest part! For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? Stand up a VM and monitor it as above, then run the  
+attacks on that. Detection Lab provides a good set of configuration scripts to do just that. | 14 | 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+OUTPUT FROM RUNNING THE SQUIBLYDOO ATTACK TO LAUNCH CALC.EXE  
+Once you’ve run the attack, look inside your SIEM to see what log data was generated. At this stage, you’re looking for things that make this malicious event look distinctive. Test that confidence and improve your defenses by doing some purple  
+teaming! It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. Katie has worked in network defense, incident response, and 
+cyber threat intelligence for nearly a decade. | 41 | 
+|  Solving Problems for a Safer World

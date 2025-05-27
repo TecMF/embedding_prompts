@@ -1,0 +1,62 @@
+Data extracted from: https://raw.githubusercontent.com/mitre-attack/attack-stix-
+data/master/enterprise-attack/enterprise-attack.json 
+ 
+Obs. Authorization has to be granted to specific users in order to perform tasks that can be 
+considered of higher risk. However, adversaries commonly use 
+token stealing to elevate their security context from the administrator level to the SYSTEM level. This kind of targeted campaign is often referred to a 
+strategic web compromise or watering hole attack. Depending on the software and nature of the 
+vulnerability, some may be exploited in the browser or require the user to open a file. (Citation: Bugcrowd Replay Attack)(Citation: Comparitech Replay 
+Attack)(Citation: Microsoft Midnight Blizzard Replay Attack) 
+ 
+Such exploitation has been demonstrated in cloud environments as well. There are examples of 
+antivirus software being targeted by persistent threat groups to avoid detection. (Citation: WithSecure Lazarus-NoPineapple Threat Intel 
+Report 2023)(Citation: Cadet Blizzard emerges as novel threat actor) In cloud environments, 
+adversaries may leverage utilities such as the Azure VM Agent’s `CollectGuestLogs.exe` to 
+collect security logs from cloud hosted infrastructure. They achieve this by restricting traffic types to enforce organizational policy 
+in an attempt to reduce the risk inherent in such connections. Because the alternate 
+authentication must be maintained by the system—either in memory or on disk—it may be at 
+risk of being stolen through [Credential Access](https://attack.mitre.org/tactics/TA0006) 
+techniques. This poses a greater risk of 
+unauthorized disclosure and may help facilitate data manipulation, Credential Access, or 
+Collection efforts. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. When a user 
+attempts to browse a website that presents a certificate that is not trusted an error message will 
+be displayed to warn the user of the security risk. Launch Agents are created with user level privileges and 
+execute with user level permissions. Threat actors can use 
+online resources and lookup tools to harvest information from these services. Enumerating the SAM database requires SYSTEM level access. Adversaries may also install user level 
+timers to achieve user level persistence. Threat actors 
+can use online resources and lookup tools to harvest information about certificates. This DoS attack may also reduce the availability and 
+functionality of the targeted system(s) and network. This kind of targeted 
+campaign is referred to a strategic web compromise or watering hole attack. If the original process and thread are running under a higher permissions level, 
+then the replaced binary will also execute under higher-level permissions, which could include 
+SYSTEM. An adversary accomplishes a reflection attack by 
+sending packets to reflectors with the spoofed address of the victim. If the original process and thread 
+are running under a higher permissions level, then the replaced binary will also execute under 
+higher-level permissions, which could include SYSTEM. This decision may be employed by malware developers and operators to 
+reduce their risk of attracting the attention of specific law enforcement agencies or 
+prosecution/scrutiny from other entities. Associated Tactics: TA0004, TA0005 
+ 
+T1597.001: Threat Intel Vendors 
+  Description: Adversaries may search private data from threat intelligence vendors for 
+information that can be used during targeting. Threat intelligence vendors may offer paid feeds 
+or portals that offer more data than what is publicly reported. Adversaries may find vulnerability information by searching open databases or gaining access 
+to closed vulnerability databases. (Citation: National Vulnerability Database) 
+ 
+An adversary may monitor vulnerability disclosures/databases to understand the state of 
+existing, as well as newly discovered, vulnerabilities. There is usually a delay between when a 
+vulnerability is discovered and when it is made public. An adversary may target the systems of 
+those known to conduct vulnerability research (including commercial vendors). Knowledge of a 
+vulnerability may cause an adversary to search for an existing exploit (i.e. Associated Tactics: TA0002

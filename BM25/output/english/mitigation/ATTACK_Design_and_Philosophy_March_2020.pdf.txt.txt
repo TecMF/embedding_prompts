@@ -1,0 +1,56 @@
+ It is the adversary’s 
+tactical objective: the reason for performing an action. 3.4 Techniques and Sub-Techniques 
+Techniques represent “how” an adversary achieves a tactical objective by performing an action. Techniques may also represent “what” an adversary gains by 
+performing an action. This is a useful distinction for the Discovery tactic as the techniques 
+highlight what type of information an adversary is after with a particular action. There should be 
+enough information and references to point toward 
+useful defensive methodologies. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation* 
+Relationship 
+/ Field 
+Configurations, tools, or process that can prevent a 
+(sub-)technique from working or having the desired 
+outcome for an adversary. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Our goals for how sub-technique benefits ATT&CK were as follows: 
+• Make the abstraction level of techniques similar across the knowledge base 
+• Reduce the number of techniques to a manageable level 
+• Provide a structure to allow sub-techniques to be added easily that would decrease the 
+need to make changes to techniques over time 
+• Demonstrate that techniques are not shallow and can have many ways they can be 
+performed that should be considered 
+• Simplify the process for adding new technology domains to ATT&CK that use 
+overlapping techniques 
+• Enable more detailed data sources and descriptions for how a behavior can be observed 
+on specific platforms 
+There are several points to consider about how sub-techniques are used within ATT&CK. The same procedure should not be mapped to both in order to reduce redundant relationships. 3.7 Mitigations 
+Mitigations in ATT&CK represent security concepts and classes of technologies that can be used 
+to prevent a technique or sub-technique from being successfully executed. ATT&CK Mitigation Model 
+Data Item 
+Type 
+Description 
+Name* 
+Field 
+The name of the mitigation category. Techniques 
+Addressed by 
+Mitigation* 
+Relationship 
+/ Field 
+List of (sub-)techniques potentially covered by this 
+mitigation. The perspective shift changes the question from what did happen based on a list of available 
+resources to what could happen with a framework for aligning a defensive strategy to the 
+adversary’s playbook. Defenders see adversaries in action and are often in a position to see when new techniques are 
+being used. • An appropriate level of categorization to relate adversary’s action and specific ways of 
+defending against it. Attacks on availability reduce or remove the ability to use a system or the information 
+on it by damaging it or otherwise reducing its utility. • Mitigations- What mitigation options available for the technique? § Is the implementation or deployment methods of the mitigation 
+fundamentally different than existing techniques that can be inhibited by a 
+similar mitigation? o Are there different considerations for mitigation? [Accessed 16 March 2020].

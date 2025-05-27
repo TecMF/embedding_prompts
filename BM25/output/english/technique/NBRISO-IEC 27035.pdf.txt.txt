@@ -1,0 +1,40 @@
+ From a business perspective, the prime objective is to avoid or contain the impact of 
+information security incidents to reduce the direct and indirect costs caused by the incidents. It is re-iterated that another objective associated with this International Standard is to provide guidance to 
+organizations that aim to meet the requirements specified in ISO/IEC 27001 (and thus supported by guidance 
+from ISO/IEC 27002). In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+22 
+© ISO/IEC 2011 – All rights reserved
+ 
+5.8 Scheme testing 
+The organization should schedule regular checking and testing of the information security incident 
+management processes and procedures to highlight potential flaws and problems that may arise during the 
+management of information security events and incidents and vulnerabilities. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). The organization should determine for each asset, based 
+upon the results of the information security risk assessment, its acceptable interruption window that supports 
+the recovery time objective before resumption of the service or the access of the information. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+45
+ 
+ISO/IEC 27001:2005 Clause 
+ISO/IEC 27035 Clause 
+A.13.1 Reporting information security events and 
+vulnerabilities 
+Objective: To ensure information security events and 
+vulnerabilities associated with information systems are 
+communicated in a manner allowing timely corrective 
+action to be taken. A.13.2 Management of information security incidents 
+and improvements 
+Objective: To ensure a consistent and effective approach 
+is applied to the management of information security 
+incidents. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

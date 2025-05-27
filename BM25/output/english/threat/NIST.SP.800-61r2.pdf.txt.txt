@@ -1,0 +1,118 @@
+ Functional Impact Categories ...................................................................................33 
+Table 3-3. Information Impact Categories .................................................................................33 
+Table 3-4.  Improper Usage: Any incident resulting from violation of an organization’s acceptable usage 
+policies by an authorized user, excluding the above categories. Incidents should be prioritized based on the relevant factors, 
+such as the functional impact of the incident (e.g., current and likely future negative impact to business 
+functions), the information impact of the incident (e.g., effect on the confidentiality, integrity, and 
+availability of the organization’s information), and the recoverability from the incident (e.g., the time and 
+types of resources that must be spent on recovering from the incident). 1.3 
+Audience 
+This document has been created for computer security incident response teams (CSIRTs), system and 
+network administrators, security staff, technical support staff, chief information security officers (CISOs), 
+chief information officers (CIOs), computer security program managers, and others who are responsible 
+for preparing for, or responding to, security incidents. 2.1 
+Events and Incidents 
+An event is any observable occurrence in a system or network. Adverse events are events with a negative consequence, such as system crashes, 
+packet floods, unauthorized use of system privileges, unauthorized access to sensitive data, and execution 
+of malware that destroys data. A computer security incident is a violation or imminent threat of violation1 of computer security policies, 
+acceptable use policies, or standard security practices. Another benefit of incident 
+response is the ability to use information gained during incident handling to better prepare for handling 
+                                                      
+1  
+An “imminent threat of violation” refers to a situation in which the organization has a factual basis for believing that a 
+specific incident is about to occur. – What is the impact of this incident? In addition, agencies have an 
+Office of Inspector General (OIG) for investigation of violation of the law within each agency. Software vendors may also provide information on known threats (e.g., new attacks) to help 
+organizations understand the current threat environment. The incident handlers analyze the 
+incident data, determine the impact of the incident, and act appropriately to limit the damage and restore 
+normal services. Real-time availability is the best for incident response because the longer 
+an incident lasts, the more potential there is for damage and loss. Outsourcers may possess deeper knowledge of intrusion detection, forensics, 
+vulnerabilities, exploits, and other aspects of security than employees of the organization. Some computer security incidents occur through 
+breaches of physical security or involve coordinated logical and physical attacks. Examples include monitoring intrusion detection 
+sensors, distributing security advisories, and educating users on security. 21  
+A digital forensic workstation is specially designed to assist incident handlers in acquiring and analyzing data. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+23 
+Incident Analysis Resources: 
+ Port lists, including commonly used ports and Trojan horse ports 
+ Documentation for OSs, applications, protocols, and intrusion detection and antivirus products 
+ Network diagrams and lists of critical assets, such as database servers 
+ Current baselines of expected network, system, and application activity 
+ Cryptographic hashes of critical files22 to speed incident analysis, verification, and eradication 
+Incident Mitigation Software: 
+ Access to images of clean OS and application installations for restoration and recovery purposes 
+Many incident response teams create a jump kit, which is a portable case that contains materials that may 
+be needed during an investigation. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Exercises involving simulated incidents can also be very useful for preparing staff for incident handling; 
+see NIST SP 800-84 for more information on exercises23 and Appendix A for sample exercise scenarios. This can lead to slow and incomplete responses, which translate to a larger 
+negative business impact (e.g., more extensive damage, longer periods of service and data unavailability).  Email: An attack executed via an email message or attachment—for example, exploit code disguised 
+as an attached document or a link to a malicious website in the body of an email message.  The volume of potential signs of incidents is typically high—for example, it is not uncommon for an 
+organization to receive thousands or even millions of intrusion detection sensor alerts per day. Examples of precursors are: 
+ Web server log entries that show the usage of a vulnerability scanner 
+ An announcement of a new exploit that targets a vulnerability of the organization’s mail server 
+ A threat from a group stating that the group will attack the organization. Logs can be used for 
+analysis by correlating event information. Depending on the event information, an alert can be 
+generated to indicate an incident. Publicly Available Information 
+Information on 
+new 
+vulnerabilities 
+and exploits 
+Keeping up with new vulnerabilities and exploits can prevent some incidents from occurring and 
+assist in detecting and analyzing new attacks. It is important to 
+accurately determine the cause of each incident so that it can be fully contained and the exploited 
+vulnerabilities can be mitigated to prevent similar incidents from occurring. For example, any devices that are potential 
+sources of evidence should not themselves be used to record other evidence. Incidents targeting IT systems typically impact the business 
+functionality that those systems provide, resulting in some type of negative impact to the users of 
+those systems.  Information Impact of the Incident. An incident with a high functional impact and low effort to recover from is an ideal 
+candidate for immediate action from the team. Another potential issue regarding containment is that some attacks may cause additional damage when 
+they are contained. Handlers should not 
+assume that just because a host has been disconnected from the network, further damage to the host has 
+been prevented. However, incident handlers should treat any 
+such information that they acquire only as a potential lead, not as fact. Finally, it is also important to document the major points of 
+agreement and action items and to communicate them to parties who could not attend the meeting. Organizations should 
+decide what incident data to collect based on reporting requirements and on the expected return on 
+investment from the data (e.g., identifying a new threat and mitigating the related vulnerabilities before 
+they can be exploited.) COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+41 
+– Determining if the actual cause of the incident was identified, and identifying the vector of attack, 
+the vulnerabilities exploited, and the characteristics of the targeted or victimized systems, 
+networks, and applications 
+– Determining if the incident is a recurrence of a previous incident 
+– Calculating the estimated monetary damage from the incident (e.g., information and critical 
+business processes negatively affected by the incident) 
+– Measuring the difference between the initial impact assessment and the final impact assessment 
+(see Section 3.2.6) 
+– Identifying which measures, if any, could have prevented the incident. Incident Handling Checklist 
+Action 
+Completed 
+Detection and Analysis 
+1.  Perform event correlation. The most important aspect of 
+incident response coordination is information sharing, where different organizations share threat, attack, 
+and vulnerability information with each other so that each organization’s knowledge benefits the other. 4.2.3 Security Considerations 
+There are several security considerations that incident response teams should consider when planning 
+their information sharing. 4.3.1 Business Impact Information 
+Business impact information involves how the incident is affecting the organization in terms of mission 
+impact, financial impact, etc. If so, which of the organization’s 
+policies does this activity violate? Would any precursors 
+cause the organization to take action before the incident occurred? – Prioritization factors (functional impact, information impact, recoverability, etc.) Event: Any observable occurrence in a network or system. Incident: A violation or imminent threat of violation of computer security policies, acceptable use 
+policies, or standard security practices. Threat: The potential source of an adverse event. In general, an incident is a violation of computer security policies, acceptable use policies, or 
+standard computer security practices. The team receives information on possible incidents, investigates them, and takes action to ensure 
+that the damage caused by the incidents is minimized. Generally, the highest priority is handling incidents that are likely to cause 
+the most damage to the organization or to other organizations. This effort includes every action that is performed, every piece of evidence, 
+and every conversation with users, system owners, and others regarding the incident. This should include the chief information 
+officer (CIO), the head of information security, and the local security manager. Identify and mitigate all vulnerabilities that were exploited. The incident may have occurred by 
+taking advantage of vulnerabilities in operating systems or applications. It is critical to identify such 
+vulnerabilities and eliminate or otherwise mitigate them so that the incident does not recur. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

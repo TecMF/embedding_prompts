@@ -1,0 +1,231 @@
+ The UK participation in its preparation was entrusted to Technical
+Committee IST/33, IT - Security techniques. .................................... 8 
+5.2 
+Information security incident management policy .......................................................................... 10 
+5.3 
+Information security incident management integration in other policies ..................................... 12 
+5.4 
+Information security incident management scheme ....................................................................... 13 
+5.5 
+Establishment of the ISIRT ................................... ............................................................................. 31 
+8.2 
+Responses ........................................................................................................................................... 32 
+9 
+Lessons learnt phase .......................................................................................................................... 40 
+9.1 
+Overview of key activities ............................................. Insufficient preparation 
+by an organization to deal with such incidents will make any response less effective, and increase the degree 
+of potential adverse business impact. Other common functions (with similar 
+abbreviations) within the incident handling may have a slightly different scope and purpose. The primary steps to minimize the direct negative impact of information security incidents are the following: 
+ 
+stop and contain, 
+ 
+eradicate, 
+ 
+analyse and report, and 
+ 
+follow up. e) 
+Lessons are learnt quickly from information security incidents, vulnerabilities and associated management. a) 
+Improving overall information security 
+A structured process for the detection, reporting and assessment of and decision-making related to 
+information security events and incidents will enable rapid identification and response. The credibility of the organization will be improved by the 
+demonstration of its implementation of best practices with respect to information security incident 
+management. Analysis of incident related data would enable the identification of patterns and trends, 
+thereby facilitating a more accurate focus on incident prevention and thus identification of appropriate 
+actions to prevent incidents occurring. e) 
+Strengthening evidence 
+Clear incident investigation procedures can help to ensure that data collection and handling are 
+evidentially sound and legally admissible. and decision on if it is information security incident 
+RESPONSES 
+ responses to information security incident, including forensic analysis 
+ recovery from information security incident 
+LESSONS LEARNT 
+ further forensic analysis,  if required 
+ identification of lessons learnt 
+ identification of and making improvements to information security 
+ identification of and making improvements to information security risk assessment and 
+management review results 
+ identification of and making improvements to information security incident management 
+scheme 
+ 
+Figure 2 — Information security incident management phases 
+4.6 Examples of information security incidents 
+Information security incidents may be deliberate or accidental (e.g. This should be preceded by an information 
+security review of the organization's vulnerabilities, confirmation of the need for an information security 
+incident management scheme, and identification of the benefits to the organization as a whole and to its 
+departments (see Clause 5.2). in the handling of malicious code attacks, who will be called upon 
+depending on the type of incident concerned (see Clause 5.5). Before the policy is formulated, the organization should conduct an information security review highlighting its 
+vulnerabilities, confirmation of the need for information security incident management, and identification of the 
+benefits to the organization as a whole and to its departments. It should also include a summary of information security vulnerability reporting and handling. g) 
+An overview of information security vulnerability reporting and handling. The integration should aim for the following: 
+a) 
+To describe why information security incident management, particularly an information security incident 
+reporting and handling scheme, is important. b) 
+To indicate senior management commitment to the need for proper preparation and response to 
+information security incidents, i.e. Even for this situation, organizations should encompass general guidelines in 
+the scheme documentation on the steps that may be necessary. 5) Lessons learnt 
+i) 
+Conducting further information security forensic analysis, as required. ii) 
+Identifying the lessons learnt from information security incidents and vulnerabilities. Each operating procedure should clearly identify the steps to be undertaken and by whom. The ISIRT goes through different maturity stages and often adjustments to the organizational model are 
+adopted based on the specific scenario faced by the organization. k) 
+using cryptographic integrity control to help in determining whether and what parts of the system, service 
+and/or network, and what data, were changed, if commensurate with assessed risks, 
+l) 
+facilitating the archiving and securing of collected information (for example, by applying digital signatures 
+to logs and other evidence before off-line storage in read-only media such as CD or DVD ROM), 
+m) enabling the preparation of printouts (e.g. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. The training should be 
+supported by specific exercises and testing for PoC and ISIRT members, and information security personnel 
+and specific administrators. In addition, the awareness and training programs should be complemented by the establishment and 
+operations of ‘hot line’ support from information security incident management personnel, in order to minimize 
+delays in reporting and handling information security events, incidents and vulnerabilities. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+22 
+© ISO/IEC 2011 – All rights reserved
+ 
+5.8 Scheme testing 
+The organization should schedule regular checking and testing of the information security incident 
+management processes and procedures to highlight potential flaws and problems that may arise during the 
+management of information security events and incidents and vulnerabilities. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. Particular attention should be paid to the creation 
+of the simulated scenarios, which should be based on real new information security threats. Tests should 
+involve not only the ISIRT, but all the internal and external organizations that are involved in the management 
+of information security incidents. These are followed by the 
+Lessons learnt (see Clause 9) phase where improvements are identified and made. The following clauses predominantly address the handling of information security events and incidents. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). NOTE 
+A future International Standard (ISO/IEC 27037) will provide more detailed information on the identification, 
+collection, acquisition and preservation of digital evidence. If an information security incident has been resolved, the report should include details of the controls that have 
+been taken and any lessons learned (e.g. An information security incident should be correlated to any other event/incident reported to the ISIRT. This 
+important activity is to verify if the incident is connected to any other event/incident or it is simply the effect of 
+another incident, i.e. For example, an incident that is easily resolved may be dealt with before an incident 
+requiring a greater effort. 2) Activity to instigate crisis activities through escalation to crisis handling function, if it is not under 
+control or it is going to have a severe impact on the organization's core services (See also 
+Clause 8.2.4). The primary goal of the information security incident management scheme and associated activities should be 
+the minimization of adverse business impacts, whereas identification of the attacker should be considered a 
+secondary goal. This may need to occur at a number of stages, for 
+example when an information security incident is confirmed as real, when it is confirmed as under control, 
+when it is designated for crisis activities, when it is closed and when post incident review has been completed 
+and conclusions reached. This should be included with the information security incident 
+reporting form and in the information security event/incident/vulnerability database, continually kept up-to-date 
+throughout the cycle of an information security incident from first reporting to completion of post-incident 
+review. b) 
+Activity to identify the lessons learnt from information security incidents and vulnerabilities. Further, there may be lessons to be learnt from the assessment and resolution of 
+reported information security vulnerabilities. The lessons could be in terms of the following: 
+a) 
+New or changed requirements for information security controls. It 
+contributes significantly to the early identification of information security incidents and provides a warning of 
+what further information security incidents may arise, based on previous experience and documented 
+knowledge. Further, an organization's information systems, 
+services and/or networks should be subject to regular vulnerability assessments to aid in the identification of 
+vulnerabilities and provide a process of continual system/service/network hardening. 9 (Lessons learnt) – the content could help to monitor 
+and review information security incident management. For instance, some of the more common stealth 
+scanning and identification techniques can cause older or misconfigured systems or services to crash when 
+scanned.  telephone and e-mail 
+Incident description 
+ 
+What occurred 
+ 
+How occurred 
+ 
+Why Occurred 
+ 
+Initial views on components/assets affected 
+ 
+Adverse business impacts 
+ 
+Any vulnerability identified 
+Incident details 
+ 
+Date and time the incident occurred 
+ 
+Date and time the incident was discovered 
+ 
+Date and time the incident was reported 
+Incident category 
+Components/assets affected 
+Adverse business impact/effect of incident 
+Total recovery cost from incident 
+Incident resolution 
+Person(s)/perpetrator( Incident Number4 
+ 
+3. INFORMATION SECURITY INCIDENT DETAILS 
+7.1 Date and Time the Incident Occurred 
+ 
+7.2 Date and Time the Incident was Discovered 
+ 
+7.3 Date and Time the Incident was Reported 
+ 
+7.4 Identity/Contact Details of Reporting Person 
+ 
+7.5 Is the Incident Over? VALUE 
+GUIDELINES 
+COST 
+ 
+ 
+ 
+ 
+                                                      
+5 
+This is for more details of the components/assets affected is available as investigation and analysis proceeds (in the 
+early stages of event and incident analysis normally only ‘high level’ information will be collected). INCIDENT RESOLUTION 
+12.1 Incident Investigation Commenced Date 
+ 
+12.2 Incident Investigator(s) Names(s) 
+ 
+12.3 Incident End Date 
+ 
+12.4 Impact End Date 
+ 
+12.5 Incident Investigation Completion Date 
+ 
+12.6 Reference and Location of Investigation Report 
+ 
+13. http://www.cert.org/csirts/csirt-staffing.html 
+[27] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Steps for Creating 
+National CSIRTs, http://www.cert.org/archive/pdf/NationalCSIRTs.pdf 
+[28] 
+SANS Institute, An approach to the ultimate in-depth security event management framework (2008) 
+[29] 
+SANS Institute, Mining gold, A primer on incident handling and response (2008) 
+[30] 
+SANS Institute, Incident Handling for SMEs (Small to Medium Enterprises) (2008) 
+[31] 
+SANS Institute,  Breach Notification in Incident Handling (2008) 
+[32] 
+SANS Institute, Baselines and Incident Handling (2008) 
+[33] 
+SANS Institute, Documentation is to Incident Response as an Air Tank is to Scuba Diving (2007) 
+[34] 
+SANS Institute, Creating and Managing an Incident Response Team for a Large Company (2007) 
+[35] 
+SANS Institute, An Incident Handling Process for Small and Medium Businesses (2007) 
+[36] 
+SANS Institute, Incident Management 101 Preparation & Initial Response (aka Identification) (2005) 
+[37] 
+SANS Institute, Building an Incident Response Program To Suit Your Business (2003) 
+[38] 
+ISACA, COBIT 4.1 (Section DS5.11), www.isaca. org/cobit 
+[39] 
+ENISA, A step-by-step approach on how to set up a 
+CSIRT, http://www.enisa.europa.eu/act/cert/support/guide 
+[40] 
+ENISA, CERT cooperation and its further facilitation by relevant 
+stakeholders, http://www.enisa.europa.eu/act/cert/background/coop 
+BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+78 
+© ISO/IEC 2011 – All rights reserved
+ 
+[41] 
+ENISA, A basic collection of good practices for running a 
+CSIRT, http://www.enisa.europa. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

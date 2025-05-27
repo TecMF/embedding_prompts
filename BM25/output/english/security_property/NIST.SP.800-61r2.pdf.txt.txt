@@ -1,0 +1,109 @@
+ ITL’s responsibilities include the development of management, administrative, 
+technical, and physical standards and guidelines for the cost-effective security and privacy of other than 
+national security-related information in Federal information systems. Incidents should be prioritized based on the relevant factors, 
+such as the functional impact of the incident (e.g., current and likely future negative impact to business 
+functions), the information impact of the incident (e.g., effect on the confidentiality, integrity, and 
+availability of the organization’s information), and the recoverability from the incident (e.g., the time and 
+types of resources that must be spent on recovering from the incident). 1.3 
+Audience 
+This document has been created for computer security incident response teams (CSIRTs), system and 
+network administrators, security staff, technical support staff, chief information security officers (CISOs), 
+chief information officers (CIOs), computer security program managers, and others who are responsible 
+for preparing for, or responding to, security incidents. A computer security incident is a violation or imminent threat of violation1 of computer security policies, 
+acceptable use policies, or standard security practices. One or more team members, depending on the magnitude of the 
+incident and availability of personnel, will then handle the incident. 2.4.2 Team Model Selection 
+When selecting appropriate structure and staffing models for an incident response team, organizations 
+should consider the following factors: 
+ The Need for 24/7 Availability. Real-time availability is the best for incident response because the longer 
+an incident lasts, the more potential there is for damage and loss. This should 
+include sending staff to conferences and encouraging or otherwise incentivizing participation in 
+conferences, ensuring the availability of technical references that promote deeper technical 
+understanding, and occasionally bringing in outside experts (e.g., contractors) with deep technical 
+knowledge in needed areas as funding permits. Legal experts should review incident response plans, policies, and procedures to 
+ensure their compliance with law and Federal guidance, including the right to privacy. Some computer security incidents occur through 
+breaches of physical security or involve coordinated logical and physical attacks. Examples include monitoring intrusion detection 
+sensors, distributing security advisories, and educating users on security. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Exercises involving simulated incidents can also be very useful for preparing staff for incident handling; 
+see NIST SP 800-84 for more information on exercises23 and Appendix A for sample exercise scenarios. In addition 
+to keeping each host properly patched, hosts should be configured to follow the principle of least 
+privilege—granting users only the privileges necessary for performing their authorized tasks. File integrity 
+checking 
+software 
+File integrity checking software can detect changes made to important files during incidents. Profiling is measuring the characteristics of expected activity so that 
+changes to it can be more easily identified. Examples of profiling are running file integrity checking 
+software on hosts to derive checksums for critical files and monitoring network bandwidth usage to 
+determine what the average and peak usage levels are on various days and times. Because of privacy 
+concerns, some organizations may require incident handlers to request and receive permission before 
+using packet sniffers. Incidents may affect the confidentiality, integrity, and 
+availability of the organization’s information. Information Impact Categories 
+Category 
+Definition 
+None 
+No information was exfiltrated, changed, deleted, or otherwise compromised  
+Privacy 
+Breach 
+Sensitive personally identifiable information (PII) of taxpayers, employees, beneficiaries, etc. was accessed or exfiltrated 
+Proprietary 
+Breach 
+Unclassified proprietary information, such as protected critical infrastructure information (PCII), 
+was accessed or exfiltrated 
+Integrity 
+Loss 
+Sensitive or proprietary information was changed or deleted 
+ 
+Table 3-4 shows examples of recoverability effort categories that reflect the level of and type of resources 
+required to recover from the incident. 44  
+Searching and Seizing Computers and Obtaining Electronic Evidence in Criminal Investigations, from the Computer Crime 
+and Intellectual Property Section (CCIPS) of the Department of Justice, provides legal guidance on evidence gathering. A study of incident characteristics may indicate systemic security weaknesses and threats, as well 
+as changes in incident trends. Intrusion detection and prevention systems, antivirus software, and file integrity checking 
+software are valuable for detecting signs of incidents. Profiling measures the characteristics of expected activity levels so 
+that changes in patterns can be more easily identified. 4.2.3 Security Considerations 
+There are several security considerations that incident response teams should consider when planning 
+their information sharing. External indicators, such as the general characteristics of attacks and the identity of 
+attacking hosts, are usually safe to share with others. For example, external indicators, such as the general characteristics of attacks 
+and the identity of attacking hosts, are usually safe to share with others, but there may be both 
+security and liability reasons why an organization would not want to reveal the details of an exploited 
+vulnerability. What privacy considerations may impact the handling of this incident? Profiling: Measuring the characteristics of expected activity so that changes to it can be more easily 
+identified. CCIPS  
+Computer Crime and Intellectual Property Section  
+CERIAS 
+Center for Education and Research in Information Assurance and Security 
+CERT®/CC 
+CERT® Coordination Center 
+CIO 
+ 
+Chief Information Officer 
+CIRC  
+Computer Incident Response Capability 
+CIRC  
+Computer Incident Response Center 
+CIRT  
+Computer Incident Response Team 
+CISO   Incident Response Organizations 
+Organization 
+URL 
+Anti-Phishing Working Group (APWG) 
+http://www.antiphishing.org/  
+Computer Crime and Intellectual Property Section (CCIPS), U.S. 
+Department of Justice 
+http://www.cybercrime.gov/  
+CERT® Coordination Center, Carnegie Mellon University (CERT®/CC) 
+http://www.cert.org/  
+European Network and Information Security Agency (ENISA) 
+http://www.enisa.europa. This should include the chief information 
+officer (CIO), the head of information security, and the local security manager. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

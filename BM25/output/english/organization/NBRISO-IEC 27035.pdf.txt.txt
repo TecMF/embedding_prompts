@@ -1,0 +1,94 @@
+ These services are usually performed for 
+a defined constituency, which could be a parent entity such as a corporation, governmental organization, or educational 
+organization; a region or country; a research network; or a paid client. According to the size, structure and the nature of the business, an organization may have 
+an ISIRT of a dedicated team, a virtual team, or a mix of the two options. The scheme should include standards that support information sharing, both within the 
+organization and outside (if required by the organization). The size, structure and business nature of an organization and the 
+extent of its information security incident management program are deciding factors in determining which of 
+these options to adopt. Normally, the scope of an organization's ISIRT covers 
+all of the organization's information systems, services and networks. xi) The scheme of organizational structure for information security incident management. on the organization's intranet. 5.5.2 Members and structure 
+The size, structure and composition of an ISIRT should be appropriate for the size, structure, and the 
+business nature of the organization. Depending on the size, structure and business nature of an organization, a member may also fulfil 
+more than one role within the ISIRT. These procedures should specify who in the organization deals with media inquiries, and 
+how that part of the organization interacts with the ISIRT. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. In addition, the awareness and training programs should be complemented by the establishment and 
+operations of ‘hot line’ support from information security incident management personnel, in order to minimize 
+delays in reporting and handling information security events, incidents and vulnerabilities. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). The strategy should have identified the following: 
+a) 
+the required preventive, resilience and crisis management measures, 
+b) 
+the required organizational structure and responsibilities for responding to crisis, and 
+BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+37
+ 
+c) 
+the required structure and outline content for the crisis management plan or plans. e) 
+Activity to uncover IP addresses, host names, network routes and web site information 
+f) 
+Activity to extract the contents of hidden, temporary and swap files used by both application and 
+operating system software. The organization should ensure that these are actioned. Inappropriate usage could be: 
+ 
+downloading and installing hacking tools, 
+ 
+using corporate e-mail for spam or promotion of personal business, 
+ 
+using corporate resources to set up an unauthorized web site, 
+ 
+using peer-to peer activities to acquire or distribute pirated files (music, video, software). Computer virus, network worm, Trojan horse, botnet, 
+blended attacks, malicious code embedded web page, 
+malicious code hosting site, etc. A malicious code hosting site decoys a website to host 
+malicious code which is downloaded by targeted users. Masquerade is when one entity pretends to be another. An organization could not bear this level of business loss. INFORMATION SECURITY INCIDENT CATEGORY 
+(One of) 
+8.9 Malware 
+ 
+(indicate threat types involved) 
+ 
+Network worm 
+        Trojan horse 
+        Botnet 
+        Blended attacks 
+ 
+Malicious code embedded web page 
+        Malicious code hosting site 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8. As relevant this may be 
+adjusted by the organization's 
+Information Security manager or other 
+responsible official) 
+Information 
+Security Manager/ 
+Responsible 
+Official 
+ 
+ISIRT Manager 
+ 
+Site Manager 
+ (state which site)
+ 
+Information Systems Manager 
+ 
+Report Originator 
+ 
+Report Originator's Manager/ 
+Line User Management 
+Affected
+ 
+ 
+ 
+ 
+Other 
+(e.g. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

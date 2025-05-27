@@ -1,0 +1,61 @@
+ Preventive activities 
+based on the results of risk assessments can lower the number of incidents, but not all incidents can be 
+prevented. Prioritizing the handling of individual incidents is a critical decision point in the incident response 
+process. A computer security incident is a violation or imminent threat of violation1 of computer security policies, 
+acceptable use policies, or standard security practices. Each organization needs a plan that meets its unique requirements, which relates to the 
+organization’s mission, size, structure, and functions.  Organization’s ISP. Software vendors may also provide information on known threats (e.g., new attacks) to help 
+organizations understand the current threat environment. Groups such as the Forum of Incident Response and Security Teams (FIRST)11, the 
+Government Forum of Incident Response and Security Teams (GFIRST)12, and the Anti-Phishing 
+Working Group (APWG)13 are not incident response teams, but they promote information sharing 
+among incident response teams. The organization has multiple incident response teams, each 
+responsible for a particular logical or physical segment of the organization. An incident response team provides advice to other teams without having 
+authority over those teams—for example, a departmentwide team may assist individual agencies’ 
+teams. An existing group such as the IT help desk can act as a first POC for 
+incident reporting. Also, 
+MSSPs may be able to correlate events among customers so that they can identify new threats more 
+quickly than any individual customer could. Managers are 
+ultimately responsible for ensuring that incident response activities are performed properly. Only one group within the organization 
+should distribute computer security advisories to avoid duplicated effort and conflicting information. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Examples of precursors are: 
+ Web server log entries that show the usage of a vulnerability scanner 
+ An announcement of a new exploit that targets a vulnerability of the organization’s mail server 
+ A threat from a group stating that the group will attack the organization. For example, the 
+organization might be contacted by a party claiming a system at the organization is attacking its 
+systems. The initial analysis should provide enough information for the team to prioritize subsequent activities, 
+such as containment of the incident and deeper analysis of the effects of the incident. The IETF Extended Incident 
+Handling (inch) Working Group (http://www.cert.org/ietf/inch/inch.html) created an RFC that expands on TERENA’s 
+work—RFC 5070, Incident Object Description Exchange Format (http://www.ietf.org/rfc/rfc5070.txt). A detailed log should be kept for all evidence, including the following: 
+ Identifying information (e.g., the location, serial number, model number, hostname, media access 
+control (MAC) addresses, and IP addresses of a computer) 
+ Name, title, and phone number of each individual who collected or handled the evidence during the 
+investigation 
+ Time and date (including time zone) of each occurrence of evidence handling 
+ Locations where the evidence was stored. The following items describe the most commonly performed activities for attacking host identification: 
+ Validating the Attacking Host’s IP Address. Having one or more moderators who are skilled in group 
+facilitation can yield a high payoff. If incident data is collected and stored properly, it 
+should provide several measures of the success (or at least the activities) of the incident response team. Organizations should 
+decide what incident data to collect based on reporting requirements and on the expected return on 
+investment from the data (e.g., identifying a new threat and mitigating the related vulnerabilities before 
+they can be exploited.) Note 
+that the actual steps performed may vary based on the type of incident and the nature of individual 
+incidents. Organizations should ensure that they effectively coordinate 
+portions of their incident response activities with appropriate partners. The most important aspect of 
+incident response coordination is information sharing, where different organizations share threat, attack, 
+and vulnerability information with each other so that each organization’s knowledge benefits the other. Collaboration with the trusted partner can enable an 
+organization to respond to the incident more quickly and efficiently than an organization operating in 
+isolation. Ad hoc information sharing mechanisms normally rely on an 
+individual employee’s connections with employees in incident response teams of partner organizations. How would the organization attempt to prevent the worm from entering the organization before 
+antivirus signatures were released? Incident: A violation or imminent threat of violation of computer security policies, acceptable use 
+policies, or standard security practices. Threat: The potential source of an adverse event. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

@@ -1,0 +1,138 @@
+  CSIRT: A Computer Security Incident Response Team is a service organization that is responsible for receiving, 
+reviewing, and responding to computer security incident reports and activity. e) 
+Lessons are learnt quickly from information security incidents, vulnerabilities and associated management. It will also be possible to 
+demonstrate the benefits associated with the rapid availability of solution information. d) 
+Activity to establish the ISIRT, with an appropriate training program designed, developed and provided to 
+its personnel. 6) Anti-malicious code software. 7) Audit log records, and log monitoring software. g) 
+Activity to design and develop an information security event, incident and vulnerability management 
+awareness and training program. k) 
+An overview of the information security incident management awareness and training program. These policies need to refer to a 
+corporate information security incident management policy and associated scheme explicitly. In any event, the decision should be based on the 
+actual or projected adverse impacts on the organization's business operations, and associated 
+guidance. ix) Material for the information security event, incident and vulnerability management awareness 
+and training program. There should be a specific training program for the PoC, ISIRT members, information 
+security personnel and specific administrators, as necessary. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. These phases and their 
+associated activities were introduced in Clause 4.5. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). For example, if it is determined that the cause of an information security incident is an IT hardware or software 
+fault without an available patch, the supplier should be contacted immediately. 9.7 Other improvements 
+Other improvements may have been identified during the lessons learnt phase, for example changes in 
+information security policies, standards and procedures, and changes to IT hardware and software 
+configurations. Such attacks are often performed through Botnets, a collection of software robots (malicious code) that run 
+autonomously and automatically. due to air conditioning 
+failure), 
+ 
+system malfunctions or overload, 
+ 
+uncontrolled system changes, 
+ 
+malfunctions of software or hardware. B.1.3 
+Malicious code 
+Malicious code identifies a program or part of a program inserted into another program with the intent to 
+modify its original behaviour, usually to perform malicious activities as information and identify theft, 
+information and resource destruction, Denial of Service, Spam, etc. Malicious code attacks could be divided 
+into five categories: viruses, worms, Trojan horses, mobile code and blended. This is sometimes performed modifying an existing malicious code, creating a variant that often is not 
+recognized by malicious code detection technologies. Hardware failure, software malfunction, overloading 
+(saturating the capacity of information systems), breach of 
+maintainability, etc. Malware 
+incident 
+The loss of information 
+security is caused by 
+malicious programs that are 
+created and disseminated 
+deliberately. Computer virus, network worm, Trojan horse, botnet, 
+blended attacks, malicious code embedded web page, 
+malicious code hosting site, etc. A computer virus is a set of computer instructions or code 
+which is inserted into computer programs. Botnets are deliberately formed through infecting a mass of 
+computers on networks with bot programs. Blended attacks may have combined characteristics of 
+computer viruses, network worms, Trojan horses or 
+botnets and so on. Blended attacks may also result from 
+the combined operations of a series of different malicious 
+programs. For example, a computer virus or network worm 
+intrudes into a computer system, and then installs a Trojan 
+horse in the system. A malicious code embedded web page defaces website by 
+including malicious code that installs malware on a 
+computer system accessing it. A malicious code hosting site decoys a website to host 
+malicious code which is downloaded by targeted users. Exploitation of vulnerability exploits and makes use of 
+information system defects such as configurations, 
+protocols or programs. Exploitation of backdoor makes use of the backdoors or 
+harmful programs left in software and hardware system 
+design processes. Interception, spying, eavesdropping, disclosure,
+masquerade, social engineering, network phishing, theft of 
+data, loss of data, tampering with data, data error, data 
+flow analysis, position detection, etc. Interception captures data before it is able to reach the 
+intended recipients. Theft of data is to steal data. Tampering with data is to touch or make changes to data 
+without authorization. Data error is to make mistakes when inputting or 
+processing data. 9.1 Information/Data 
+ 
+9.2 Hardware 
+ 
+9.3 Software 
+ 
+9.4 Communications 
+ 
+9.5 Documentation 
+ 
+9.6 Processes 
+ 
+9.7 Other 
+ 
+10. In those countries where 
+specific legislation exists that covers data confidentiality and integrity, it is often restricted to the control of 
+personal data.  
+Legal Aspects Associated with Monitoring Techniques are Addressed. txt?number=2196 
+[14] 
+Internet Engineering Task Force (IETF) RFC 2350, Expectations for Computer Security Incident 
+Response, http://www.ietf.org/rfc/rfc2350.txt?number=2350 
+[15] 
+NIST 
+Special 
+Publication 
+800-61, 
+Computer 
+Security 
+Incident 
+Handling 
+Guide 
+(2004), http://csrc.nist.gov/publications/nistpubs/800-61-rev1/SP800-61rev1. pdf 
+[22] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Handbook for 
+Computer Security Incident Response Teams (CSIRTs), http://www.cert.org/archive/pdf/csirt-
+handbook.pdf 
+[23] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, State of the Practice 
+of Computer Security Incident Response Teams, http://www.cert.org/archive/pdf/03tr001. pdf 
+[24] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, CSIRT 
+Services, http://www.cert.org/csirts/services.html 
+[25] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Action List for 
+Developing 
+a 
+Computer 
+Security 
+Incident 
+Response 
+Team 
+(CSIRT), http://www.cert.org/csirts/action_list.html 
+[26] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Staffing Your 
+Computer 
+Security 
+Incident 
+Response 
+Team 
+– 
+What 
+Basic 
+Skills 
+Are 
+Needed? Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

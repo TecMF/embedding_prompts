@@ -1,0 +1,91 @@
+ A virtual team may have a senior manager leading the team supported by groups of individuals 
+specialized in particular topics, e.g. Particular attention should be paid to the creation 
+of the simulated scenarios, which should be based on real new information security threats. In addition to recording the date(s) and time(s) of actions, it is necessary to fully document the following: 
+a) 
+what was seen and done (including tools used) and why, 
+b) 
+the location of the potential evidence, 
+c) 
+how evidence is archived (if applicable), 
+d) 
+how evidence verification was performed (if applicable), and 
+e) 
+details of storage/safe custody of material and subsequent access to it. To aid this activity when the need arises, it is sensible practice to prepare certain information in advance such 
+that it is quickly adjusted to the circumstances of a particular information security incident and issued to each 
+relevant group and in particular the press and/or other media. Formal event reporting and escalation procedures 
+should be in place. DoS incidents caused by non-technical means, resulting in loss of information, service and/or facilities, could 
+be caused, for example, by: 
+ 
+breaches of physical security arrangements resulting in theft or wilful damage and destruction of 
+equipment, 
+ 
+accidental damage to hardware (and/or its location) by fire or water damage/flood, 
+ 
+extreme environmental conditions, for example high operating temperatures (e.g. Interception, spying, eavesdropping, disclosure,
+masquerade, social engineering, network phishing, theft of 
+data, loss of data, tampering with data, data error, data 
+flow analysis, position detection, etc. Position detection is to detect the position of sensitive 
+information or systems.  Social engineering 
+        Network phishing 
+        Theft of data 
+ 
+Loss of data 
+        Tampering with data 
+        Data error 
+        Data flow analysis 
+ 
+Position detection 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.14 Harmful contents 
+ 
+(indicate threat types involved) 
+ 
+Illegal contents 
+        Panic contents 
+        Malicious contents 
+ 
+Abusive contents 
+        Other 
+ 
+ 
+Specify: 
+ 
+8.15 Others 
+ 
+(If not yet established whether incident belongs to the 
+above category, tick here) 
+ 
+Specify: 
+ 
+ 
+BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+70 
+© ISO/IEC 2011 – All rights reserved
+ 
+Information Security Incident Report 
+ 
+ 
+ 
+ 
+Page 4 of 6 
+9. INCIDENT RESOLUTION 
+12.1 Incident Investigation Commenced Date 
+ 
+12.2 Incident Investigator(s) Names(s) 
+ 
+12.3 Incident End Date 
+ 
+12.4 Impact End Date 
+ 
+12.5 Incident Investigation Completion Date 
+ 
+12.6 Reference and Location of Investigation Report 
+ 
+13.  
+Controls are in place to Ensure Fulfillment of Commercial Contractual Obligations. The issues of potential liability, and related required controls to be in place, 
+need to be clarified.

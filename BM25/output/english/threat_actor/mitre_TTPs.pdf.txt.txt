@@ -1,0 +1,79 @@
+ Such information may include details of the 
+victim organization, infrastructure, or staff/personnel. Accounts could also be disabled by Group Policy. There are examples of 
+antivirus software being targeted by persistent threat groups to avoid detection. Group policy objects (GPOs) are containers for group policy settings made up of files stored 
+within a predictable network path `\<DOMAIN>\SYSVOL\<DOMAIN>\Policies\`. (Citation: WithSecure Lazarus-NoPineapple Threat Intel 
+Report 2023)(Citation: Cadet Blizzard emerges as novel threat actor) In cloud environments, 
+adversaries may leverage utilities such as the Azure VM Agent’s `CollectGuestLogs.exe` to 
+collect security logs from cloud hosted infrastructure. Activities may include the acquisition of malware, software (including 
+licenses), exploits, certificates, and information relating to vulnerabilities. In spearphishing, a specific individual, company, or industry will be 
+targeted by the adversary. In spearphishing, a specific individual, company, or industry will be 
+targeted by the adversary. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CDNs allow an organization to host content from a distributed, 
+load balanced array of servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. These credentials may then be abused to perform follow-on activities such as 
+lateral movement or privilege escalation (Citation: Slack Security Risks). Such control can allow for 
+redirection of an organization's traffic, facilitating Collection and Credential Access efforts for the 
+adversary. Cloud environments allow for 
+collection and analysis of audit and application logs that provide insight into what activities a 
+user does within the environment. If an adversary has sufficient permissions, they can disable or 
+modify logging to avoid detection of their activities. Commands such as <code>net group /domain</code> of the 
+[Net](https://attack.mitre.org/software/S0039) utility,  <code>dscacheutil -q group</code> on 
+macOS, and <code>ldapsearch</code> on Linux can list domain-level groups. For example, in AWS environments, adversaries may leverage the 
+Route53 domain service to register a domain and create hosted zones pointing to resources of 
+the threat actor’s choosing. Parent Technique: T1558 
+  Associated Tactics: TA0006 
+ 
+T1552.006: Group Policy Preferences 
+  Description: Adversaries may attempt to find unsecured credentials in Group Policy 
+Preferences (GPP). This may also coincide with [Account Access 
+Removal](https://attack.mitre.org/techniques/T1531) if the actor first deletes an account before 
+re-creating one with the same name. Threat actors can use 
+online resources and lookup tools to harvest information from these services. Or, they may need to build extensive infrastructure if they want to test, 
+communicate, and control other aspects of their activities on their own systems. All forms of spearphishing are electronically delivered social engineering targeted at a specific 
+individual, company, or industry. All forms of spearphishing are electronically delivered social engineering targeted at a specific 
+individual, company, or industry. Adversaries may use also third party utilities, such as 7-Zip, WinRAR, and WinZip, to perform 
+similar activities. Once adversaries gain access to a victim organization, they may mine CRM software for 
+customer data. Threat actors 
+can use online resources and lookup tools to harvest information about certificates. Associated Tactics: TA0042 
+ 
+T1491.002: External Defacement 
+  Description: An adversary may deface systems external to an organization in an attempt to 
+deliver messaging, intimidate, or otherwise mislead an organization or users. Associated Tactics: TA0005 
+ 
+T1484.001: Group Policy Modification 
+  Description: Adversaries may modify Group Policy Objects (GPOs) to subvert the intended 
+discretionary access controls for a domain, usually with the intention of escalating privileges on 
+the domain. (Citation: AWS Storage 
+Lifecycles)(Citation: GCP Storage Lifecycles)(Citation: Azure Storage Lifecycles) If a threat 
+actor has sufficient permissions to modify these policies, they may be able to delete all objects 
+at once. Most Linux and Linux-based platforms provide a standard set of permission groups (user, 
+group, and other) and a standard set of permissions (read, write, and execute) that are applied 
+to each group. (Citation: Twilio SMS Pumping) SMS pumping 
+is a type of telecommunications fraud whereby a threat actor first obtains a set of phone 
+numbers from a telecommunications provider, then leverages a victim’s messaging 
+infrastructure to send large amounts of SMS messages to numbers in that set. By generating 
+SMS traffic to their phone number set, a threat actor may earn payments from the 
+telecommunications provider. All forms of spearphishing are electronically 
+delivered social engineering targeted at a specific individual, company, or industry. All forms of spearphishing are electronically delivered social engineering targeted at a specific 
+individual, company, or industry. Associated Tactics: TA0004, TA0005 
+ 
+T1597.001: Threat Intel Vendors 
+  Description: Adversaries may search private data from threat intelligence vendors for 
+information that can be used during targeting. Threat intelligence vendors may offer paid feeds 
+or portals that offer more data than what is publicly reported. (Citation: Okta Cross-Tenant Impersonation 2023) This may enable the threat actor to 
+gain broad access into a variety of cloud-based services that leverage the identity tenant. For 
+example, in AWS environments, an adversary that creates a new identity provider for an AWS 
+Organization will be able to federate into all of the AWS Organization member accounts without 
+creating identities for each of the member accounts. Associated Tactics: TA0002

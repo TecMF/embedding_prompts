@@ -1,0 +1,59 @@
+ Executive Summary 
+This paper discusses the motivation behind the creation of ATT&CK, the components described 
+within it, its design philosophy, how the project has progressed, and how it can be used. Introduction 
+MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, 
+reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known 
+to target. At a high-level, ATT&CK is a behavioral model that consists of the following 
+core components: 
+• Tactics, denoting short-term, tactical adversary goals during an attack; 
+• Techniques, describing the means by which adversaries achieve tactical goals; 
+• Sub-techniques, describing more specific means by which adversaries achieve tactical 
+goals at a lower level than techniques; and 
+• Documented adversary usage of techniques, their procedures, and other metadata. ATT&CK is not an exhaustive enumeration of attack vectors against software. These gaps represent blind spots for 
+potential vectors that allow an adversary to gain access to its networks undetected or 
+unmitigated. It is independent of 
+technology and models an adversary’s behavior as they attempt to gain access to an organization 
+or entity through the technology they leverage, spanning multiple domains. Tactics serve as useful contextual 
+categories for individual techniques and cover standard notations for things adversaries do during 
+an operation, such as persist, discover information, move laterally, execute files, and exfiltrate 
+data. For example, an adversary may dump credentials from an operating system to gain access to 
+useful credentials within a network. (For example, “what techniques can I detect if I 
+have process monitoring in place?”) 
+Supports Remote 
+Tag 
+If the (sub-)technique can be used to execute 
+something on a remote system. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Defenders are then able to follow the adversary’s motivation for 
+individual actions and understand how the actions and dependencies relate to specific classes of 
+defenses that may be deployed in an environment. The high-level concepts like 
+Control, Execute, and Maintain are further broken down into more descriptive categories where 
+individual actions on a system can be defined and categorized. Goals such as initial access, discovery, 
+and credential access are commonly used to gain and expand access within an environment with 
+an ultimate objective of stealing information through collection and exfiltration. For example, an attacker modifying the balance of a bank account 
+ 
+25 
+©2020 The MITRE Corporation. It 
+also could be used to execute within a certain context of another process that has certain 
+user rights or permissions. • Related methods of execution require a binary to be put on disk and/or some 
+configuration change that will load and execute the code in a new process representing 
+different opportunities to detect and mitigate. • Other related methods use different functionality provided by Windows to load and 
+execute code, such as application shims. Considerations: 
+• SQLi may be performed to gain access to an externally facing web server in a DMZ or 
+improperly positioned web server that would result in network compromise. Conclusions: 
+• The context in which SQLi fits within an adversary’s tactical goals puts it within attempts 
+to gain access to a system through an existing software vulnerability. Summary 
+This paper discussed the motivation behind the creation of ATT&CK, the components described 
+within it, its design philosophy, how the project has progressed, and how it can be used. Available: https://medium.com/mitre-attack/2020-attack-roadmap-4820d30b38ba. [2]  The MITRE Corporation, "Common Attack Pattern Enumeration and Classification," 21 
+February 2018. Available: https://medium.com/mitre-attack/how-to-be-a-savvy-attack-consumer-
+63e45b8e94c9. [Accessed 16 March 2020].

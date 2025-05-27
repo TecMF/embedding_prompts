@@ -1,0 +1,15 @@
+ Brute forcing credentials may take place at various points during a breach. If exploitation is successful, then it will give the adversary code execution on the user's 
+system unless other protections are in place. Reflectively loaded payloads may be compiled binaries, anonymous files (only present in RAM), 
+or just snubs of fileless executable code (ex: position-independent shellcode). For each user, this file resides at the same location: 
+<code>~/.bash_history</code>. The 
+knowledge of cloud permission groups can help adversaries determine the particular roles of 
+users and groups within an environment, as well as which users are associated with a particular 
+group. By achieving the adversary-in-the-middle (AiTM) position, adversaries may 
+collect network communications, including passed credentials, especially those sent over 
+insecure, unencrypted protocols. (Citation: auditpol) 
+ 
+Adversaries may target system-wide logging or just that of a particular application. Changes could be disabling the entire mechanism as well as adding, 
+deleting, or modifying particular rules. Ads can be purchased to plant as well as favorably position artifacts in 
+specific locations  online, such as prominently placed within search engine results. Security monitoring and control 
+mechanisms may be in place for system utilities adversaries are capable of abusing. It is the location of the boot loader. Often this location is the current working directory of the 
+program.

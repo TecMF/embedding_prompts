@@ -1,0 +1,203 @@
+   
+d) as Operações de Informação realizadas terão por finalidade manter a superioridade 
+da informação em relação aos eventuais vetores de ameaça, proteger os sistemas de 
+informação de interesse e assegurar o emprego coordenado das capacidades 
+interferentes na dimensão informacional, de modo a promover a sinergia de esforços na 
+obtenção dos efeitos desejados e evitar: o fratricídio informacional, redundâncias 
+desnecessárias ou lacunas de execução; Para isso, é necessário que sejam implementadas medidas de acompanhamento 
+permanente da dimensão informacional, para antecipar a concretização de ameaças e 
+para avaliação do resultado de campanhas empreendidas (Medidas de Efetividade, 
+Medidas de Desempenho). OBJETIVOS ESTRATÉGICOS DE OPERAÇÕES DE INFORMAÇÃO 
+Relacionar os objetivos estratégicos de operações de informação que maximizarão as 
+ações do Comando Operacional na campanha. Exemplos: 
+a) fortalecer a moral e o espírito de corpo dos integrantes do Comando Operacional; 
+b) minimizar as ameaças às Capacidades Relacionadas à Informação; 
+c) contribuir para a manutenção do funcionamento dos serviços públicos à população 
+brasileira dentro do TO/AOp; 
+d) contribuir para a preservação das estruturas estratégicas brasileiras de interesse; 
+MD30-M-01 
+129/393 
+ 
+e) contribuir para o fortalecimento da cultura de integração e cooperação interagências; 
+e 
+f) contribuir para a prevenção, enfrentamento e mitigação dos possíveis vetores de 
+ameaças antes, durante e após a campanha ou operação. 7. AÇÕES ESTRATÉGICAS 
+Relacionar as ações estratégicas que orientarão os níveis operacional e tático na 
+realização de seus planejamentos e ações. 4.2 É importante ter em vista que a população civil tem o direito de permanecer livre de 
+interferências desnecessárias, ou não plenamente justificáveis do ponto de vista militar, 
+em sua liberdade individual e direito de propriedade. Os membros das forças militares 
+são, individual e coletivamente, responsáveis pela observância de todas as leis referentes 
+o seu relacionamento com as autoridades civis e a população. - Segurança Lógica dos Equipamentos Servidores 
+- Acesso Remoto à Configuração dos Equipamentos Servidores 
+- Segurança Lógica dos Dispositivos de Conectividade 
+- Proteção das Informações Armazenadas em Microcomputadores 
+- Regras Básicas para o Uso de Senhas 
+- Uso de Antivírus e outros Programas de Proteção Individual 
+- Compartilhamento de Arquivos e Diretórios 
+- Cópias de Segurança 
+- Local de Guarda das Cópias de Segurança dos Equipamentos Servidores 
+- Grau de Sigilo das Cópias de Segurança 
+- Monitoramento do Volume de Tráfego de Dados 
+MD30-M-01 
+320/393 
+ 
+- Enlaces Afastados 
+- Segurança Criptológica 
+- Mentalidade de Segurança 
+ 
+4. Autodefesa individual, 2. OUTRAS INFORMAÇÕES 
+ 
+ 
+ 
+ 
+ 
+Nome Completo e Posto 
+Chefe do Estado-Maior Conjunto das Forças Armadas  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(GRAU DE SIGILO) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ministério da Defesa 
+Estado-Maior Conjunto das Forças Armadas 
+Brasília, 1 de outubro de 2020 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MINISTÉRIO DA DEFESA 
+Esplanada dos Ministérios – Bloco Q – 7o Andar 
+Brasília – DF – 70049-900 
+www.defesa.gov.br

@@ -1,0 +1,44 @@
+ Tactics serve as useful contextual 
+categories for individual techniques and cover standard notations for things adversaries do during 
+an operation, such as persist, discover information, move laterally, execute files, and exfiltrate 
+data. This tactic is often used in conjunction with initial access as the means of 
+executing code once access is obtained, and lateral movement to expand access to remote 
+systems on a network. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Software is broken out into two high-level 
+categories: tools and malware. Type* 
+Tag 
+Type of software: malware or tool. Defenders in this context refer to threat hunters, malware analysts, and incident 
+responders. Similarly, malware databases also exist but typically lack context around how the malware is 
+used and by whom. Goals such as initial access, discovery, 
+and credential access are commonly used to gain and expand access within an environment with 
+an ultimate objective of stealing information through collection and exfiltration. With the rise of 
+targeted ransomware, disk wiper incidents, manipulation of financial transactions, and large scale 
+distributed denial of service attacks, it was important for ATT&CK to maintain parity with the 
+behavior that adversaries are using even if their goals are not focused on exfiltration of data. An adversary deleting files in order to decrease their likelihood of 
+detection on an end system would fall under Indicator Removal on Host: File Deletion in 
+Defense Evasion, rather than Data Destruction in Impact despite both techniques involving the 
+deletion of files. One example of the former is 
+Credential Dumping [10] for Credential Access where dumping credentials is one method of 
+gaining access to new credentials—and credentials can be dumped in several different ways. Hidden Files and 
+Directories is one example of the latter since it takes advantage of a similar concept that spans 
+Windows, Linux, and Mac but is a specific example of how an adversary would hide artifacts on 
+a system that is designated by the technique Hide Artifacts. For example, files, locations, registry changes, API 
+calls, permissions, etc. How many different ways can it be performed with existing 
+adversary malware and other tools? • Many adversary groups use this technique, which is a component of tools, scripts, and 
+malware. The resulting code execution can be used for a 
+number of purposes, including adding or modifying information, gaining access to a system, 
+causing the server to download and execute other code which may result in persistence, 
+credential access, privilege escalation, collection, and exfiltration. • Adversaries have been known to use SQLi as a means of gaining access to externally 
+available web servers. An example is for 
+initial access in a network compromise by compromising an externally facing application. [Accessed 16 March 2020].

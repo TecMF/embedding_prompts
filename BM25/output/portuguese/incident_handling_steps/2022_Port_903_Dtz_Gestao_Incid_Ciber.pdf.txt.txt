@@ -1,0 +1,13 @@
+ 7) Resposta a incidentes cibernéticos – processo que envolve as atividades técnicas de contenção, 
+erradicação e mitigação de um incidente. 8) Crise cibernética – situação excepcional, caracterizada pela ocorrência de um ou mais incidentes 
+cibernéticos graves, com potencial para comprometer ativos de informação críticos da Instituição, provocar efeitos 
+(cinéticos ou não cinéticos) danosos sobre pessoas, instalações ou instituições e/ou afetar a imagem do EB, impondo 
+a adoção de medidas excepcionais na mitigação de possíveis danos ou o emprego de elementos operacionais. 9) Equipe de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (ETIR) – grupo de agentes 
+públicos com a responsabilidade de prestar serviços relacionados à segurança cibernética para o órgão ou a 
+entidade da Administração Pública Federal (APF), em observância à política de segurança da informação e aos 
+processos de gestão de segurança da informação do órgão ou da entidade. 10) ETIR de coordenação - Equipe de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos 
+que coordena e facilita as ações de resposta a incidentes entre diversas Seções de Prevenção, Tratamento e 
+Resposta a Incidentes Cibernéticos (STIR). 11) Equipe de coordenação setorial – Equipe de Prevenção, Tratamento e Resposta a Incidentes 
+Cibernéticos das agências reguladoras, responsável por coordenar as atividades de segurança cibernética e de 
+centralizar as notificações de incidentes do setor. b. A gestão de incidentes cibernéticos depende da atuação colaborativa de órgãos e entidades da 
+APF, do setor privado e da academia, em todos os níveis, nos contextos nacional e internacional. c. 3. 10/10

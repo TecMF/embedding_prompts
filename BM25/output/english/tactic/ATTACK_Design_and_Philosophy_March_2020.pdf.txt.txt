@@ -1,0 +1,47 @@
+ ........................................................... 26 
+4.3.1.4 
+Adversary Use .................................................................................................. 26 
+4.3.1.5 
+Technique Distinction ...................................................................................... 27 
+4.3.2 
+Creating New Techniques ........................................................................................ 27 
+4.3.3 
+Enhancing Existing Techniques ............................................................................... 28 
+4.3.4 
+Named Adversary Groups Using Techniques ..................................................... Persistence tactic with four expanded techniques ............................................................ 7 
+Figure 3. ATT&CK can be used as a tool to create adversary emulation scenarios [5] to test and verify 
+defenses against common adversary techniques. Red teaming focuses on accomplishing the end objective 
+of an operation without being detected to show mission or operational impact of a successful 
+breach. It is the adversary’s 
+tactical objective: the reason for performing an action. Each tactic contains a definition describing the category and serves as a guide for what 
+techniques should be within the tactic. 3.4 Techniques and Sub-Techniques 
+Techniques represent “how” an adversary achieves a tactical objective by performing an action. Sub-techniques further break down behaviors described by techniques into more specific 
+descriptions of how behavior is used to achieve an objective. *Only 
+applies to techniques and not sub-techniques  
+Tactic* 
+Tag 
+The tactic objectives that the (sub-)technique can be 
+used to accomplish. Only applies to 
+(sub-)techniques under the privilege escalation 
+tactic. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. 4.1.1 Adversary’s Perspective 
+ATT&CK takes on the perspective of an adversary in its terminology and descriptions for tactics 
+and techniques described in the model. 4.2 Tactics 
+Since tactics represent the tactical goals of an adversary, these remain relatively static over time 
+because adversary goals are unlikely to change. 4.3.1.5 
+Technique Distinction 
+Several factors are considered when including new information to determine where and how it 
+fits into the model: 
+• Objective- What the technique or sub-technique is accomplishing. o Within a tactic, are other techniques similar to this one? o Does the empirical use reference support the tactic use? § Is it plausible that the behavior can be used for that tactic objective even if 
+data is unavailable due to related techniques? • Are there different adversary groups that use this technique or sub-technique? [Accessed 16 March 2020].

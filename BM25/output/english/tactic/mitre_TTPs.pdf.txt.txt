@@ -1,0 +1,34 @@
+ Native operating system tools are often used toward this post-compromise 
+information-gathering objective. Following through on their primary objective often requires exploring the 
+network to find their target and subsequently gaining access to it. Reaching their objective often 
+involves pivoting through multiple systems and accounts to gain. For example, an adversary may modify the entry point of a binary 
+to point to malicious code patched in by the adversary before resuming normal execution 
+flow. Instead of buying, leasing, or renting infrastructure an 
+adversary may compromise infrastructure and use it during other phases of the adversary 
+lifecycle. An adversary can send an attachment to a user 
+through spearphishing that contains a resource link to an external server controlled by the 
+adversary (i.e. Various artifacts may be created by an 
+adversary or something that can be attributed to an adversary’s actions. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. This can result 
+in significantly furthering an adversary's objective in cases where credentials gained from web 
+browsers overlap with privileged accounts (e.g. (Citation: polymorphic-blackberry) With each 
+execution of the software, the code is mutated into a different version of itself that achieves the 
+same purpose or objective as the original. An adversary who has raw access to the boot 
+drive may overwrite this area, diverting execution during startup from the normal boot loader to 
+adversary code. For example, if an adversary has a username and password but 
+the user is not logged onto the system the adversary can then create a logon session for the 
+user using the `LogonUser` function. This flood relies on raw volume to accomplish the objective, exhausting any of 
+the various resources required by the victim software to provide the service. Associated Tactics: TA0002

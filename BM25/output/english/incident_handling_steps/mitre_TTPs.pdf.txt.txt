@@ -1,0 +1,129 @@
+ Adversaries who use ransomware or similar attacks may first perform this and other Impact 
+behaviors, such as [Data Destruction](https://attack.mitre.org/techniques/T1485) and 
+[Defacement](https://attack.mitre.org/techniques/T1491), in order to impede incident 
+response/recovery before completing the [Data Encrypted for 
+Impact](https://attack.mitre.org/techniques/T1486) objective. (Citation: Microsoft Ransomware as a Service) 
+ 
+By leveraging existing access broker networks rather than developing or obtaining their own 
+initial access capabilities, an adversary can potentially reduce the resources required to gain a 
+foothold on a target network and focus their efforts on later stages of compromise. (Citation: Expel IO Evil in AWS) The discovery of these 
+available resources may help adversaries determine their next steps in the Cloud environment, 
+such as establishing Persistence. The discovery of these resources may inform an adversary’s next steps in the environment, 
+such as how to perform lateral movement and which methods to utilize for execution. (Citation: Amazon S3 Security, 2019)(Citation: Microsoft Azure Storage 
+Security, 2019)(Citation: Google Cloud Storage Best Practices, 2019) There have been 
+numerous incidents where cloud storage has been improperly secured, typically by 
+unintentionally allowing public access to unauthenticated users, overly-broad access by all 
+users, or even access for any anonymous person outside the control of the Identity Access 
+Management system without even needing basic user permissions. Emails may also contain details of ongoing incident response operations, which 
+may allow adversaries to adjust their techniques in order to maintain persistence or evade 
+defenses. Adversaries may check user-agents for operating system identification and then only serve 
+malware for the exploitable software while ignoring all other operating systems. Vulnerabilities can exist in software due to unsecure coding practices that can lead to 
+unanticipated behavior. (Citation: sysdig)(Citation: Orange Residential Proxies) 
+ 
+Adversaries may also attempt to filter network traffic in order to evade defensive tools in 
+numerous ways, including blocking/redirecting common incident responder or security appliance 
+user agents. This activity may also impede forensic analysis and 
+incident response, due to lack of sufficient data to determine what occurred. In addition to gaining a better understanding of the environment, adversaries may also monitor 
+logs in real time to track incident response procedures. Capturing token input (including a user's personal identification code) may 
+provide temporary access (i.e. (Citation: Obsidian SSPR Abuse 2023) 
+ 
+In some cases, adversaries may continuously repeat login attempts in order to bombard users 
+with MFA push notifications, SMS messages, and phone calls, potentially resulting in the user 
+finally accepting the authentication request in response to “MFA fatigue.”(Citation: Russian 2FA 
+Push Annoyance - Cimpanu)(Citation: MFA Fatigue Attacks - PortSwigger)(Citation: Suspected 
+Russian Activity Targeting Government and Business Entities Around the Globe) 
+  Associated Tactics: TA0006 
+ 
+T1104: Multi-Stage Channels 
+  Description: Adversaries may create multiple stages for command and control that are 
+employed under different conditions or for certain functions. Use of multiple stages may 
+obfuscate the command and control channel to make detection more difficult. The different stages will likely be hosted separately with no overlapping infrastructure. Stopping critical services or processes can inhibit or stop 
+response to an incident or aid in the adversary's overall objectives to cause damage to the 
+environment. (Citation: 
+Microsoft Shutdown Oct 2017)(Citation: alert_TA18_106A) 
+ 
+Shutting down or rebooting systems may disrupt access to computer resources for legitimate 
+users while also impeding incident response/recovery. With a botnet at their disposal, 
+adversaries may perform follow-on activity such as large-scale 
+[Phishing](https://attack.mitre.org/techniques/T1566) or Distributed Denial of Service 
+(DDoS). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. (Citation: Dell Dridex Oct 2015) With a botnet at their disposal, adversaries may perform 
+follow-on activity such as large-scale [Phishing](https://attack.mitre.org/techniques/T1566) or 
+Distributed Denial of Service (DDoS). Parent Technique: T1584 
+  Associated Tactics: TA0042 
+ 
+T1596.004: CDNs 
+  Description: Adversaries may search content delivery network (CDN) data about victims that 
+can be used during targeting. CDNs allow an organization to host content from a distributed, 
+load balanced array of servers. CDNs may also allow organizations to customize content 
+delivery based on the requestor’s geographical region. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. (Citation: Kaspersky Gauss 
+Whitepaper)(Citation: Ebowla: Genetic Malware) These difficulties can slow down the incident 
+response process and help adversaries hide their tactics, techniques, and procedures (TTPs). Link-Local Multicast Name Resolution (LLMNR) and NetBIOS Name Service (NBT-NS) are 
+Microsoft Windows components that serve as alternate methods of host identification. If the requested host belongs to a resource that requires 
+identification/authentication, the username and NTLMv2 hash will then be sent to the adversary 
+controlled system. This 
+method bypasses standard authentication steps that require a cleartext password, moving 
+directly into the portion of the authentication that uses the password hash. (Citation: BlackHat 
+Process Doppelgänging Dec 2017) 
+ 
+Process Doppelgänging is implemented in 4 steps (Citation: BlackHat Process Doppelgänging 
+Dec 2017): 
+ 
+* Transact – Create a TxF transaction using a legitimate executable then overwrite the file with 
+malicious code. Security reporting messages are important for 
+monitoring the normal operation of a system and identifying important events that can signal a 
+security incident. This may be achieved by 
+running <code>verclsid.exe /S /C {CLSID}</code>, where the file is referenced by a Class ID 
+(CLSID), a unique identification number used to identify COM objects. Acquiring a VPS for use in later stages of the adversary lifecycle, such as Command and 
+Control, can allow adversaries to benefit from the ubiquity and trust associated with higher 
+reputation cloud service providers. A 
+variety of popular websites exist for adversaries to register for a web-based service that can be 
+abused during later stages of the adversary lifecycle, such as during Command and Control 
+([Web Service](https://attack.mitre.org/techniques/T1102)), [Exfiltration Over Web 
+Service](https://attack.mitre.org/techniques/T1567), or 
+[Phishing](https://attack.mitre.org/techniques/T1566). Such web services can be abused during later 
+stages of the adversary lifecycle, such as during Command and Control ([Web 
+Service](https://attack.mitre.org/techniques/T1102)), [Exfiltration Over Web 
+Service](https://attack.mitre.org/techniques/T1567), or 
+[Phishing](https://attack.mitre.org/techniques/T1566). While this technique employs similar methods to [Brute 
+Force](https://attack.mitre.org/techniques/T1110), its goal is the identification of content and 
+infrastructure rather than the discovery of valid credentials. However, certain shims can 
+be used to [Bypass User Account Control](https://attack.mitre.org/techniques/T1548/002) (UAC 
+and RedirectEXE), inject DLLs into processes (InjectDLL), disable Data Execution Prevention 
+(DisableNX) and Structure Exception Handling (DisableSEH), and intercept memory addresses 
+(GetProcAddress). This can be done without affecting the functionality or behavior of a 
+binary, but can increase the size of the binary beyond what some security tools are capable of 
+handling due to file size limitations. Bootkits reside at a layer 
+below the operating system and may make it difficult to perform full remediation unless an 
+organization suspects one was used and can act accordingly. During the execution preparation 
+phase of a program, the dynamic linker loads specified absolute paths of shared libraries from 
+environment variables and files, such as <code>LD_PRELOAD</code> on Linux or 
+<code>DYLD_INSERT_LIBRARIES</code> on macOS. (Citation: Free Trial PurpleUrchin) 
+ 
+Adversaries may also take steps to cultivate a persona around the email account, such as 
+through use of [Social Media Accounts](https://attack.mitre.org/techniques/T1585/001), to 
+increase the chance of success of follow-on behaviors. (Citation: 
+Microsoft Mail Flow Rules 2023) Adversaries that abuse such features may be able to 
+automatically modify or delete all emails related to specific topics (such as internal security 
+incident notifications). (Citation: Microsoft SolarWinds Steps) The 
+default lifetime of a SAML token is one hour, but the validity period can be specified in the 
+<code>NotOnOrAfter</code> value of the <code>conditions ...</code> element in a token. A common situation is a script 
+allowing for graceful termination and handling of common keyboard interrupts like 
+<code>ctrl+c</code> and <code>ctrl+d</code>. (Citation: NSA NCSC Turla OilRig) 
+ 
+Compromising a VPS for use in later stages of the adversary lifecycle, such as Command and 
+Control, can allow adversaries to benefit from the ubiquity and trust associated with higher 
+reputation cloud service providers as well as that added by the compromised third-party. Associated Tactics: TA0002

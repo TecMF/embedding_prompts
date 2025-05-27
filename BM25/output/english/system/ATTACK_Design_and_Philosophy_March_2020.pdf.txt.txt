@@ -1,0 +1,85 @@
+  12 
+3.5 
+Groups ............................................................................................................................ 13 
+3.5.1 
+Group Object Structure ............................................................................................. 14 
+3.6 
+Software .......................................................................................................................... 14 
+3.6.1 
+Software Object Structure ........................................................................................ .................................................................................................................. 24 
+4.3 
+Techniques and Sub-Techniques .................................................................................... 25 
+4.3.1 
+What Makes a Technique or Sub-Technique ........................................................... 25 
+4.3.1.1 
+Naming ............................................................................................................. 25 
+4.3.1.2 
+Types of Technique Abstraction ...................................................................... 25 
+4.3.1.3 
+Technical References ............................ MITRE began researching data sources and 
+analytic processes within FMX for detecting advanced persistent threats (APTs) more quickly 
+under an “assume breach” mentality. Similar to the defensive gap assessment, a SOC 
+Maturity assessment focuses on the processes a SOC uses to detect, understand, and respond to 
+changing threats to their network over time. This procedure falls under System Network Configuration Discovery in ATT&CK 
+and is in the knowledge base because adversaries have been known to use it to learn about the 
+system and network they’re in. For example, Pre-OS Boot has three sub-
+techniques consisting of Bootkit, Component Firmware, and System Firmware to describe how 
+persistence is achieved before an operating system boots. A platform may be an operating system or application (e.g. Platform* 
+Tag 
+The system an adversary is operating within; could 
+be an operating system or application (e.g. System Requirements 
+Field 
+Additional information on requirements the 
+adversary needs to meet or about the state of the 
+system (software, patch level, etc.) There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Software 
+Relationship 
+/ Field 
+List of software that the group has been reported to 
+use with a field to describe details on how the 
+software is used. 3.6 Software 
+Adversaries commonly use different types of software during intrusions. This category includes both 
+software that generally is not found on an enterprise system as well as software generally 
+available as part of an operating system that is already present in an environment. • Malware - Commercial, custom closed source, or open source software intended to be 
+used for malicious purposes by adversaries. Associated Software 
+Tag 
+Names that have overlapping reference to a software 
+entry and may refer to the same or similar software 
+in threat intelligence reporting. Distribution unlimited 19-01075-28. 
+tie the associated software to the primary software 
+name. 3.9.1.3 
+Software 
+Major version changes consist of changes or additions to associated software as well as changes 
+to the software’s description, which should happen infrequently. 4.1.3 Abstraction 
+The level of abstraction for adversary tactics and techniques within ATT&CK is an important 
+distinction between it and other types of threat models. High level models such as the various 
+adversary lifecycles, including the Lockheed Martin Cyber Kill Chain®, Microsoft STRIDE, etc., 
+are useful at understanding high level processes and adversary goals. They also do not take into account how legitimate software can be used for 
+malicious purposes. 4.2.1 Impact 
+The types of tactics in ATT&CK have historically aligned to covering adversaries primarily 
+focused on breaching the confidentiality of information. 4.3.1.2 
+Types of Technique Abstraction 
+Techniques generally fall into two levels of abstraction: 
+1. • It applies to Windows and Linux systems and represents benign functionality used by 
+legitimate software that can be used by adversaries for malicious purposes. • It requires real-time telemetry from the system on running processes and interactions with 
+processes through the API to effectively detect effective use. Some security features 
+may mitigate aspects of this technique, such as application whitelisting that includes 
+analysis of loaded modules, or code integrity that prevents processes from a lower 
+integrity level from interfacing with processes running in at a higher integrity level. • Similar concepts exist in Linux based systems for dynamically loading libraries into 
+processes. The resulting code execution can be used for a 
+number of purposes, including adding or modifying information, gaining access to a system, 
+causing the server to download and execute other code which may result in persistence, 
+credential access, privilege escalation, collection, and exfiltration. • SQLi is a predominant vulnerability that occurs frequently across many different types of 
+web applications, regardless of language or platform they are written in. There is not good data available on use within internal networks 
+for other purposes. [Accessed 16 March 2020].

@@ -1,0 +1,57 @@
+ There are many ways an adversary can establish 
+command and control with various levels of stealth depending on the victim’s network structure 
+and defenses. Such information may include details of the 
+victim organization, infrastructure, or staff/personnel. Personas may exist on a single site or across multiple sites (ex: Facebook, LinkedIn, Twitter, 
+Google, etc.). This behavior is 
+distinct from [Disk Content Wipe](https://attack.mitre.org/techniques/T1561/001) and [Disk 
+Structure Wipe](https://attack.mitre.org/techniques/T1561/002) because individual files are 
+destroyed rather than sections of a storage disk or the disk's logical structure. (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. CDNs allow an organization to host content from a distributed, 
+load balanced array of servers. Adversaries may search CDN data to gather actionable information. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. The purchase of code signing 
+certificates may be done using a front organization or using information stolen from a previously 
+compromised entity that allows the adversary to validate to a certificate provider as that entity. Side-loading takes advantage of the DLL search order used by the loader by positioning both 
+the victim application and malicious payload(s) alongside each other. Such control can allow for 
+redirection of an organization's traffic, facilitating Collection and Credential Access efforts for the 
+adversary. File systems provide a structure to store and access data from physical 
+storage. Resource forks have been deprecated and replaced with the 
+application bundle structure. Once logged into the site, an adversary can access 
+sensitive information, read email, or perform actions that the victim account has permissions to 
+perform. Once adversaries gain access to a victim organization, they may mine CRM software for 
+customer data. They include information about the 
+key, information about its owner's identity, and the digital signature of an entity that has verified 
+the certificate's contents are correct. The purchase of digital certificates may be done using a front organization or using information 
+stolen from a previously compromised entity that allows the adversary to validate to a certificate 
+provider as that entity. They include information about the 
+key, information about its owner's identity, and the digital signature of an entity that has verified 
+the certificate's contents are correct. Each end of the communication channels 
+requires a private key (only in the procession of that entity) and the public key of the other entity. The public keys of each entity are exchanged before encrypted communications begin. Associated Tactics: TA0042 
+ 
+T1491.002: External Defacement 
+  Description: An adversary may deface systems external to an organization in an attempt to 
+deliver messaging, intimidate, or otherwise mislead an organization or users. In later versions of Windows (10+), <code>PubPrn.vbs</code> has been updated to prevent 
+proxying execution from a remote site. Encrypted password (<code>G$RADIUSCHAP</code>) from the Active Directory user-
+structure <code>userParameters</code> 
+2. SharePoint will often contain useful information for an adversary to learn about the 
+structure and functionality of the internal network and systems. Personas may exist on a single site or across multiple sites (ex: Facebook, LinkedIn, Twitter, 
+etc.). The persona may 
+exist on a single social media site or across multiple sites (ex: Facebook, LinkedIn, Twitter, 
+etc.). (Citation: TrendMictro Phishing)(Citation: PCMag FakeLogin) The given 
+website may be a clone of a legitimate site (such as an online or corporate login portal) or may 
+closely resemble a legitimate site in appearance and have a URL containing elements from the 
+real site. For 
+example, in AWS environments, an adversary that creates a new identity provider for an AWS 
+Organization will be able to federate into all of the AWS Organization member accounts without 
+creating identities for each of the member accounts. Associated Tactics: TA0002

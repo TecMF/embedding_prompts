@@ -1,0 +1,65 @@
+ 4.1.2.1 
+Sources of Information ..................................................................................... 21 
+4.1.2.2 
+Community Contributions ................................................................................ 22 
+4.1.2.3 
+Un(der)reported Incidents ................................................................................ 22 
+4.1.3 
+Abstraction ............................................................................................................... 22 
+4.2 
+Tactics ............................................................................................................................. 24 
+4.2.1 
+Impact ..... 2.1 ATT&CK Coverage 
+ATT&CK use cases for defense and red teaming incorporate a concept of ATT&CK coverage. The techniques within ATT&CK may have many procedures for how an adversary could 
+implement them — and because adversaries are always changing, it is difficult to know what all 
+those procedures are in advance. That makes discussing coverage of a technique tough, 
+especially when some ways of detecting behavior rely on individual procedures and some may 
+span multiple procedures or even an entire technique. Anyone mapping to ATT&CK should be able to explain the procedures 
+they cover. 3.4.1 Procedures 
+Procedures are another important component of the TTP concept, and we cannot talk about 
+tactics and techniques without also including procedures as well. Within ATT&CK, procedures 
+are the specific implementation adversaries have used for techniques or sub-techniques. For 
+example, a procedure could APT28 using PowerShell to inject into lsass.exe to dump credentials 
+by scraping LSASS memory on a victim. Procedures may also include use of specific tools in how they’re performed. Procedures are documented in ATT&CK as the observed in-the-wild use of techniques in the 
+"Procedure Examples" section of the technique and sub-technique pages. Defense Bypassed* 
+Tag 
+If the (sub-)technique can be used to bypass or 
+evade a particular defensive tool, methodology, or 
+process. Applies to defense evasion (sub-)techniques 
+only. *Required for defense evasion. Procedure Examples 
+Relationship 
+/ Field 
+Procedure example fields are populated on a 
+(sub-)technique page when a group or software 
+entity is associated to a (sub-)technique through 
+documented use. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Groups and software procedure examples are not inherited between techniques and sub-
+techniques. The same procedure should not be mapped to both in order to reduce redundant relationships. It may contain dates of activity, suspected 
+attribution details, targeted industries, and notable 
+events that are attributed to the group’s activities. This represents the group’s procedure (in the 
+context of TTPs) for using a technique. The perspective shift changes the question from what did happen based on a list of available 
+resources to what could happen with a framework for aligning a defensive strategy to the 
+adversary’s playbook. Threat intelligence analysts typically track incidents, threat groups, and how their TTPs evolve 
+over time. 4.1.2.3 
+Un(der)reported Incidents 
+The vast majority of incidents discovered are not reported publicly. Unreported, or 
+underreported, incidents can contain valuable information on how adversaries behave and engage 
+in operations. A 
+sub-technique example of the latter is Rundll32 [11] for Defense Evasion. There are also fewer persistent threat incidents reported against Linux and 
+Mac systems than there are against Windows, causing available threat data to be substantially 
+less available. Some groups in ATT&CK have multiple names associated with related sets of activity due to 
+various organizations tracking the same (or similar) set(s) of activities by different names. • Process injection should be included as a technique under defense evasion and privilege 
+escalation. It may also 
+be performed to achieve lateral movement within an enterprise, but in-the-wild reported 
+incidents have been scarce on this use case. [Accessed 16 March 2020].

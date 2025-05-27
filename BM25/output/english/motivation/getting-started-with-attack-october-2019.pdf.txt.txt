@@ -1,0 +1,78 @@
+ Adam Pennington  
+Principal Cybersecurity Engineer  
+ATT&CK Blog Editor in Chief  
+MITRE 
+attack.mitre.org 
+medium.com/mitre-attack 
+twitter.com/MITREattack 
+linkedin.com/showcase/mitre-att&ck 
+| 1 | 
+1 Threat Intelligence 
+Katie Nickels 
+Based on feedback from ATT&CK users, both at the first ATT&CKcon and from other avenues,  
+we’ve learned a lot. Your team could  
+follow this same process to create your own “top 20.”  
+| 8 | 
+ 
+  
+ 
+GETTING STARTED WITH ATT&CK: Threat Intelligence | Katie Nickels 
+This process of mapping ATT&CK techniques isn’t perfect and has bias, but this  
+information can still help you start to gain a clearer picture of what adversaries are doing. 2 Detection and Analytics 
+John Wunder 
+Hopefully you had a chance to read in Chapter 1 on getting started using ATT&CK for threat  
+intelligence, which walked through understanding what adversaries are doing to attack you and  
+how to use that knowledge to prioritize what to defend. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? | 14 | 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+OUTPUT FROM RUNNING THE SQUIBLYDOO ATTACK TO LAUNCH CALC.EXE  
+Once you’ve run the attack, look inside your SIEM to see what log data was generated. ANALYTIC DEVELOPMENT WORKFLOW 
+| 15 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+LEVEL 3 
+Feel confident that you’re cranking out quality analytics to detect attacks from Atomic  
+Red Team? Test that confidence and improve your defenses by doing some purple  
+teaming! They can then find and execute an attack that  
+will evade that analytic. You’ll again give this to your red team, and they’ll execute an evasion that, for example, 
+adds an additional access so that your GrantedAccess bitmask no longer detects it. In the end, you want to be developing a more  
+and more comprehensive set of detections so that you can detect more and more of the  
+things that adversaries do to attack us—and ATT&CK gives you the scorecard to do so. Each of these tests contains information about what the 
+technique is, the platforms supported, and how to execute the test. So, we open up our command prompt, copy and paste the command, add in the 
+computer name, and execute the command. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. Armed with your individual commands, scripts, and tools mapped to  
+ATT&CK, you can now plan your engagement. We could then add comments into the Navigator about the order we’ll execute  
+the techniques in and how we will perform them. While there are benefits to mapping to ATT&CK as we plan red team operations, we also  
+reap the rewards once we’ve executed our operation as we communicate back to our blue  
+team. | 25 | 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Adversary Emulation and Red Teaming | Blake Strom, Tim Schulz, and Katie Nickels 
+Bonus Level 2.5 Content: After using ATT&CK to plan engagements and report results,  
+try using the  APT3 Emulation Plan or the ATT&CK Evaluations Round 1 scenario based on  
+that plan to conduct an engagement emulating APT3 to show a baseline test against a  
+particular adversary group. We recommend a five-step process depicted in the diagram below to create an  
+adversary emulation plan, execute the operation, and drive defensive improvements. For example, below is the operational flow the MITRE 
+team created for the APT3 Adversary Emulation Plan. Emulate the adversary—With a plan in place, the red team now has the ability to 
+execute and perform an emulation engagement. As we’ve recommended for all red 
+team engagements using ATT&CK, the red team should closely work with the blue 
+team to gain a deep understanding of where gaps are in the blue team’s visibility and 
+why they exist. Square Leveraging Microsoft EMET’s Attack Surface Reduction rules can make it harder to 
+use RunDLL32. Tip: Always weigh the potential loss of visibility when investigating removing detections  
+in favor of mitigations. | 41 | 
+|  Solving Problems for a Safer World

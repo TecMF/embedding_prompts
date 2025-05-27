@@ -1,0 +1,93 @@
+ In cloud 
+environments, adversaries may create accounts that only have access to specific services, 
+which can reduce the chance of detection. Associated Tactics: TA0004, TA0005 
+ 
+T1189: Drive-by Compromise 
+  Description: Adversaries may gain access to a system through a user visiting a website over 
+the normal course of browsing. This development could be applied to social media, website, 
+or other publicly available information that could be referenced and scrutinized for legitimacy 
+over the course of an operation using that persona or identity. These often do not require 
+an action by the user for the exploit to be executed. This can be used to inform the adversary’s follow-on action. (Citation: VectorSec ForFiles Aug 2017)(Citation: Evi1cg Forfiles Nov 2017)(Citation: 
+Secure Team - Scriptrunner.exe)(Citation: SS64)(Citation: Bleeping Computer - 
+Scriptrunner.exe) 
+ 
+Adversaries may abuse these features for [Defense 
+Evasion](https://attack.mitre.org/tactics/TA0005), specifically to perform arbitrary execution 
+while subverting detections and/or mitigation controls (such as Group Policy) that limit/prevent 
+the usage of [cmd](https://attack.mitre.org/software/S0106) or file extensions more commonly 
+associated with malicious payloads. Once brought into the victim environment (i.e., [Ingress Tool 
+Transfer](https://attack.mitre.org/techniques/T1105)) files may then be copied from one system 
+to another to stage adversary tools or other files over the course of an operation. Permissions gained from the modification of infrastructure components may bypass restrictions 
+that prevent access to existing infrastructure. They achieve this by restricting traffic types to enforce organizational policy 
+in an attempt to reduce the risk inherent in such connections. Associated Tactics: TA0010 
+ 
+T1113: Screen Capture 
+  Description: Adversaries may attempt to take screen captures of the desktop to gather 
+information over the course of an operation. Token theft can also occur through social engineering, in which case user action may be 
+required to grant access. (Citation: Unit 42 Pirpi July 2015) 
+ 
+ 
+  Associated Tactics: TA0005, TA0007 
+ 
+T1600: Weaken Encryption 
+  Description: Adversaries may compromise a network device’s encryption capability in order to 
+bypass encryption that would otherwise protect data communications. (Citation: Cisco Synful 
+Knock Evolution) 
+ 
+Encryption can be used to protect transmitted network traffic to maintain its confidentiality 
+(protect against unauthorized disclosure) and integrity (protect against unauthorized changes). Use of Web services may also protect back-end C2 infrastructure from discovery through 
+malware binary analysis while also enabling operational resiliency (since this infrastructure may 
+be dynamically changed). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. Parent Technique: T1584 
+  Associated Tactics: TA0042 
+ 
+T1596.004: CDNs 
+  Description: Adversaries may search content delivery network (CDN) data about victims that 
+can be used during targeting. CDNs may also allow organizations to customize content 
+delivery based on the requestor’s geographical region. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. Use of a dead drop resolver may also protect back-end C2 infrastructure from discovery through 
+malware binary analysis while also enabling operational resiliency (since this infrastructure may 
+be dynamically changed). Adversaries may also disable updates to prevent the latest security patches from 
+reaching tools on victim systems. Similar to [Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027), 
+adversaries may use environmental keying to help protect their TTPs and evade detection. (Citation: Kaspersky Gauss Whitepaper) This 
+can be used to prevent exposure of capabilities in environments that are not intended to be 
+compromised or operated within. To prevent normal users from accidentally changing special files on a system, 
+most operating systems have the concept of a ‘hidden’ file. This action does not 
+require a system reboot and takes effect immediately. Parent Technique: T1547 
+  Associated Tactics: TA0003, TA0004 
+ 
+T1600.001: Reduce Key Space 
+  Description: Adversaries may reduce the level of effort required to decrypt data transmitted 
+over the network by reducing the cipher strength of encrypted communications. As a result, adversaries dramatically reduce the 
+amount of effort needed to decrypt the protected information without the key. This may also reduce the likelihood of being collected 
+for analysis. The impact to the user ranges 
+from denying the operation under high enforcement to allowing the user to perform the action if 
+they are in the local administrators group and click through the prompt or allowing them to enter 
+an administrator password to complete the action. This DoS attack may also reduce the availability and 
+functionality of the targeted system(s) and network. (Citation: Cybereason Dissecting DGAs)(Citation: Cisco Umbrella 
+DGA)(Citation: Talos CCleanup 2017)(Citation: Akamai DGA Mitigation) 
+ 
+Adversaries may use DGAs for the purpose of [Fallback 
+Channels](https://attack.mitre.org/techniques/T1008). Associated Tactics: TA0005 
+ 
+T1608.004: Drive-by Target 
+  Description: Adversaries may prepare an operational environment to infect systems that visit a 
+website over the normal course of browsing. The rule files are in the plist format and define the name, event type, and action to take. If the file is not known/trusted, SmartScreen will prevent the 
+execution and warn the user not to run it. In later versions of Windows (10+), <code>PubPrn.vbs</code> has been updated to prevent 
+proxying execution from a remote site. This variation on input capture may be conducted post-compromise using legitimate 
+administrative access as a backup measure to maintain network access through [External 
+Remote Services](https://attack.mitre.org/techniques/T1133) and [Valid 
+Accounts](https://attack.mitre.org/techniques/T1078) or as part of the initial compromise by 
+exploitation of the externally facing web service. Associated Tactics: TA0002

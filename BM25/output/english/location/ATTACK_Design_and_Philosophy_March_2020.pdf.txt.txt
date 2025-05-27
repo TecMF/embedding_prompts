@@ -1,0 +1,25 @@
+ : 10AOH08A-JC 
+The views, opinions and/or findings 
+contained in this report are those of The 
+MITRE Corporation and should not be 
+construed as an official government position, 
+policy, or decision, unless designated by 
+other documentation. ATT&CK can be used as a tool to create red team plans and organize operations to avoid certain 
+defensive measures that may be in place within a network. This is a useful distinction for the Discovery tactic as the techniques 
+highlight what type of information an adversary is after with a particular action. The data source list 
+can incorporate different variations of how the 
+action could be performed for a particular 
+(sub-)technique. (For example, “what techniques can I detect if I 
+have process monitoring in place?”) 
+Supports Remote 
+Tag 
+If the (sub-)technique can be used to execute 
+something on a remote system. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Defenders see adversaries in action and are often in a position to see when new techniques are 
+being used. Observations by defenders are another great source of information for ATT&CK 
+Red teamers may not track adversary groups or be in a position to see techniques in-the-wild, but 
+they can provide a useful source of information on how techniques are done. [Accessed 16 March 2020].

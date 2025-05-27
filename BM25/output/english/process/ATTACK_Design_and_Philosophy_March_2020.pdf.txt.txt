@@ -1,0 +1,39 @@
+ ATT&CK is just as much about the mindset and process of using it as much as it is the 
+knowledge base itself. For example, Execution is defined as a tactic that 
+represents (sub-)techniques that result in execution of adversary-controlled code on a local or 
+remote system. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. 3.4.3 Sub-Technique Details 
+The addition of sub-techniques to ATT&CK in 2020 marked a significant shift to how behavior 
+is described within the knowledge base. the Process Hollowing sub-technique can 
+be used for Defense Evasion but not Privilege Escalation even though the Process Injection 
+technique covers both tactics). It may contain dates of activity, suspected 
+attribution details, targeted industries, and notable 
+events that are attributed to the group’s activities. Is the "trigger" different 
+between techniques that distinguishes them even though the result may be the same or 
+similar? Are they similar to or 
+different from other techniques that are either performed in the same way or have the 
+same result? Some groups in ATT&CK have multiple names associated with related sets of activity due to 
+various organizations tracking the same (or similar) set(s) of activities by different names. • There are several variations of process injection, but most follow a common sequence of 
+an initial adversary controlled process requesting access to a non-malicious process, 
+loading code within it, and forcing that process to execute the new code. • There are several variations within this core concept to include in the process injection 
+entry which should be defined as sub-techniques under a process injection parent 
+technique. • Process injection should be included as a technique under defense evasion and privilege 
+escalation. Considerations: 
+• SQLi may be performed to gain access to an externally facing web server in a DMZ or 
+improperly positioned web server that would result in network compromise. • There are many methods on how SQLi may reach a database through various malformed 
+data inputs and parameters. Database input or web logs can be used to look for common 
+SQLi inputs that result in code execution. Still more domains could be researched, but given 
+our criteria of basing the information in ATT&CK on in-the-wild use of techniques, oftentimes 
+an application of the ATT&CK methodology does not mean that the result is an ATT&CK 
+model. [17] The MITRE Corporation, "Process Injection," 18 July 2019. [Accessed 16 March 2020].

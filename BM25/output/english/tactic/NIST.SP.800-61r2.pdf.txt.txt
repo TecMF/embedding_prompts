@@ -1,0 +1,28 @@
+ The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Exercises involving simulated incidents can also be very useful for preparing staff for incident handling; 
+see NIST SP 800-84 for more information on exercises23 and Appendix A for sample exercise scenarios. Follow-up reports should be kept for a period of time as 
+specified in record retention policies.45 
+3.4.2 Using Collected Incident Data 
+Lessons learned activities should produce a set of objective and subjective data regarding each incident.  Objective Assessment of Each Incident. The following are examples of performing an objective 
+assessment of an incident: 
+– Reviewing logs, forms, reports, and other incident documentation for adherence to established 
+incident response policies and procedures 
+– Identifying which precursors and indicators of the incident were recorded to determine how 
+effectively the incident was logged and identified 
+– Determining if the incident caused damage before it was detected 
+                                                      
+46  
+Metrics such as the number of incidents handled are generally not of value in a comparison of multiple organizations 
+because each organization is likely to have defined key terms differently. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

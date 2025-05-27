@@ -1,0 +1,57 @@
+ The 
+identified gaps are useful as a way to prioritize investments for improvement of a security 
+program. Similar security products can also be compared against a common adversary behavior 
+model to determine coverage prior to purchasing. When it comes to 
+information security, the threats we face, new technologies, and the adaptability of goal-based 
+adversaries, we cannot consider filling out a checklist as “done”. Impact Type* 
+Tag 
+Denotes if the (sub-)technique can be used for 
+integrity or availability attacks. There should be 
+enough information and references to point toward 
+useful defensive methodologies. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. 3.7 Mitigations 
+Mitigations in ATT&CK represent security concepts and classes of technologies that can be used 
+to prevent a technique or sub-technique from being successfully executed. By contrast, many security models describe desired 
+ 
+21 
+©2020 The MITRE Corporation. These 
+sources are used to help meet the empirical use criteria: 
+• Threat intelligence reports 
+• Conference presentations 
+• Webinars 
+• Social media 
+• Blogs 
+• Open source code repositories 
+• Malware samples 
+ 
+ 
+2 Confidentiality, Integrity, and Availability 
+ 
+22 
+©2020 The MITRE Corporation. Rather than include all possible types of behaviors not covered elsewhere in ATT&CK, 
+techniques in the Impact tactic specifically involve only attacks impacting the integrity or 
+availability of information or systems. Along with the other tactics in ATT&CK, this increases 
+the scope of ATT&CK to cover the traditional Confidentiality, Integrity, and Availability, or 
+CIA triad. Attacks on availability reduce or remove the ability to use a system or the information 
+on it by damaging it or otherwise reducing its utility. Attacks on integrity manipulate the accuracy or 
+completeness of information. Distribution unlimited 19-01075-28. 
+stored in a data base, activity which falls under Data Manipulation: Stored Data Manipulation, 
+damages the integrity of the balance information. Each technique and sub-technique in the 
+Impact tactic includes a mandatory “Impact Type” tag with a value of “Availability” or 
+“Integrity” indicating which one the (sub-)technique impacts. o Are the differences distinguishing characteristics of that group? Common sources include security vendor blogs, but other 
+sources such as personal blogs or Twitter may be used provided the information is deemed to be 
+reliable. Some security features 
+may mitigate aspects of this technique, such as application whitelisting that includes 
+analysis of loaded modules, or code integrity that prevents processes from a lower 
+integrity level from interfacing with processes running in at a higher integrity level. [Accessed 16 March 2020].

@@ -1,0 +1,167 @@
+ ISO/IEC 27035 was prepared by Joint Technical Committee ISO/IEC JTC 1, Information technology, 
+Subcommittee SC 27, IT Security techniques. 3) Technology watch to detect new kinds of threats and attacks. h) 
+Activity to test the use of the information security incident management scheme, its processes and 
+procedures. b) 
+An overview of information security event detection, reporting and collection of relevant information, and 
+how this information should be used to determine information security incidents. c) 
+The relevant sections should outline scheme processes, and related infrastructure. taking an information system off-line or even shutting it down). ii) 
+Collecting the information on information security events. Another approach that may be adopted by the ISIRT is to win users' trust through transparency and mature 
+processes. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. In addition, the awareness and training programs should be complemented by the establishment and 
+operations of ‘hot line’ support from information security incident management personnel, in order to minimize 
+delays in reporting and handling information security events, incidents and vulnerabilities. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). g) 
+Activity to register in an Incident Tracking System. When considering the potential or actual adverse effects of an information security incident on the business of 
+an organization, the following are some examples: 
+a) 
+unauthorized disclosure of information, 
+b) 
+unauthorized modification of information, 
+c) 
+repudiation of information, 
+d) 
+unavailability of information and/or service, 
+e) 
+destruction of information and/or service, and 
+f) 
+reduced performance of service. It is vitally important to follow planned processes and record action. Information security 
+forensic analysis IT based tools should comply with standards such that their accuracy cannot be legally 
+challenged, and should be kept up-to-date in line with technology changes. j) 
+Activity to analyze system/service/network and application logs. If any information pertaining to information 
+security incidents is to be released to the press it should be done in accordance with organization's 
+information dissemination policy. DoS incidents caused by non-technical means, resulting in loss of information, service and/or facilities, could 
+be caused, for example, by: 
+ 
+breaches of physical security arrangements resulting in theft or wilful damage and destruction of 
+equipment, 
+ 
+accidental damage to hardware (and/or its location) by fire or water damage/flood, 
+ 
+extreme environmental conditions, for example high operating temperatures (e.g. due to air conditioning 
+failure), 
+ 
+system malfunctions or overload, 
+ 
+uncontrolled system changes, 
+ 
+malfunctions of software or hardware. contrary to law or organization policy), 
+could be caused, for example, by: 
+ 
+breaches of physical security arrangements resulting in unauthorized access to information, and theft of 
+data storage equipment that contains important data, for example encryption keys, 
+ 
+poorly and/or misconfigured operating systems due to uncontrolled system changes, or malfunctions of 
+software or hardware, resulting in internal or external personnel gaining access to information for which 
+they have no authority. Fire, water, electrostatic, abominable environment (such as 
+pollution, dust, corrosion, freezing), destruction of 
+equipment, destruction of media, theft of equipment, theft 
+of media, loss of equipment, loss of media, tampering with 
+equipment, tampering with media, etc. For example, a computer virus or network worm 
+intrudes into a computer system, and then installs a Trojan 
+horse in the system. Exploitation of backdoor makes use of the backdoors or 
+harmful programs left in software and hardware system 
+design processes. Interception, spying, eavesdropping, disclosure,
+masquerade, social engineering, network phishing, theft of 
+data, loss of data, tampering with data, data error, data 
+flow analysis, position detection, etc. Interception captures data before it is able to reach the 
+intended recipients. Theft of data is to steal data. Tampering with data is to touch or make changes to data 
+without authorization. Data error is to make mistakes when inputting or 
+processing data. C.3.1.1.2 Information System Importance 
+The importance of the information systems affected by information security incidents is determined by 
+considering the importance of the organization business operations supported by the information systems. This approach classifies information 
+system importance into three broad levels: especially important information system, important information 
+system and ordinary information system. 5 Physical damage 
+ 
+(indicate threat types involved) 
+ 
+Fire 
+        Water 
+        Electrostatic 
+ 
+Abominable environment (such as pollution, dust, corrosion, freezing) 
+ 
+Destruction of equipment 
+        Destruction of media 
+        Theft of equipment 
+ 
+Theft of media 
+        Loss of equipment 
+        Loss of media 
+ 
+Tampering with equipment 
+        Tampering with media 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 9.1 Information/Data 
+ 
+9.2 Hardware 
+ 
+9.3 Software 
+ 
+9.4 Communications 
+ 
+9.5 Documentation 
+ 
+9.6 Processes 
+ 
+9.7 Other 
+ 
+10. natural elements, equipment failure, human error 
+ 
+14. In those countries where 
+specific legislation exists that covers data confidentiality and integrity, it is often restricted to the control of 
+personal data. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+76 
+© ISO/IEC 2011 – All rights reserved
+ 
+Bibliography 
+[1] 
+ISO/IEC 18043, Information technology — Security techniques — Selection, deployment and 
+operations of intrusion detection systems 
+[2] 
+ISO/IEC 20000 (all parts), Information technology — Service management 
+[3] 
+ISO/PAS 22399, Societal security — Guidelines for incident preparedness and operational continuity 
+management 
+[4] 
+ISO/IEC 27001, Information technology — Security techniques — Information security management 
+systems — Requirements 
+[5] 
+ISO/IEC 27002,  Information technology — Security techniques — Code of practice for information 
+security management 
+[6] 
+ISO/IEC 27003, Information technology — Security techniques — Information security management 
+system implementation guidance 
+[7] 
+ISO/IEC 27004, Information technology — Security techniques — Information security management — 
+Measurement 
+[8] 
+ISO/IEC 27005, Information technology — Security techniques — Information security risk 
+management 
+[9] 
+ISO/IEC 27031, Information technology — Security techniques — Guidelines for information and 
+communication technology readiness for business continuity 
+[10] 
+ISO/IEC 27033-1,  Information technology — Security techniques — Network security — Part 1: 
+Overview and concepts 
+[11] 
+ISO/IEC 27033-2, Information technology — Security techniques — Network security — Part 2: 
+Guidelines for the design and implementation of network security7 
+[12] 
+ISO/IEC 27033-3, Information technology — Security techniques — Network security — Part 3: 
+Reference networking scenarios — Threats, design techniques and control issues 
+[13] 
+Internet Engineering Task Force (IETF) Site Security 
+Handbook, http://www.ietf.org/rfc/rfc2196. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

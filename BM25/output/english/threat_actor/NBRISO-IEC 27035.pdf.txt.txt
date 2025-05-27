@@ -1,0 +1,155 @@
+ If there are no clear procedures, there is a risk that investigation 
+activities could be conducted in a reactive mode, by responding to incidents as they occur and 
+overlooking what activities are needed. g) 
+Improving updates to information security risk assessment and management results 
+The use of a structured approach to information security incident management will facilitate the 
+- better collection of data for assisting in the identification and determination of the characteristics of the 
+various threat types and associated vulnerabilities, and 
+- provision of data on frequencies of occurrence of the identified threat types. The data collected to identify the occurrence frequency of the 
+various threat types will greatly aid the quality of the threat assessment. Furthermore, such 
+awareness helps to reduce a mistake or panic/confusion by an individual in the event of an information 
+security incident. This applies to policies and other documents applicable both for 
+organization-wide and for individual systems, services and networks. Particular attention 
+should be given to the creation of tests that focus on the evolving vulnerability, threat and risk scenarios 
+(see Clause 5.8). The scheme should include standards that support information sharing, both within the 
+organization and outside (if required by the organization). 4) A definition of the scope of the ISIRT activities. Normally, the scope of an organization's ISIRT covers 
+all of the organization's information systems, services and networks. xii) The terms of reference and responsibilities of the ISIRT as a whole, and of individual members. Further, there should be documented procedures covering not just 
+PoC and ISIRT activities, but those involved in information security forensic analysis and crisis activities – if 
+not covered elsewhere, e.g. on the organization's intranet. These procedures should specify who in the organization deals with media inquiries, and 
+how that part of the organization interacts with the ISIRT. Each group of people involved directly with the 
+management of incidents may require different levels of training, depending on the type, frequency and 
+criticality of their interaction with the information security incident management scheme. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. These phases and their 
+associated activities were introduced in Clause 4.5. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Figure 3 shows all of the operational phases and related activities. Each group may need special information that should come through the appropriate channels of the 
+organization. These incidents need to be escalated to activate the 
+business continuity plan if in place by reporting to either senior management, another group within the 
+organization or persons or groups outside of the organization. This could be following the assessment activities described above in Clauses 7.2 
+and 7.3, or during those activities if some major issue becomes evident early. The organization should ensure that these are actioned. A botnet is a group of compromised (‘zombie’) computers 
+on networks that are centrally controlled by the author of 
+the botnet who is known as botnet controller or herder. An organization could not bear this level of business loss. 1 Minor distress (concern) to an individual (anger, frustration, disappointment) but no breach of legal or 
+regulatory requirement occurs 
+2 Distress (concern) to an individual (anger, frustration, disappointment) but no breach of legal or regulatory 
+requirement occurs 
+3 A breach in a legal, regulatory or ethical requirement or publicized intention on the protection of information, 
+leading to minor embarrassment to an individual 
+4 A breach in a legal, regulatory or ethical requirement or publicized intention on the protection of information,  
+leading to significant embarrassment to an individual or minor embarrassment to a group of individuals 
+5 A breach in a legal, regulatory or ethical requirement or publicized intention on the protection of information, 
+leading to serious embarrassment to an individual 
+6 A breach in a legal, 8.1 Actual 
+(incident has occurred) 
+ 
+8.2 Suspected 
+(incident thought to have occurred but not 
+confirmed) 
+ 
+(One of) 
+8.3 Natural disaster 
+ 
+(indicate threat types involved) 
+ 
+Earthquake 
+ 
+Volcano 
+ 
+Flood 
+ 
+Violent wind 
+ 
+Lightning 
+ 
+Tsunami 
+ 
+Collapse 
+ 
+Other 
+ 
+ 
+Specify: 
+(One of) 
+8.4 Social unrest 
+ 
+(indicate threat types involved) 
+ 
+Bedin 
+    Terrorist assault 
+    War 
+    Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 10 Technical attack 
+ 
+(indicate threat types involved) 
+ 
+Network scanning 
+        Exploitation of vulnerability 
+        Exploitation of backdoor 
+ 
+Login attempts, Interference 
+        Denial of Service (DoS) 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.11 Breach of rule 
+ 
+(indicate threat types involved) 
+ 
+Unauthorized use of resources 
+        Breach of copyright 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 12 Compromise of functions 
+ 
+(indicate threat types involved) 
+ 
+Abuse of rights 
+        Forging of rights, Denial of actions 
+        Mis-operations 
+ 
+Breach of personnel availability 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.13 Compromise of information 
+ 
+(indicate threat types involved) 
+ 
+Interception 
+        Spying, Eavesdropping 
+        Disclosure 
+ 
+Masquerade, (IF INCIDENT CAUSED BY PEOPLE) PERSON(S)/PERPETRATOR(S) INVOLVED 
+(One of) 
+Person 
+ 
+Legally Established Organization/Institution
+ 
+ 
+Organized Group 
+ 
+Accident
+ 
+ 
+ 
+ 
+No Perpetrator
+e.g. As information security incidents need to be typically attributed to an individual, information 
+of a personal nature may therefore need to be recorded and managed accordingly. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

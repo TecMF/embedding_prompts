@@ -1,0 +1,58 @@
+ For each use case, the authors laid out advice on how an organization could get started  
+with ATT&CK based on available resources and overall maturity. This publication pulls together their collective wisdom, originally posted on Medium, into  
+a single package. For those CTI teams who have a couple of analysts, mapping information to ATT&CK  
+yourself can be a good way to ensure you’re getting the most relevant information to  
+meet your organization’s requirements. From there, you can pass the ATT&CK-mapped  
+adversary information to your defenders to inform their defenses, as we discussed above. LEVEL 3 
+If your CTI team is advanced, you can start to map more information to ATT&CK, and  
+then use that information to prioritize how you defend. Taking the above process, you can  
+map both internal and external information to ATT&CK, including incident response data,  
+reports from OSINT or threat intel subscriptions, real-time alerts, and your organization’s  
+historic information. (All this is based solely on publicly available information that we’ve  
+mapped, which is only a subset of what those groups have done.) For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? ANALYTIC DEVELOPMENT WORKFLOW 
+| 15 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+LEVEL 3 
+Feel confident that you’re cranking out quality analytics to detect attacks from Atomic  
+Red Team? Test that confidence and improve your defenses by doing some purple  
+teaming! Each of these tests contains information about what the 
+technique is, the platforms supported, and how to execute the test. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. SEARCH FUNCTION ON HTTPS://ATTACK.MITRE.ORG 
+Another helpful resource to get you started mapping red team procedures to ATT&CK is  
+the APT3 Adversary Emulation Field Manual, which breaks out command-by-command  
+actions that APT3 has used, all mapped to ATT&CK. with known threats that may target  
+the organization. We want to make sure we’re not just doing the techniques because our tool can perform  
+them—we want to emulate a real adversary we care about to provide more value. These purple techniques give us a place to start to use a tool we already have and  
+perform techniques that are a priority to our organization. LEVEL 3 
+By this point, your red team is integrating ATT&CK into operations and finding value in 
+communicating back to the blue team. Gather threat intel—Select an adversary based on the threats to your organization 
+and work with the CTI team to analyze intelligence about what the adversary has 
+done. Combine what’s based on what your organization knows in addition to publicly 
+available intel to document the adversary behaviors, what they go after, whether they 
+do smash and grab or low and slow. To make this process more accessible—and following along with the other chapters—we’ve 
+broken this section down into three levels based on sophistication and resource availability: 
+Square Level 1 for those just starting out who may not have many resources 
+Square Level 2 for those who are mid-level teams starting to mature 
+Square Level 3 for those with more advanced cybersecurity teams and resources 
+Getting started with “assessments” might sound frightening at first—who enjoys being 
+assessed?—but ATT&CK assessments are a part of a larger process to provide useful data to 
+security engineers and architects justifying threat-based security improvements: 
+1. A good resource for getting started with event logs is Malware 
+Archaeology’s Windows ATT&CK Logging Cheat Sheet, which maps Windows events to the 
+techniques you could detect with them. ATT&CK is open and available to any person or organization for use at no charge. | 41 | 
+|  Solving Problems for a Safer World

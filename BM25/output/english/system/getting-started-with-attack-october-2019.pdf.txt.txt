@@ -1,0 +1,49 @@
+ You could repeat this for each of the  
+software samples that we’ve mapped the group using, which we track separately on the  
+ATT&CK website. Those data sources describe the types of data that 
+could give you visibility into the given technique. An easy way to do that is to use Atomic  
+Red Team, an open source project led by Red Canary that provides red team content  
+aligned to ATT&CK that can be used to test analytics. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? I  
+picked Squiblydoo as an example because it’s an easy one: there’s no legitimate reason  
+to have regsvr32.exe call out to the Internet, so a simple analytic is to look for times when  
+the regsvr32.exe process is created and the command line includes “/i:http”. A general pattern to follow is to write the search to detect malicious behavior, revise it to  
+filter out false positives, make sure it still detects the malicious behavior, and then repeat  
+to reduce other sorts of false positives. ANALYTIC DEVELOPMENT WORKFLOW 
+| 15 | 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+LEVEL 3 
+Feel confident that you’re cranking out quality analytics to detect attacks from Atomic  
+Red Team? You and your blue team will be responsible for creating analytics and the red team will  
+be responsible for adversary emulation—essentially, trying to evade your analytics by  
+executing the types of attacks and evasions that we know from threat intelligence that  
+adversaries use in the real world. To start testing, select the T1135 page to see the details and different types of atomic 
+tests that are documented. CALDERA is an automated adversary  
+emulation system created by MITRE that has many built-in behaviors mapped to ATT&CK  
+techniques. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. For example, if we’ve used the “whoami” command in 
+our red team operation, we can search that on the ATT&CK website and find that two 
+techniques likely apply: System Owner/User Discovery (T1033) and Command-Line  
+Interface (T1059). All processes spawned by AcroRd32.exe 
+3. Any processes named tscon.exe 
+4. ATT&CK SITE SEARCH FOR PORT 22 
+Another important aspect to consider are the Group and Software examples listed  
+along with a technique. As an example, you might not be able to install Sysmon on each  
+of your endpoints, but your existing software might be able to forward relevant logs that  
+you might not otherwise have access to. Adam has presented and published in a number of venues including 
+FIRST CTI, USENIX Security, and ACM Transactions on Information and System Security. | 41 | 
+|  Solving Problems for a Safer World

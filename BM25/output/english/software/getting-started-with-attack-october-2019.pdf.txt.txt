@@ -1,0 +1,34 @@
+ You could repeat this for each of the  
+software samples that we’ve mapped the group using, which we track separately on the  
+ATT&CK website. Those data sources describe the types of data that 
+could give you visibility into the given technique. Once you’ve got data in your SIEM you’re ready to try some analytics. If you’re looking at your own  
+enterprise data, it’s hopefully benign or known red team data—if not, maybe stop reading  
+this chapter and figure out what you’re dealing with. An easy way to do that is to use Atomic  
+Red Team, an open source project led by Red Canary that provides red team content  
+aligned to ATT&CK that can be used to test analytics. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? I  
+picked Squiblydoo as an example because it’s an easy one: there’s no legitimate reason  
+to have regsvr32.exe call out to the Internet, so a simple analytic is to look for times when  
+the regsvr32.exe process is created and the command line includes “/i:http”. A general pattern to follow is to write the search to detect malicious behavior, revise it to  
+filter out false positives, make sure it still detects the malicious behavior, and then repeat  
+to reduce other sorts of false positives. Test that confidence and improve your defenses by doing some purple  
+teaming! So, we open up our command prompt, copy and paste the command, add in the 
+computer name, and execute the command. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. But if you’re not pulling in the right data sources, what should you do? Once you feel comfortable with the process, perform a data source analysis and come  
+up with a heatmap of which techniques you could detect given the data sources you’re  
+pulling in. ATT&CK SITE SEARCH FOR PORT 22 
+Another important aspect to consider are the Group and Software examples listed  
+along with a technique. Square What data sources does the tool monitor? As an example, you might not be able to install Sysmon on each  
+of your endpoints, but your existing software might be able to forward relevant logs that  
+you might not otherwise have access to. Prior to working at MITRE, Andy received his PhD in computer 
+science from the University of California Davis. Prior 
+to joining MITRE, Adam was a researcher at Carnegie Mellon’s Parallel Data 
+Lab and earned his BS and MS degrees in computer science and electrical 
+and computer engineering as well as the 2017 Alumni Service Award from Carnegie 
+Mellon University. Blake 
+is a graduate of the computer science program at the University of California, Berkeley. | 41 | 
+|  Solving Problems for a Safer World

@@ -1,0 +1,302 @@
+ Insufficient preparation 
+by an organization to deal with such incidents will make any response less effective, and increase the degree 
+of potential adverse business impact. not all 
+information security events are classified as information security incidents. A threat acts in unwanted ways to exploit the vulnerabilities (weaknesses) of information systems, services or 
+networks, which is the occurrence of information security events and potentially causes unwanted incidents to 
+information assets exposed by the vulnerabilities. The primary steps to minimize the direct negative impact of information security incidents are the following: 
+ 
+stop and contain, 
+ 
+eradicate, 
+ 
+analyse and report, and 
+ 
+follow up. d) 
+Reported information security vulnerabilities are assessed and dealt with appropriately. These are important considerations if legal prosecution or 
+disciplinary action might follow. g) 
+Improving updates to information security risk assessment and management results 
+The use of a structured approach to information security incident management will facilitate the 
+- better collection of data for assisting in the identification and determination of the characteristics of the 
+various threat types and associated vulnerabilities, and 
+- provision of data on frequencies of occurrence of the identified threat types. The data collected on the adverse impacts on business operations from information security incidents will 
+be useful in the business impact analysis. The data collected to identify the occurrence frequency of the 
+various threat types will greatly aid the quality of the threat assessment. Their consequences may include the disclosure, modification, 
+destruction, or unavailability of information in an unauthorized manner, or the damage or theft of 
+organizational assets. 2) The information security event/incident/vulnerability forms: 
+i) 
+completed by the person reporting an information security event (i.e. Such mechanisms could include the 
+following: 
+1) Internal information security audit mechanisms to assess the security level and track vulnerable 
+systems, 
+2) Vulnerability management (including security updates and security patching of vulnerable systems). Particular attention 
+should be given to the creation of tests that focus on the evolving vulnerability, threat and risk scenarios 
+(see Clause 5.8). The information security incident management 
+scheme comes into effect whenever an information security event is detected, or an information security 
+vulnerability is reported. Each organization should use the scheme as a guide for: 
+a) 
+responding to information security events, 
+b) 
+determining whether information security events become information security incidents, 
+c) 
+managing information security incidents to a conclusion, 
+d) 
+responding to information security vulnerabilities, 
+e) 
+identifying lessons learnt, and any improvements to the scheme and/or security in general that are 
+required, and 
+f) 
+making identified improvements. iii) Detecting and reporting on information security vulnerabilities. ix) Dealing with information security vulnerabilities. ii) 
+Identifying the lessons learnt from information security incidents and vulnerabilities. Each organization should have provisions that clearly 
+illustrate the expectation of anonymity, or lack thereof, for persons or parties reporting a potential information 
+security incident or vulnerability. An ISIRT contributes to the reduction in physical and monetary 
+damage, as well as the reduction of the damage to the organization's reputation that is sometimes associated 
+with information security incidents. d) 
+incident information held in, and the outputs from the information security event/incident/vulnerability 
+database, 
+e) 
+controls on confidentiality of sources as relevant, 
+f) 
+scheme service level agreements, 
+g) 
+notification of outcomes – under what circumstances sources are advised, 
+h) 
+any constraints imposed by non-disclosure agreements, 
+i) 
+the authority of the information security incident management organization and its reporting line, and 
+j) 
+who receives reports from the information security incident management scheme, and how the reports 
+are distributed. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. The training should be 
+supported by specific exercises and testing for PoC and ISIRT members, and information security personnel 
+and specific administrators. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). However, the most likely situation is that the 
+information security incident needs to be referred directly to the ISIRT for further assessment and action. For those considered relevant, 
+the related category guideline should be used to establish the potential or actual impacts for entry into the 
+information security incident report. If the incident causes severe negative impact on 
+the business, crisis activities should be initiated. For those considered relevant, the related category guideline should be used to establish the potential or 
+actual impacts for entry into the information security incident report. The overall objectives in responding to information security incidents are the following: 
+a) 
+to confine the potential adverse impacts (of information security incidents), and 
+b) 
+to improve information security. It is vitally important to follow planned processes and record action. Beware of Trojans, rootkits and kernel 
+modules that may cause serious damage to the system. This is especially relevant when the attacker is non-malicious and 
+has caused little or no damage. q) 
+Activity to provide expert support to any disciplinary or legal action as required. 8.2.7 Escalation 
+In extreme circumstances, matters may have to be escalated to accommodate incidents that are out of control 
+and a potential danger for unacceptable business impact. b) 
+Activity to identify the lessons learnt from information security incidents and vulnerabilities. A complete vulnerability assessment is used to highlight the existence of the 
+vulnerabilities exploited during the information security incident on other information systems, services and/or 
+networks and to ensure that no new vulnerabilities are introduced. A.13.2.3 Collection of evidence 
+Control: Where a follow-up action against a person or organization 
+after an information security incident involves legal action (either 
+civil or criminal), evidence should be collected, retained, and 
+presented to conform to the rules for evidence laid down in the 
+relevant jurisdiction(s). DoS incidents caused by non-technical means, resulting in loss of information, service and/or facilities, could 
+be caused, for example, by: 
+ 
+breaches of physical security arrangements resulting in theft or wilful damage and destruction of 
+equipment, 
+ 
+accidental damage to hardware (and/or its location) by fire or water damage/flood, 
+ 
+extreme environmental conditions, for example high operating temperatures (e.g. This commonly occurs 
+with automated hacking tools that not only search for vulnerabilities but also automatically attempt to exploit 
+the vulnerable systems, services and/or networks that are found. Physical 
+damage 
+incident 
+The loss of information 
+security is caused by 
+deliberately or accidentally 
+physical actions. Illegal content is published content that violate national or 
+international constitutions, laws and regulations, for 
+example, child pornography, violence glorification, 
+counterfeit, fraud. It 
+would mean enormous cost to recover business to normal operation and eliminate the negative effects. It would mean high cost to recover business 
+to normal operation and eliminate the negative effects. It would mean considerable cost to recover business to normal operation and 
+eliminate the negative effects. It would mean minor cost to recover business to normal operation and eliminate 
+the negative effects. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+55
+ 
+C.3.1.1.4 Social Impact 
+The impact on society caused by information security incidents is determined by considering the scale and 
+degree of the impact on national security, social order, economic development and public interest. This 
+approach classifies social impact into four levels: especially important social impact, important social impact, 
+considerable social impact and minor social impact, as described below. Such a scale can be simple as ‘major’ and ‘minor’ or more detailed as: 
+ 
+Emergency: severe impact; 
+ 
+Critical: medium impact; 
+ 
+Warning: low impact; 
+ 
+Information: no impact, but analysis could be used to improve information security policies, procedures or 
+controls. C.3.1.2.5 Small (Class I) 
+Small incidents are those that 
+a) 
+act on ordinary important information systems and 
+b) 
+result in minor business loss or no business loss, and 
+c) 
+lead to minor social impact or no social impact 
+d) 
+no action required and no consequences. 1 No entry 
+2 Cause local embarrassment within the organization 
+3 Adversely affect relations with shareholders, customers, suppliers, employees, third party users, regulatory 
+bodies, the government, other organizations or the public, resulting in local/regional adverse publicity 
+4 No entry 
+5 Adversely affect relations with shareholders, customers, suppliers, employees, third party users, regulatory 
+bodies, the government, other organizations or the public, resulting in some national adverse publicity 
+6 No entry 
+7 Materially affect relations with shareholders, customers, suppliers, employees, D.2 Example items in records 
+D.2.1 Example items of the record for information security event 
+This includes basic information of the information security event, such as when, what, how and why the event 
+occurred, as well as the contact information of the reporting person. Whether the 
+information 
+security 
+event 
+is 
+classified 
+as 
+an 
+incident 
+or 
+not, 
+the 
+information 
+security 
+event/incident/vulnerability database should be updated. Date of Event 
+ 
+ 
+Page 1 of 1 
+2. Event Number3 
+ 
+3. INFORMATION SECURITY EVENT DETAILS 
+6.1 Date and Time the Event Occurred 
+ 
+6.2 Date and Time the Event was Discovered 
+ 
+6.3 Date and Time the Event was Reported 
+ 
+6.4 Is the Response to this Event Closed? 8.1 Actual 
+(incident has occurred) 
+ 
+8.2 Suspected 
+(incident thought to have occurred but not 
+confirmed) 
+ 
+(One of) 
+8.3 Natural disaster 
+ 
+(indicate threat types involved) 
+ 
+Earthquake 
+ 
+Volcano 
+ 
+Flood 
+ 
+Violent wind 
+ 
+Lightning 
+ 
+Tsunami 
+ 
+Collapse 
+ 
+Other 
+ 
+ 
+Specify: 
+(One of) 
+8.4 Social unrest 
+ 
+(indicate threat types involved) 
+ 
+Bedin 
+    Terrorist assault 
+    War 
+    Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 10 Technical attack 
+ 
+(indicate threat types involved) 
+ 
+Network scanning 
+        Exploitation of vulnerability 
+        Exploitation of backdoor 
+ 
+Login attempts, Interference 
+        Denial of Service (DoS) 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.11 Breach of rule 
+ 
+(indicate threat types involved) 
+ 
+Unauthorized use of resources 
+        Breach of copyright 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8. 12 Compromise of functions 
+ 
+(indicate threat types involved) 
+ 
+Abuse of rights 
+        Forging of rights, Denial of actions 
+        Mis-operations 
+ 
+Breach of personnel availability 
+        Other 
+ 
+ 
+Specify: 
+(One of) 
+8.13 Compromise of information 
+ 
+(indicate threat types involved) 
+ 
+Interception 
+        Spying, Eavesdropping 
+        Disclosure 
+ 
+Masquerade, ‘no action’, ‘in-house action’, ‘internal 
+investigation’, ‘external’ investigation by ...’) 
+ 
+17. The issues of potential liability, and related required controls to be in place, 
+need to be clarified.  Information technology — Security techniques — Code of practice for information 
+security management 
+[6] 
+ISO/IEC 27003, Information technology — Security techniques — Information security management 
+system implementation guidance 
+[7] 
+ISO/IEC 27004, Information technology — Security techniques — Information security management — 
+Measurement 
+[8] 
+ISO/IEC 27005, Information technology — Security techniques — Information security risk 
+management 
+[9] 
+ISO/IEC 27031, Information technology — Security techniques — Guidelines for information and 
+communication technology readiness for business continuity 
+[10] 
+ISO/IEC 27033-1, Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

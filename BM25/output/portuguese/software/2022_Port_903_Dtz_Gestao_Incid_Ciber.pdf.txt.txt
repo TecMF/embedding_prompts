@@ -1,0 +1,42 @@
+ General de Exército VALÉRIO STUMPF TRINDADE 
+Chefe do Estado-Maior do Exército 
+(Publicado no Boletim do Exército nº 46, de 18 de novembro de 2022)
+ 
+ 
+ 
+NÚMERO 
+DE ORDEM 
+ATO DE 
+APROVAÇÃO 
+PÁGINAS 
+AFETADAS 
+DATA 
+FOLHA DE REGISTRO DE MODIFICAÇÕES 
+ÍNDICE DE ASSUNTOS 
+ 
+Pag 
+FINALIDADE ................................................................................................................................................... 6 
+PREMISSAS...................................................................................................................................................6 
+CONCEPÇÃO GERAL ....... 6) Tratamento de incidentes cibernéticos – consiste nas ações e procedimentos tomados 
+imediatamente após a identificação do incidente, visando garantir a continuidade de operações, preservar 
+evidências e emitir as notificações necessárias. 7) Resposta a incidentes cibernéticos – processo que envolve as atividades técnicas de contenção, 
+erradicação e mitigação de um incidente. 8) Crise cibernética – situação excepcional, caracterizada pela ocorrência de um ou mais incidentes 
+cibernéticos graves, com potencial para comprometer ativos de informação críticos da Instituição, provocar efeitos 
+(cinéticos ou não cinéticos) danosos sobre pessoas, instalações ou instituições e/ou afetar a imagem do EB, impondo 
+a adoção de medidas excepcionais na mitigação de possíveis danos ou o emprego de elementos operacionais. 9) Equipe de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (ETIR) – grupo de agentes 
+públicos com a responsabilidade de prestar serviços relacionados à segurança cibernética para o órgão ou a 
+entidade da Administração Pública Federal (APF), em observância à política de segurança da informação e aos 
+processos de gestão de segurança da informação do órgão ou da entidade. 10) ETIR de coordenação - Equipe de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos 
+que coordena e facilita as ações de resposta a incidentes entre diversas Seções de Prevenção, Tratamento e 
+Resposta a Incidentes Cibernéticos (STIR). A gestão de incidentes cibernéticos se enquadra no escopo da Segurança, da Defesa e da Guerra 
+Cibernética, particularmente no tocante às ações de Proteção Cibernética, contribuindo para a Segurança da 
+6/10
+Informação (SI). São incidentes cibernéticos, dentre outros: 
+1) Obtenção de acesso não autorizado a um sistema ou a dados armazenados; 
+2) Utilização não autorizada de sistemas para a realização de atividades de processamento ou 
+armazenamento de dados; 
+3) Mudanças não autorizadas de firmware, hardware ou software em um ambiente computacional; 
+4) Ataques de negação de serviço (Denial of Service - DOS ou Distributed Denial of Service - DDOS); 
+5) Violação de direito autoral de arquivos digitais (livros, músicas, softwares e outros); e 
+6) Demais ações que visam afetar a disponibilidade, integridade, confidencialidade e autenticidade 
+dos dados. 3. 10/10

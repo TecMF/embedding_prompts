@@ -1,0 +1,55 @@
+ ATT&CK can be useful for any organization that wants to move toward a threat-informed  
+defense, so we want to share ideas for how to start regardless of how sophisticated your team is. Understand ATT&CK—Familiarize yourself with the overall structure of ATT&CK: 
+tactics (the adversary’s technical goals), techniques (how those goals are achieved), 
+and procedures (specific implementations of techniques). Taking the above process, you can  
+map both internal and external information to ATT&CK, including incident response data,  
+reports from OSINT or threat intel subscriptions, real-time alerts, and your organization’s  
+historic information. If our defenders have given the CTI team the requirement  
+to help figure out where they should prioritize resources for defense, we can share this  
+information with them as a place for them to start. For example, you can find their  
+list of attacks for Regsvr32, including Squiblydoo. Of course, if you’re already doing red  
+teaming, feel free to run the attacks you know yourself (on systems where you have  
+permission!) and try to develop analytics for those! Bonus Level 0 Content: Really want to create your own analytics and run your own attacks  
+but don’t have your own network? Test that confidence and improve your defenses by doing some purple  
+teaming! They adapt and try to evade your defenses—including your analytics  
+(that’s why there’s a defense evasion tactic in ATT&CK, after all). At that point, you’ll need 
+to update your analytic to look for different artifacts and behaviors that won’t rely on 
+the exact naming. You can reference back to Chapter 1 on prioritizing by threat actor, use some of  
+the resources published by vendors to prioritize based on prevalence of the technique  
+based on their monitoring, or perhaps best of all, develop analytics for the activity that  
+you know about from your own incidents. | 18 | 
+ 
+ 
+ 
+ 
+ 
+GETTING STARTED WITH ATT&CK: Detection and Analytics | John Wunder 
+RESOURCES 
+Square CAR: MITRE’s repository of analytics 
+Square EQL: Endgame’s open-source repository of analytics 
+Square Sigma: A tool-independent format for analytics, along with a repository of analytics in 
+that format from Florian Roth and Thomas Patzke 
+Square ThreatHunter Playbook: A repository of strategies to look for ATT&CK techniques in log 
+data (i.e. Adversary emulators construct a scenario to test certain aspects of an adversary’s tactics, 
+techniques, and procedures (TTPs). LEVEL 1 
+Small teams and those mainly focused on defense can get a lot of benefit out of 
+adversary emulation even if they don’t have access to a red team, so don’t worry! You troubleshoot and fix the problem, and now you’ve made a measurable  
+improvement to help you have a better chance to catch an adversary using this  
+procedure in the future. It allows the operator to pick one technique or chain many together when  
+building the test, which allows you to start to automate sequences of behaviors for your  
+testing rather than manually executing single Atomic Tests. You can use one of the pre-
+built scenarios or define a more specific scenario by choosing the procedures (called  
+abilities in CALDERA) that map to certain ATT&CK techniques you want to test. Mapping red team procedures to ATT&CK is similar to mapping threat  
+intelligence to ATT&CK, so you might want to check out Katie’s recommendations for a  
+six-step process outlined in Chapter 1. | 24 | 
+GETTING STARTED WITH ATT&CK: Adversary Emulation and Red Teaming | Blake Strom, Tim Schulz, and Katie Nickels 
+ATT&CK MATRIX SHOWING COBALT STRIKE AND OILRIG TECHNIQUE OVERLAP 
+Aside from identifying overlap between Cobalt Strike and OilRig, the analysis can also  
+show where there are opportunities to vary the red team’s behaviors beyond what they  
+typically employ down to the procedure level. Develop tools and procedures—Now that you know what you’d like the red team to 
+do, figure out how to implement the behavior. These describe the procedures, or specific ways, an adversary  
+has used a technique. Katie Nickels is the ATT&CK threat intelligence lead at MITRE, where she 
+focuses on sharing how ATT&CK is useful for moving toward a threat-
+informed defense. Katie has worked in network defense, incident response, and 
+cyber threat intelligence for nearly a decade. | 41 | 
+|  Solving Problems for a Safer World

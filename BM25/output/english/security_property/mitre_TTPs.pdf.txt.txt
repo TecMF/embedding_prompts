@@ -1,0 +1,75 @@
+ Impact consists of techniques that adversaries use to disrupt availability or compromise integrity 
+by manipulating business and operational processes. (Citation: Stantinko Botnet)(Citation: Chrome 
+Extension C2 Malware) Adversaries may also use browser extensions to modify browser 
+permissions and components, privacy settings, and other security controls for [Defense 
+Evasion](https://attack.mitre.org/tactics/TA0005). In principle, containerized resources should provide a clear separation of 
+application functionality and be isolated from the host environment. This may compromise the integrity of security solutions by 
+causing notable events to go unreported. Network sniffing may reveal configuration details, such as running services, version numbers, 
+and other network characteristics (e.g. This could be done to blend traffic patterns with normal activity or 
+availability. This may take the form of sending a series 
+of packets with certain characteristics before a port will be opened that the adversary can use 
+for command and control. [Port 
+Knocking](https://attack.mitre.org/techniques/T1205/001)), but can involve unusual flags, 
+specific strings, or other unique characteristics. HVAC, elevators, physical security). (Citation: Imperva DDoS for Hire)(Citation: Krebs-Anna)(Citation: Krebs-
+Bazaar)(Citation: Krebs-Booter) 
+  Parent Technique: T1583 
+  Associated Tactics: TA0042 
+ 
+T1584.005: Botnet 
+  Description: Adversaries may compromise numerous third-party systems to form a botnet that 
+can be used during targeting. A botnet is a network of compromised systems that can be 
+instructed to perform coordinated tasks. (Citation: Norton Botnet) Instead of purchasing/renting a 
+botnet from a booter/stresser service, adversaries may build their own botnet by compromising 
+numerous third-party systems. (Citation: Imperva DDoS for Hire) Adversaries may also conduct 
+a takeover of an existing botnet, such as redirecting bots to adversary-controlled C2 
+servers. Adversaries may search CDN data to gather actionable information. (Citation: Twitter CMSTP Jan 2018) (Citation: GitHub Ultimate 
+AppLocker Bypass List) (Citation: Endurant CMSTP July 2018) This execution may also bypass 
+AppLocker and other application control defenses since CMSTP.exe is a legitimate binary that 
+may be signed by Microsoft. CMSTP.exe can also be abused to [Bypass User Account 
+Control](https://attack.mitre.org/techniques/T1548/002) and execute arbitrary commands from a 
+malicious INF through an auto-elevated COM interface. Code signing provides a level of authenticity for a program from the developer and a guarantee 
+that the program has not been tampered with. (Citation: Huntress API Hash)(Citation: IRED API Hashing) 
+ 
+To avoid static or other defensive analysis, adversaries may use dynamic API resolution to 
+conceal malware characteristics and functionalities. When 
+calling this API, the user will be prompted to enter their credentials but no checks on the origin 
+or integrity of the program are made. (Citation: Antiquated Mac Malware) 
+ 
+On macOS, the configurations for how applications run are listed in property list (plist) files. Cloned 
+certificate chains will carry many of the same metadata characteristics of the source and can be 
+used to sign malicious code that may then bypass signature validation tools (ex: Sysinternals, 
+antivirus, etc.) Code signing provides a level of authenticity on 
+a binary from the developer and a guarantee that the binary has not been tampered with. The Windows security subsystem is a set of components that manage 
+and enforce the security policy for a computer or domain. The Local Security Authority (LSA) is 
+the main component responsible for local security policy and user authentication. These 
+LaunchDaemons have property list files which point to the executables that will be launched 
+(Citation: Methods of Mac Malware Persistence). Since mshta.exe executes outside of the Internet Explorer's security context, it 
+also bypasses browser security settings. (Citation: Microsoft TxF) To ensure data integrity, TxF enables only one transacted 
+handle to write to a file at a given time. (Citation: Re-Open windows on Mac) When selected, all applications currently open are 
+added to a property list file named <code>com.apple.loginwindow. This value causes Windows, at startup, to check 
+the file-system integrity of the hard disks if the system has been shut down abnormally. Security reporting messages are important for 
+monitoring the normal operation of a system and identifying important events that can signal a 
+security incident. A startup item is a directory whose executable 
+and configuration property list (plist), <code>StartupParameters.plist</code>, reside in the top-
+level directory. TCC is a 
+Privacy & Security macOS control mechanism used to determine if the running process has 
+permission to access the data or services protected by TCC, such as screen sharing, camera, 
+microphone, or Full Disk Access (FDA). When System Integrity Protection 
+(SIP) is disabled, TCC protections are also disabled. which may further cause a DoS condition 
+and deny availability to critical information, applications and/or systems. Code signing provides a level of authenticity on a binary from the developer 
+and a guarantee that the binary has not been tampered with. Code signing provides a level of authenticity for a program from the developer and a guarantee 
+that the program has not been tampered with. Code signing provides a level of authenticity on a program from a developer 
+and a guarantee that the program has not been tampered with. This DoS attack may also reduce the availability and 
+functionality of the targeted system(s) and network. The 
+<code>AllowReversiblePasswordEncryption</code> property specifies whether reversible 
+password encryption for an account is enabled or disabled. (Citation: store_pwd_rev_enc) 
+ 
+If the property is enabled and/or a user changes their password after it is enabled, an adversary 
+may be able to obtain the plaintext of passwords created/changed after the property was 
+enabled. SIDs are used by Windows security in both security descriptors and access 
+tokens. Adversaries often target the availability of DNS and web 
+services, however others have been targeted as well. Because the cryptographic renegotiation has a meaningful cost in 
+computation cycles, this can cause an impact to the availability of the service when done in 
+volume. This provides the principle of least privilege such that users are running in their lowest 
+possible permissions for most of the time and only elevate to other users or permissions as 
+needed, typically by prompting for a password. Associated Tactics: TA0002

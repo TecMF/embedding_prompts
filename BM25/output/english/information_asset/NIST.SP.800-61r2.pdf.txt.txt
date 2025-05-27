@@ -1,0 +1,118 @@
+ .......... 49 
+4.3.1 
+Business Impact Information ........................................................................49 
+4.3.2 
+Technical Information ...................................................................................50 
+4.4 
+Recommendations .................................................................................................. Event correlation software can be of great value in 
+automating the analysis process. Prioritizing the handling of individual incidents is a critical decision point in the incident response 
+process. Organizations should use the lessons learned process to gain value from incidents.  in part to: 
+– “Provide timely technical assistance to operators of agency information systems … including 
+guidance on detecting and handling information security incidents … 
+– Compile and analyze information about incidents that threaten information security … 
+– Inform operators of agency information systems about current and potential information security 
+threats, and vulnerabilities … .” 
+ Federal Information Processing Standards (FIPS) 200, Minimum Security Requirements for Federal 
+Information and Information Systems5, March 2006, which specifies minimum security requirements 
+for Federal information and information systems, including incident response. Each organization needs a plan that meets its unique requirements, which relates to the 
+organization’s mission, size, structure, and functions.  Organization’s ISP. The organization has multiple incident response teams, each 
+responsible for a particular logical or physical segment of the organization. In a 
+fully outsourced model, this person oversees and evaluates the outsourcer’s work. Every 
+team member should have good problem solving skills and critical thinking abilities. 18  
+Teams should word advisories so that they do not blame any person or organization for security issues.  Information Sharing. These 
+workstations typically contain a set of removable hard drives that can be used for evidence storage. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Organizations should require a baseline level of 
+logging on all systems and a higher baseline level on critical systems. Section 3.2.4 discusses the value of centralized logging. For example, the 
+organization might be contacted by a party claiming a system at the organization is attacking its 
+systems. 3.2.5 Incident Documentation 
+An incident response team that suspects that an incident has occurred should immediately start recording 
+all facts regarding the incident.36 A logbook is an effective and simple medium for this,37 but laptops, 
+                                                      
+35  
+More information on NTP is available at http://www.ntp.org/. Whenever possible, handlers should work in teams of at least 
+two: one person can record and log events while the other person performs the technical tasks. Incidents should not be handled on a first-come, first-served basis as a result of resource 
+limitations. Functional Impact Categories 
+Category 
+Definition 
+None 
+No effect to the organization’s ability to provide all services to all users 
+Low 
+Minimal effect; the organization can still provide all critical services to all users but has lost 
+efficiency  
+Medium 
+Organization has lost the ability to provide a critical service to a subset of system users 
+High 
+Organization is no longer able to provide some critical services to any users 
+ 
+Table 3-3 provides examples of possible information impact categories that describe the extent of 
+information compromise that occurred during the incident. In this table, with the exception of the ‘None’ 
+value, the categories are not mutually exclusive and the organization could choose more than one. Once a resource is successfully 
+attacked, it is often attacked again, or other resources within the organization are attacked in a similar 
+manner. More specific metrics, such as the number of port scans, are also of little value in 
+organizational comparisons. Another 
+valuable source of input is the owner of a resource that was attacked, in order to determine if the 
+owner thinks the incident was handled efficiently and if the outcome was satisfactory.  Require a baseline level of logging and auditing on all systems, and a higher baseline level on all 
+critical systems. Because of resource limitations, 
+incidents should not be handled on a first-come, first-served basis. Collaboration with the trusted partner can enable an 
+organization to respond to the incident more quickly and efficiently than an organization operating in 
+isolation. Another incentive for information sharing is the 
+ability to respond to incidents using techniques that may not be available to a single organization, 
+especially if that organization is small to medium size. Because of the lack of standardization, they tend to 
+require manual intervention and to be more resource-intensive to process than the alternative, partially 
+automated methods. These transport mechanisms include, at a 
+minimum, the transport protocol for exchanging the information, the architectural model for 
+communicating with an information resource, and the applicable ports and domain names for accessing an 
+information resource in a particular organization. See Section 4.3 for 
+more information on granular information sharing. 4.3 
+Granular Information Sharing 
+Organizations need to balance the benefits of information sharing with the drawbacks of sharing sensitive 
+information, ideally sharing the necessary information and only the necessary information with the 
+appropriate parties. In this case, for a hypothetical incident an 
+organization would report that it has a functional impact of medium, an information impact of none, and 
+will require extended recoverability time. While organizations gain value from collecting their own internal indicators, they may gain additional 
+value from analyzing indicators received from partner organizations and sharing internal indicators for 
+external analysis and use.  Balance the benefits of information sharing with the drawbacks of sharing sensitive 
+information. How would the organization attempt to prevent the worm from entering the organization before 
+antivirus signatures were released? How would the handling of this incident differ if the vulnerability scanning were directed at the 
+organization’s most critical hosts? html#800-128  
+ 
+ 
+ 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+64 
+Data Exchange Specifications Applicable to Incident Handling 
+Title 
+Description 
+Additional Information 
+AI 
+Asset Identification  
+http://csrc.nist.gov/publications/ PubsNISTIRs.html#NIST-
+IR-7693  
+ARF  
+Asset Results Format  
+http://csrc.nist.gov/publications/ PubsNISTIRs.html#NIST-
+IR-7694  
+CAPEC  
+Common Attack Pattern Enumeration 
+and Classification  
+http://capec.mitre.org/  
+CCE  
+Common Configuration Enumeration  
+http://cce.mitre. When should a person involved with an incident contact law enforcement? The person should immediately stop using the system and contact the incident response team. For example, one person can perform actions while the other documents 
+them. It is critical to identify such 
+vulnerabilities and eliminate or otherwise mitigate them so that the incident does not recur. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

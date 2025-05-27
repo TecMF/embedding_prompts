@@ -1,0 +1,73 @@
+ Organizations should reduce the frequency of incidents by effectively securing networks, systems, 
+and applications. What steps are you taking to determine what happened and to 
+prevent future occurrences? COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+23 
+Incident Analysis Resources: 
+ Port lists, including commonly used ports and Trojan horse ports 
+ Documentation for OSs, applications, protocols, and intrusion detection and antivirus products 
+ Network diagrams and lists of critical assets, such as database servers 
+ Current baselines of expected network, system, and application activity 
+ Cryptographic hashes of critical files22 to speed incident analysis, verification, and eradication 
+Incident Mitigation Software: 
+ Access to images of clean OS and application installations for restoration and recovery purposes 
+Many incident response teams create a jump kit, which is a portable case that contains materials that may 
+be needed during an investigation. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. Because the 
+purpose of having a jump kit is to facilitate faster responses, the team should avoid borrowing items from 
+the jump kit. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Exercises involving simulated incidents can also be very useful for preparing staff for incident handling; 
+see NIST SP 800-84 for more information on exercises23 and Appendix A for sample exercise scenarios. 3.1.2 Preventing Incidents 
+Keeping the number of incidents reasonably low is very important to protect the business processes of the 
+organization. Improving user awareness regarding incidents should reduce the frequency of incidents. Antispam software is used to detect spam and 
+prevent it from reaching users’ mailboxes. One effective strategy is to filter out 
+categories of indicators that tend to be insignificant. Combining the functional impact to the organization’s systems and the impact to the organization’s 
+information determines the business impact of the incident—for example, a distributed denial of service 
+attack against a public web server may temporarily reduce the functionality for users attempting to access 
+the server, whereas unauthorized root-level access to a public web server may result in the exfiltration of 
+personally identifiable information (PII), which could have a long-lasting impact on the organization’s 
+reputation. An incident with a high functional impact and low effort to recover from is an ideal 
+candidate for immediate action from the team. Most incidents 
+require containment, so that is an important consideration early in the course of handling each incident. Containment provides time for developing a tailored remediation strategy. The incident response team 
+should discuss this strategy with its legal department to determine if it is feasible. The delayed containment strategy is dangerous because an 
+attacker could escalate unauthorized access or compromise other systems.  What corrective actions can prevent similar incidents in the future? Finally, it is also important to document the major points of 
+agreement and action items and to communicate them to parties who could not attend the meeting. The number of incidents handled is best 
+taken as a measure of the relative amount of work that the incident response team had to perform, not 
+as a measure of the quality of the team, unless it is considered in the context of other measures that 
+collectively give an indication of work quality. Besides using these metrics to measure the team’s success, organizations may also find it useful to 
+periodically audit their incident response programs. Incident Handling Checklist 
+Action 
+Completed 
+Detection and Analysis 
+1.  Prevent incidents from occurring by ensuring that networks, systems, and applications are 
+sufficiently secure. 4.1 
+Coordination 
+As discussed in Section 2.3.4, an organization may need to interact with several types of external 
+organizations in the course of conducting incident response activities. The coordinating teams act on 
+behalf of their respective community member 
+organizations to share information on the 
+nature and scope of cross-cutting incidents 
+and reusable mitigation strategies to assist in 
+inter-community response. An example is a nondisclosure agreement (NDA) to 
+protect the confidentiality of the organization’s most sensitive information. The incident response team should also ensure that the 
+necessary measures are taken to protect information shared with the team by other organizations. What measures are in place to attempt to prevent this type of incident from occurring or to limit 
+its impact? Would any precursors 
+cause the organization to take action before the incident occurred? What strategy should the organization take to contain the incident? Why is this strategy preferable 
+to others? What could be done to prevent similar incidents from occurring in the future? Incident Handling: The mitigation of violations of security policies and recommended practices. The team receives information on possible incidents, investigates them, and takes action to ensure 
+that the damage caused by the incidents is minimized. The 
+person may need to assist in the initial handling of the incident—for instance, physically 
+monitoring the system until incident handlers arrive to protect evidence on the system. This effort includes every action that is performed, every piece of evidence, 
+and every conversation with users, system owners, and others regarding the incident. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

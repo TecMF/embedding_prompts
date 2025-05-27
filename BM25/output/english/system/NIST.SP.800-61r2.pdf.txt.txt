@@ -1,0 +1,145 @@
+ 800-61 Revision 2, 79 pages (Aug. 2012) 
+CODEN: NSPUE2 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comments on this publication may be submitted to: 
+National Institute of Standards and Technology 
+Attn: Computer Security Division, Information Technology Laboratory 
+100 Bureau Drive (Mail Stop 8930), Gaithersburg, MD 20899-8930 
+ 
+ 
+Certain commercial entities, equipment, or materials may be identified in this document in order to describe an 
+experimental procedure or concept adequately. Such identification is not intended to imply recommendation or 
+endorsement by NIST, nor is it intended to imply that the entities, materials, or equipment are necessarily the 
+best available for the purpose. For planning and transition purposes, Federal agencies may wish to closely follow 
+the development of these new publications by NIST. The guidelines can be followed independently of particular hardware platforms, operating systems, 
+protocols, or applications. .................... 7 
+2.3.1 
+Policy Elements............................................................................................. 7 
+2.3.2 
+Plan Elements ............................................................................................... 8 
+2.3.3 
+Procedure Elements ...................................................................................... 8 
+2.3.4 
+Sharing Information With Outside Parties ... ................... 53 
+Appendix B— Incident-Related Data Elements .....................................................................58 
+B.1 Basic Data Elements ............................................................................................... 58 
+B.2 Incident Handler Data Elements .............................................................................. New types of security-related incidents emerge frequently. The guidelines can be followed 
+independently of particular hardware platforms, operating systems, protocols, or applications. Different types of incidents merit different response 
+strategies. Follow-up 
+reports generated for each resolved incident can be important not only for evidentiary purposes but also 
+for reference in handling future incidents and in training new team members. Section 2.4.1 discusses the types of structures. 2.3.3 Procedure Elements 
+Procedures should be based on the incident response policy and plan. Suggested SOP elements are presented throughout Section 3. The team should document all contacts and communications with outside parties for 
+liability and evidentiary purposes.  Software Vendors. This understanding can ensure that the appropriate actions are taken for the affected system, 
+such as whether to disconnect an attacked system. Organizations should ensure that incident response policies and 
+procedures and business continuity processes are in sync.  if a permanent war room is not necessary or 
+practical, the team should create a procedure for procuring a temporary war room when needed 
+ Secure storage facility for securing evidence and other sensitive materials 
+Incident Analysis Hardware and Software: 
+ Digital forensic workstations21 and/or backup devices to create disk images, preserve log files, and 
+save other relevant incident data 
+ Laptops for activities such as analyzing data, sniffing packets, and writing reports 
+ Spare workstations, servers,  and networking equipment, or the virtualized equivalents, which 
+may be used for many purposes, such as restoring backups and trying out malware 
+ Blank removable media 
+ Portable printer to print copies of log files and other evidence from non-networked systems 
+ Packet sniffers and protocol analyzers to capture and analyze network traffic 
+ Digital forensic software to analyze disk images 
+ Removable media with trusted versions of  These 
+workstations typically contain a set of removable hard drives that can be used for evidence storage. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+23 
+Incident Analysis Resources: 
+ Port lists, including commonly used ports and Trojan horse ports 
+ Documentation for OSs, applications, protocols, and intrusion detection and antivirus products 
+ Network diagrams and lists of critical assets, such as database servers 
+ Current baselines of expected network, system, and application activity 
+ Cryptographic hashes of critical files22 to speed incident analysis, verification, and eradication 
+Incident Mitigation Software: 
+ Access to images of clean OS and application installations for restoration and recovery purposes 
+Many incident response teams create a jump kit, which is a portable case that contains materials that may 
+be needed during an investigation. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. 3.1.2 Preventing Incidents 
+Keeping the number of incidents reasonably low is very important to protect the business processes of the 
+organization. Different types of incidents merit 
+different response strategies.  A system administrator sees a filename with unusual characters. Antivirus and 
+antispam 
+software 
+Antivirus software detects various forms of malware, generates alerts, and prevents the malware 
+from infecting hosts. File integrity 
+checking 
+software 
+File integrity checking software can detect changes made to important files during incidents. This estimate may become the basis for subsequent prosecution activity by entities 
+such as the U.S. Attorney General’s office. Absolute numbers are not informative—understanding how 
+they represent threats to the business processes of the organization is what matters. For each incident, time can be measured in several ways: 
+– Total amount of labor spent working on the incident 
+– Elapsed time from the beginning of the incident to incident discovery, to the initial impact 
+assessment, and to each stage of the incident handling process (e.g., containment, recovery) 
+– How long it took the incident response team to respond to the initial report of the incident 
+– How long it took to report the incident to management and, if necessary, appropriate external 
+entities (e.g., US-CERT). Original hardware (e.g., hard drives, compromised systems) that is stored as evidence, as well 
+as hard drives and removable media that are used to hold disk images, are generally individually 
+inexpensive. The organization also must retain functional computers that can use the stored hardware 
+and media. Examples include contact lists, encryption software, network diagrams, backup devices, digital 
+forensic software, and port lists. Intrusion detection and prevention systems, antivirus software, and file integrity checking 
+software are valuable for detecting signs of incidents. Each type of software may detect incidents that 
+the other types of software cannot, so the use of several types of computer security software is highly 
+recommended.  Obtain system snapshots through full forensic disk images, not file system backups. This process is superior to a file 
+system backup for investigatory and evidentiary purposes. However, due to the informal nature of ad hoc information sharing, it is not possible to guarantee that the 
+information sharing processes will always operate. The organization may want to construct a 
+formal data dictionary enumerating all entities and relationships between entities that they will wish to 
+share. Organizations should attempt to achieve a 
+balance of automated information sharing overlaid with human-centric processes for managing the 
+information flow. Organizations should consider which types of technical information should or should not be shared 
+with various parties. Which personnel would be involved in the containment, eradication, and/or recovery processes? How would the system owners be identified? COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+58 
+Appendix B—Incident-Related Data Elements 
+Organizations should identify a standard set of incident-related data elements to be collected for each 
+incident. The organization should designate 
+a set of basic elements (e.g., incident reporter’s name, phone number, and location) to be collected when 
+the incident is reported and an additional set of elements to be collected by the incident handlers during 
+their response. Event: Any observable occurrence in a network or system. org/  
+CEE  
+Common Event Expression  
+http://cee.mitre.org/  
+CPE  
+Common Platform Enumeration  
+http://cpe.mitre.org/  
+CVE  
+Common Vulnerabilities and Exposures  
+http://cve.mitre.org/  
+CVSS  
+Common Vulnerability Scoring System  
+http://www.first.org/cvss/cvss-guide  
+CWE  
+Common Weakness Enumeration  
+http://cwe.mitre.org/  
+CybOX 
+Cyber Observable eXpression 
+http://cybox.mitre.org/  
+MAEC  
+Malware Attribute Enumeration and 
+Characterization  
+http://maec.mitre.org/  
+OCIL  
+Open Checklist Interactive Language  
+http://csrc.nist.gov/publications/ PubsNISTIRs. What should someone do who discovers that a system has been attacked? 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

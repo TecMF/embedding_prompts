@@ -1,0 +1,61 @@
+ ............................... 8 
+3.4 
+Techniques and Sub-Techniques ...................................................................................... 9 
+3.4.1 
+Procedures .................................................................................................................. 9 
+3.4.2 
+Technique and Sub-Technique Object Structure ........................................................ 9 
+3.4.3 
+Sub-Technique Details .............................................................................................  12 
+3.5 
+Groups ............................................................................................................................ 13 
+3.5.1 
+Group Object Structure ............................................................................................. 14 
+3.6 
+Software .......................................................................................................................... 14 
+3.6.1 
+Software Object Structure ........................................................................................  15 
+3.7 
+Mitigations ...................................................................................................................... 16 
+3.7.1 
+Mitigation Object Structure ...................................................................................... 16 
+3.8 
+ATT&CK Object Model Relationships .......................................................................... 17 
+3.9 
+Versioning ...................................................................................................................... 19 
+3.9. Adversary emulation focuses on the ability of an organization to verify detection 
+and/or mitigation of the adversarial activity at all applicable points in their lifecycle. Defensive Gap Assessment – A defensive gap assessment allows an organization to determine 
+what parts of its enterprise lack defenses and/or visibility. Operationalizing ATT&CK for an organization also encompasses determining what it means for 
+you to have “ATT&CK coverage”. It is independent of 
+technology and models an adversary’s behavior as they attempt to gain access to an organization 
+or entity through the technology they leverage, spanning multiple domains. Items marked with relationship indicate fields that are associated to object entity 
+relationships with groups, software, or mitigations. CAPEC ID 
+Field 
+Hyperlink to related CAPEC entry on the CAPEC 
+site. They describe the group or 
+software entity with a brief description of how the 
+technique is used. There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. Items marked with relationship indicate fields that are associated to 
+object entity relationships with techniques or software that use the technique. Items marked with relationship indicate fields that are 
+associated to object entity relationships with techniques or groups. Items marked with relationship indicate fields that 
+are associated to object entity relationships with techniques or sub-techniques. [10] 
+ The ATT&CK Methodology 
+The previous sections of this document have described and defined the purpose and structure of 
+the ATT&CK knowledge base. The information may be used in different ways 
+depending on where the information comes from and the vantage the contributing organization 
+or individual has. For example, overwriting the master boot 
+record (MBR) of  a computer, activity which falls under Disk Structure Wipe, renders the system 
+unable to boot and unavailable to users. There could be several nuances that lead an analyst and organization to categorize 
+adversary activity separately, such as differences in visibility into a group’s suspected activity. In this case, the process of identifying the model’s structure and 
+content may include significant amounts of theoretical or red team-derived behaviors. [Accessed 16 March 2020].

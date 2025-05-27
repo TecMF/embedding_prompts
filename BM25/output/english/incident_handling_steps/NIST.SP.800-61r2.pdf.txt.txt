@@ -1,0 +1,210 @@
+ Such identification is not intended to imply recommendation or 
+endorsement by NIST, nor is it intended to imply that the entities, materials, or equipment are necessarily the 
+best available for the purpose. Handling an Incident .......................................................................................................21 
+3.1 
+Preparation .............................................................................................................. 21 
+3.1.1 
+Preparing to Handle Incidents ......................................................................21 
+3.1.2 
+Preventing Incidents .....................................................................................23 
+3.2 
+Detection and Analysis ............................................................................................ 25 
+3.2.1 
+Attack Vectors ........................................ ......................................................25 
+3.2.2 
+Signs of an Incident ......................................................................................26 
+3.2.3 
+Sources of Precursors and Indicators ...........................................................27 
+3.2.4 
+Incident Analysis ..........................................................................................28 
+3.2.5 
+Incident Documentation ................................................................................30 
+3.2.6 
+Incident Prioritization ....................................................................................32 
+3.2.7 
+Incident Notification ........... .............................................................................. 38 
+3.4.1 
+Lessons Learned ..........................................................................................38 
+3.4.2 
+Using Collected Incident Data ......................................................................39 
+3.4.3 
+Evidence Retention ......................................................................................41 
+3.5 
+Incident Handling Checklist ..................................................................................... 42 
+3.6 
+Recommendations .................................................................................................. 42 
+4. Incident Handling Checklist ......................................................................................42 
+Table 4-1. Understanding threats 
+and identifying modern attacks in their early stages is key to preventing subsequent compromises, and 
+proactively sharing information among organizations regarding the signs of these attacks is an 
+increasingly effective way to identify them.  Improper Usage: Any incident resulting from violation of an organization’s acceptable usage 
+policies by an authorized user, excluding the above categories. Organizations should use the lessons learned process to gain value from incidents. After a major incident has been handled, the organization should hold a lessons learned meeting to review 
+the effectiveness of the incident handling process and identify necessary improvements to existing 
+security controls and practices. Lessons learned meetings can also be held periodically for lesser incidents 
+as time and resources permit.  Appendix G lists the major steps to follow when handling a computer security incident-related crisis. A computer security incident is a violation or imminent threat of violation1 of computer security policies, 
+acceptable use policies, or standard security practices. Another benefit of incident 
+response is the ability to use information gained during incident handling to better prepare for handling 
+                                                      
+1  
+An “imminent threat of violation” refers to a situation in which the organization has a factual basis for believing that a 
+specific incident is about to occur. Did this happen because you have poor security 
+practices? What steps are you taking to determine what happened and to 
+prevent future occurrences? In addition, agencies have an 
+Office of Inspector General (OIG) for investigation of violation of the law within each agency.  Handling Incidents at Multiple Locations. Larger teams often assign an incident lead as the primary POC for handling a 
+specific incident; the incident lead is held accountable for the incident’s handling. Information security staff members may be needed during certain stages of 
+incident handling (prevention, containment, eradication, and recovery)—for example, to alter network 
+security controls (e.g., firewall rulesets). 2.5 
+Incident Response Team Services 
+The main focus of an incident response team is performing incident response, but it is fairly rare for a 
+team to perform incident response only. The incident response policy is the foundation of the incident 
+response program. The incident response plan should also indicate how often incident handlers 
+should be trained and the requirements for incident handlers. The incident response procedures provide detailed steps for 
+responding to an incident. Teamwork and communications skills are 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+20 
+also needed for effective incident handling. During preparation, the 
+organization also attempts to limit the number of incidents that will occur by selecting and implementing 
+a set of controls based on the results of risk assessments. This section describes the major phases of the incident response process—preparation, 
+detection and analysis, containment, eradication and recovery, and post-incident activity—in detail. Incident Response Life Cycle 
+3.1 
+Preparation 
+Incident response methodologies typically emphasize preparation—not only establishing an incident 
+response capability so that the organization is ready to respond to incidents, but also preventing incidents 
+by ensuring that systems, networks, and applications are sufficiently secure. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+23 
+Incident Analysis Resources: 
+ Port lists, including commonly used ports and Trojan horse ports 
+ Documentation for OSs, applications, protocols, and intrusion detection and antivirus products 
+ Network diagrams and lists of critical assets, such as database servers 
+ Current baselines of expected network, system, and application activity 
+ Cryptographic hashes of critical files22 to speed incident analysis, verification, and eradication 
+Incident Mitigation Software: 
+ Access to images of clean OS and application installations for restoration and recovery purposes 
+Many incident response teams create a jump kit, which is a portable case that contains materials that may 
+be needed during an investigation. The jump kit should be ready to go at all times. Jump kits contain 
+many of the same items listed in the bulleted lists above. For example, each jump kit typically includes a 
+laptop, loaded with appropriate software (e.g., packet sniffers, digital forensics). Other important 
+materials include backup devices, blank media, and basic networking equipment and cables. Because the 
+purpose of having a jump kit is to facilitate faster responses, the team should avoid borrowing items from 
+the jump kit. Each incident handler should have access to at least two computing devices (e.g., laptops). One, such as 
+the one from the jump kit, should be used to perform packet sniffing, malware analysis, and all other 
+actions that risk contaminating the laptop that performs them. This laptop should be scrubbed and all 
+software reinstalled before it is used for another incident. Note that because this laptop is special purpose, 
+it is likely to use software other than the standard enterprise tools and configurations, and whenever 
+possible the incident handlers should be allowed to specify basic technical requirements for these special-
+purpose investigative laptops. In addition to an investigative laptop, each incident handler should also 
+have a standard laptop, smart phone, or other computing device for writing reports, reading email, and 
+performing other duties unrelated to the hands-on incident analysis. Although incident response teams are generally not responsible for securing resources, they 
+can be advocates of sound security practices.  Improper Usage: Any incident resulting from violation of an organization’s acceptable usage 
+policies by an authorized user, excluding the above categories; for example, a user installs file sharing 
+software, leading to the loss of sensitive data; or a user performs illegal activities on a system. This section focuses on recommended practices for handling any type of incident.  The volume of potential signs of incidents is typically high—for example, it is not uncommon for an 
+organization to receive thousands or even millions of intrusion detection sensor alerts per day. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+32 
+3.2.6 Incident Prioritization 
+Prioritizing the handling of the incident is perhaps the most critical decision point in the incident handling 
+process. Containment provides time for developing a tailored remediation strategy. Users and system administrators should be made aware of the steps that they 
+should take to preserve evidence. The following items describe the most commonly performed activities for attacking host identification: 
+ Validating the Attacking Host’s IP Address. Eradication and recovery should be done in a phased approach so that remediation steps are prioritized. Each incident response team should evolve to reflect new threats, improved technology, and 
+lessons learned. Multiple incidents can be covered in a single 
+lessons learned meeting.  Were any steps or actions taken that might have inhibited the recovery? Lessons learned meetings provide other benefits. Updating incident response policies and procedures is another important part of the lessons learned 
+process. It is more effective to produce separate incident 
+counts for each incident category. For example, most organizations define “incident” 
+in terms of their own policies and practices, and what one organization considers a single incident may be considered 
+multiple incidents by others. 3.5 
+Incident Handling Checklist 
+The checklist in Table 3-5 provides the major steps to be performed in the handling of an incident. The checklist 
+provides guidelines to handlers on the major steps that should be performed; it does not dictate the exact 
+sequence of steps that should always be followed. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+43 
+ Acquire tools and resources that may be of value during incident handling. Recording the steps performed can also lead to a more efficient, 
+systematic, and less error-prone handling of the problem.  Hold lessons learned meetings after major incidents. Lessons learned meetings are extremely 
+helpful in improving security measures and the incident handling process itself. For example, if an organization 
+identifies some behavior on its network that seems suspicious and sends information about the event to a 
+set of trusted partners, someone else in that network may have already seen similar behavior and be able 
+to respond with additional details about the suspicious activity, including signatures, other indicators to 
+look for, or suggested remediation actions. The information most frequently shared in team-to-
+team relationships is tactical and technical (e.g., 
+technical indicators of compromise, suggested 
+remediation actions) but may also include other 
+types of information (plans, procedures, lessons 
+learned) if conducted as part of the Preparation 
+phase. For example, if they share technical 
+information pertaining to an incident they are experiencing, a partner organization may respond with a 
+suggested remediation strategy for handling that incident. The goal is to determine what the team would really do and to 
+compare that with policies, procedures, and generally recommended practices to identify discrepancies or 
+deficiencies. Organizations are strongly encouraged to adapt these questions and 
+scenarios for use in their own incident response exercises.48 
+A.1 Scenario Questions 
+Preparation: 
+1. (Sections 3.2.5, 3.3.2, 3.4.3) 
+Post-Incident Activity: 
+1. Who would attend the lessons learned meeting regarding this incident? How would that affect the handling of this incident? How would this affect evidence gathering and handling? How would this affect the handling of the incident? 2 
+Incident Handler Data Elements 
+ Current Status of the Incident Response 
+ Summary of the Incident 
+ Incident Handling Actions 
+– Log of actions taken by all handlers 
+– Contact information for all involved parties 
+– List of evidence gathered 
+ Incident Handler Comments 
+ Cause of the Incident (e.g. Incident: A violation or imminent threat of violation of computer security policies, acceptable use 
+policies, or standard security practices. Incident Handling: The mitigation of violations of security policies and recommended practices. Inspector General 
+OMB  
+Office of Management and Budget 
+OS  
+ 
+Operating System 
+PII  
+ 
+Personally Identifiable Information 
+PIN 
+ 
+Personal Identification Number 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+62 
+POC 
+ 
+Point of Contact 
+REN-ISAC 
+Research and Education Networking Information Sharing and Analysis Center 
+RFC 
+ 
+Request for Comment  html#800-128  
+ 
+ 
+ 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+64 
+Data Exchange Specifications Applicable to Incident Handling 
+Title 
+Description 
+Additional Information 
+AI 
+Asset Identification  
+http://csrc.nist.gov/publications/ PubsNISTIRs.html#NIST-
+IR-7693  
+ARF  
+Asset Results Format  
+http://csrc.nist.gov/publications/ PubsNISTIRs.html#NIST-
+IR-7694  
+CAPEC  
+Common Attack Pattern Enumeration 
+and Classification  
+http://capec.mitre.org/  
+CCE  
+Common Configuration Enumeration  
+http://cce.mitre. What is an incident? In general, an incident is a violation of computer security policies, acceptable use policies, or 
+standard computer security practices. What is incident handling? The terms “incident handling” and “incident response” are synonymous in this document.50 
+4. COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+68 
+Appendix G—Crisis Handling Steps 
+This is a list of the major steps that should be performed when a technical professional believes that a 
+serious incident has occurred and the organization does not have an incident response capability available. 1.1) 
+ Added a mention of exercises (Section 3.1.1) 
+ Revised the attack vectors (formerly incident categories) (Section 3.2.1) 
+COMPUTER SECURITY INCIDENT HANDLING GUIDE 
+70 
+ Added SIEMs, network flows as common sources of precursors and indicators (Section 3.2.3) 
+ Expanded discussion of eradication and recovery (Section 3.3.4) 
+ Added a section on coordination and information sharing (Section 4) 
+ Added a table of data exchange specifications applicable to incident handling (Appendix E)

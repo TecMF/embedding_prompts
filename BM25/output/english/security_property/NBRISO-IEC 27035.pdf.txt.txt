@@ -1,0 +1,142 @@
+ The occurrence of an information security event does not necessarily mean that an attempt has been 
+successful or that there are any implications on confidentiality, integrity and/or availability, i.e. not all 
+information security events are classified as information security incidents. It should be recognized, however, that there is a chance that the actions 
+necessary to recover from an information security incident might jeopardize the integrity of any such 
+collected evidence. g) 
+Improving updates to information security risk assessment and management results 
+The use of a structured approach to information security incident management will facilitate the 
+- better collection of data for assisting in the identification and determination of the characteristics of the 
+various threat types and associated vulnerabilities, and 
+- provision of data on frequencies of occurrence of the identified threat types. It will also be possible to 
+demonstrate the benefits associated with the rapid availability of solution information. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+6 
+© ISO/IEC 2011 – All rights reserved
+ 
+An organization using this International Standard should therefore adopt its guidance in due proportion to the 
+scale and characteristics of their business. Such mechanisms could include the 
+following: 
+1) Internal information security audit mechanisms to assess the security level and track vulnerable 
+systems, 
+2) Vulnerability management (including security updates and security patching of vulnerable systems). The information security incident management 
+scheme comes into effect whenever an information security event is detected, or an information security 
+vulnerability is reported. Each organization should use the scheme as a guide for: 
+a) 
+responding to information security events, 
+b) 
+determining whether information security events become information security incidents, 
+c) 
+managing information security incidents to a conclusion, 
+d) 
+responding to information security vulnerabilities, 
+e) 
+identifying lessons learnt, and any improvements to the scheme and/or security in general that are 
+required, and 
+f) 
+making identified improvements. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. In addition, the awareness and training programs should be complemented by the establishment and 
+operations of ‘hot line’ support from information security incident management personnel, in order to minimize 
+delays in reporting and handling information security events, incidents and vulnerabilities. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+22 
+© ISO/IEC 2011 – All rights reserved
+ 
+5.8 Scheme testing 
+The organization should schedule regular checking and testing of the information security incident 
+management processes and procedures to highlight potential flaws and problems that may arise during the 
+management of information security events and incidents and vulnerabilities. Periodic tests should be 
+organized to check processes/procedures and to verify how the ISIRT responds to severe complex incidents, 
+through the simulation of realistic attacks, failures or faults. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). If there is still a degree of uncertainty as to the authenticity of the information security incident or the 
+completeness of the reported information, the ISIRT member should conduct an assessment to determine 
+whether the information security incident is real or in fact a false alarm (through use of the organization's 
+agreed incident classification scale). The overall objectives in responding to information security incidents are the following: 
+a) 
+to confine the potential adverse impacts (of information security incidents), and 
+b) 
+to improve information security. It may be necessary 
+to check the integrity of the logs, as a deliberate attacker may have manipulated these logs to cover his/her 
+tracks. m) Activity to perform file integrity checks to detect Trojan horse files and files not originally on the system. n) 
+Activity to analyze, if applicable, physical evidence, for example fingerprints, property damage, video 
+surveillance, alarm system logs, pass card access logs, and interview witnesses. Information gathering incidents caused by non-technical means, resulting in: 
+ 
+direct or indirect disclosure or modification information, 
+ 
+theft of intellectual property stored electronically, 
+ 
+breaches of accountability, e.g. A malicious 
+program is inserted into 
+information systems to 
+damage the confidentiality, 
+integrity or availability of 
+data, applications or 
+operating systems, and/or 
+affect the normal operation of 
+information systems. Blended attacks may have combined characteristics of 
+computer viruses, network worms, Trojan horses or 
+botnets and so on. Abuse of rights, forging of rights, denial of actions, mis-
+operations, breach of personnel availability, etc. Breach of personnel availability is caused by the lack or 
+absence of human resources. If you suspect that an information security event is in progress or may have occurred – particularly one which 
+may cause substantial loss or damage to the organization's property or reputation, you should immediately 
+complete and submit an information security event report form (see the first part of this Annex) in accordance 
+with the procedures described in the organization's information security incident management scheme. unauthorized disclosure) 
+ 
+ 
+ 
+ 
+10.2 Breach of Integrity 
+(i.e. unauthorized modification) 
+ 
+ 
+ 
+ 
+10.3 Breach of Availability 
+(i.e. INFORMATION SECURITY VULNERABILITY DESCRIPTION 
+4.1 Date and Time the Vulnerability Reported 
+ 
+4.2 Description in Narrative Terms of the Perceived 
+Information Security Vulnerability: 
+ 
+How Vulnerability Noticed 
+ 
+Characteristics of Vulnerability – Physical, Technical, etc. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+74 
+© ISO/IEC 2011 – All rights reserved
+ 
+Annex E 
+(informative) 
+ 
+Legal and regulatory aspects 
+The following legal and regulatory aspects of information security incident management should be addressed 
+in the information security incident management policy and associated scheme: 
+ 
+Adequate Data Protection and Privacy of Personal Information is Provided. In those countries where 
+specific legislation exists that covers data confidentiality and integrity, it is often restricted to the control of 
+personal data. A structured approach 
+to information security incident management therefore needs to take into account the appropriate privacy 
+protection. The legality 
+of different techniques will vary from country to country.  Information technology — Security techniques — Code of practice for information 
+security management 
+[6] 
+ISO/IEC 27003, Information technology — Security techniques — Information security management 
+system implementation guidance 
+[7] 
+ISO/IEC 27004, Information technology — Security techniques — Information security management — 
+Measurement 
+[8] 
+ISO/IEC 27005, Information technology — Security techniques — Information security risk 
+management 
+[9] 
+ISO/IEC 27031, Information technology — Security techniques — Guidelines for information and 
+communication technology readiness for business continuity 
+[10] 
+ISO/IEC 27033-1, Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

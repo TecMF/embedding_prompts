@@ -61,7 +61,7 @@ if __name__ == "__main__":
                 with open(Path("BM25/output/portuguese") / id / (path.name + ".txt"), "w", encoding='utf-8') as output:
                     output.write(saidaBM25)
                     output.close()
-                input.close() 
+                input.close()
 
     """
     # Obtendo o texto como lista de strings

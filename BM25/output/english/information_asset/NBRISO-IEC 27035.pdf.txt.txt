@@ -1,0 +1,217 @@
+ This International Standard provides guidance on information security incident management for large and 
+medium-sized organizations. Information security 
+vulnerability 
+Information 
+asset 
+Exploits
+Exposes 
+Causes 
+Unwanted 
+action 
+Information 
+security incident 
+Implications on 
+information security 
+Classified as
+Information 
+security event 
+Occurrence of
+Threat 
+Figure 1 — The relationship of objects in an information security incident chain 
+4.2 Objectives 
+As a key part of an organization's overall information security strategy, the organization should put controls 
+and procedures in place to enable a structured well-planned approach to the management of information 
+security incidents. BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC 2011 – All rights reserved 
+5
+ 
+f) 
+Contributing to budget and resource justifications 
+A well-defined and structured approach to information security incident management will help justify and 
+simplify the allocation of budgets and resources within involved organizational units. The scheme should include standards that support information sharing, both within the 
+organization and outside (if required by the organization). b) 
+An overview of information security event detection, reporting and collection of relevant information, and 
+how this information should be used to determine information security incidents. Normally, the scope of an organization's ISIRT covers 
+all of the organization's information systems, services and networks. e) 
+The relevant sections should clearly indicate those personnel responsible for authorizing and/or 
+undertaking certain critical actions (e.g. ii) 
+Collecting the information on information security events. ii) 
+The ISIRT assessing information security events should confirm whether an event is an 
+information security incident or not, and then another assessment should be conducted using 
+the agreed information security event/incident classification scale to confirm the details of the 
+event (potential incident) type and affected resource (categorization). on the organization's intranet. These procedures should specify who in the organization deals with media inquiries, and 
+how that part of the organization interacts with the ISIRT. This includes 
+the following: 
+a) 
+access to details of the organization's assets with an up-to-date asset register and information on their 
+links to business functions, 
+b) 
+access to the documented procedures related to crisis management, 
+c) 
+documented and promulgated communications processes, 
+d) 
+the use of an information security event/incident/vulnerability database and the technical means to 
+populate and update the database quickly, analyze its information and facilitate responses (in some 
+instances manual records may be required by an organization), with the database kept provably secure, 
+e) 
+facilities for information security forensics evidence collection and analysis, and 
+f) 
+adequate crisis management arrangements for the information security event/incident/vulnerability 
+database (for guidance on business continuity management see ISO/IEC 27031). Some of these factors relate to making sure that users are aware of the value of information security 
+incident management and being motivated to report incidents. In some cases, it may be desirable for the organization to include awareness detail specifically about 
+information security incident management in other training programs (for example, personnel orientation 
+programs or general corporate security awareness programs). This awareness approach may provide 
+valuable context relevant to particular groups of people, and improves training program effectiveness and 
+efficiency. Before the information security incident management scheme becomes operational, the organization should 
+ensure that all relevant personnel are familiar with the procedures involved in the detection and reporting of 
+information security events, and selected personnel are very knowledgeable about the subsequent activities. This should be followed up by regular awareness briefings and training courses. In addition, the awareness and training programs should be complemented by the establishment and 
+operations of ‘hot line’ support from information security incident management personnel, in order to minimize 
+delays in reporting and handling information security events, incidents and vulnerabilities. The 
+organization should ensure that the appropriate personnel deal with reported information security 
+vulnerabilities in a similar manner to how non-information security faults are handled, possibly with 
+assessment and resolution using technical personnel (who may or may not be members of the ISIRT). Alternative means could 
+include in person, by telephone or text messaging. As necessary, another assessment 
+should be conducted using the agreed information security event/incident classification scale, with details 
+of the event (possibly incident) type and affected resource (categorization) (see Annex C for example 
+guidelines). He/she 
+should seek any clarification from the person reporting the information security event, and collect any further 
+information required and known to be available, whether from the reporting person or elsewhere. When considering the potential or actual adverse effects of an information security incident on the business of 
+an organization, the following are some examples: 
+a) 
+unauthorized disclosure of information, 
+b) 
+unauthorized modification of information, 
+c) 
+repudiation of information, 
+d) 
+unavailability of information and/or service, 
+e) 
+destruction of information and/or service, and 
+f) 
+reduced performance of service. Copies of the report should be 
+sent to the PoC, and the reporting person and his/her local manager. h) 
+Activity to communicate the existence of the information security incident or any relevant details thereof to 
+other internal and external people or organizations, in particular asset/information/service owners 
+(determined during the impact analysis) and internal/external organizations that should be involved in the 
+management and resolution of the incident. This will allow 
+business critical applications to function correctly, and collect as much information as possible about the 
+attacker, provided that the attacker does not know that he/she is under surveillance. This may take longer if the vulnerability is fundamental to the 
+information system, service and/or network design, or if it is a critical vulnerability. The organization should determine for each asset, based 
+upon the results of the information security risk assessment, its acceptable interruption window that supports 
+the recovery time objective before resumption of the service or the access of the information. As soon as the 
+response exceeds the acceptable interruption window of the targeted asset, the information security incident 
+may not be under control anymore and the decision to escalate the information security incident should be 
+taken. If any information pertaining to information 
+security incidents is to be released to the press it should be done in accordance with organization's 
+information dissemination policy. The organization should ensure that these are actioned. There are two main types of 
+DoS/DDoS incidents caused by technical means: resource elimination and resource starvation. B.1.3 
+Malicious code 
+Malicious code identifies a program or part of a program inserted into another program with the intent to 
+modify its original behaviour, usually to perform malicious activities as information and identify theft, 
+information and resource destruction, Denial of Service, Spam, etc. C.3.1.1.2 Information System Importance 
+The importance of the information systems affected by information security incidents is determined by 
+considering the importance of the organization business operations supported by the information systems. This approach classifies information 
+system importance into three broad levels: especially important information system, important information 
+system and ordinary information system. An organization could not bear this level of business loss. Such a scale can be simple as ‘major’ and ‘minor’ or more detailed as: 
+ 
+Emergency: severe impact; 
+ 
+Critical: medium impact; 
+ 
+Warning: low impact; 
+ 
+Information: no impact, but analysis could be used to improve information security policies, procedures or 
+controls. C.3.2.3 Commercial and economic interests 
+Commercial and economic information needs to be protected, and is valued by considering its value to 
+competitors or the effect its compromise could have on commercial interests. 1 Be of interest to a competitor but of no commercial value 
+2 Be of interest to a competitor to a value that is y1 or less (turnover) 
+3 Be of value to a competitor to a value that is between y1+1 and y2 (turnover), or cause financial loss, or 
+loss of earning potential, or facilitate improper gain or advantage for individuals or organizations,  or 
+constitute a breach of proper undertakings to maintain the confidence of information provided by third 
+parties 
+4 Be of value to a competitor to a value that is between y2+1 and y3 (turnover) 
+5 Be of value to a competitor to a value that is between y3+1 and y4 (turnover) 
+6 Be of value to a competitor to a value that is more than y4+1 (turnover) 
+BS ISO/IEC 27035:2011
+ISO/IEC 27035:2011(E) 
+© ISO/IEC  Given the potentially time-critical nature of this process, it is 
+not essential to complete all fields in the reporting form at this time. Alternative means could include in person, by 
+telephone or text messaging.) REPORTING PERSON DETAILS
+4.1 Name 
+ 
+4.2 Address 
+ 
+4.3 Organization 
+ 
+4.4 Department 
+ 
+4.5 Telephone 
+ 
+4.6 E-mail 
+ 
+ 
+ 
+ 
+5. VALUE 
+GUIDELINE(S) 
+COST 
+10.1 Breach of Confidentiality 
+(i.e. TOTAL RECOVERY COSTS FROM INCIDENT 
+(Where possible, the actual total costs of recovery for the 
+incident as a whole should be shown, against “value” 
+using the 1 to 10 scale and against “cost” in actuals.) (IF INCIDENT CAUSED BY PEOPLE) PERSON(S)/PERPETRATOR(S) INVOLVED 
+(One of) 
+Person 
+ 
+Legally Established Organization/Institution
+ 
+ 
+Organized Group 
+ 
+Accident
+ 
+ 
+ 
+ 
+No Perpetrator
+e.g. Examples of events which may have associated liability issues are: 
+- 
+if an incident could affect another organization (for example, disclosure of shared information), and it 
+is not notified in time and the other organization suffers an adverse impact, 
+- 
+if a new vulnerability in a product is discovered, and the vendor is not notified and a major related 
+incident occurs later with major impact on one or more other organizations, 
+- 
+a report is not made where, in the particular country, organizations are required to report to or 
+generate archives for law enforcement agencies regarding any case that may involve a serious crime, 
+or penetration of a sensitive government system or part of the critical national infrastructure, 
+- 
+information is disclosed that seems to indicate that someone, or an organization, may be involved in 
+an attack. http://www.cert.org/csirts/csirt-staffing.html 
+[27] 
+Software Engineering Institute at Carnegie Mellon “CERT Coordination Centre”, Steps for Creating 
+National CSIRTs, http://www.cert.org/archive/pdf/NationalCSIRTs.pdf 
+[28] 
+SANS Institute, An approach to the ultimate in-depth security event management framework (2008) 
+[29] 
+SANS Institute, Mining gold, A primer on incident handling and response (2008) 
+[30] 
+SANS Institute, Incident Handling for SMEs (Small to Medium Enterprises) (2008) 
+[31] 
+SANS Institute,  Breach Notification in Incident Handling (2008) 
+[32] 
+SANS Institute, Baselines and Incident Handling (2008) 
+[33] 
+SANS Institute, Documentation is to Incident Response as an Air Tank is to Scuba Diving (2007) 
+[34] 
+SANS Institute, Creating and Managing an Incident Response Team for a Large Company (2007) 
+[35] 
+SANS Institute, An Incident Handling Process for Small and Medium Businesses (2007) 
+[36] 
+SANS Institute, Incident Management 101 Preparation & Initial Response (aka Identification) (2005) 
+[37] 
+SANS Institute, Building an Incident Response Program To Suit Your Business (2003) 
+[38] 
+ISACA, COBIT 4.1 (Section DS5.11), www.isaca. Tel: +44 (0)20 8996 7070
+Email: copyright@bsigroup.com

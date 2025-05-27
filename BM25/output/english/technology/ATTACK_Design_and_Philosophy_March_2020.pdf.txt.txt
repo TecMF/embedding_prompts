@@ -1,0 +1,69 @@
+ ........................ 4 
+ 
+The ATT&CK Model ............................................................................................................... 6 
+3.1 
+The ATT&CK Matrix ....................................................................................................... 6 
+3.2 
+Technology Domains ........................................................................................................ 8 
+3.3 
+Tactics ................................................................................................ ATT&CK Technology Domains ....................................................................................... 8 
+Table 2. MITRE began researching data sources and 
+analytic processes within FMX for detecting advanced persistent threats (APTs) more quickly 
+under an “assume breach” mentality. Similar to the defensive gap assessment, a SOC 
+Maturity assessment focuses on the processes a SOC uses to detect, understand, and respond to 
+changing threats to their network over time. Not all adversary behaviors can or should be 
+used as a basis for alerting or providing data to an analyst. This procedure falls under System Network Configuration Discovery in ATT&CK 
+and is in the knowledge base because adversaries have been known to use it to learn about the 
+system and network they’re in. For example, Pre-OS Boot has three sub-
+techniques consisting of Bootkit, Component Firmware, and System Firmware to describe how 
+persistence is achieved before an operating system boots. 3.2 Technology Domains 
+ATT&CK is organized in a series of “technology domains” - the ecosystem an adversary 
+operates within that provides a set of constraints the adversary must circumvent or take 
+advantage of to accomplish a set of objectives. Within 
+each technology domain, ATT&CK defines multiple “platforms” - the system an adversary is 
+operating within. A platform may be an operating system or application (e.g. The scope of ATT&CK also expands beyond technology domains with PRE-ATT&CK. It is independent of 
+technology and models an adversary’s behavior as they attempt to gain access to an organization 
+or entity through the technology they leverage, spanning multiple domains. Platform* 
+Tag 
+The system an adversary is operating within; could 
+be an operating system or application (e.g. System Requirements 
+Field 
+Additional information on requirements the 
+adversary needs to meet or about the state of the 
+system (software, patch level, etc.) There could be 
+many ways of detecting a (sub-)technique but 
+ATT&CK and MITRE do not endorse any particular 
+vendor solution. Mitigation 
+fields are populated on a (sub-)technique page when 
+a mitigation object is associated to a 
+(sub-)technique.. The relationship describes the 
+details of how a specific mitigation can be applied to 
+the (sub-)technique. Mitigation recommendations 
+remain vendor agnostic, recommending the general 
+method or capability class rather than a specific tool. Mitigation may not always be possible for a given 
+(sub-)technique and is documented as such if no 
+relationships to a given (sub-)technique are present. If the information is ambiguous such 
+that a sub-technique cannot be identified, then the information will be mapped to the technique. Data items marked 
+with * denote the element is required 
+ 
+Table 3. This category includes both 
+software that generally is not found on an enterprise system as well as software generally 
+available as part of an operating system that is already present in an environment. Data items marked with * 
+denote the element is required. Data items 
+marked with * denote the element is required. The information within ATT&CK has evolved over time, as have the considerations used for 
+what information gets included and how it’s structured. 4.1.2.1 
+Sources of Information 
+New information relevant to ATT&CK techniques can come from many different sources. The information may be used in different ways 
+depending on where the information comes from and the vantage the contributing organization 
+or individual has. High level models such as the various 
+adversary lifecycles, including the Lockheed Martin Cyber Kill Chain®, Microsoft STRIDE, etc., 
+are useful at understanding high level processes and adversary goals. Where the data comes from 
+and how it is obtained is equally as important as how an adversary removes the data from an 
+environment and also represents distinct places where those actions can be detected. Distribution unlimited 19-01075-28. 
+stored in a data base, activity which falls under Data Manipulation: Stored Data Manipulation, 
+damages the integrity of the balance information. Do other sources corroborate information provided? This is still a very useful source of information. • It requires real-time telemetry from the system on running processes and interactions with 
+processes through the API to effectively detect effective use. Some security features 
+may mitigate aspects of this technique, such as application whitelisting that includes 
+analysis of loaded modules, or code integrity that prevents processes from a lower 
+integrity level from interfacing with processes running in at a higher integrity level. • Similar concepts exist in Linux based systems for dynamically loading libraries into 
+processes. [Accessed 16 March 2020].
